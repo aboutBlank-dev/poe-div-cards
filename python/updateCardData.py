@@ -2,10 +2,25 @@ import json
 import requests
 
 URL = "https://www.poewiki.net/w/api.php"
-POE_NINJA_DIV_URL = "https://poe.ninja/api/data/itemoverview?type=DivinationCard&league=Affliction"
+POE_LEAGUE_URL = "https://api.pathofexile.com/leagues"
+POE_NINJA_DIV_URL = "https://poe.ninja/api/data/itemoverview?type=DivinationCard&league="
 CARD_ART_URL_BASE = "https://web.poecdn.com/image/divination-card/"
 
 def get_card_data():
+    current_leagues = requests.get(
+        POE_LEAGUE_URL, 
+        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'},
+        params={
+            "realm": "pc",
+            "type": "main",
+        }).json()
+
+    current_league = ""
+    for league in current_leagues:
+        if "current" in league["category"]:
+            current_league = league["category"]["id"]
+            break
+
     wiki_areas = requests.get(
         URL,
         params={
@@ -36,7 +51,7 @@ def get_card_data():
         },
     ).json()["cargoquery"]
 
-    poe_ninja_prices = requests.get(POE_NINJA_DIV_URL).json()["lines"]
+    poe_ninja_prices = requests.get(POE_NINJA_DIV_URL + current_league).json()["lines"]
 
     cards = {}
     for card in wiki_cards:

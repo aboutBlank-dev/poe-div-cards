@@ -188,8 +188,8 @@
             "MapWorldsGrotto": "Grotto",
             "MapWorldsGeode": "Geode"
         },
-        "chaos_value": 29.9,
-        "divine_value": 0.14,
+        "chaos_value": 29.0,
+        "divine_value": 0.13,
         "art_url": "https://web.poecdn.com/image/divination-card/Bijoux.png"
     },
     "Blind Venture": {
@@ -241,7 +241,7 @@
             "MapWorldsGraveTrough": "Grave Trough",
             "MapWorldsGraveyard": "Graveyard"
         },
-        "chaos_value": 1103.95,
+        "chaos_value": 1103.59,
         "divine_value": 5.1,
         "art_url": "https://web.poecdn.com/image/divination-card/BrotherGift.png"
     },
@@ -264,7 +264,7 @@
             "MapWorldsPlaza": "Plaza",
             "MapWorldsConservatory": "Conservatory"
         },
-        "chaos_value": 13.0,
+        "chaos_value": 13.03,
         "divine_value": 0.06,
         "art_url": "https://web.poecdn.com/image/divination-card/BrotherhoodInExile.png"
     },
@@ -459,7 +459,7 @@
             "MapWorldsResidence": "Residence",
             "MapWorldsAcademy": "Academy"
         },
-        "chaos_value": 1255.47,
+        "chaos_value": 1255.06,
         "divine_value": 5.8,
         "art_url": "https://web.poecdn.com/image/divination-card/FireOfUnknownOrigin.png"
     },
@@ -742,7 +742,7 @@
             "MapWorldsHauntedMansion": "Haunted Mansion",
             "MapWorldsSiege": "Siege"
         },
-        "chaos_value": 216.46,
+        "chaos_value": 216.39,
         "divine_value": 1.0,
         "art_url": "https://web.poecdn.com/image/divination-card/Home.png"
     },
@@ -1610,7 +1610,7 @@
             "MapWorldsDefiledCathedral": "Defiled Cathedral",
             "MapWorldsCrimsonTemple": "Crimson Temple"
         },
-        "chaos_value": 757.61,
+        "chaos_value": 757.36,
         "divine_value": 3.5,
         "art_url": "https://web.poecdn.com/image/divination-card/SevenYearsBadLuck.png"
     },
@@ -1699,7 +1699,7 @@
             "MapWorldsDefiledCathedral": "Defiled Cathedral",
             "MapWorldsHauntedMansion": "Haunted Mansion"
         },
-        "chaos_value": 7143.18,
+        "chaos_value": 7140.87,
         "divine_value": 33.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheApothecary.png"
     },
@@ -1869,7 +1869,7 @@
             "MapWorldsCells": "Cells",
             "MapWorldsPen": "Pen"
         },
-        "chaos_value": 2.73,
+        "chaos_value": 2.99,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheChainsThatBind.png"
     },
@@ -1921,8 +1921,8 @@
             "MapWorldsVilla": "Villa",
             "MapWorldsResidence": "Residence"
         },
-        "chaos_value": 3.17,
-        "divine_value": 0.01,
+        "chaos_value": 3.28,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDapperProdigy.png"
     },
     "The Dark Mage": {
@@ -2000,7 +2000,7 @@
             "MapWorldsWastePool": "Waste Pool",
             "MapWorldsPhantasmagoria": "Phantasmagoria"
         },
-        "chaos_value": 1774.97,
+        "chaos_value": 1774.4,
         "divine_value": 8.2,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDoctor.png"
     },
@@ -2178,7 +2178,7 @@
             "MapWorldsHydra": "Lair of the Hydra",
             "MapWorldsChimera": "Pit of the Chimera"
         },
-        "chaos_value": 72.02,
+        "chaos_value": 72.0,
         "divine_value": 0.33,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDragonsHeart.png"
     },
@@ -2405,7 +2405,7 @@
             "MapWorldsMoonTemple": "Moon Temple",
             "MapWorldsBasilica": "Basilica"
         },
-        "chaos_value": 389.63,
+        "chaos_value": 389.5,
         "divine_value": 1.8,
         "art_url": "https://web.poecdn.com/image/divination-card/TheEnlightened.png"
     },
@@ -2416,7 +2416,7 @@
             "MapWorldsAcademy": "Academy",
             "MapWorldsScriptorium": "Scriptorium"
         },
-        "chaos_value": 15.4,
+        "chaos_value": 15.5,
         "divine_value": 0.07,
         "art_url": "https://web.poecdn.com/image/divination-card/TheEnthusiasts.png"
     },
@@ -2469,7 +2469,7 @@
             "MapWorldsFoundry": "Foundry",
             "MapWorldsLaboratory": "Laboratory"
         },
-        "chaos_value": 1515.22,
+        "chaos_value": 1514.73,
         "divine_value": 7.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFiend.png"
     },
@@ -2519,7 +2519,7 @@
             "MapWorldsCursedCryptUnique": "The Coward's Trial",
             "MapWorldsCursedCrypt": "Cursed Crypt"
         },
-        "chaos_value": 2.97,
+        "chaos_value": 2.99,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheForsaken.png"
     },
@@ -2842,7 +2842,7 @@
         "drop_areas": {
             "MapWorldsPromenadeUnique": "The Hall of Grandmasters"
         },
-        "chaos_value": 3030.44,
+        "chaos_value": 3029.46,
         "divine_value": 14.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheImmortal.png"
     },
@@ -3094,7 +3094,7 @@
             "MapWorldsColosseum": "Colosseum",
             "MapWorldsDarkForest": "Dark Forest"
         },
-        "chaos_value": 13.8,
+        "chaos_value": 13.2,
         "divine_value": 0.06,
         "art_url": "https://web.poecdn.com/image/divination-card/TheMadKing.png"
     },
@@ -3124,8 +3124,8 @@
             "MapWorldsPort": "Port",
             "MapWorldsCrystalOre": "Crystal Ore"
         },
-        "chaos_value": 1.0,
-        "divine_value": 0.0,
+        "chaos_value": 1.1,
+        "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheMessenger.png"
     },
     "The Mountain": {
@@ -3148,7 +3148,7 @@
             "MapWorldsCarcass": "Carcass",
             "MapWorldsScriptorium": "Scriptorium"
         },
-        "chaos_value": 216.46,
+        "chaos_value": 216.39,
         "divine_value": 1.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheNurse.png"
     },
@@ -3253,7 +3253,7 @@
             "MapWorldsWharf": "Wharf",
             "MapWorldsShipyard": "Shipyard"
         },
-        "chaos_value": 2.26,
+        "chaos_value": 2.31,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePact.png"
     },
@@ -3657,7 +3657,7 @@
             "MapWorldsLaboratory": "Laboratory",
             "MapWorldsTempleUnique": "Poorjoy's Asylum"
         },
-        "chaos_value": 2.9,
+        "chaos_value": 2.8,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheThaumaturgist.png"
     },
@@ -4431,8 +4431,8 @@
             "MapWorldsVaalPyramid": "Vaal Pyramid",
             "MapWorldsVaalPyramidUnique": "Vaults of Atziri"
         },
-        "chaos_value": 13691.1,
-        "divine_value": 63.25,
+        "chaos_value": 13740.76,
+        "divine_value": 63.5,
         "art_url": "https://web.poecdn.com/image/divination-card/UnrequitedLove.png"
     },
     "Vile Power": {
@@ -4481,7 +4481,7 @@
             "MapWorldsMoonTemple": "Moon Temple",
             "MapWorldsColdRiver_": "Cold River"
         },
-        "chaos_value": 1039.01,
+        "chaos_value": 1038.67,
         "divine_value": 4.8,
         "art_url": "https://web.poecdn.com/image/divination-card/WealthAndPower.png"
     },
