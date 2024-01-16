@@ -6,6 +6,24 @@ POE_NINJA_DIV_URL = "https://poe.ninja/api/data/itemoverview?type=DivinationCard
 CARD_ART_URL_BASE = "https://web.poecdn.com/image/divination-card/"
 
 def get_card_data():
+    wiki_areas = requests.get(
+        URL,
+        params={
+            "action": "cargoquery",
+            "format": "json",
+            "limit": "500",
+            "tables": "areas",
+            "fields": "areas.name, areas.id",
+            "where": "areas.id LIKE 'MapWorlds%'",
+        },
+    ).json()["cargoquery"]
+
+    areas = {}
+    for area in wiki_areas:
+        area = area["title"]
+        name = area["id"]
+        areas[name] = area["name"]
+
     wiki_cards = requests.get(
         URL,
         params={
@@ -27,12 +45,23 @@ def get_card_data():
         ninja_card = next(filter(lambda x: x["name"] == name, poe_ninja_prices))
 
         if ninja_card:
-           card_art = ninja_card["artFilename"]
-           cards[name] = {
+            card_art = ninja_card["artFilename"]
+            drop_area_ids = card["drop areas"]
+            drop_areas = {}
+
+            if drop_area_ids:
+                drop_area_ids = drop_area_ids.split(",")
+                for drop_area in drop_area_ids:
+                    drop_area_id = drop_area.strip()
+                    if drop_area_id in areas:
+                        drop_areas[drop_area_id] = areas[drop_area_id]
+
+            if len(drop_areas) < 1:
+                continue
+
+            cards[name] = {
                "name": name,
-               "drop_areas": card["drop areas"],
-               "drop_monsters": card["drop monsters"],
-               "drop_text": card["drop text"],
+               "drop_areas": drop_areas, 
                "chaos_value": ninja_card["chaosValue"],
                "divine_value": ninja_card["divineValue"],
                "art_url": CARD_ART_URL_BASE + card_art + ".png",
