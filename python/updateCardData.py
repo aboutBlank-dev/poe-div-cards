@@ -36,8 +36,10 @@ def get_card_data():
     areas = {}
     for area in wiki_areas:
         area = area["title"]
-        name = area["id"]
-        areas[name] = area["name"]
+        area_id = area["id"]
+        areas[area_id] = {
+            "name": area["name"],
+        }
 
     wiki_cards = requests.get(
         URL,
@@ -57,35 +59,46 @@ def get_card_data():
     for card in wiki_cards:
         card = card["title"]
         name = card["name"]
-        ninja_card = next(filter(lambda x: x["name"] == name, poe_ninja_prices))
 
+        #Unfortunately, the poe wiki doesn't have an id for div cards OR an image url, so we have to get it from somewhere else.
+        ninja_card = next(filter(lambda x: x["name"] == name, poe_ninja_prices))
+        
         if ninja_card:
-            card_art = ninja_card["artFilename"]
+            card_art = ninja_card["artFilename"] #Use this as ID
             drop_area_ids = card["drop areas"]
-            drop_areas = {}
+            drop_areas = []
 
             if drop_area_ids:
                 drop_area_ids = drop_area_ids.split(",")
                 for drop_area in drop_area_ids:
                     drop_area_id = drop_area.strip()
                     if drop_area_id in areas:
-                        drop_areas[drop_area_id] = areas[drop_area_id]
+                        drop_areas.append(drop_area_id)
+                        if "cards" not in areas[drop_area_id]:
+                            areas[drop_area_id]["cards"] = []
+                        areas[drop_area_id]["cards"].append(card_art)
 
             if len(drop_areas) < 1:
                 continue
 
-            cards[name] = {
+            cards[card_art] = {
                "name": name,
                "drop_areas": drop_areas, 
-               "chaos_value": ninja_card["chaosValue"],
-               "divine_value": ninja_card["divineValue"],
+               "stack_size": ninja_card["stackSize"] if "stackSize" in ninja_card else 1,
+               "reward_text": ninja_card["explicitModifiers"] if "explicitModifiers" in ninja_card else [],
+               "chaos_value": ninja_card["chaosValue"] if "chaosValue" in ninja_card else 0,
+               "divine_value": ninja_card["divineValue"] if "divineValue" in ninja_card else 0,
                "art_url": CARD_ART_URL_BASE + card_art + ".png",
-           } 
+            } 
 
 
     #Write it into a json file 
     json_object = json.dumps(cards, indent=4)
     with open("cards.json", "w") as outfile:
+        outfile.write(json_object)
+
+    json_object = json.dumps(areas, indent=4)
+    with open("areas.json", "w") as outfile:
         outfile.write(json_object)
     
 get_card_data()
