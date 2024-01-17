@@ -38,6 +38,7 @@ def get_card_data():
         area = area["title"]
         area_id = area["id"]
         areas[area_id] = {
+            "id": area_id,
             "name": area["name"],
         }
 
@@ -82,6 +83,7 @@ def get_card_data():
                 continue
 
             cards[card_art] = {
+               "id": card_art,
                "name": name,
                "drop_areas": drop_areas, 
                "stack_size": ninja_card["stackSize"] if "stackSize" in ninja_card else 1,

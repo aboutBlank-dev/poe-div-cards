@@ -1,14 +1,18 @@
 {
     "MapWorldsPrimordialBoss3": {
+        "id": "MapWorldsPrimordialBoss3",
         "name": "Absence of Patience and Wisdom"
     },
     "MapWorldsPrimordialBoss4": {
+        "id": "MapWorldsPrimordialBoss4",
         "name": "Absence of Symmetry and Harmony"
     },
     "MapWorldsElderArena": {
+        "id": "MapWorldsElderArena",
         "name": "Absence of Value and Meaning"
     },
     "MapWorldsAcademy": {
+        "id": "MapWorldsAcademy",
         "name": "Academy",
         "cards": [
             "ADabOfInk",
@@ -33,6 +37,7 @@
         ]
     },
     "MapWorldsAcidLakes": {
+        "id": "MapWorldsAcidLakes",
         "name": "Acid Caverns",
         "cards": [
             "HerMask",
@@ -49,6 +54,7 @@
         ]
     },
     "MapWorldsOvergrownShrineUnique": {
+        "id": "MapWorldsOvergrownShrineUnique",
         "name": "Acton's Nightmare",
         "cards": [
             "Monochrome",
@@ -57,6 +63,7 @@
         ]
     },
     "MapWorldsAlleyways": {
+        "id": "MapWorldsAlleyways",
         "name": "Alleyways",
         "cards": [
             "AssassinsFavor",
@@ -79,6 +86,7 @@
         ]
     },
     "MapWorldsAncientCity": {
+        "id": "MapWorldsAncientCity",
         "name": "Ancient City",
         "cards": [
             "ArroganceoftheVaal",
@@ -100,6 +108,7 @@
         ]
     },
     "MapWorldsArachnidNest": {
+        "id": "MapWorldsArachnidNest",
         "name": "Arachnid Nest",
         "cards": [
             "HerMask",
@@ -115,6 +124,7 @@
         ]
     },
     "MapWorldsArachnidTomb": {
+        "id": "MapWorldsArachnidTomb",
         "name": "Arachnid Tomb",
         "cards": [
             "HerMask",
@@ -132,6 +142,7 @@
         ]
     },
     "MapWorldsArcade": {
+        "id": "MapWorldsArcade",
         "name": "Arcade",
         "cards": [
             "AssassinsFavor",
@@ -151,6 +162,7 @@
         ]
     },
     "MapWorldsArena": {
+        "id": "MapWorldsArena",
         "name": "Arena",
         "cards": [
             "HerMask",
@@ -173,6 +185,7 @@
         ]
     },
     "MapWorldsAridLake": {
+        "id": "MapWorldsAridLake",
         "name": "Arid Lake",
         "cards": [
             "HerMask",
@@ -188,6 +201,7 @@
         ]
     },
     "MapWorldsArmoury": {
+        "id": "MapWorldsArmoury",
         "name": "Armoury",
         "cards": [
             "HerMask",
@@ -206,6 +220,7 @@
         ]
     },
     "MapWorldsArsenal": {
+        "id": "MapWorldsArsenal",
         "name": "Arsenal",
         "cards": [
             "HerMask",
@@ -227,6 +242,7 @@
         ]
     },
     "MapWorldsAshenWood": {
+        "id": "MapWorldsAshenWood",
         "name": "Ashen Wood",
         "cards": [
             "AliviasGrace",
@@ -247,6 +263,7 @@
         ]
     },
     "MapWorldsAtoll": {
+        "id": "MapWorldsAtoll",
         "name": "Atoll",
         "cards": [
             "HerMask",
@@ -269,6 +286,7 @@
         ]
     },
     "MapWorldsBarrows": {
+        "id": "MapWorldsBarrows",
         "name": "Barrows",
         "cards": [
             "HerMask",
@@ -289,6 +307,7 @@
         ]
     },
     "MapWorldsBasilica": {
+        "id": "MapWorldsBasilica",
         "name": "Basilica",
         "cards": [
             "DesperateCrusade",
@@ -310,6 +329,7 @@
         ]
     },
     "MapWorldsBazaar": {
+        "id": "MapWorldsBazaar",
         "name": "Bazaar",
         "cards": [
             "AssassinsFavor",
@@ -330,6 +350,7 @@
         ]
     },
     "MapWorldsBeach": {
+        "id": "MapWorldsBeach",
         "name": "Beach",
         "cards": [
             "HerMask",
@@ -350,9 +371,11 @@
         ]
     },
     "MapWorldsBeachLanding": {
+        "id": "MapWorldsBeachLanding",
         "name": "Beach Landing"
     },
     "MapWorldsBelfry": {
+        "id": "MapWorldsBelfry",
         "name": "Belfry",
         "cards": [
             "HerMask",
@@ -369,6 +392,7 @@
         ]
     },
     "MapWorldsBog": {
+        "id": "MapWorldsBog",
         "name": "Bog",
         "cards": [
             "Death",
@@ -385,6 +409,7 @@
         ]
     },
     "MapWorldsBoneCrypt": {
+        "id": "MapWorldsBoneCrypt",
         "name": "Bone Crypt",
         "cards": [
             "CovetedPossession",
@@ -406,6 +431,7 @@
         ]
     },
     "MapWorldsBrambleValley": {
+        "id": "MapWorldsBrambleValley",
         "name": "Bramble Valley",
         "cards": [
             "AliviasGrace",
@@ -428,9 +454,11 @@
         ]
     },
     "MapWorldsBrambleFall": {
+        "id": "MapWorldsBrambleFall",
         "name": "BrambleFall"
     },
     "MapWorldsBurialChambers": {
+        "id": "MapWorldsBurialChambers",
         "name": "Burial Chambers",
         "cards": [
             "HerMask",
@@ -453,6 +481,7 @@
         ]
     },
     "MapWorldsUndergroundRiverUnique": {
+        "id": "MapWorldsUndergroundRiverUnique",
         "name": "Caer Blaidd, Wolfpack's Den",
         "cards": [
             "Loyalty",
@@ -465,6 +494,7 @@
         ]
     },
     "MapWorldsCage": {
+        "id": "MapWorldsCage",
         "name": "Cage",
         "cards": [
             "HerMask",
@@ -484,6 +514,7 @@
         ]
     },
     "MapWorldsCaldera": {
+        "id": "MapWorldsCaldera",
         "name": "Caldera",
         "cards": [
             "FromBonesToAshes",
@@ -504,6 +535,7 @@
         ]
     },
     "MapWorldsCanyon": {
+        "id": "MapWorldsCanyon",
         "name": "Canyon",
         "cards": [
             "HerMask",
@@ -519,6 +551,7 @@
         ]
     },
     "MapWorldsCarcass": {
+        "id": "MapWorldsCarcass",
         "name": "Carcass",
         "cards": [
             "HerMask",
@@ -539,6 +572,7 @@
         ]
     },
     "MapWorldsCastleRuins": {
+        "id": "MapWorldsCastleRuins",
         "name": "Castle Ruins",
         "cards": [
             "HerMask",
@@ -561,6 +595,7 @@
         ]
     },
     "MapWorldsCells": {
+        "id": "MapWorldsCells",
         "name": "Cells",
         "cards": [
             "HerMask",
@@ -581,6 +616,7 @@
         ]
     },
     "MapWorldsCemetery": {
+        "id": "MapWorldsCemetery",
         "name": "Cemetery",
         "cards": [
             "BrotherGift",
@@ -603,6 +639,7 @@
         ]
     },
     "MapWorldsChannel": {
+        "id": "MapWorldsChannel",
         "name": "Channel",
         "cards": [
             "HerMask",
@@ -619,6 +656,7 @@
         ]
     },
     "MapWorldsChateau": {
+        "id": "MapWorldsChateau",
         "name": "Chateau",
         "cards": [
             "BoonofJustice",
@@ -638,6 +676,7 @@
         ]
     },
     "MapWorldsCitySquare": {
+        "id": "MapWorldsCitySquare",
         "name": "City Square",
         "cards": [
             "HerMask",
@@ -657,6 +696,7 @@
         ]
     },
     "MapWorldsColdRiver_": {
+        "id": "MapWorldsColdRiver_",
         "name": "Cold River",
         "cards": [
             "AChillingWind",
@@ -680,6 +720,7 @@
         ]
     },
     "MapWorldsColonnade": {
+        "id": "MapWorldsColonnade",
         "name": "Colonnade",
         "cards": [
             "GemcuttersPromise",
@@ -701,6 +742,7 @@
         ]
     },
     "MapWorldsColosseum": {
+        "id": "MapWorldsColosseum",
         "name": "Colosseum",
         "cards": [
             "HerMask",
@@ -723,6 +765,7 @@
         ]
     },
     "MapWorldsConservatory": {
+        "id": "MapWorldsConservatory",
         "name": "Conservatory",
         "cards": [
             "BoonofJustice",
@@ -741,6 +784,7 @@
         ]
     },
     "MapWorldsCoralRuins": {
+        "id": "MapWorldsCoralRuins",
         "name": "Coral Ruins",
         "cards": [
             "HerMask",
@@ -760,6 +804,7 @@
         ]
     },
     "MapWorldsCore": {
+        "id": "MapWorldsCore",
         "name": "Core",
         "cards": [
             "EchoesOfLove",
@@ -783,6 +828,7 @@
         ]
     },
     "MapWorldsCourthouse": {
+        "id": "MapWorldsCourthouse",
         "name": "Courthouse",
         "cards": [
             "HerMask",
@@ -799,6 +845,7 @@
         ]
     },
     "MapWorldsCourtyard": {
+        "id": "MapWorldsCourtyard",
         "name": "Courtyard",
         "cards": [
             "EmperorsLuck",
@@ -823,6 +870,7 @@
         ]
     },
     "MapWorldsCoves": {
+        "id": "MapWorldsCoves",
         "name": "Coves",
         "cards": [
             "AStonePerfected",
@@ -849,6 +897,7 @@
         ]
     },
     "MapWorldsTribunal": {
+        "id": "MapWorldsTribunal",
         "name": "Crater",
         "cards": [
             "HerMask",
@@ -865,6 +914,7 @@
         ]
     },
     "MapWorldsCrimsonTemple": {
+        "id": "MapWorldsCrimsonTemple",
         "name": "Crimson Temple",
         "cards": [
             "HerMask",
@@ -887,6 +937,7 @@
         ]
     },
     "MapWorldsCrimsonTownship": {
+        "id": "MapWorldsCrimsonTownship",
         "name": "Crimson Township",
         "cards": [
             "HerMask",
@@ -905,6 +956,7 @@
         ]
     },
     "MapWorldsCrystalOre": {
+        "id": "MapWorldsCrystalOre",
         "name": "Crystal Ore",
         "cards": [
             "ASeaOfBlue",
@@ -933,6 +985,7 @@
         ]
     },
     "MapWorldsCursedCrypt": {
+        "id": "MapWorldsCursedCrypt",
         "name": "Cursed Crypt",
         "cards": [
             "GraveKnowledge",
@@ -952,6 +1005,7 @@
         ]
     },
     "MapWorldsDarkForest": {
+        "id": "MapWorldsDarkForest",
         "name": "Dark Forest",
         "cards": [
             "AliviasGrace",
@@ -978,6 +1032,7 @@
         ]
     },
     "MapWorldsNecropolisUnique": {
+        "id": "MapWorldsNecropolisUnique",
         "name": "Death and Taxes",
         "cards": [
             "Monochrome",
@@ -986,6 +1041,7 @@
         ]
     },
     "MapWorldsDefiledCathedral": {
+        "id": "MapWorldsDefiledCathedral",
         "name": "Defiled Cathedral",
         "cards": [
             "HerMask",
@@ -1008,6 +1064,7 @@
         ]
     },
     "MapWorldsDesert": {
+        "id": "MapWorldsDesert",
         "name": "Desert",
         "cards": [
             "ANoteInTheWind",
@@ -1029,9 +1086,11 @@
         ]
     },
     "MapWorldsElder_Desert": {
+        "id": "MapWorldsElder_Desert",
         "name": "Desert of Dementia"
     },
     "MapWorldsDesertSpring": {
+        "id": "MapWorldsDesertSpring",
         "name": "Desert Spring",
         "cards": [
             "ANoteInTheWind",
@@ -1053,6 +1112,7 @@
         ]
     },
     "MapWorldsDig": {
+        "id": "MapWorldsDig",
         "name": "Dig",
         "cards": [
             "Bijoux",
@@ -1076,6 +1136,7 @@
         ]
     },
     "MapWorldsMazeUnique": {
+        "id": "MapWorldsMazeUnique",
         "name": "Doryani's Machinarium",
         "cards": [
             "Monochrome",
@@ -1086,6 +1147,7 @@
         ]
     },
     "MapWorldsDrySea": {
+        "id": "MapWorldsDrySea",
         "name": "Dry Sea",
         "cards": [
             "ANoteInTheWind",
@@ -1107,6 +1169,7 @@
         ]
     },
     "MapWorldsDunes": {
+        "id": "MapWorldsDunes",
         "name": "Dunes",
         "cards": [
             "ANoteInTheWind",
@@ -1129,6 +1192,7 @@
         ]
     },
     "MapWorldsDungeon": {
+        "id": "MapWorldsDungeon",
         "name": "Dungeon",
         "cards": [
             "HerMask",
@@ -1147,6 +1211,7 @@
         ]
     },
     "MapWorldsEstuary": {
+        "id": "MapWorldsEstuary",
         "name": "Estuary",
         "cards": [
             "FromBonesToAshes",
@@ -1168,6 +1233,7 @@
         ]
     },
     "MapWorldsExcavation": {
+        "id": "MapWorldsExcavation",
         "name": "Excavation",
         "cards": [
             "Bijoux",
@@ -1191,6 +1257,7 @@
         ]
     },
     "MapWorldsFactory": {
+        "id": "MapWorldsFactory",
         "name": "Factory",
         "cards": [
             "AzureRage",
@@ -1211,6 +1278,7 @@
         ]
     },
     "MapWorldsFields": {
+        "id": "MapWorldsFields",
         "name": "Fields",
         "cards": [
             "HerMask",
@@ -1232,6 +1300,7 @@
         ]
     },
     "MapWorldsFloodedMine": {
+        "id": "MapWorldsFloodedMine",
         "name": "Flooded Mine",
         "cards": [
             "AStonePerfected",
@@ -1261,6 +1330,7 @@
         ]
     },
     "MapWorldsForbiddenWoods": {
+        "id": "MapWorldsForbiddenWoods",
         "name": "Forbidden Woods",
         "cards": [
             "AChillingWind",
@@ -1286,6 +1356,7 @@
         ]
     },
     "MapWorldsPhoenix": {
+        "id": "MapWorldsPhoenix",
         "name": "Forge of the Phoenix",
         "cards": [
             "BurningBlood",
@@ -1303,6 +1374,7 @@
         ]
     },
     "MapWorldsForkingRiver": {
+        "id": "MapWorldsForkingRiver",
         "name": "Forking River",
         "cards": [
             "HerMask",
@@ -1320,6 +1392,7 @@
         ]
     },
     "MapWorldsFoundry": {
+        "id": "MapWorldsFoundry",
         "name": "Foundry",
         "cards": [
             "FurtherInvention",
@@ -1339,6 +1412,7 @@
         ]
     },
     "MapWorldsFrozenCabins": {
+        "id": "MapWorldsFrozenCabins",
         "name": "Frozen Cabins",
         "cards": [
             "AChillingWind",
@@ -1356,6 +1430,7 @@
         ]
     },
     "MapWorldsSprings": {
+        "id": "MapWorldsSprings",
         "name": "Fungal Hollow",
         "cards": [
             "HerMask",
@@ -1373,6 +1448,7 @@
         ]
     },
     "MapWorldsGardens": {
+        "id": "MapWorldsGardens",
         "name": "Gardens",
         "cards": [
             "EmperorsLuck",
@@ -1395,6 +1471,7 @@
         ]
     },
     "MapWorldsGeode": {
+        "id": "MapWorldsGeode",
         "name": "Geode",
         "cards": [
             "AStonePerfected",
@@ -1421,6 +1498,7 @@
         ]
     },
     "MapWorldsGhetto": {
+        "id": "MapWorldsGhetto",
         "name": "Ghetto",
         "cards": [
             "HerMask",
@@ -1439,6 +1517,7 @@
         ]
     },
     "MapWorldsGorge": {
+        "id": "MapWorldsGorge",
         "name": "Glacier",
         "cards": [
             "AChillingWind",
@@ -1457,6 +1536,7 @@
         ]
     },
     "MapWorldsGraveTrough": {
+        "id": "MapWorldsGraveTrough",
         "name": "Grave Trough",
         "cards": [
             "BrotherGift",
@@ -1476,6 +1556,7 @@
         ]
     },
     "MapWorldsGraveyard": {
+        "id": "MapWorldsGraveyard",
         "name": "Graveyard",
         "cards": [
             "BrotherGift",
@@ -1498,6 +1579,7 @@
         ]
     },
     "MapWorldsGrotto": {
+        "id": "MapWorldsGrotto",
         "name": "Grotto",
         "cards": [
             "ASeaOfBlue",
@@ -1530,6 +1612,7 @@
         ]
     },
     "MapWorldsCemeteryUnique": {
+        "id": "MapWorldsCemeteryUnique",
         "name": "Hallowed Ground",
         "cards": [
             "Monochrome",
@@ -1538,12 +1621,15 @@
         ]
     },
     "MapWorldsElder_Elegant": {
+        "id": "MapWorldsElder_Elegant",
         "name": "Halls of Delirium"
     },
     "MapWorldsHarbinger": {
+        "id": "MapWorldsHarbinger",
         "name": "Harbinger's Isle"
     },
     "MapWorldsHauntedMansion": {
+        "id": "MapWorldsHauntedMansion",
         "name": "Haunted Mansion",
         "cards": [
             "HerMask",
@@ -1567,6 +1653,7 @@
         ]
     },
     "MapWorldsIceberg": {
+        "id": "MapWorldsIceberg",
         "name": "Iceberg",
         "cards": [
             "AChillingWind",
@@ -1584,6 +1671,7 @@
         ]
     },
     "MapWorldsInfestedValley": {
+        "id": "MapWorldsInfestedValley",
         "name": "Infested Valley",
         "cards": [
             "HerMask",
@@ -1602,15 +1690,18 @@
         ]
     },
     "MapWorldsHarbingerUber": {
+        "id": "MapWorldsHarbingerUber",
         "name": "Infused Beachhead",
         "cards": [
             "Monochrome"
         ]
     },
     "MapWorldsElder_River": {
+        "id": "MapWorldsElder_River",
         "name": "Islands of Devastation"
     },
     "MapWorldsIvoryTemple": {
+        "id": "MapWorldsIvoryTemple",
         "name": "Ivory Temple",
         "cards": [
             "HerMask",
@@ -1629,6 +1720,7 @@
         ]
     },
     "MapWorldsJungleValley": {
+        "id": "MapWorldsJungleValley",
         "name": "Jungle Valley",
         "cards": [
             "AliviasGrace",
@@ -1650,6 +1742,7 @@
         ]
     },
     "MapWorldsLaboratory": {
+        "id": "MapWorldsLaboratory",
         "name": "Laboratory",
         "cards": [
             "AzyransReward",
@@ -1670,6 +1763,7 @@
         ]
     },
     "MapWorldsLair": {
+        "id": "MapWorldsLair",
         "name": "Lair",
         "cards": [
             "AliviasGrace",
@@ -1696,6 +1790,7 @@
         ]
     },
     "MapWorldsHydra": {
+        "id": "MapWorldsHydra",
         "name": "Lair of the Hydra",
         "cards": [
             "HerMask",
@@ -1710,6 +1805,7 @@
         ]
     },
     "MapWorldsLavaChamber": {
+        "id": "MapWorldsLavaChamber",
         "name": "Lava Chamber",
         "cards": [
             "BurningBlood",
@@ -1727,6 +1823,7 @@
         ]
     },
     "MapWorldsLavaLake": {
+        "id": "MapWorldsLavaLake",
         "name": "Lava Lake",
         "cards": [
             "FromBonesToAshes",
@@ -1744,6 +1841,7 @@
         ]
     },
     "MapWorldsLeyline": {
+        "id": "MapWorldsLeyline",
         "name": "Leyline",
         "cards": [
             "HerMask",
@@ -1761,6 +1859,7 @@
         ]
     },
     "MapWorldsLighthouse": {
+        "id": "MapWorldsLighthouse",
         "name": "Lighthouse",
         "cards": [
             "HerMask",
@@ -1780,6 +1879,7 @@
         ]
     },
     "MapWorldsLookout": {
+        "id": "MapWorldsLookout",
         "name": "Lookout",
         "cards": [
             "HerMask",
@@ -1798,6 +1898,7 @@
         ]
     },
     "MapWorldsAtollUnique": {
+        "id": "MapWorldsAtollUnique",
         "name": "Maelstr\u00f6m of Chaos",
         "cards": [
             "LantadorsLostLove",
@@ -1817,6 +1918,7 @@
         ]
     },
     "MapWorldsMalformation": {
+        "id": "MapWorldsMalformation",
         "name": "Malformation",
         "cards": [
             "HerMask",
@@ -1836,9 +1938,11 @@
         ]
     },
     "MapWorldsElder_Sceptre": {
+        "id": "MapWorldsElder_Sceptre",
         "name": "Manor of Madness"
     },
     "MapWorldsShoreUnique": {
+        "id": "MapWorldsShoreUnique",
         "name": "Mao Kun",
         "cards": [
             "AbandonedWealth",
@@ -1850,6 +1954,7 @@
         ]
     },
     "MapWorldsMarshes": {
+        "id": "MapWorldsMarshes",
         "name": "Marshes",
         "cards": [
             "Death",
@@ -1867,6 +1972,7 @@
         ]
     },
     "MapWorldsMausoleum": {
+        "id": "MapWorldsMausoleum",
         "name": "Mausoleum",
         "cards": [
             "HerMask",
@@ -1883,6 +1989,7 @@
         ]
     },
     "MapWorldsMaze": {
+        "id": "MapWorldsMaze",
         "name": "Maze",
         "cards": [
             "HerMask",
@@ -1903,6 +2010,7 @@
         ]
     },
     "MapWorldsMinotaur": {
+        "id": "MapWorldsMinotaur",
         "name": "Maze of the Minotaur",
         "cards": [
             "HerMask",
@@ -1917,6 +2025,7 @@
         ]
     },
     "MapWorldsMesa": {
+        "id": "MapWorldsMesa",
         "name": "Mesa",
         "cards": [
             "HerMask",
@@ -1934,6 +2043,7 @@
         ]
     },
     "MapWorldsMineralPools": {
+        "id": "MapWorldsMineralPools",
         "name": "Mineral Pools",
         "cards": [
             "ASeaOfBlue",
@@ -1959,6 +2069,7 @@
         ]
     },
     "MapWorldsMoonTemple": {
+        "id": "MapWorldsMoonTemple",
         "name": "Moon Temple",
         "cards": [
             "AstralProtection",
@@ -1979,6 +2090,7 @@
         ]
     },
     "MapWorldsMudGeyser": {
+        "id": "MapWorldsMudGeyser",
         "name": "Mud Geyser",
         "cards": [
             "Death",
@@ -1995,6 +2107,7 @@
         ]
     },
     "MapWorldsMuseum": {
+        "id": "MapWorldsMuseum",
         "name": "Museum",
         "cards": [
             "ADabOfInk",
@@ -2022,6 +2135,7 @@
         ]
     },
     "MapWorldsNecropolis": {
+        "id": "MapWorldsNecropolis",
         "name": "Necropolis",
         "cards": [
             "GraveKnowledge",
@@ -2039,18 +2153,21 @@
         ]
     },
     "MapWorldsTortureChamberUnique": {
+        "id": "MapWorldsTortureChamberUnique",
         "name": "Oba's Cursed Trove",
         "cards": [
             "Monochrome"
         ]
     },
     "MapWorldsBoneCryptUnique": {
+        "id": "MapWorldsBoneCryptUnique",
         "name": "Olmec's Sanctum",
         "cards": [
             "Monochrome"
         ]
     },
     "MapWorldsOrchard": {
+        "id": "MapWorldsOrchard",
         "name": "Orchard",
         "cards": [
             "BoonofJustice",
@@ -2077,6 +2194,7 @@
         ]
     },
     "MapWorldsOvergrownRuin": {
+        "id": "MapWorldsOvergrownRuin",
         "name": "Overgrown Ruin",
         "cards": [
             "EchoesOfLove",
@@ -2101,6 +2219,7 @@
         ]
     },
     "MapWorldsOvergrownShrine": {
+        "id": "MapWorldsOvergrownShrine",
         "name": "Overgrown Shrine",
         "cards": [
             "EchoesOfLove",
@@ -2124,6 +2243,7 @@
         ]
     },
     "MapWorldsPalace": {
+        "id": "MapWorldsPalace",
         "name": "Palace",
         "cards": [
             "HerMask",
@@ -2145,6 +2265,7 @@
         ]
     },
     "MapWorldsPark": {
+        "id": "MapWorldsPark",
         "name": "Park",
         "cards": [
             "HerMask",
@@ -2159,6 +2280,7 @@
         ]
     },
     "MapWorldsPen": {
+        "id": "MapWorldsPen",
         "name": "Pen",
         "cards": [
             "HerMask",
@@ -2178,6 +2300,7 @@
         ]
     },
     "MapWorldsPeninsula": {
+        "id": "MapWorldsPeninsula",
         "name": "Peninsula",
         "cards": [
             "AStonePerfected",
@@ -2203,9 +2326,11 @@
         ]
     },
     "MapWorldsChateauUnique": {
+        "id": "MapWorldsChateauUnique",
         "name": "Perandus Manor"
     },
     "MapWorldsPhantasmagoria": {
+        "id": "MapWorldsPhantasmagoria",
         "name": "Phantasmagoria",
         "cards": [
             "HerMask",
@@ -2229,6 +2354,7 @@
         ]
     },
     "MapWorldsPier": {
+        "id": "MapWorldsPier",
         "name": "Pier",
         "cards": [
             "HerMask",
@@ -2250,6 +2376,7 @@
         ]
     },
     "MapWorldsDunesUnique": {
+        "id": "MapWorldsDunesUnique",
         "name": "Pillars of Arun",
         "cards": [
             "EarthDrinker",
@@ -2258,6 +2385,7 @@
         ]
     },
     "MapWorldsPit": {
+        "id": "MapWorldsPit",
         "name": "Pit",
         "cards": [
             "HerMask",
@@ -2277,6 +2405,7 @@
         ]
     },
     "MapWorldsChimera": {
+        "id": "MapWorldsChimera",
         "name": "Pit of the Chimera",
         "cards": [
             "BoonoftheFirstOnes",
@@ -2295,9 +2424,11 @@
         ]
     },
     "MapWorldsElder_Reliquary": {
+        "id": "MapWorldsElder_Reliquary",
         "name": "Pits of Sorrow"
     },
     "MapWorldsPlateau": {
+        "id": "MapWorldsPlateau",
         "name": "Plateau",
         "cards": [
             "HerMask",
@@ -2319,6 +2450,7 @@
         ]
     },
     "MapWorldsPlaza": {
+        "id": "MapWorldsPlaza",
         "name": "Plaza",
         "cards": [
             "BoonofJustice",
@@ -2336,9 +2468,11 @@
         ]
     },
     "MapWorldsPrimordialBoss2": {
+        "id": "MapWorldsPrimordialBoss2",
         "name": "Polaric Void"
     },
     "MapWorldsTempleUnique": {
+        "id": "MapWorldsTempleUnique",
         "name": "Poorjoy's Asylum",
         "cards": [
             "ChaoticDisposition",
@@ -2351,6 +2485,7 @@
         ]
     },
     "MapWorldsPort": {
+        "id": "MapWorldsPort",
         "name": "Port",
         "cards": [
             "AssassinsFavor",
@@ -2381,6 +2516,7 @@
         ]
     },
     "MapWorldsPrecinct": {
+        "id": "MapWorldsPrecinct",
         "name": "Precinct",
         "cards": [
             "HerMask",
@@ -2400,9 +2536,11 @@
         ]
     },
     "MapWorldsPrimevalCity": {
+        "id": "MapWorldsPrimevalCity",
         "name": "Primeval City"
     },
     "MapWorldsTortureChamber": {
+        "id": "MapWorldsTortureChamber",
         "name": "Primordial Blocks",
         "cards": [
             "ASeaOfBlue",
@@ -2421,6 +2559,7 @@
         ]
     },
     "MapWorldsPrimordialPool": {
+        "id": "MapWorldsPrimordialPool",
         "name": "Primordial Pool",
         "cards": [
             "HerMask",
@@ -2436,6 +2575,7 @@
         ]
     },
     "MapWorldsPromenade": {
+        "id": "MapWorldsPromenade",
         "name": "Promenade",
         "cards": [
             "GemcuttersPromise",
@@ -2458,6 +2598,7 @@
         ]
     },
     "MapWorldsRacecourse_": {
+        "id": "MapWorldsRacecourse_",
         "name": "Racecourse",
         "cards": [
             "HerMask",
@@ -2475,6 +2616,7 @@
         ]
     },
     "MapWorldsRamparts": {
+        "id": "MapWorldsRamparts",
         "name": "Ramparts",
         "cards": [
             "AliviasGrace",
@@ -2497,6 +2639,7 @@
         ]
     },
     "MapWorldsReef": {
+        "id": "MapWorldsReef",
         "name": "Reef",
         "cards": [
             "HerMask",
@@ -2519,6 +2662,7 @@
         ]
     },
     "MapWorldsRelicChambers": {
+        "id": "MapWorldsRelicChambers",
         "name": "Relic Chambers",
         "cards": [
             "AzyransReward",
@@ -2541,9 +2685,11 @@
         ]
     },
     "MapWorldsElder_Refinery": {
+        "id": "MapWorldsElder_Refinery",
         "name": "Repository of Derision"
     },
     "MapWorldsResidence": {
+        "id": "MapWorldsResidence",
         "name": "Residence",
         "cards": [
             "DesperateCrusade",
@@ -2569,12 +2715,15 @@
         ]
     },
     "MapWorldsElder_Volcano": {
+        "id": "MapWorldsElder_Volcano",
         "name": "River of Hysteria"
     },
     "MapWorldsElder_Garden": {
+        "id": "MapWorldsElder_Garden",
         "name": "Ruins of Despair"
     },
     "MapWorldsScriptorium": {
+        "id": "MapWorldsScriptorium",
         "name": "Scriptorium",
         "cards": [
             "ADabOfInk",
@@ -2598,12 +2747,15 @@
         ]
     },
     "MapWorldsElder_Reef": {
+        "id": "MapWorldsElder_Reef",
         "name": "Sea of Isolation"
     },
     "MapWorldsPrimordialBoss1": {
+        "id": "MapWorldsPrimordialBoss1",
         "name": "Seething Chyme"
     },
     "MapWorldsSepulchre": {
+        "id": "MapWorldsSepulchre",
         "name": "Sepulchre",
         "cards": [
             "HerMask",
@@ -2625,6 +2777,7 @@
         ]
     },
     "MapWorldsShipyard": {
+        "id": "MapWorldsShipyard",
         "name": "Shipyard",
         "cards": [
             "HerMask",
@@ -2646,6 +2799,7 @@
         ]
     },
     "MapWorldsShore": {
+        "id": "MapWorldsShore",
         "name": "Shore",
         "cards": [
             "FromBonesToAshes",
@@ -2670,6 +2824,7 @@
         ]
     },
     "MapWorldsShrine": {
+        "id": "MapWorldsShrine",
         "name": "Shrine",
         "cards": [
             "HerMask",
@@ -2688,6 +2843,7 @@
         ]
     },
     "MapWorldsSiege": {
+        "id": "MapWorldsSiege",
         "name": "Siege",
         "cards": [
             "HerMask",
@@ -2705,6 +2861,7 @@
         ]
     },
     "MapWorldsSilo": {
+        "id": "MapWorldsSilo",
         "name": "Silo",
         "cards": [
             "HerMask",
@@ -2725,6 +2882,7 @@
         ]
     },
     "MapWorldsSpiderForest": {
+        "id": "MapWorldsSpiderForest",
         "name": "Spider Forest",
         "cards": [
             "AliviasGrace",
@@ -2749,6 +2907,7 @@
         ]
     },
     "MapWorldsSpiderLair": {
+        "id": "MapWorldsSpiderLair",
         "name": "Spider Lair",
         "cards": [
             "HerMask",
@@ -2764,9 +2923,11 @@
         ]
     },
     "MapWorldsElder_Tower": {
+        "id": "MapWorldsElder_Tower",
         "name": "Spires of Delusion"
     },
     "MapWorldsStagnation": {
+        "id": "MapWorldsStagnation",
         "name": "Stagnation",
         "cards": [
             "AliviasGrace",
@@ -2788,9 +2949,11 @@
         ]
     },
     "MapWorldsSteppes": {
+        "id": "MapWorldsSteppes",
         "name": "Steppes"
     },
     "MapWorldsStrand": {
+        "id": "MapWorldsStrand",
         "name": "Strand",
         "cards": [
             "FromBonesToAshes",
@@ -2819,6 +2982,7 @@
         ]
     },
     "MapWorldsSulphurVents": {
+        "id": "MapWorldsSulphurVents",
         "name": "Sulphur Vents",
         "cards": [
             "HerMask",
@@ -2836,6 +3000,7 @@
         ]
     },
     "MapWorldsSummit": {
+        "id": "MapWorldsSummit",
         "name": "Summit",
         "cards": [
             "AChillingWind",
@@ -2856,6 +3021,7 @@
         ]
     },
     "MapWorldsSunkenCity": {
+        "id": "MapWorldsSunkenCity",
         "name": "Sunken City",
         "cards": [
             "ArroganceoftheVaal",
@@ -2877,9 +3043,11 @@
         ]
     },
     "MapWorldsSynthesisedWorld": {
+        "id": "MapWorldsSynthesisedWorld",
         "name": "Synthesised World"
     },
     "MapWorldsTemple": {
+        "id": "MapWorldsTemple",
         "name": "Temple",
         "cards": [
             "BoundlessRealms",
@@ -2903,6 +3071,7 @@
         ]
     },
     "MapWorldsTerrace": {
+        "id": "MapWorldsTerrace",
         "name": "Terrace",
         "cards": [
             "EmperorsLuck",
@@ -2924,21 +3093,25 @@
         ]
     },
     "MapWorldsHarbingerHigh": {
+        "id": "MapWorldsHarbingerHigh",
         "name": "The Beachhead",
         "cards": [
             "Monochrome"
         ]
     },
     "MapWorldsHarbingerLow": {
+        "id": "MapWorldsHarbingerLow",
         "name": "The Beachhead"
     },
     "MapWorldsHarbingerMid": {
+        "id": "MapWorldsHarbingerMid",
         "name": "The Beachhead",
         "cards": [
             "Monochrome"
         ]
     },
     "MapWorldsCursedCryptUnique": {
+        "id": "MapWorldsCursedCryptUnique",
         "name": "The Coward's Trial",
         "cards": [
             "GraveKnowledge",
@@ -2950,6 +3123,7 @@
         ]
     },
     "MapWorldsPromenadeUnique": {
+        "id": "MapWorldsPromenadeUnique",
         "name": "The Hall of Grandmasters",
         "cards": [
             "Monochrome",
@@ -2957,6 +3131,7 @@
         ]
     },
     "MapWorldsMuseumUnique": {
+        "id": "MapWorldsMuseumUnique",
         "name": "The Putrid Cloister",
         "cards": [
             "Monochrome",
@@ -2967,21 +3142,25 @@
         ]
     },
     "MapWorldsElderArenaUber": {
+        "id": "MapWorldsElderArenaUber",
         "name": "The Shaper's Realm",
         "cards": [
             "TheVoid"
         ]
     },
     "MapWorldsShapersRealm": {
+        "id": "MapWorldsShapersRealm",
         "name": "The Shaper's Realm",
         "cards": [
             "TheVoid"
         ]
     },
     "MapWorldsUltimatumBossArena": {
+        "id": "MapWorldsUltimatumBossArena",
         "name": "The Tower of Ordeals"
     },
     "MapWorldsMoonTempleUnique": {
+        "id": "MapWorldsMoonTempleUnique",
         "name": "The Twilight Temple",
         "cards": [
             "BoundlessRealms",
@@ -2998,6 +3177,7 @@
         ]
     },
     "MapWorldsCourtyardUnique": {
+        "id": "MapWorldsCourtyardUnique",
         "name": "The Vinktar Square",
         "cards": [
             "Monochrome",
@@ -3006,6 +3186,7 @@
         ]
     },
     "MapWorldsThicket": {
+        "id": "MapWorldsThicket",
         "name": "Thicket",
         "cards": [
             "AliviasGrace",
@@ -3025,6 +3206,7 @@
         ]
     },
     "MapWorldsTower": {
+        "id": "MapWorldsTower",
         "name": "Tower",
         "cards": [
             "HerMask",
@@ -3048,6 +3230,7 @@
         ]
     },
     "MapWorldsToxicSewer": {
+        "id": "MapWorldsToxicSewer",
         "name": "Toxic Sewer",
         "cards": [
             "HerMask",
@@ -3066,6 +3249,7 @@
         ]
     },
     "MapWorldsTropicalIsland": {
+        "id": "MapWorldsTropicalIsland",
         "name": "Tropical Island",
         "cards": [
             "AliviasGrace",
@@ -3091,6 +3275,7 @@
         ]
     },
     "MapWorldsUndergroundRiver": {
+        "id": "MapWorldsUndergroundRiver",
         "name": "Underground River",
         "cards": [
             "HerMask",
@@ -3106,6 +3291,7 @@
         ]
     },
     "MapWorldsUndergroundSea": {
+        "id": "MapWorldsUndergroundSea",
         "name": "Underground Sea",
         "cards": [
             "GlimmerOfHope",
@@ -3132,9 +3318,11 @@
         ]
     },
     "MapWorldsTropicalIslandUnique": {
+        "id": "MapWorldsTropicalIslandUnique",
         "name": "Untainted Paradise"
     },
     "MapWorldsVaalPyramid": {
+        "id": "MapWorldsVaalPyramid",
         "name": "Vaal Pyramid",
         "cards": [
             "ArroganceoftheVaal",
@@ -3158,6 +3346,7 @@
         ]
     },
     "MapWorldsVaalTemple": {
+        "id": "MapWorldsVaalTemple",
         "name": "Vaal Temple",
         "cards": [
             "HerMask",
@@ -3180,6 +3369,7 @@
         ]
     },
     "MapWorldsVault": {
+        "id": "MapWorldsVault",
         "name": "Vault",
         "cards": [
             "AStonePerfected",
@@ -3203,6 +3393,7 @@
         ]
     },
     "MapWorldsVaalPyramidUnique": {
+        "id": "MapWorldsVaalPyramidUnique",
         "name": "Vaults of Atziri",
         "cards": [
             "AtzirisArmory",
@@ -3221,9 +3412,11 @@
         ]
     },
     "MapWorldsElder_Temple": {
+        "id": "MapWorldsElder_Temple",
         "name": "Vaults of Insanity"
     },
     "MapWorldsVilla": {
+        "id": "MapWorldsVilla",
         "name": "Villa",
         "cards": [
             "HerMask",
@@ -3245,6 +3438,7 @@
         ]
     },
     "MapWorldsVolcano": {
+        "id": "MapWorldsVolcano",
         "name": "Volcano",
         "cards": [
             "FromBonesToAshes",
@@ -3264,6 +3458,7 @@
         ]
     },
     "MapWorldsWastePool": {
+        "id": "MapWorldsWastePool",
         "name": "Waste Pool",
         "cards": [
             "HerMask",
@@ -3286,6 +3481,7 @@
         ]
     },
     "MapWorldsWasteland": {
+        "id": "MapWorldsWasteland",
         "name": "Wasteland",
         "cards": [
             "HerMask",
@@ -3300,9 +3496,11 @@
         ]
     },
     "MapWorldsElder_Sulphur": {
+        "id": "MapWorldsElder_Sulphur",
         "name": "Wastes of Lunacy"
     },
     "MapWorldsWaterways": {
+        "id": "MapWorldsWaterways",
         "name": "Waterways",
         "cards": [
             "AStonePerfected",
@@ -3321,6 +3519,7 @@
         ]
     },
     "MapWorldsStrandUnique": {
+        "id": "MapWorldsStrandUnique",
         "name": "Whakawairua Tuahu",
         "cards": [
             "LantadorsLostLove",
@@ -3337,6 +3536,7 @@
         ]
     },
     "MapWorldsWharf": {
+        "id": "MapWorldsWharf",
         "name": "Wharf",
         "cards": [
             "AStonePerfected",

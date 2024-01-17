@@ -1,5 +1,6 @@
 {
     "AChillingWind": {
+        "id": "AChillingWind",
         "name": "A Chilling Wind",
         "drop_areas": [
             "MapWorldsForbiddenWoods",
@@ -21,6 +22,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/AChillingWind.png"
     },
     "ADabOfInk": {
+        "id": "ADabOfInk",
         "name": "A Dab of Ink",
         "drop_areas": [
             "MapWorldsScriptorium",
@@ -39,6 +41,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ADabOfInk.png"
     },
     "ANoteInTheWind": {
+        "id": "ANoteInTheWind",
         "name": "A Note in the Wind",
         "drop_areas": [
             "MapWorldsDrySea",
@@ -58,6 +61,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ANoteInTheWind.png"
     },
     "ASeaOfBlue": {
+        "id": "ASeaOfBlue",
         "name": "A Sea of Blue",
         "drop_areas": [
             "MapWorldsMineralPools",
@@ -77,6 +81,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ASeaOfBlue.png"
     },
     "AStonePerfected": {
+        "id": "AStonePerfected",
         "name": "A Stone Perfected",
         "drop_areas": [
             "MapWorldsGrotto",
@@ -100,6 +105,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/AStonePerfected.png"
     },
     "AbandonedWealth": {
+        "id": "AbandonedWealth",
         "name": "Abandoned Wealth",
         "drop_areas": [
             "MapWorldsShoreUnique"
@@ -116,6 +122,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/AbandonedWealth.png"
     },
     "Acclimatisation": {
+        "id": "Acclimatisation",
         "name": "Acclimatisation",
         "drop_areas": [
             "MapWorldsDesertSpring",
@@ -135,6 +142,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Acclimatisation.png"
     },
     "AliviasGrace": {
+        "id": "AliviasGrace",
         "name": "Alivia's Grace",
         "drop_areas": [
             "MapWorldsAshenWood",
@@ -161,6 +169,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/AliviasGrace.png"
     },
     "ArroganceoftheVaal": {
+        "id": "ArroganceoftheVaal",
         "name": "Arrogance of the Vaal",
         "drop_areas": [
             "MapWorldsSunkenCity",
@@ -179,6 +188,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ArroganceoftheVaal.png"
     },
     "AssassinsFavor": {
+        "id": "AssassinsFavor",
         "name": "Assassin's Favour",
         "drop_areas": [
             "MapWorldsAlleyways",
@@ -198,6 +208,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/AssassinsFavor.png"
     },
     "AstralProtection": {
+        "id": "AstralProtection",
         "name": "Astral Protection",
         "drop_areas": [
             "MapWorldsMoonTemple"
@@ -214,6 +225,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/AstralProtection.png"
     },
     "AtzirisArmory": {
+        "id": "AtzirisArmory",
         "name": "Atziri's Arsenal",
         "drop_areas": [
             "MapWorldsVaalPyramidUnique"
@@ -230,6 +242,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/AtzirisArmory.png"
     },
     "AzureRage": {
+        "id": "AzureRage",
         "name": "Azure Rage",
         "drop_areas": [
             "MapWorldsFactory",
@@ -247,6 +260,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/AzureRage.png"
     },
     "AzyransReward": {
+        "id": "AzyransReward",
         "name": "Azyran's Reward",
         "drop_areas": [
             "MapWorldsRelicChambers",
@@ -265,6 +279,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/AzyransReward.png"
     },
     "BaitedExpectations": {
+        "id": "BaitedExpectations",
         "name": "Baited Expectations",
         "drop_areas": [
             "MapWorldsDrySea",
@@ -284,6 +299,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/BaitedExpectations.png"
     },
     "Bijoux": {
+        "id": "Bijoux",
         "name": "Bijoux",
         "drop_areas": [
             "MapWorldsFloodedMine",
@@ -300,11 +316,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 29.92,
+        "chaos_value": 30.0,
         "divine_value": 0.14,
         "art_url": "https://web.poecdn.com/image/divination-card/Bijoux.png"
     },
     "BlindVenture": {
+        "id": "BlindVenture",
         "name": "Blind Venture",
         "drop_areas": [
             "MapWorldsRelicChambers",
@@ -322,6 +339,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/BlindVenture.png"
     },
     "BoonofJustice": {
+        "id": "BoonofJustice",
         "name": "Boon of Justice",
         "drop_areas": [
             "MapWorldsOrchard",
@@ -341,6 +359,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/BoonofJustice.png"
     },
     "BoonoftheFirstOnes": {
+        "id": "BoonoftheFirstOnes",
         "name": "Boon of the First Ones",
         "drop_areas": [
             "MapWorldsChimera"
@@ -357,6 +376,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/BoonoftheFirstOnes.png"
     },
     "BoundlessRealms": {
+        "id": "BoundlessRealms",
         "name": "Boundless Realms",
         "drop_areas": [
             "MapWorldsTemple",
@@ -375,6 +395,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/BoundlessRealms.png"
     },
     "BrotherGift": {
+        "id": "BrotherGift",
         "name": "Brother's Gift",
         "drop_areas": [
             "MapWorldsCemetery",
@@ -388,11 +409,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1105.27,
+        "chaos_value": 1104.05,
         "divine_value": 5.1,
         "art_url": "https://web.poecdn.com/image/divination-card/BrotherGift.png"
     },
     "BrothersStash": {
+        "id": "BrothersStash",
         "name": "Brother's Stash",
         "drop_areas": [
             "MapWorldsCemetery",
@@ -411,6 +433,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/BrothersStash.png"
     },
     "BrotherhoodInExile": {
+        "id": "BrotherhoodInExile",
         "name": "Brotherhood in Exile",
         "drop_areas": [
             "MapWorldsChateau",
@@ -430,6 +453,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/BrotherhoodInExile.png"
     },
     "BuriedTreasure": {
+        "id": "BuriedTreasure",
         "name": "Buried Treasure",
         "drop_areas": [
             "MapWorldsExcavation",
@@ -451,6 +475,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/BuriedTreasure.png"
     },
     "BurningBlood": {
+        "id": "BurningBlood",
         "name": "Burning Blood",
         "drop_areas": [
             "MapWorldsLavaChamber",
@@ -468,6 +493,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/BurningBlood.png"
     },
     "CallToTheFirstOnes": {
+        "id": "CallToTheFirstOnes",
         "name": "Call to the First Ones",
         "drop_areas": [
             "MapWorldsDarkForest",
@@ -487,6 +513,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/CallToTheFirstOnes.png"
     },
     "ChaoticDisposition": {
+        "id": "ChaoticDisposition",
         "name": "Chaotic Disposition",
         "drop_areas": [
             "MapWorldsTempleUnique"
@@ -503,6 +530,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ChaoticDisposition.png"
     },
     "Checkmate": {
+        "id": "Checkmate",
         "name": "Checkmate",
         "drop_areas": [
             "MapWorldsMuseum",
@@ -521,6 +549,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Checkmate.png"
     },
     "CostlyCurio": {
+        "id": "CostlyCurio",
         "name": "Costly Curio",
         "drop_areas": [
             "MapWorldsMuseum",
@@ -533,11 +562,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 16.0,
-        "divine_value": 0.07,
+        "chaos_value": 17.0,
+        "divine_value": 0.08,
         "art_url": "https://web.poecdn.com/image/divination-card/CostlyCurio.png"
     },
     "CovetedPossession": {
+        "id": "CovetedPossession",
         "name": "Coveted Possession",
         "drop_areas": [
             "MapWorldsBoneCrypt"
@@ -554,6 +584,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/CovetedPossession.png"
     },
     "CursedWords": {
+        "id": "CursedWords",
         "name": "Cursed Words",
         "drop_areas": [
             "MapWorldsCemetery",
@@ -572,6 +603,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/CursedWords.png"
     },
     "DeadlyJoy": {
+        "id": "DeadlyJoy",
         "name": "Deadly Joy",
         "drop_areas": [
             "MapWorldsTempleUnique"
@@ -588,6 +620,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/DeadlyJoy.png"
     },
     "Death": {
+        "id": "Death",
         "name": "Death",
         "drop_areas": [
             "MapWorldsBog",
@@ -606,6 +639,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Death.png"
     },
     "DesperateCrusade": {
+        "id": "DesperateCrusade",
         "name": "Desperate Crusade",
         "drop_areas": [
             "MapWorldsBasilica",
@@ -623,6 +657,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/DesperateCrusade.png"
     },
     "DestinedtoCrumble": {
+        "id": "DestinedtoCrumble",
         "name": "Destined to Crumble",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -641,6 +676,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/DestinedtoCrumble.png"
     },
     "DiallasSubjugation": {
+        "id": "DiallasSubjugation",
         "name": "Dialla's Subjugation",
         "drop_areas": [
             "MapWorldsTemple",
@@ -659,6 +695,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/DiallasSubjugation.png"
     },
     "EarthDrinker": {
+        "id": "EarthDrinker",
         "name": "Earth Drinker",
         "drop_areas": [
             "MapWorldsDunes",
@@ -679,6 +716,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/EarthDrinker.png"
     },
     "EchoesOfLove": {
+        "id": "EchoesOfLove",
         "name": "Echoes of Love",
         "drop_areas": [
             "MapWorldsOvergrownRuin",
@@ -698,6 +736,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/EchoesOfLove.png"
     },
     "EmperorOfPurity": {
+        "id": "EmperorOfPurity",
         "name": "Emperor of Purity",
         "drop_areas": [
             "MapWorldsOvergrownRuin",
@@ -715,6 +754,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/EmperorOfPurity.png"
     },
     "EmperorsLuck": {
+        "id": "EmperorsLuck",
         "name": "Emperor's Luck",
         "drop_areas": [
             "MapWorldsCourtyard",
@@ -734,6 +774,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/EmperorsLuck.png"
     },
     "FireOfUnknownOrigin": {
+        "id": "FireOfUnknownOrigin",
         "name": "Fire Of Unknown Origin",
         "drop_areas": [
             "MapWorldsResidence",
@@ -746,11 +787,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1256.98,
+        "chaos_value": 1255.58,
         "divine_value": 5.8,
         "art_url": "https://web.poecdn.com/image/divination-card/FireOfUnknownOrigin.png"
     },
     "FromBonesToAshes": {
+        "id": "FromBonesToAshes",
         "name": "From Bone to Ashes",
         "drop_areas": [
             "MapWorldsStrand",
@@ -773,6 +815,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/FromBonesToAshes.png"
     },
     "FurtherInvention": {
+        "id": "FurtherInvention",
         "name": "Further Invention",
         "drop_areas": [
             "MapWorldsVault",
@@ -785,11 +828,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 29.4,
+        "chaos_value": 30.0,
         "divine_value": 0.14,
         "art_url": "https://web.poecdn.com/image/divination-card/FurtherInvention.png"
     },
     "GemcuttersPromise": {
+        "id": "GemcuttersPromise",
         "name": "Gemcutter's Promise",
         "drop_areas": [
             "MapWorldsColonnade",
@@ -807,6 +851,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/GemcuttersPromise.png"
     },
     "GiftOfAsenath": {
+        "id": "GiftOfAsenath",
         "name": "Gift of Asenath",
         "drop_areas": [
             "MapWorldsDig",
@@ -823,11 +868,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 14.0,
-        "divine_value": 0.06,
+        "chaos_value": 15.0,
+        "divine_value": 0.07,
         "art_url": "https://web.poecdn.com/image/divination-card/GiftOfAsenath.png"
     },
     "GiftOfTheGemlingQueen": {
+        "id": "GiftOfTheGemlingQueen",
         "name": "Gift of the Gemling Queen",
         "drop_areas": [
             "MapWorldsCrystalOre",
@@ -849,6 +895,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/GiftOfTheGemlingQueen.png"
     },
     "GlimmerOfHope": {
+        "id": "GlimmerOfHope",
         "name": "Glimmer of Hope",
         "drop_areas": [
             "MapWorldsUndergroundSea",
@@ -867,6 +914,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/GlimmerOfHope.png"
     },
     "GraveKnowledge": {
+        "id": "GraveKnowledge",
         "name": "Grave Knowledge",
         "drop_areas": [
             "MapWorldsCursedCrypt",
@@ -886,6 +934,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/GraveKnowledge.png"
     },
     "HauntingShadows": {
+        "id": "HauntingShadows",
         "name": "Haunting Shadows",
         "drop_areas": [
             "MapWorldsMoonTempleUnique"
@@ -902,6 +951,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/HauntingShadows.png"
     },
     "HerMask": {
+        "id": "HerMask",
         "name": "Her Mask",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -1067,6 +1117,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/HerMask.png"
     },
     "Heterochromia": {
+        "id": "Heterochromia",
         "name": "Heterochromia",
         "drop_areas": [
             "MapWorldsEstuary",
@@ -1084,6 +1135,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Heterochromia.png"
     },
     "Home": {
+        "id": "Home",
         "name": "Home",
         "drop_areas": [
             "MapWorldsTower",
@@ -1106,11 +1158,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 216.72,
+        "chaos_value": 216.48,
         "divine_value": 1.0,
         "art_url": "https://web.poecdn.com/image/divination-card/Home.png"
     },
     "Hope": {
+        "id": "Hope",
         "name": "Hope",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -1272,6 +1325,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Hope.png"
     },
     "Humility": {
+        "id": "Humility",
         "name": "Humility",
         "drop_areas": [
             "MapWorldsChannel",
@@ -1290,6 +1344,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Humility.png"
     },
     "HuntersResolve": {
+        "id": "HuntersResolve",
         "name": "Hunter's Resolve",
         "drop_areas": [
             "MapWorldsRamparts",
@@ -1307,6 +1362,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/HuntersResolve.png"
     },
     "ImperialLegacy": {
+        "id": "ImperialLegacy",
         "name": "Imperial Legacy",
         "drop_areas": [
             "MapWorldsDesertSpring",
@@ -1327,6 +1383,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ImperialLegacy.png"
     },
     "JackInTheBox": {
+        "id": "JackInTheBox",
         "name": "Jack in the Box",
         "drop_areas": [
             "MapWorldsPromenade",
@@ -1348,6 +1405,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/JackInTheBox.png"
     },
     "LachrymalNecrosis": {
+        "id": "LachrymalNecrosis",
         "name": "Lachrymal Necrosis",
         "drop_areas": [
             "MapWorldsBasilica",
@@ -1365,6 +1423,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/LachrymalNecrosis.png"
     },
     "LantadorsLostLove": {
+        "id": "LantadorsLostLove",
         "name": "Lantador's Lost Love",
         "drop_areas": [
             "MapWorldsLighthouse",
@@ -1398,6 +1457,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/LantadorsLostLove.png"
     },
     "LastHope": {
+        "id": "LastHope",
         "name": "Last Hope",
         "drop_areas": [
             "MapWorldsVaalTemple"
@@ -1414,6 +1474,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/LastHope.png"
     },
     "LeftToFate": {
+        "id": "LeftToFate",
         "name": "Left to Fate",
         "drop_areas": [
             "MapWorldsForkingRiver",
@@ -1431,6 +1492,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/LeftToFate.png"
     },
     "LigthAndTruth": {
+        "id": "LigthAndTruth",
         "name": "Light and Truth",
         "drop_areas": [
             "MapWorldsResidence",
@@ -1449,6 +1511,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/LigthAndTruth.png"
     },
     "LingeringRemnants": {
+        "id": "LingeringRemnants",
         "name": "Lingering Remnants",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -1614,6 +1677,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/LingeringRemnants.png"
     },
     "Loyalty": {
+        "id": "Loyalty",
         "name": "Loyalty",
         "drop_areas": [
             "MapWorldsGrotto",
@@ -1633,6 +1697,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Loyalty.png"
     },
     "LuckyConnections": {
+        "id": "LuckyConnections",
         "name": "Lucky Connections",
         "drop_areas": [
             "MapWorldsWharf",
@@ -1652,6 +1717,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/LuckyConnections.png"
     },
     "LuckyDeck": {
+        "id": "LuckyDeck",
         "name": "Lucky Deck",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -1813,6 +1879,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/LuckyDeck.png"
     },
     "LysahsRespite": {
+        "id": "LysahsRespite",
         "name": "Lysah's Respite",
         "drop_areas": [
             "MapWorldsUndergroundSea",
@@ -1831,6 +1898,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/LysahsRespite.png"
     },
     "ManWithBear": {
+        "id": "ManWithBear",
         "name": "Man With Bear",
         "drop_areas": [
             "MapWorldsCemetery",
@@ -1848,6 +1916,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ManWithBear.png"
     },
     "RussiaDivinationCard": {
+        "id": "RussiaDivinationCard",
         "name": "Mawr Blaidd",
         "drop_areas": [
             "MapWorldsDarkForest",
@@ -1866,6 +1935,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/RussiaDivinationCard.png"
     },
     "MercilessArmament": {
+        "id": "MercilessArmament",
         "name": "Merciless Armament",
         "drop_areas": [
             "MapWorldsArmoury",
@@ -1885,6 +1955,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/MercilessArmament.png"
     },
     "MightIsRight": {
+        "id": "MightIsRight",
         "name": "Might is Right",
         "drop_areas": [
             "MapWorldsSepulchre",
@@ -1903,6 +1974,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/MightIsRight.png"
     },
     "Mitts": {
+        "id": "Mitts",
         "name": "Mitts",
         "drop_areas": [
             "MapWorldsIceberg",
@@ -1924,6 +1996,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Mitts.png"
     },
     "Monochrome": {
+        "id": "Monochrome",
         "name": "Monochrome",
         "drop_areas": [
             "MapWorldsAtollUnique",
@@ -1960,6 +2033,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Monochrome.png"
     },
     "MoreIsNeverEnough": {
+        "id": "MoreIsNeverEnough",
         "name": "More is Never Enough",
         "drop_areas": [
             "MapWorldsVault"
@@ -1976,6 +2050,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/MoreIsNeverEnough.png"
     },
     "NoTraces": {
+        "id": "NoTraces",
         "name": "No Traces",
         "drop_areas": [
             "MapWorldsSepulchre",
@@ -1994,6 +2069,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/NoTraces.png"
     },
     "ParasiticPassengers": {
+        "id": "ParasiticPassengers",
         "name": "Parasitic Passengers",
         "drop_areas": [
             "MapWorldsInfestedValley",
@@ -2012,6 +2088,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ParasiticPassengers.png"
     },
     "PeacefulMoments": {
+        "id": "PeacefulMoments",
         "name": "Peaceful Moments",
         "drop_areas": [
             "MapWorldsGardens",
@@ -2031,6 +2108,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/PeacefulMoments.png"
     },
     "PoisonedFaith": {
+        "id": "PoisonedFaith",
         "name": "Poisoned Faith",
         "drop_areas": [
             "MapWorldsOvergrownRuin",
@@ -2048,6 +2126,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/PoisonedFaith.png"
     },
     "PrideBeforeTheFall": {
+        "id": "PrideBeforeTheFall",
         "name": "Pride Before the Fall",
         "drop_areas": [
             "MapWorldsCaldera",
@@ -2065,6 +2144,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/PrideBeforeTheFall.png"
     },
     "PrideOfTheFirstOnes": {
+        "id": "PrideOfTheFirstOnes",
         "name": "Pride of the First Ones",
         "drop_areas": [
             "MapWorldsLair",
@@ -2084,6 +2164,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/PrideOfTheFirstOnes.png"
     },
     "Prosperity": {
+        "id": "Prosperity",
         "name": "Prosperity",
         "drop_areas": [
             "MapWorldsShore",
@@ -2118,6 +2199,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Prosperity.png"
     },
     "RainOfChaos": {
+        "id": "RainOfChaos",
         "name": "Rain of Chaos",
         "drop_areas": [
             "MapWorldsCastleRuins",
@@ -2135,6 +2217,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/RainOfChaos.png"
     },
     "RainTempter": {
+        "id": "RainTempter",
         "name": "Rain Tempter",
         "drop_areas": [
             "MapWorldsTerrace",
@@ -2154,6 +2237,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/RainTempter.png"
     },
     "Rats": {
+        "id": "Rats",
         "name": "Rats",
         "drop_areas": [
             "MapWorldsFactory",
@@ -2172,6 +2256,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Rats.png"
     },
     "SambodhisWisdom": {
+        "id": "SambodhisWisdom",
         "name": "Sambodhi's Wisdom",
         "drop_areas": [
             "MapWorldsDunes"
@@ -2188,6 +2273,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/SambodhisWisdom.png"
     },
     "ScholarOfTheSeas": {
+        "id": "ScholarOfTheSeas",
         "name": "Scholar of the Seas",
         "drop_areas": [
             "MapWorldsCoves",
@@ -2207,6 +2293,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ScholarOfTheSeas.png"
     },
     "SevenYearsBadLuck": {
+        "id": "SevenYearsBadLuck",
         "name": "Seven Years Bad Luck",
         "drop_areas": [
             "MapWorldsDefiledCathedral",
@@ -2219,11 +2306,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 758.52,
-        "divine_value": 3.5,
+        "chaos_value": 736.03,
+        "divine_value": 3.4,
         "art_url": "https://web.poecdn.com/image/divination-card/SevenYearsBadLuck.png"
     },
     "ShardofFate": {
+        "id": "ShardofFate",
         "name": "Shard of Fate",
         "drop_areas": [
             "MapWorldsOvergrownRuin",
@@ -2236,11 +2324,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1.65,
+        "chaos_value": 2.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/ShardofFate.png"
     },
     "SoulQuenched": {
+        "id": "SoulQuenched",
         "name": "Soul Quenched",
         "drop_areas": [
             "MapWorldsFactory",
@@ -2260,6 +2349,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/SoulQuenched.png"
     },
     "StruckbyLightning": {
+        "id": "StruckbyLightning",
         "name": "Struck by Lightning",
         "drop_areas": [
             "MapWorldsInfestedValley",
@@ -2288,6 +2378,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/StruckbyLightning.png"
     },
     "TheAcademic": {
+        "id": "TheAcademic",
         "name": "The Academic",
         "drop_areas": [
             "MapWorldsMuseum",
@@ -2301,11 +2392,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 8.9,
+        "chaos_value": 9.6,
         "divine_value": 0.04,
         "art_url": "https://web.poecdn.com/image/divination-card/TheAcademic.png"
     },
     "TheAdmirer": {
+        "id": "TheAdmirer",
         "name": "The Admirer",
         "drop_areas": [
             "MapWorldsAncientCity",
@@ -2327,6 +2419,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheAdmirer.png"
     },
     "TheAdventuringSpirit": {
+        "id": "TheAdventuringSpirit",
         "name": "The Adventuring Spirit",
         "drop_areas": [
             "MapWorldsVaalPyramidUnique"
@@ -2343,6 +2436,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheAdventuringSpirit.png"
     },
     "TheApothecary": {
+        "id": "TheApothecary",
         "name": "The Apothecary",
         "drop_areas": [
             "MapWorldsCrimsonTemple",
@@ -2357,11 +2451,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 6818.01,
-        "divine_value": 31.46,
+        "chaos_value": 6689.23,
+        "divine_value": 30.9,
         "art_url": "https://web.poecdn.com/image/divination-card/TheApothecary.png"
     },
     "TheArmyOfBlood": {
+        "id": "TheArmyOfBlood",
         "name": "The Army of Blood",
         "drop_areas": [
             "MapWorldsTempleUnique",
@@ -2379,6 +2474,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheArmyOfBlood.png"
     },
     "TheArtist": {
+        "id": "TheArtist",
         "name": "The Artist",
         "drop_areas": [
             "MapWorldsOvergrownRuin",
@@ -2391,11 +2487,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 130.0,
-        "divine_value": 0.6,
+        "chaos_value": 120.0,
+        "divine_value": 0.55,
         "art_url": "https://web.poecdn.com/image/divination-card/TheArtist.png"
     },
     "TheAvenger": {
+        "id": "TheAvenger",
         "name": "The Avenger",
         "drop_areas": [
             "MapWorldsTortureChamber",
@@ -2416,6 +2513,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheAvenger.png"
     },
     "TheAwakened": {
+        "id": "TheAwakened",
         "name": "The Awakened",
         "drop_areas": [
             "MapWorldsGardens",
@@ -2439,6 +2537,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheAwakened.png"
     },
     "TheBattleBorn": {
+        "id": "TheBattleBorn",
         "name": "The Battle Born",
         "drop_areas": [
             "MapWorldsCaldera",
@@ -2456,6 +2555,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheBattleBorn.png"
     },
     "TheBetrayal": {
+        "id": "TheBetrayal",
         "name": "The Betrayal",
         "drop_areas": [
             "MapWorldsStrand",
@@ -2477,6 +2577,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheBetrayal.png"
     },
     "TheBlazingFire": {
+        "id": "TheBlazingFire",
         "name": "The Blazing Fire",
         "drop_areas": [
             "MapWorldsHauntedMansion",
@@ -2499,6 +2600,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheBlazingFire.png"
     },
     "TheBrawnyBattleMage": {
+        "id": "TheBrawnyBattleMage",
         "name": "The Brawny Battle Mage",
         "drop_areas": [
             "MapWorldsBurialChambers",
@@ -2520,6 +2622,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheBrawnyBattleMage.png"
     },
     "TheCache": {
+        "id": "TheCache",
         "name": "The Cache",
         "drop_areas": [
             "MapWorldsMineralPools",
@@ -2540,6 +2643,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheCache.png"
     },
     "TheCatalyst": {
+        "id": "TheCatalyst",
         "name": "The Catalyst",
         "drop_areas": [
             "MapWorldsMaze",
@@ -2561,6 +2665,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheCatalyst.png"
     },
     "TheCatch": {
+        "id": "TheCatch",
         "name": "The Catch",
         "drop_areas": [
             "MapWorldsStrand",
@@ -2586,6 +2691,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheCatch.png"
     },
     "TheCelestialJusticar": {
+        "id": "TheCelestialJusticar",
         "name": "The Celestial Justicar",
         "drop_areas": [
             "MapWorldsCursedCrypt",
@@ -2604,6 +2710,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheCelestialJusticar.png"
     },
     "TheChainsThatBind": {
+        "id": "TheChainsThatBind",
         "name": "The Chains that Bind",
         "drop_areas": [
             "MapWorldsDungeon",
@@ -2618,11 +2725,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.91,
+        "chaos_value": 2.9,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheChainsThatBind.png"
     },
     "TheComingStorm": {
+        "id": "TheComingStorm",
         "name": "The Coming Storm",
         "drop_areas": [
             "MapWorldsInfestedValley",
@@ -2648,6 +2756,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheComingStorm.png"
     },
     "TheCursedKing": {
+        "id": "TheCursedKing",
         "name": "The Cursed King",
         "drop_areas": [
             "MapWorldsUndergroundRiverUnique"
@@ -2664,6 +2773,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheCursedKing.png"
     },
     "TheDamned": {
+        "id": "TheDamned",
         "name": "The Damned",
         "drop_areas": [
             "MapWorldsAncientCity",
@@ -2685,6 +2795,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDamned.png"
     },
     "TheDapperProdigy": {
+        "id": "TheDapperProdigy",
         "name": "The Dapper Prodigy",
         "drop_areas": [
             "MapWorldsPalace",
@@ -2703,6 +2814,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDapperProdigy.png"
     },
     "TheDarkMage": {
+        "id": "TheDarkMage",
         "name": "The Dark Mage",
         "drop_areas": [
             "MapWorldsOvergrownRuin",
@@ -2720,6 +2832,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDarkMage.png"
     },
     "TheDarkestDream": {
+        "id": "TheDarkestDream",
         "name": "The Darkest Dream",
         "drop_areas": [
             "MapWorldsStrandUnique"
@@ -2731,11 +2844,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.2,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDarkestDream.png"
     },
     "TheDeceiver": {
+        "id": "TheDeceiver",
         "name": "The Deceiver",
         "drop_areas": [
             "MapWorldsArena",
@@ -2754,6 +2868,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDeceiver.png"
     },
     "TheDeepOnes": {
+        "id": "TheDeepOnes",
         "name": "The Deep Ones",
         "drop_areas": [
             "MapWorldsReef",
@@ -2773,6 +2888,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDeepOnes.png"
     },
     "TheDemoness": {
+        "id": "TheDemoness",
         "name": "The Demoness",
         "drop_areas": [
             "MapWorldsDarkForest",
@@ -2791,6 +2907,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDemoness.png"
     },
     "TheDestination": {
+        "id": "TheDestination",
         "name": "The Destination",
         "drop_areas": [
             "MapWorldsTropicalIsland",
@@ -2805,11 +2922,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 61.0,
-        "divine_value": 0.28,
+        "chaos_value": 64.5,
+        "divine_value": 0.3,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDestination.png"
     },
     "TheDoctor": {
+        "id": "TheDoctor",
         "name": "The Doctor",
         "drop_areas": [
             "MapWorldsBurialChambers",
@@ -2826,11 +2944,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1712.09,
-        "divine_value": 7.9,
+        "chaos_value": 1623.6,
+        "divine_value": 7.5,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDoctor.png"
     },
     "TheDoppelganger": {
+        "id": "TheDoppelganger",
         "name": "The Doppelganger",
         "drop_areas": [
             "MapWorldsStrandUnique"
@@ -2847,6 +2966,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDoppelganger.png"
     },
     "TheDragon": {
+        "id": "TheDragon",
         "name": "The Dragon",
         "drop_areas": [
             "MapWorldsDarkForest",
@@ -2865,6 +2985,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDragon.png"
     },
     "TheDragonsHeart": {
+        "id": "TheDragonsHeart",
         "name": "The Dragon's Heart",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -3025,11 +3146,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 72.24,
+        "chaos_value": 72.16,
         "divine_value": 0.33,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDragonsHeart.png"
     },
     "TheDrunkenAristocrat": {
+        "id": "TheDrunkenAristocrat",
         "name": "The Drunken Aristocrat",
         "drop_areas": [
             "MapWorldsBazaar",
@@ -3051,6 +3173,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDrunkenAristocrat.png"
     },
     "TheDungeonMaster": {
+        "id": "TheDungeonMaster",
         "name": "The Dungeon Master",
         "drop_areas": [
             "MapWorldsCage",
@@ -3070,6 +3193,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheDungeonMaster.png"
     },
     "TheEasyStroll": {
+        "id": "TheEasyStroll",
         "name": "The Easy Stroll",
         "drop_areas": [
             "MapWorldsGardens",
@@ -3089,6 +3213,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheEasyStroll.png"
     },
     "TheEncroachingDarkness": {
+        "id": "TheEncroachingDarkness",
         "name": "The Encroaching Darkness",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -3254,6 +3379,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheEncroachingDarkness.png"
     },
     "TheEndurance": {
+        "id": "TheEndurance",
         "name": "The Endurance",
         "drop_areas": [
             "MapWorldsExcavation",
@@ -3275,6 +3401,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheEndurance.png"
     },
     "TheEnlightened": {
+        "id": "TheEnlightened",
         "name": "The Enlightened",
         "drop_areas": [
             "MapWorldsCrimsonTemple",
@@ -3294,11 +3421,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 392.08,
-        "divine_value": 1.81,
+        "chaos_value": 400.0,
+        "divine_value": 1.85,
         "art_url": "https://web.poecdn.com/image/divination-card/TheEnlightened.png"
     },
     "TheEnthusiasts": {
+        "id": "TheEnthusiasts",
         "name": "The Enthusiasts",
         "drop_areas": [
             "MapWorldsMuseum",
@@ -3312,11 +3440,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 17.6,
+        "chaos_value": 18.0,
         "divine_value": 0.08,
         "art_url": "https://web.poecdn.com/image/divination-card/TheEnthusiasts.png"
     },
     "TheExplorer": {
+        "id": "TheExplorer",
         "name": "The Explorer",
         "drop_areas": [
             "MapWorldsThicket"
@@ -3333,6 +3462,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheExplorer.png"
     },
     "TheEyeOfTheDragon": {
+        "id": "TheEyeOfTheDragon",
         "name": "The Eye of the Dragon",
         "drop_areas": [
             "MapWorldsSulphurVents",
@@ -3350,6 +3480,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheEyeOfTheDragon.png"
     },
     "TheFathomlessDepths": {
+        "id": "TheFathomlessDepths",
         "name": "The Fathomless Depths",
         "drop_areas": [
             "MapWorldsFloodedMine",
@@ -3368,6 +3499,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheFathomlessDepths.png"
     },
     "TheFeast": {
+        "id": "TheFeast",
         "name": "The Feast",
         "drop_areas": [
             "MapWorldsWastePool",
@@ -3381,11 +3513,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 3.0,
+        "chaos_value": 3.1,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFeast.png"
     },
     "TheFiend": {
+        "id": "TheFiend",
         "name": "The Fiend",
         "drop_areas": [
             "MapWorldsTempleUnique",
@@ -3400,11 +3533,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1517.04,
+        "chaos_value": 1515.36,
         "divine_value": 7.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFiend.png"
     },
     "TheFlorasGift": {
+        "id": "TheFlorasGift",
         "name": "The Flora's Gift",
         "drop_areas": [
             "MapWorldsJungleValley",
@@ -3429,6 +3563,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheFlorasGift.png"
     },
     "TheForgottenTreasure": {
+        "id": "TheForgottenTreasure",
         "name": "The Forgotten Treasure",
         "drop_areas": [
             "MapWorldsTemple"
@@ -3445,6 +3580,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheForgottenTreasure.png"
     },
     "TheFormlessSea": {
+        "id": "TheFormlessSea",
         "name": "The Formless Sea",
         "drop_areas": [
             "MapWorldsReef",
@@ -3464,6 +3600,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheFormlessSea.png"
     },
     "TheForsaken": {
+        "id": "TheForsaken",
         "name": "The Forsaken",
         "drop_areas": [
             "MapWorldsBoneCrypt",
@@ -3483,6 +3620,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheForsaken.png"
     },
     "TheFortunate": {
+        "id": "TheFortunate",
         "name": "The Fortunate",
         "drop_areas": [
             "MapWorldsTropicalIsland",
@@ -3524,6 +3662,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheFortunate.png"
     },
     "TheForwardGaze": {
+        "id": "TheForwardGaze",
         "name": "The Forward Gaze",
         "drop_areas": [
             "MapWorldsMazeUnique"
@@ -3540,6 +3679,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheForwardGaze.png"
     },
     "TheFox": {
+        "id": "TheFox",
         "name": "The Fox",
         "drop_areas": [
             "MapWorldsBarrows",
@@ -3559,6 +3699,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheFox.png"
     },
     "TheFoxInTheBrambles": {
+        "id": "TheFoxInTheBrambles",
         "name": "The Fox in the Brambles",
         "drop_areas": [
             "MapWorldsGardens",
@@ -3573,11 +3714,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 8.2,
+        "chaos_value": 8.1,
         "divine_value": 0.04,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFoxInTheBrambles.png"
     },
     "TheGambler": {
+        "id": "TheGambler",
         "name": "The Gambler",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -3743,6 +3885,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheGambler.png"
     },
     "GarishPower": {
+        "id": "GarishPower",
         "name": "The Garish Power",
         "drop_areas": [
             "MapWorldsOvergrownShrine",
@@ -3755,11 +3898,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 20.0,
-        "divine_value": 0.09,
+        "chaos_value": 24.0,
+        "divine_value": 0.11,
         "art_url": "https://web.poecdn.com/image/divination-card/GarishPower.png"
     },
     "TheGentleman": {
+        "id": "TheGentleman",
         "name": "The Gentleman",
         "drop_areas": [
             "MapWorldsGhetto",
@@ -3777,6 +3921,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheGentleman.png"
     },
     "TheGladiator": {
+        "id": "TheGladiator",
         "name": "The Gladiator",
         "drop_areas": [
             "MapWorldsPit",
@@ -3796,6 +3941,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheGladiator.png"
     },
     "TheGoldenEra": {
+        "id": "TheGoldenEra",
         "name": "The Golden Era",
         "drop_areas": [
             "MapWorldsBasilica",
@@ -3814,6 +3960,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheGoldenEra.png"
     },
     "TheHarvester": {
+        "id": "TheHarvester",
         "name": "The Harvester",
         "drop_areas": [
             "MapWorldsFields",
@@ -3831,6 +3978,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheHarvester.png"
     },
     "TheHiveOfKnowledge": {
+        "id": "TheHiveOfKnowledge",
         "name": "The Hive of Knowledge",
         "drop_areas": [
             "MapWorldsVaalPyramid",
@@ -3849,6 +3997,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheHiveOfKnowledge.png"
     },
     "TheHoarder": {
+        "id": "TheHoarder",
         "name": "The Hoarder",
         "drop_areas": [
             "MapWorldsVault",
@@ -3869,6 +4018,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheHoarder.png"
     },
     "TheHunger": {
+        "id": "TheHunger",
         "name": "The Hunger",
         "drop_areas": [
             "MapWorldsPhantasmagoria",
@@ -3888,6 +4038,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheHunger.png"
     },
     "TheImmortal": {
+        "id": "TheImmortal",
         "name": "The Immortal",
         "drop_areas": [
             "MapWorldsPromenadeUnique"
@@ -3899,11 +4050,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 3250.8,
+        "chaos_value": 3247.2,
         "divine_value": 15.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheImmortal.png"
     },
     "TheIncantation": {
+        "id": "TheIncantation",
         "name": "The Incantation",
         "drop_areas": [
             "MapWorldsSpiderForest",
@@ -3920,11 +4072,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.9,
+        "chaos_value": 2.2,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheIncantation.png"
     },
     "TheInnocent": {
+        "id": "TheInnocent",
         "name": "The Innocent",
         "drop_areas": [
             "MapWorldsBasilica",
@@ -3942,6 +4095,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheInnocent.png"
     },
     "TheInoculated": {
+        "id": "TheInoculated",
         "name": "The Inoculated",
         "drop_areas": [
             "MapWorldsAcidLakes",
@@ -3964,6 +4118,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheInoculated.png"
     },
     "TheInsatiable": {
+        "id": "TheInsatiable",
         "name": "The Insatiable",
         "drop_areas": [
             "MapWorldsCarcass",
@@ -3981,6 +4136,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheInsatiable.png"
     },
     "TheInventor": {
+        "id": "TheInventor",
         "name": "The Inventor",
         "drop_areas": [
             "MapWorldsMaze",
@@ -4001,6 +4157,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheInventor.png"
     },
     "TheJewellersBoon": {
+        "id": "TheJewellersBoon",
         "name": "The Jeweller's Boon",
         "drop_areas": [
             "MapWorldsCrystalOre",
@@ -4020,6 +4177,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheJewellersBoon.png"
     },
     "TheJournalist": {
+        "id": "TheJournalist",
         "name": "The Journalist",
         "drop_areas": [
             "MapWorldsHauntedMansion",
@@ -4042,6 +4200,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheJournalist.png"
     },
     "TheJourney": {
+        "id": "TheJourney",
         "name": "The Journey",
         "drop_areas": [
             "MapWorldsLighthouse",
@@ -4076,6 +4235,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheJourney.png"
     },
     "TheKingsBlade": {
+        "id": "TheKingsBlade",
         "name": "The King's Blade",
         "drop_areas": [
             "MapWorldsPit",
@@ -4095,6 +4255,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheKingsBlade.png"
     },
     "TheKingsHeart": {
+        "id": "TheKingsHeart",
         "name": "The King's Heart",
         "drop_areas": [
             "MapWorldsVolcano",
@@ -4112,6 +4273,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheKingsHeart.png"
     },
     "TheLanding": {
+        "id": "TheLanding",
         "name": "The Landing",
         "drop_areas": [
             "MapWorldsStrandUnique",
@@ -4131,6 +4293,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheLanding.png"
     },
     "TheLastOneStanding": {
+        "id": "TheLastOneStanding",
         "name": "The Last One Standing",
         "drop_areas": [
             "MapWorldsChimera",
@@ -4150,6 +4313,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheLastOneStanding.png"
     },
     "TheLastSupper": {
+        "id": "TheLastSupper",
         "name": "The Last Supper",
         "drop_areas": [
             "MapWorldsTempleUnique"
@@ -4166,6 +4330,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheLastSupper.png"
     },
     "TheLeviathan": {
+        "id": "TheLeviathan",
         "name": "The Leviathan",
         "drop_areas": [
             "MapWorldsAtollUnique"
@@ -4182,6 +4347,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheLeviathan.png"
     },
     "TheLifeThief": {
+        "id": "TheLifeThief",
         "name": "The Life Thief",
         "drop_areas": [
             "MapWorldsCrimsonTemple",
@@ -4204,6 +4370,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheLifeThief.png"
     },
     "TheLordofCelebration": {
+        "id": "TheLordofCelebration",
         "name": "The Lord of Celebration",
         "drop_areas": [
             "MapWorldsCrimsonTemple",
@@ -4235,6 +4402,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheLordofCelebration.png"
     },
     "TheLover": {
+        "id": "TheLover",
         "name": "The Lover",
         "drop_areas": [
             "MapWorldsUndergroundSea",
@@ -4252,6 +4420,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheLover.png"
     },
     "TheLunarisPriestess": {
+        "id": "TheLunarisPriestess",
         "name": "The Lunaris Priestess",
         "drop_areas": [
             "MapWorldsMoonTempleUnique",
@@ -4270,6 +4439,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheLunarisPriestess.png"
     },
     "TheMadKing": {
+        "id": "TheMadKing",
         "name": "The Mad King",
         "drop_areas": [
             "MapWorldsCaldera",
@@ -4289,6 +4459,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheMadKing.png"
     },
     "TheMaster": {
+        "id": "TheMaster",
         "name": "The Master",
         "drop_areas": [
             "MapWorldsLair",
@@ -4307,6 +4478,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheMaster.png"
     },
     "TheMercenary": {
+        "id": "TheMercenary",
         "name": "The Mercenary",
         "drop_areas": [
             "MapWorldsCastleRuins"
@@ -4323,6 +4495,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheMercenary.png"
     },
     "TheMessenger": {
+        "id": "TheMessenger",
         "name": "The Messenger",
         "drop_areas": [
             "MapWorldsPort",
@@ -4335,11 +4508,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.0,
+        "chaos_value": 1.7,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheMessenger.png"
     },
     "TheMountain": {
+        "id": "TheMountain",
         "name": "The Mountain",
         "drop_areas": [
             "MapWorldsSummit",
@@ -4358,6 +4532,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheMountain.png"
     },
     "TheNurse": {
+        "id": "TheNurse",
         "name": "The Nurse",
         "drop_areas": [
             "MapWorldsTower",
@@ -4373,11 +4548,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 216.72,
-        "divine_value": 1.0,
+        "chaos_value": 194.83,
+        "divine_value": 0.9,
         "art_url": "https://web.poecdn.com/image/divination-card/TheNurse.png"
     },
     "TheOath": {
+        "id": "TheOath",
         "name": "The Oath",
         "drop_areas": [
             "MapWorldsCore",
@@ -4392,11 +4568,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 3.07,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheOath.png"
     },
     "TheOldMan": {
+        "id": "TheOldMan",
         "name": "The Old Man",
         "drop_areas": [
             "MapWorldsStrand",
@@ -4420,6 +4597,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheOldMan.png"
     },
     "TheOneThatGotAway": {
+        "id": "TheOneThatGotAway",
         "name": "The One That Got Away",
         "drop_areas": [
             "MapWorldsStrand"
@@ -4436,6 +4614,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheOneThatGotAway.png"
     },
     "TheOneWithAll": {
+        "id": "TheOneWithAll",
         "name": "The One With All",
         "drop_areas": [
             "MapWorldsBurialChambers",
@@ -4456,6 +4635,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheOneWithAll.png"
     },
     "TheOpulecent": {
+        "id": "TheOpulecent",
         "name": "The Opulent",
         "drop_areas": [
             "MapWorldsChateau",
@@ -4487,6 +4667,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheOpulecent.png"
     },
     "ThePackLeader": {
+        "id": "ThePackLeader",
         "name": "The Pack Leader",
         "drop_areas": [
             "MapWorldsTropicalIsland",
@@ -4513,6 +4694,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThePackLeader.png"
     },
     "ThePact": {
+        "id": "ThePact",
         "name": "The Pact",
         "drop_areas": [
             "MapWorldsPier",
@@ -4527,11 +4709,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.9,
+        "chaos_value": 2.84,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePact.png"
     },
     "ThePatient": {
+        "id": "ThePatient",
         "name": "The Patient",
         "drop_areas": [
             "MapWorldsArmoury",
@@ -4546,11 +4729,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 22.0,
+        "chaos_value": 21.0,
         "divine_value": 0.1,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePatient.png"
     },
     "ThePenitent": {
+        "id": "ThePenitent",
         "name": "The Penitent",
         "drop_areas": [
             "MapWorldsCells",
@@ -4570,6 +4754,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThePenitent.png"
     },
     "ThePoet": {
+        "id": "ThePoet",
         "name": "The Poet",
         "drop_areas": [
             "MapWorldsArcade",
@@ -4589,6 +4774,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThePoet.png"
     },
     "ThePolymath": {
+        "id": "ThePolymath",
         "name": "The Polymath",
         "drop_areas": [
             "MapWorldsRelicChambers",
@@ -4606,6 +4792,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThePolymath.png"
     },
     "ThePorcupine": {
+        "id": "ThePorcupine",
         "name": "The Porcupine",
         "drop_areas": [
             "MapWorldsGardens",
@@ -4626,6 +4813,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThePorcupine.png"
     },
     "ThePrimordial": {
+        "id": "ThePrimordial",
         "name": "The Primordial",
         "drop_areas": [
             "MapWorldsVault",
@@ -4649,6 +4837,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThePrimordial.png"
     },
     "TheProfessor": {
+        "id": "TheProfessor",
         "name": "The Professor",
         "drop_areas": [
             "MapWorldsLaboratory",
@@ -4668,6 +4857,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheProfessor.png"
     },
     "TheQueen": {
+        "id": "TheQueen",
         "name": "The Queen",
         "drop_areas": [
             "MapWorldsVaalPyramidUnique"
@@ -4684,6 +4874,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheQueen.png"
     },
     "TheRabbitsFoot": {
+        "id": "TheRabbitsFoot",
         "name": "The Rabbit's Foot",
         "drop_areas": [
             "MapWorldsCursedCrypt",
@@ -4702,6 +4893,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheRabbitsFoot.png"
     },
     "TheReturnOfTheRat": {
+        "id": "TheReturnOfTheRat",
         "name": "The Return of the Rat",
         "drop_areas": [
             "MapWorldsArsenal",
@@ -4720,6 +4912,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheReturnOfTheRat.png"
     },
     "TheRiteofElements": {
+        "id": "TheRiteofElements",
         "name": "The Rite of Elements",
         "drop_areas": [
             "MapWorldsFloodedMine",
@@ -4743,6 +4936,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheRiteofElements.png"
     },
     "TheRoadToPower": {
+        "id": "TheRoadToPower",
         "name": "The Road to Power",
         "drop_areas": [
             "MapWorldsCastleRuins",
@@ -4762,6 +4956,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheRoadToPower.png"
     },
     "TheRuthlessCeinture": {
+        "id": "TheRuthlessCeinture",
         "name": "The Ruthless Ceinture",
         "drop_areas": [
             "MapWorldsDig",
@@ -4780,6 +4975,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheRuthlessCeinture.png"
     },
     "TheSaintsTreasure": {
+        "id": "TheSaintsTreasure",
         "name": "The Saint's Treasure",
         "drop_areas": [
             "MapWorldsPrecinct",
@@ -4801,6 +4997,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSaintsTreasure.png"
     },
     "TheScarredMeadow": {
+        "id": "TheScarredMeadow",
         "name": "The Scarred Meadow",
         "drop_areas": [
             "MapWorldsPeninsula",
@@ -4820,6 +5017,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheScarredMeadow.png"
     },
     "TheScholar": {
+        "id": "TheScholar",
         "name": "The Scholar",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -4838,6 +5036,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheScholar.png"
     },
     "TheScout": {
+        "id": "TheScout",
         "name": "The Scout",
         "drop_areas": [
             "MapWorldsTropicalIsland",
@@ -4859,11 +5058,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 9.75,
-        "divine_value": 0.04,
+        "chaos_value": 9.85,
+        "divine_value": 0.05,
         "art_url": "https://web.poecdn.com/image/divination-card/TheScout.png"
     },
     "TheShepherdsSandals": {
+        "id": "TheShepherdsSandals",
         "name": "The Shepherd's Sandals",
         "drop_areas": [
             "MapWorldsGrotto",
@@ -4883,6 +5083,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheShepherdsSandals.png"
     },
     "TheSideQuest": {
+        "id": "TheSideQuest",
         "name": "The Side Quest",
         "drop_areas": [
             "MapWorldsAlleyways",
@@ -4908,6 +5109,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSideQuest.png"
     },
     "TheSigil": {
+        "id": "TheSigil",
         "name": "The Sigil",
         "drop_areas": [
             "MapWorldsOvergrownShrine",
@@ -4925,6 +5127,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSigil.png"
     },
     "TheSiren": {
+        "id": "TheSiren",
         "name": "The Siren",
         "drop_areas": [
             "MapWorldsAtollUnique",
@@ -4937,11 +5140,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 4.4,
+        "chaos_value": 4.0,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheSiren.png"
     },
     "TheSoul": {
+        "id": "TheSoul",
         "name": "The Soul",
         "drop_areas": [
             "MapWorldsOvergrownShrine",
@@ -4965,6 +5169,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSoul.png"
     },
     "TheSparkAndTheFlame": {
+        "id": "TheSparkAndTheFlame",
         "name": "The Spark and the Flame",
         "drop_areas": [
             "MapWorldsAtoll",
@@ -4983,6 +5188,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSparkAndTheFlame.png"
     },
     "TheSpoiledPrince": {
+        "id": "TheSpoiledPrince",
         "name": "The Spoiled Prince",
         "drop_areas": [
             "MapWorldsVaalPyramid"
@@ -4999,6 +5205,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSpoiledPrince.png"
     },
     "TheStandOff": {
+        "id": "TheStandOff",
         "name": "The Standoff",
         "drop_areas": [
             "MapWorldsLavaChamber",
@@ -5020,6 +5227,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheStandOff.png"
     },
     "TheStormcaller": {
+        "id": "TheStormcaller",
         "name": "The Stormcaller",
         "drop_areas": [
             "MapWorldsStrand",
@@ -5038,6 +5246,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheStormcaller.png"
     },
     "TheSummoner": {
+        "id": "TheSummoner",
         "name": "The Summoner",
         "drop_areas": [
             "MapWorldsBoneCrypt",
@@ -5057,6 +5266,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSummoner.png"
     },
     "TheSun": {
+        "id": "TheSun",
         "name": "The Sun",
         "drop_areas": [
             "MapWorldsMoonTempleUnique",
@@ -5075,6 +5285,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSun.png"
     },
     "TheSurgeon": {
+        "id": "TheSurgeon",
         "name": "The Surgeon",
         "drop_areas": [
             "MapWorldsOvergrownShrine",
@@ -5092,6 +5303,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSurgeon.png"
     },
     "TheSurveyor": {
+        "id": "TheSurveyor",
         "name": "The Surveyor",
         "drop_areas": [
             "MapWorldsMalformation",
@@ -5111,6 +5323,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSurveyor.png"
     },
     "TheSurvivalist": {
+        "id": "TheSurvivalist",
         "name": "The Survivalist",
         "drop_areas": [
             "MapWorldsMineralPools",
@@ -5129,6 +5342,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSurvivalist.png"
     },
     "TheSwordKingsSalute": {
+        "id": "TheSwordKingsSalute",
         "name": "The Sword King's Salute",
         "drop_areas": [
             "MapWorldsColosseum",
@@ -5148,6 +5362,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheSwordKingsSalute.png"
     },
     "TheThaumaturgist": {
+        "id": "TheThaumaturgist",
         "name": "The Thaumaturgist",
         "drop_areas": [
             "MapWorldsFoundry",
@@ -5167,6 +5382,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheThaumaturgist.png"
     },
     "TheThrone": {
+        "id": "TheThrone",
         "name": "The Throne",
         "drop_areas": [
             "MapWorldsToxicSewer",
@@ -5185,6 +5401,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheThrone.png"
     },
     "TheTinkerersTable": {
+        "id": "TheTinkerersTable",
         "name": "The Tinkerer's Table",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -5350,6 +5567,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTinkerersTable.png"
     },
     "TheTirelessExtractor": {
+        "id": "TheTirelessExtractor",
         "name": "The Tireless Extractor",
         "drop_areas": [
             "MapWorldsSilo",
@@ -5368,6 +5586,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTirelessExtractor.png"
     },
     "TheTower": {
+        "id": "TheTower",
         "name": "The Tower",
         "drop_areas": [
             "MapWorldsTower",
@@ -5385,6 +5604,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTower.png"
     },
     "TheTraitor": {
+        "id": "TheTraitor",
         "name": "The Traitor",
         "drop_areas": [
             "MapWorldsRamparts",
@@ -5402,6 +5622,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTraitor.png"
     },
     "TheTransformation": {
+        "id": "TheTransformation",
         "name": "The Transformation",
         "drop_areas": [
             "MapWorldsGardens",
@@ -5425,6 +5646,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTransformation.png"
     },
     "TheTrial": {
+        "id": "TheTrial",
         "name": "The Trial",
         "drop_areas": [
             "MapWorldsAcademy",
@@ -5590,6 +5812,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTrial.png"
     },
     "TheTumbleWeed": {
+        "id": "TheTumbleWeed",
         "name": "The Tumbleweed",
         "drop_areas": [
             "MapWorldsDesertSpring",
@@ -5609,6 +5832,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTumbleWeed.png"
     },
     "TheTwilightMoon": {
+        "id": "TheTwilightMoon",
         "name": "The Twilight Moon",
         "drop_areas": [
             "MapWorldsTemple",
@@ -5627,6 +5851,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTwilightMoon.png"
     },
     "TheTwins": {
+        "id": "TheTwins",
         "name": "The Twins",
         "drop_areas": [
             "MapWorldsMoonTemple",
@@ -5646,6 +5871,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTwins.png"
     },
     "TheTyrant": {
+        "id": "TheTyrant",
         "name": "The Tyrant",
         "drop_areas": [
             "MapWorldsPrecinct",
@@ -5669,6 +5895,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheTyrant.png"
     },
     "TheUndaunted": {
+        "id": "TheUndaunted",
         "name": "The Undaunted",
         "drop_areas": [
             "MapWorldsCourthouse",
@@ -5687,6 +5914,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheUndaunted.png"
     },
     "TheUnexpectedPrize": {
+        "id": "TheUnexpectedPrize",
         "name": "The Unexpected Prize",
         "drop_areas": [
             "MapWorldsPalace",
@@ -5705,6 +5933,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheUnexpectedPrize.png"
     },
     "TheUnion": {
+        "id": "TheUnion",
         "name": "The Union",
         "drop_areas": [
             "MapWorldsGraveyard",
@@ -5723,6 +5952,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheUnion.png"
     },
     "TheVast": {
+        "id": "TheVast",
         "name": "The Vast",
         "drop_areas": [
             "MapWorldsCoralRuins",
@@ -5741,6 +5971,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheVast.png"
     },
     "TheVisionary": {
+        "id": "TheVisionary",
         "name": "The Visionary",
         "drop_areas": [
             "MapWorldsColosseum",
@@ -5759,6 +5990,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheVisionary.png"
     },
     "TheVoid": {
+        "id": "TheVoid",
         "name": "The Void",
         "drop_areas": [
             "MapWorldsShapersRealm",
@@ -5776,6 +6008,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheVoid.png"
     },
     "TheWarden": {
+        "id": "TheWarden",
         "name": "The Warden",
         "drop_areas": [
             "MapWorldsPen",
@@ -5795,6 +6028,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWarden.png"
     },
     "TheWarlord": {
+        "id": "TheWarlord",
         "name": "The Warlord",
         "drop_areas": [
             "MapWorldsArsenal",
@@ -5814,6 +6048,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWarlord.png"
     },
     "TheWatcher": {
+        "id": "TheWatcher",
         "name": "The Watcher",
         "drop_areas": [
             "MapWorldsGrotto",
@@ -5831,6 +6066,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWatcher.png"
     },
     "TheWeb": {
+        "id": "TheWeb",
         "name": "The Web",
         "drop_areas": [
             "MapWorldsSpiderLair",
@@ -5852,6 +6088,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWeb.png"
     },
     "TheWeddingGift": {
+        "id": "TheWeddingGift",
         "name": "The Wedding Gift",
         "drop_areas": [
             "MapWorldsSunkenCity",
@@ -5869,6 +6106,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWeddingGift.png"
     },
     "TheWiltedRose": {
+        "id": "TheWiltedRose",
         "name": "The Wilted Rose",
         "drop_areas": [
             "MapWorldsOvergrownShrineUnique"
@@ -5885,6 +6123,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWiltedRose.png"
     },
     "TheWind": {
+        "id": "TheWind",
         "name": "The Wind",
         "drop_areas": [
             "MapWorldsAtoll",
@@ -5906,6 +6145,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWind.png"
     },
     "TheWitch": {
+        "id": "TheWitch",
         "name": "The Witch",
         "drop_areas": [
             "MapWorldsSpiderForest",
@@ -5927,6 +6167,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWitch.png"
     },
     "TheWolf": {
+        "id": "TheWolf",
         "name": "The Wolf",
         "drop_areas": [
             "MapWorldsFloodedMine",
@@ -5948,6 +6189,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWolf.png"
     },
     "TheWolfsShadow": {
+        "id": "TheWolfsShadow",
         "name": "The Wolf's Shadow",
         "drop_areas": [
             "MapWorldsLair",
@@ -5966,6 +6208,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWolfsShadow.png"
     },
     "TheWolvenKingsBite": {
+        "id": "TheWolvenKingsBite",
         "name": "The Wolven King's Bite",
         "drop_areas": [
             "MapWorldsLair",
@@ -5983,6 +6226,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWolvenKingsBite.png"
     },
     "TheWolverine": {
+        "id": "TheWolverine",
         "name": "The Wolverine",
         "drop_areas": [
             "MapWorldsSummit",
@@ -6001,6 +6245,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWolverine.png"
     },
     "TheWrath": {
+        "id": "TheWrath",
         "name": "The Wrath",
         "drop_areas": [
             "MapWorldsBelfry",
@@ -6018,6 +6263,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWrath.png"
     },
     "TheWretched": {
+        "id": "TheWretched",
         "name": "The Wretched",
         "drop_areas": [
             "MapWorldsNecropolis",
@@ -6038,6 +6284,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TheWretched.png"
     },
     "ThirstForKnowledge": {
+        "id": "ThirstForKnowledge",
         "name": "Thirst for Knowledge",
         "drop_areas": [
             "MapWorldsMuseum",
@@ -6056,6 +6303,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThirstForKnowledge.png"
     },
     "ThreeFacesInTheDark": {
+        "id": "ThreeFacesInTheDark",
         "name": "Three Faces in the Dark",
         "drop_areas": [
             "MapWorldsFactory",
@@ -6074,6 +6322,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThreeFacesInTheDark.png"
     },
     "ThreeVoices": {
+        "id": "ThreeVoices",
         "name": "Three Voices",
         "drop_areas": [
             "MapWorldsRacecourse_",
@@ -6099,6 +6348,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThreeVoices.png"
     },
     "ThunderousSkies": {
+        "id": "ThunderousSkies",
         "name": "Thunderous Skies",
         "drop_areas": [
             "MapWorldsStrand",
@@ -6118,6 +6368,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ThunderousSkies.png"
     },
     "TimeLostRelic": {
+        "id": "TimeLostRelic",
         "name": "Time-Lost Relic",
         "drop_areas": [
             "MapWorldsFloodedMine",
@@ -6139,6 +6390,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TimeLostRelic.png"
     },
     "Tranquillity": {
+        "id": "Tranquillity",
         "name": "Tranquillity",
         "drop_areas": [
             "MapWorldsFields",
@@ -6158,6 +6410,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Tranquillity.png"
     },
     "TreasureHunter": {
+        "id": "TreasureHunter",
         "name": "Treasure Hunter",
         "drop_areas": [
             "MapWorldsUndergroundSea",
@@ -6183,6 +6436,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/TreasureHunter.png"
     },
     "Unchained": {
+        "id": "Unchained",
         "name": "Unchained",
         "drop_areas": [
             "MapWorldsChimera",
@@ -6202,6 +6456,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/Unchained.png"
     },
     "UnrequitedLove": {
+        "id": "UnrequitedLove",
         "name": "Unrequited Love",
         "drop_areas": [
             "MapWorldsVaalTemple",
@@ -6216,11 +6471,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 14086.8,
-        "divine_value": 65.0,
+        "chaos_value": 13638.24,
+        "divine_value": 63.0,
         "art_url": "https://web.poecdn.com/image/divination-card/UnrequitedLove.png"
     },
     "VilePower": {
+        "id": "VilePower",
         "name": "Vile Power",
         "drop_areas": [
             "MapWorldsCore",
@@ -6243,6 +6499,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/VilePower.png"
     },
     "ViniasToken": {
+        "id": "ViniasToken",
         "name": "Vinia's Token",
         "drop_areas": [
             "MapWorldsMalformation",
@@ -6261,6 +6518,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/ViniasToken.png"
     },
     "VolatilePower": {
+        "id": "VolatilePower",
         "name": "Volatile Power",
         "drop_areas": [
             "MapWorldsGeode",
@@ -6282,6 +6540,7 @@
         "art_url": "https://web.poecdn.com/image/divination-card/VolatilePower.png"
     },
     "WealthAndPower": {
+        "id": "WealthAndPower",
         "name": "Wealth and Power",
         "drop_areas": [
             "MapWorldsMoonTemple",
@@ -6294,11 +6553,12 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1040.26,
-        "divine_value": 4.8,
+        "chaos_value": 1058.59,
+        "divine_value": 4.89,
         "art_url": "https://web.poecdn.com/image/divination-card/WealthAndPower.png"
     },
     "WhoAsked": {
+        "id": "WhoAsked",
         "name": "Who Asked",
         "drop_areas": [
             "MapWorldsPhoenix",
