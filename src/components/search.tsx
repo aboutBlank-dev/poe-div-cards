@@ -96,18 +96,18 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
       {searchResults.length < 10 && searchResults.length > 0 && isFocused ? (
         <div
           id="dropdown-menu"
-          className="relative right-0 mt-2 space-y-1 rounded-md bg-white p-1 shadow-lg ring-1 ring-black ring-opacity-5"
+          className="relative right-0 rounded-md bg-white p-1 shadow-lg ring-1 ring-black ring-opacity-5"
         >
           {searchResults.map((result) => (
             <div
               key={result.id}
-              className="flex h-8 cursor-pointer"
+              className="flex h-8 cursor-pointer rounded-md hover:bg-gray-300"
               onClick={() => console.log("Clicked " + result.name)}
             >
               <Image
                 src={getIconForType(result.type)}
                 alt={result.type}
-                className="w-auto"
+                className="w-auto p-1"
               />
               <a className="inline w-full select-none px-4 py-1 align-middle text-gray-700">
                 {result.name}
