@@ -3,6 +3,9 @@
 import { useState } from "react";
 import cardsData from "./../../python/cards.json";
 import areasData from "./../../python/areas.json";
+import Image from "next/image";
+import DivCardIcon from "./../../public/DivCard.png";
+import MapIcon from "./../../public/Map.png";
 
 type Props = {
   placeholder: string;
@@ -99,13 +102,28 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
           onBlur={() => setIsFocused(false)}
         />
       </div>
-      {searchResults.length < 6 && searchResults.length > 0 && isFocused ? (
+      {searchResults.length < 10 && searchResults.length > 0 && isFocused ? (
         <div
           id="dropdown-menu"
           className="relative right-0 mt-2 space-y-1 rounded-md bg-white p-1 shadow-lg ring-1 ring-black ring-opacity-5"
         >
           {searchResults.map((result) => (
-            <div key={result.id}>{result.name}</div>
+            <div
+              key={result.id}
+              className="flex h-8 cursor-pointer"
+              onClick={() => console.log("Clicked " + result.name)}
+            >
+              <Image
+                src={
+                  result.type == SearchResultType.Card ? DivCardIcon : MapIcon
+                }
+                alt={result.type}
+                className="w-auto"
+              />
+              <a className="inline w-full select-none px-4 py-1 align-middle text-gray-700">
+                {result.name}
+              </a>
+            </div>
           ))}
         </div>
       ) : null}
@@ -122,6 +140,6 @@ type SearchResult = {
 };
 
 enum SearchResultType {
-  Card,
-  Area,
+  Card = "Card",
+  Area = "Map",
 }
