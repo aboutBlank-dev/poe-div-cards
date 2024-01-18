@@ -54,6 +54,7 @@ def get_card_data():
             "id": id,
             "name": name,
             "unique": "unique" in id.lower(), 
+            "alias": name.lower().replace(" ", "").replace("'", "")
         }
 
     wiki_cards = requests.get(
@@ -105,6 +106,7 @@ def get_card_data():
                "chaos_value": ninja_card["chaosValue"] if "chaosValue" in ninja_card else 0,
                "divine_value": ninja_card["divineValue"] if "divineValue" in ninja_card else 0,
                "art_url": CARD_ART_URL_BASE + card_art + ".png",
+               "alias": name.lower().replace(" ", "").replace("'", "")
             } 
 
 

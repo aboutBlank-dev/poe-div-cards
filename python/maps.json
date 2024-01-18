@@ -3,6 +3,7 @@
         "id": "MapWorldsAcademy",
         "name": "Academy",
         "unique": false,
+        "alias": "academy",
         "cards": [
             "ADabOfInk",
             "Checkmate",
@@ -29,6 +30,7 @@
         "id": "MapWorldsAcidLakes",
         "name": "Acid Caverns",
         "unique": false,
+        "alias": "acidcaverns",
         "cards": [
             "HerMask",
             "Hope",
@@ -47,6 +49,7 @@
         "id": "MapWorldsAncientCity",
         "name": "Ancient City",
         "unique": false,
+        "alias": "ancientcity",
         "cards": [
             "ArroganceoftheVaal",
             "HerMask",
@@ -70,6 +73,7 @@
         "id": "MapWorldsArachnidNest",
         "name": "Arachnid Nest",
         "unique": false,
+        "alias": "arachnidnest",
         "cards": [
             "HerMask",
             "Hope",
@@ -87,6 +91,7 @@
         "id": "MapWorldsArcade",
         "name": "Arcade",
         "unique": false,
+        "alias": "arcade",
         "cards": [
             "AssassinsFavor",
             "HerMask",
@@ -108,6 +113,7 @@
         "id": "MapWorldsArena",
         "name": "Arena",
         "unique": false,
+        "alias": "arena",
         "cards": [
             "HerMask",
             "Hope",
@@ -132,6 +138,7 @@
         "id": "MapWorldsAridLake",
         "name": "Arid Lake",
         "unique": false,
+        "alias": "aridlake",
         "cards": [
             "HerMask",
             "Hope",
@@ -149,6 +156,7 @@
         "id": "MapWorldsAshenWood",
         "name": "Ashen Wood",
         "unique": false,
+        "alias": "ashenwood",
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -171,6 +179,7 @@
         "id": "MapWorldsAtoll",
         "name": "Atoll",
         "unique": false,
+        "alias": "atoll",
         "cards": [
             "HerMask",
             "Hope",
@@ -195,6 +204,7 @@
         "id": "MapWorldsAtollUnique",
         "name": "Maelstr\u00f6m of Chaos",
         "unique": true,
+        "alias": "maelstr\u00f6mofchaos",
         "cards": [
             "LantadorsLostLove",
             "LysahsRespite",
@@ -216,6 +226,7 @@
         "id": "MapWorldsBasilica",
         "name": "Basilica",
         "unique": false,
+        "alias": "basilica",
         "cards": [
             "DesperateCrusade",
             "HerMask",
@@ -239,6 +250,7 @@
         "id": "MapWorldsBazaar",
         "name": "Bazaar",
         "unique": false,
+        "alias": "bazaar",
         "cards": [
             "AssassinsFavor",
             "HerMask",
@@ -261,6 +273,7 @@
         "id": "MapWorldsBog",
         "name": "Bog",
         "unique": false,
+        "alias": "bog",
         "cards": [
             "Death",
             "HerMask",
@@ -279,6 +292,7 @@
         "id": "MapWorldsBoneCrypt",
         "name": "Bone Crypt",
         "unique": false,
+        "alias": "bonecrypt",
         "cards": [
             "CovetedPossession",
             "GraveKnowledge",
@@ -302,6 +316,7 @@
         "id": "MapWorldsBoneCryptUnique",
         "name": "Olmec's Sanctum",
         "unique": true,
+        "alias": "olmecssanctum",
         "cards": [
             "Monochrome"
         ]
@@ -310,6 +325,7 @@
         "id": "MapWorldsBrambleValley",
         "name": "Bramble Valley",
         "unique": false,
+        "alias": "bramblevalley",
         "cards": [
             "AliviasGrace",
             "CallToTheFirstOnes",
@@ -334,6 +350,7 @@
         "id": "MapWorldsBurialChambers",
         "name": "Burial Chambers",
         "unique": false,
+        "alias": "burialchambers",
         "cards": [
             "HerMask",
             "Hope",
@@ -358,6 +375,7 @@
         "id": "MapWorldsCage",
         "name": "Cage",
         "unique": false,
+        "alias": "cage",
         "cards": [
             "HerMask",
             "Hope",
@@ -379,6 +397,7 @@
         "id": "MapWorldsCaldera",
         "name": "Caldera",
         "unique": false,
+        "alias": "caldera",
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -401,6 +420,7 @@
         "id": "MapWorldsCanyon",
         "name": "Canyon",
         "unique": false,
+        "alias": "canyon",
         "cards": [
             "HerMask",
             "Hope",
@@ -418,6 +438,7 @@
         "id": "MapWorldsCarcass",
         "name": "Carcass",
         "unique": false,
+        "alias": "carcass",
         "cards": [
             "HerMask",
             "Hope",
@@ -440,6 +461,7 @@
         "id": "MapWorldsCastleRuins",
         "name": "Castle Ruins",
         "unique": false,
+        "alias": "castleruins",
         "cards": [
             "HerMask",
             "Hope",
@@ -464,6 +486,7 @@
         "id": "MapWorldsCemetery",
         "name": "Cemetery",
         "unique": false,
+        "alias": "cemetery",
         "cards": [
             "BrotherGift",
             "BrothersStash",
@@ -488,6 +511,7 @@
         "id": "MapWorldsCemeteryUnique",
         "name": "Hallowed Ground",
         "unique": true,
+        "alias": "hallowedground",
         "cards": [
             "Monochrome",
             "TheAwakened",
@@ -498,6 +522,7 @@
         "id": "MapWorldsChannel",
         "name": "Channel",
         "unique": false,
+        "alias": "channel",
         "cards": [
             "HerMask",
             "Hope",
@@ -516,6 +541,7 @@
         "id": "MapWorldsChateau",
         "name": "Chateau",
         "unique": false,
+        "alias": "chateau",
         "cards": [
             "BoonofJustice",
             "BrotherhoodInExile",
@@ -537,6 +563,7 @@
         "id": "MapWorldsChimera",
         "name": "Pit of the Chimera",
         "unique": false,
+        "alias": "pitofthechimera",
         "cards": [
             "BoonoftheFirstOnes",
             "HerMask",
@@ -557,6 +584,7 @@
         "id": "MapWorldsCitySquare",
         "name": "City Square",
         "unique": false,
+        "alias": "citysquare",
         "cards": [
             "HerMask",
             "Home",
@@ -578,6 +606,7 @@
         "id": "MapWorldsColonnade",
         "name": "Colonnade",
         "unique": false,
+        "alias": "colonnade",
         "cards": [
             "GemcuttersPromise",
             "HerMask",
@@ -601,6 +630,7 @@
         "id": "MapWorldsColosseum",
         "name": "Colosseum",
         "unique": false,
+        "alias": "colosseum",
         "cards": [
             "HerMask",
             "Hope",
@@ -625,6 +655,7 @@
         "id": "MapWorldsConservatory",
         "name": "Conservatory",
         "unique": false,
+        "alias": "conservatory",
         "cards": [
             "BoonofJustice",
             "BrotherhoodInExile",
@@ -645,6 +676,7 @@
         "id": "MapWorldsCore",
         "name": "Core",
         "unique": false,
+        "alias": "core",
         "cards": [
             "EchoesOfLove",
             "HerMask",
@@ -670,6 +702,7 @@
         "id": "MapWorldsCourtyard",
         "name": "Courtyard",
         "unique": false,
+        "alias": "courtyard",
         "cards": [
             "EmperorsLuck",
             "HerMask",
@@ -696,6 +729,7 @@
         "id": "MapWorldsCourtyardUnique",
         "name": "The Vinktar Square",
         "unique": true,
+        "alias": "thevinktarsquare",
         "cards": [
             "Monochrome",
             "StruckbyLightning",
@@ -706,6 +740,7 @@
         "id": "MapWorldsCoves",
         "name": "Coves",
         "unique": false,
+        "alias": "coves",
         "cards": [
             "AStonePerfected",
             "FromBonesToAshes",
@@ -734,6 +769,7 @@
         "id": "MapWorldsCrimsonTemple",
         "name": "Crimson Temple",
         "unique": false,
+        "alias": "crimsontemple",
         "cards": [
             "HerMask",
             "Hope",
@@ -758,6 +794,7 @@
         "id": "MapWorldsCrimsonTownship",
         "name": "Crimson Township",
         "unique": false,
+        "alias": "crimsontownship",
         "cards": [
             "HerMask",
             "Home",
@@ -778,6 +815,7 @@
         "id": "MapWorldsCrystalOre",
         "name": "Crystal Ore",
         "unique": false,
+        "alias": "crystalore",
         "cards": [
             "ASeaOfBlue",
             "Bijoux",
@@ -808,6 +846,7 @@
         "id": "MapWorldsCursedCrypt",
         "name": "Cursed Crypt",
         "unique": false,
+        "alias": "cursedcrypt",
         "cards": [
             "GraveKnowledge",
             "HerMask",
@@ -829,6 +868,7 @@
         "id": "MapWorldsCursedCryptUnique",
         "name": "The Coward's Trial",
         "unique": true,
+        "alias": "thecowardstrial",
         "cards": [
             "GraveKnowledge",
             "Monochrome",
@@ -842,6 +882,7 @@
         "id": "MapWorldsDarkForest",
         "name": "Dark Forest",
         "unique": false,
+        "alias": "darkforest",
         "cards": [
             "AliviasGrace",
             "CallToTheFirstOnes",
@@ -870,6 +911,7 @@
         "id": "MapWorldsDesert",
         "name": "Desert",
         "unique": false,
+        "alias": "desert",
         "cards": [
             "ANoteInTheWind",
             "Acclimatisation",
@@ -893,6 +935,7 @@
         "id": "MapWorldsDig",
         "name": "Dig",
         "unique": false,
+        "alias": "dig",
         "cards": [
             "Bijoux",
             "BuriedTreasure",
@@ -918,6 +961,7 @@
         "id": "MapWorldsDrySea",
         "name": "Dry Sea",
         "unique": false,
+        "alias": "drysea",
         "cards": [
             "ANoteInTheWind",
             "Acclimatisation",
@@ -941,6 +985,7 @@
         "id": "MapWorldsDunes",
         "name": "Dunes",
         "unique": false,
+        "alias": "dunes",
         "cards": [
             "ANoteInTheWind",
             "Acclimatisation",
@@ -965,6 +1010,7 @@
         "id": "MapWorldsDunesUnique",
         "name": "Pillars of Arun",
         "unique": true,
+        "alias": "pillarsofarun",
         "cards": [
             "EarthDrinker",
             "ImperialLegacy",
@@ -975,6 +1021,7 @@
         "id": "MapWorldsEstuary",
         "name": "Estuary",
         "unique": false,
+        "alias": "estuary",
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -998,6 +1045,7 @@
         "id": "MapWorldsFields",
         "name": "Fields",
         "unique": false,
+        "alias": "fields",
         "cards": [
             "HerMask",
             "Hope",
@@ -1021,6 +1069,7 @@
         "id": "MapWorldsFloodedMine",
         "name": "Flooded Mine",
         "unique": false,
+        "alias": "floodedmine",
         "cards": [
             "AStonePerfected",
             "Bijoux",
@@ -1052,6 +1101,7 @@
         "id": "MapWorldsForkingRiver",
         "name": "Forking River",
         "unique": false,
+        "alias": "forkingriver",
         "cards": [
             "HerMask",
             "Hope",
@@ -1071,6 +1121,7 @@
         "id": "MapWorldsFoundry",
         "name": "Foundry",
         "unique": false,
+        "alias": "foundry",
         "cards": [
             "FurtherInvention",
             "HerMask",
@@ -1092,6 +1143,7 @@
         "id": "MapWorldsFrozenCabins",
         "name": "Frozen Cabins",
         "unique": false,
+        "alias": "frozencabins",
         "cards": [
             "AChillingWind",
             "HerMask",
@@ -1111,6 +1163,7 @@
         "id": "MapWorldsGardens",
         "name": "Gardens",
         "unique": false,
+        "alias": "gardens",
         "cards": [
             "EmperorsLuck",
             "HerMask",
@@ -1135,6 +1188,7 @@
         "id": "MapWorldsGhetto",
         "name": "Ghetto",
         "unique": false,
+        "alias": "ghetto",
         "cards": [
             "HerMask",
             "Hope",
@@ -1155,6 +1209,7 @@
         "id": "MapWorldsGorge",
         "name": "Glacier",
         "unique": false,
+        "alias": "glacier",
         "cards": [
             "AChillingWind",
             "HerMask",
@@ -1175,6 +1230,7 @@
         "id": "MapWorldsGraveTrough",
         "name": "Grave Trough",
         "unique": false,
+        "alias": "gravetrough",
         "cards": [
             "BrotherGift",
             "BrothersStash",
@@ -1196,6 +1252,7 @@
         "id": "MapWorldsGrotto",
         "name": "Grotto",
         "unique": false,
+        "alias": "grotto",
         "cards": [
             "ASeaOfBlue",
             "AStonePerfected",
@@ -1230,6 +1287,7 @@
         "id": "MapWorldsHydra",
         "name": "Lair of the Hydra",
         "unique": false,
+        "alias": "lairofthehydra",
         "cards": [
             "HerMask",
             "LingeringRemnants",
@@ -1246,6 +1304,7 @@
         "id": "MapWorldsIceberg",
         "name": "Iceberg",
         "unique": false,
+        "alias": "iceberg",
         "cards": [
             "AChillingWind",
             "HerMask",
@@ -1265,6 +1324,7 @@
         "id": "MapWorldsInfestedValley",
         "name": "Infested Valley",
         "unique": false,
+        "alias": "infestedvalley",
         "cards": [
             "HerMask",
             "Hope",
@@ -1285,6 +1345,7 @@
         "id": "MapWorldsIvoryTemple",
         "name": "Ivory Temple",
         "unique": false,
+        "alias": "ivorytemple",
         "cards": [
             "HerMask",
             "Hope",
@@ -1305,6 +1366,7 @@
         "id": "MapWorldsJungleValley",
         "name": "Jungle Valley",
         "unique": false,
+        "alias": "junglevalley",
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -1328,6 +1390,7 @@
         "id": "MapWorldsLaboratory",
         "name": "Laboratory",
         "unique": false,
+        "alias": "laboratory",
         "cards": [
             "AzyransReward",
             "HerMask",
@@ -1350,6 +1413,7 @@
         "id": "MapWorldsLavaChamber",
         "name": "Lava Chamber",
         "unique": false,
+        "alias": "lavachamber",
         "cards": [
             "BurningBlood",
             "HerMask",
@@ -1369,6 +1433,7 @@
         "id": "MapWorldsLookout",
         "name": "Lookout",
         "unique": false,
+        "alias": "lookout",
         "cards": [
             "HerMask",
             "Hope",
@@ -1389,6 +1454,7 @@
         "id": "MapWorldsMaze",
         "name": "Maze",
         "unique": false,
+        "alias": "maze",
         "cards": [
             "HerMask",
             "Hope",
@@ -1411,6 +1477,7 @@
         "id": "MapWorldsMazeUnique",
         "name": "Doryani's Machinarium",
         "unique": true,
+        "alias": "doryanismachinarium",
         "cards": [
             "Monochrome",
             "TheAdmirer",
@@ -1423,6 +1490,7 @@
         "id": "MapWorldsMesa",
         "name": "Mesa",
         "unique": false,
+        "alias": "mesa",
         "cards": [
             "HerMask",
             "Hope",
@@ -1442,6 +1510,7 @@
         "id": "MapWorldsMineralPools",
         "name": "Mineral Pools",
         "unique": false,
+        "alias": "mineralpools",
         "cards": [
             "ASeaOfBlue",
             "GlimmerOfHope",
@@ -1469,6 +1538,7 @@
         "id": "MapWorldsMinotaur",
         "name": "Maze of the Minotaur",
         "unique": false,
+        "alias": "mazeoftheminotaur",
         "cards": [
             "HerMask",
             "LingeringRemnants",
@@ -1485,6 +1555,7 @@
         "id": "MapWorldsMoonTemple",
         "name": "Moon Temple",
         "unique": false,
+        "alias": "moontemple",
         "cards": [
             "AstralProtection",
             "HerMask",
@@ -1507,6 +1578,7 @@
         "id": "MapWorldsMoonTempleUnique",
         "name": "The Twilight Temple",
         "unique": true,
+        "alias": "thetwilighttemple",
         "cards": [
             "BoundlessRealms",
             "DiallasSubjugation",
@@ -1525,6 +1597,7 @@
         "id": "MapWorldsMudGeyser",
         "name": "Mud Geyser",
         "unique": false,
+        "alias": "mudgeyser",
         "cards": [
             "Death",
             "HerMask",
@@ -1543,6 +1616,7 @@
         "id": "MapWorldsMuseum",
         "name": "Museum",
         "unique": false,
+        "alias": "museum",
         "cards": [
             "ADabOfInk",
             "BlindVenture",
@@ -1572,6 +1646,7 @@
         "id": "MapWorldsMuseumUnique",
         "name": "The Putrid Cloister",
         "unique": true,
+        "alias": "theputridcloister",
         "cards": [
             "Monochrome",
             "TheBrawnyBattleMage",
@@ -1584,6 +1659,7 @@
         "id": "MapWorldsNecropolis",
         "name": "Necropolis",
         "unique": false,
+        "alias": "necropolis",
         "cards": [
             "GraveKnowledge",
             "HerMask",
@@ -1603,6 +1679,7 @@
         "id": "MapWorldsNecropolisUnique",
         "name": "Death and Taxes",
         "unique": true,
+        "alias": "deathandtaxes",
         "cards": [
             "Monochrome",
             "TheAwakened",
@@ -1613,6 +1690,7 @@
         "id": "MapWorldsOrchard",
         "name": "Orchard",
         "unique": false,
+        "alias": "orchard",
         "cards": [
             "BoonofJustice",
             "BrotherhoodInExile",
@@ -1641,6 +1719,7 @@
         "id": "MapWorldsOvergrownRuin",
         "name": "Overgrown Ruin",
         "unique": false,
+        "alias": "overgrownruin",
         "cards": [
             "EchoesOfLove",
             "EmperorOfPurity",
@@ -1667,6 +1746,7 @@
         "id": "MapWorldsOvergrownShrine",
         "name": "Overgrown Shrine",
         "unique": false,
+        "alias": "overgrownshrine",
         "cards": [
             "EchoesOfLove",
             "EmperorOfPurity",
@@ -1692,6 +1772,7 @@
         "id": "MapWorldsOvergrownShrineUnique",
         "name": "Acton's Nightmare",
         "unique": true,
+        "alias": "actonsnightmare",
         "cards": [
             "Monochrome",
             "TheWiltedRose",
@@ -1702,6 +1783,7 @@
         "id": "MapWorldsPalace",
         "name": "Palace",
         "unique": false,
+        "alias": "palace",
         "cards": [
             "HerMask",
             "Hope",
@@ -1725,6 +1807,7 @@
         "id": "MapWorldsPark",
         "name": "Park",
         "unique": false,
+        "alias": "park",
         "cards": [
             "HerMask",
             "Hope",
@@ -1741,6 +1824,7 @@
         "id": "MapWorldsPhoenix",
         "name": "Forge of the Phoenix",
         "unique": false,
+        "alias": "forgeofthephoenix",
         "cards": [
             "BurningBlood",
             "HerMask",
@@ -1760,6 +1844,7 @@
         "id": "MapWorldsPier",
         "name": "Pier",
         "unique": false,
+        "alias": "pier",
         "cards": [
             "HerMask",
             "Hope",
@@ -1783,6 +1868,7 @@
         "id": "MapWorldsPlaza",
         "name": "Plaza",
         "unique": false,
+        "alias": "plaza",
         "cards": [
             "BoonofJustice",
             "BrotherhoodInExile",
@@ -1802,6 +1888,7 @@
         "id": "MapWorldsPort",
         "name": "Port",
         "unique": false,
+        "alias": "port",
         "cards": [
             "AssassinsFavor",
             "AzureRage",
@@ -1834,6 +1921,7 @@
         "id": "MapWorldsPrecinct",
         "name": "Precinct",
         "unique": false,
+        "alias": "precinct",
         "cards": [
             "HerMask",
             "Hope",
@@ -1855,6 +1943,7 @@
         "id": "MapWorldsPromenade",
         "name": "Promenade",
         "unique": false,
+        "alias": "promenade",
         "cards": [
             "GemcuttersPromise",
             "HerMask",
@@ -1879,6 +1968,7 @@
         "id": "MapWorldsPromenadeUnique",
         "name": "The Hall of Grandmasters",
         "unique": true,
+        "alias": "thehallofgrandmasters",
         "cards": [
             "Monochrome",
             "TheImmortal"
@@ -1888,6 +1978,7 @@
         "id": "MapWorldsRacecourse_",
         "name": "Racecourse",
         "unique": false,
+        "alias": "racecourse",
         "cards": [
             "HerMask",
             "Hope",
@@ -1907,6 +1998,7 @@
         "id": "MapWorldsRamparts",
         "name": "Ramparts",
         "unique": false,
+        "alias": "ramparts",
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -1931,6 +2023,7 @@
         "id": "MapWorldsReef",
         "name": "Reef",
         "unique": false,
+        "alias": "reef",
         "cards": [
             "HerMask",
             "Hope",
@@ -1955,6 +2048,7 @@
         "id": "MapWorldsRelicChambers",
         "name": "Relic Chambers",
         "unique": false,
+        "alias": "relicchambers",
         "cards": [
             "AzyransReward",
             "BlindVenture",
@@ -1979,6 +2073,7 @@
         "id": "MapWorldsResidence",
         "name": "Residence",
         "unique": false,
+        "alias": "residence",
         "cards": [
             "DesperateCrusade",
             "FireOfUnknownOrigin",
@@ -2006,6 +2101,7 @@
         "id": "MapWorldsSepulchre",
         "name": "Sepulchre",
         "unique": false,
+        "alias": "sepulchre",
         "cards": [
             "HerMask",
             "Hope",
@@ -2029,6 +2125,7 @@
         "id": "MapWorldsShore",
         "name": "Shore",
         "unique": false,
+        "alias": "shore",
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -2055,6 +2152,7 @@
         "id": "MapWorldsShoreUnique",
         "name": "Mao Kun",
         "unique": true,
+        "alias": "maokun",
         "cards": [
             "AbandonedWealth",
             "LantadorsLostLove",
@@ -2068,6 +2166,7 @@
         "id": "MapWorldsSiege",
         "name": "Siege",
         "unique": false,
+        "alias": "siege",
         "cards": [
             "HerMask",
             "Home",
@@ -2087,6 +2186,7 @@
         "id": "MapWorldsSpiderForest",
         "name": "Spider Forest",
         "unique": false,
+        "alias": "spiderforest",
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -2113,6 +2213,7 @@
         "id": "MapWorldsSpiderLair",
         "name": "Spider Lair",
         "unique": false,
+        "alias": "spiderlair",
         "cards": [
             "HerMask",
             "Hope",
@@ -2130,6 +2231,7 @@
         "id": "MapWorldsStagnation",
         "name": "Stagnation",
         "unique": false,
+        "alias": "stagnation",
         "cards": [
             "AliviasGrace",
             "AzyransReward",
@@ -2153,6 +2255,7 @@
         "id": "MapWorldsStrand",
         "name": "Strand",
         "unique": false,
+        "alias": "strand",
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -2183,6 +2286,7 @@
         "id": "MapWorldsStrandUnique",
         "name": "Whakawairua Tuahu",
         "unique": true,
+        "alias": "whakawairuatuahu",
         "cards": [
             "LantadorsLostLove",
             "Monochrome",
@@ -2201,6 +2305,7 @@
         "id": "MapWorldsSummit",
         "name": "Summit",
         "unique": false,
+        "alias": "summit",
         "cards": [
             "AChillingWind",
             "HerMask",
@@ -2223,6 +2328,7 @@
         "id": "MapWorldsTemple",
         "name": "Temple",
         "unique": false,
+        "alias": "temple",
         "cards": [
             "BoundlessRealms",
             "DiallasSubjugation",
@@ -2248,6 +2354,7 @@
         "id": "MapWorldsTempleUnique",
         "name": "Poorjoy's Asylum",
         "unique": true,
+        "alias": "poorjoysasylum",
         "cards": [
             "ChaoticDisposition",
             "DeadlyJoy",
@@ -2262,6 +2369,7 @@
         "id": "MapWorldsThicket",
         "name": "Thicket",
         "unique": false,
+        "alias": "thicket",
         "cards": [
             "AliviasGrace",
             "CallToTheFirstOnes",
@@ -2283,6 +2391,7 @@
         "id": "MapWorldsTribunal",
         "name": "Crater",
         "unique": false,
+        "alias": "crater",
         "cards": [
             "HerMask",
             "Hope",
@@ -2301,6 +2410,7 @@
         "id": "MapWorldsTropicalIsland",
         "name": "Tropical Island",
         "unique": false,
+        "alias": "tropicalisland",
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -2328,6 +2438,7 @@
         "id": "MapWorldsUndergroundRiver",
         "name": "Underground River",
         "unique": false,
+        "alias": "undergroundriver",
         "cards": [
             "HerMask",
             "Hope",
@@ -2345,6 +2456,7 @@
         "id": "MapWorldsUndergroundRiverUnique",
         "name": "Caer Blaidd, Wolfpack's Den",
         "unique": true,
+        "alias": "caerblaidd,wolfpacksden",
         "cards": [
             "Loyalty",
             "Monochrome",
@@ -2359,6 +2471,7 @@
         "id": "MapWorldsUndergroundSea",
         "name": "Underground Sea",
         "unique": false,
+        "alias": "undergroundsea",
         "cards": [
             "GlimmerOfHope",
             "HerMask",
@@ -2387,6 +2500,7 @@
         "id": "MapWorldsVaalPyramid",
         "name": "Vaal Pyramid",
         "unique": false,
+        "alias": "vaalpyramid",
         "cards": [
             "ArroganceoftheVaal",
             "HerMask",
@@ -2412,6 +2526,7 @@
         "id": "MapWorldsVaalPyramidUnique",
         "name": "Vaults of Atziri",
         "unique": true,
+        "alias": "vaultsofatziri",
         "cards": [
             "AtzirisArmory",
             "Monochrome",
@@ -2432,6 +2547,7 @@
         "id": "MapWorldsVaalTemple",
         "name": "Vaal Temple",
         "unique": false,
+        "alias": "vaaltemple",
         "cards": [
             "HerMask",
             "Hope",
@@ -2456,6 +2572,7 @@
         "id": "MapWorldsVault",
         "name": "Vault",
         "unique": false,
+        "alias": "vault",
         "cards": [
             "AStonePerfected",
             "FurtherInvention",
@@ -2481,6 +2598,7 @@
         "id": "MapWorldsVolcano",
         "name": "Volcano",
         "unique": false,
+        "alias": "volcano",
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -2502,6 +2620,7 @@
         "id": "MapWorldsWasteland",
         "name": "Wasteland",
         "unique": false,
+        "alias": "wasteland",
         "cards": [
             "HerMask",
             "Hope",
@@ -2518,6 +2637,7 @@
         "id": "MapWorldsWastePool",
         "name": "Waste Pool",
         "unique": false,
+        "alias": "wastepool",
         "cards": [
             "HerMask",
             "Hope",
@@ -2542,6 +2662,7 @@
         "id": "MapWorldsWharf",
         "name": "Wharf",
         "unique": false,
+        "alias": "wharf",
         "cards": [
             "AStonePerfected",
             "HerMask",

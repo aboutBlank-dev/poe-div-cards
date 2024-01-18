@@ -28,21 +28,11 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
   const searchResults: SearchResult[] = [];
 
   let filteredCards = cards.filter((card) => {
-    let cleanCardName = card.name
-      .toLowerCase()
-      .trim()
-      .replace("'", "")
-      .replace(" ", ""); // Add this as some sort of Alias in the cards.json
-    return cleanCardName.includes(cleanSearch);
+    return card.alias.includes(cleanSearch);
   });
 
   let filteredMaps = maps.filter((map) => {
-    let cleanMapName = map.name
-      .toLowerCase()
-      .trim()
-      .replace("'", "")
-      .replace(" ", ""); // Add this as some sort of Alias in the cards.json
-    return cleanMapName.includes(cleanSearch);
+    return map.alias.includes(cleanSearch);
   });
 
   filteredCards.forEach((card) => {

@@ -17,7 +17,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/AChillingWind.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/AChillingWind.png",
+        "alias": "achillingwind"
     },
     "ADabOfInk": {
         "id": "ADabOfInk",
@@ -35,7 +36,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/ADabOfInk.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ADabOfInk.png",
+        "alias": "adabofink"
     },
     "ANoteInTheWind": {
         "id": "ANoteInTheWind",
@@ -54,7 +56,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/ANoteInTheWind.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ANoteInTheWind.png",
+        "alias": "anoteinthewind"
     },
     "ASeaOfBlue": {
         "id": "ASeaOfBlue",
@@ -73,7 +76,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/ASeaOfBlue.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ASeaOfBlue.png",
+        "alias": "aseaofblue"
     },
     "AStonePerfected": {
         "id": "AStonePerfected",
@@ -94,7 +98,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/AStonePerfected.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/AStonePerfected.png",
+        "alias": "astoneperfected"
     },
     "AbandonedWealth": {
         "id": "AbandonedWealth",
@@ -111,7 +116,8 @@
         ],
         "chaos_value": 6.0,
         "divine_value": 0.03,
-        "art_url": "https://web.poecdn.com/image/divination-card/AbandonedWealth.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/AbandonedWealth.png",
+        "alias": "abandonedwealth"
     },
     "Acclimatisation": {
         "id": "Acclimatisation",
@@ -130,7 +136,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/Acclimatisation.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Acclimatisation.png",
+        "alias": "acclimatisation"
     },
     "AliviasGrace": {
         "id": "AliviasGrace",
@@ -155,7 +162,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/AliviasGrace.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/AliviasGrace.png",
+        "alias": "aliviasgrace"
     },
     "ArroganceoftheVaal": {
         "id": "ArroganceoftheVaal",
@@ -173,7 +181,8 @@
         ],
         "chaos_value": 15.0,
         "divine_value": 0.07,
-        "art_url": "https://web.poecdn.com/image/divination-card/ArroganceoftheVaal.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ArroganceoftheVaal.png",
+        "alias": "arroganceofthevaal"
     },
     "AssassinsFavor": {
         "id": "AssassinsFavor",
@@ -192,7 +201,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/AssassinsFavor.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/AssassinsFavor.png",
+        "alias": "assassinsfavour"
     },
     "AstralProtection": {
         "id": "AstralProtection",
@@ -209,7 +219,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/AstralProtection.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/AstralProtection.png",
+        "alias": "astralprotection"
     },
     "AtzirisArmory": {
         "id": "AtzirisArmory",
@@ -226,7 +237,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/AtzirisArmory.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/AtzirisArmory.png",
+        "alias": "atzirisarsenal"
     },
     "AzureRage": {
         "id": "AzureRage",
@@ -243,7 +255,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/AzureRage.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/AzureRage.png",
+        "alias": "azurerage"
     },
     "AzyransReward": {
         "id": "AzyransReward",
@@ -262,7 +275,8 @@
         ],
         "chaos_value": 6.0,
         "divine_value": 0.03,
-        "art_url": "https://web.poecdn.com/image/divination-card/AzyransReward.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/AzyransReward.png",
+        "alias": "azyransreward"
     },
     "BaitedExpectations": {
         "id": "BaitedExpectations",
@@ -281,7 +295,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/BaitedExpectations.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BaitedExpectations.png",
+        "alias": "baitedexpectations"
     },
     "Bijoux": {
         "id": "Bijoux",
@@ -301,7 +316,8 @@
         ],
         "chaos_value": 30.0,
         "divine_value": 0.14,
-        "art_url": "https://web.poecdn.com/image/divination-card/Bijoux.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Bijoux.png",
+        "alias": "bijoux"
     },
     "BlindVenture": {
         "id": "BlindVenture",
@@ -319,7 +335,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/BlindVenture.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BlindVenture.png",
+        "alias": "blindventure"
     },
     "BoonofJustice": {
         "id": "BoonofJustice",
@@ -339,7 +356,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/BoonofJustice.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BoonofJustice.png",
+        "alias": "boonofjustice"
     },
     "BoonoftheFirstOnes": {
         "id": "BoonoftheFirstOnes",
@@ -356,7 +374,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/BoonoftheFirstOnes.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BoonoftheFirstOnes.png",
+        "alias": "boonofthefirstones"
     },
     "BoundlessRealms": {
         "id": "BoundlessRealms",
@@ -374,7 +393,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/BoundlessRealms.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BoundlessRealms.png",
+        "alias": "boundlessrealms"
     },
     "BrotherGift": {
         "id": "BrotherGift",
@@ -392,7 +412,8 @@
         ],
         "chaos_value": 1097.52,
         "divine_value": 5.1,
-        "art_url": "https://web.poecdn.com/image/divination-card/BrotherGift.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BrotherGift.png",
+        "alias": "brothersgift"
     },
     "BrothersStash": {
         "id": "BrothersStash",
@@ -410,7 +431,8 @@
         ],
         "chaos_value": 90.0,
         "divine_value": 0.42,
-        "art_url": "https://web.poecdn.com/image/divination-card/BrothersStash.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BrothersStash.png",
+        "alias": "brothersstash"
     },
     "BrotherhoodInExile": {
         "id": "BrotherhoodInExile",
@@ -430,7 +452,8 @@
         ],
         "chaos_value": 13.0,
         "divine_value": 0.06,
-        "art_url": "https://web.poecdn.com/image/divination-card/BrotherhoodInExile.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BrotherhoodInExile.png",
+        "alias": "brotherhoodinexile"
     },
     "BuriedTreasure": {
         "id": "BuriedTreasure",
@@ -450,7 +473,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/BuriedTreasure.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BuriedTreasure.png",
+        "alias": "buriedtreasure"
     },
     "BurningBlood": {
         "id": "BurningBlood",
@@ -468,7 +492,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/BurningBlood.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/BurningBlood.png",
+        "alias": "burningblood"
     },
     "CallToTheFirstOnes": {
         "id": "CallToTheFirstOnes",
@@ -487,7 +512,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/CallToTheFirstOnes.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/CallToTheFirstOnes.png",
+        "alias": "calltothefirstones"
     },
     "ChaoticDisposition": {
         "id": "ChaoticDisposition",
@@ -504,7 +530,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/ChaoticDisposition.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ChaoticDisposition.png",
+        "alias": "chaoticdisposition"
     },
     "Checkmate": {
         "id": "Checkmate",
@@ -522,7 +549,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/Checkmate.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Checkmate.png",
+        "alias": "checkmate"
     },
     "CostlyCurio": {
         "id": "CostlyCurio",
@@ -540,7 +568,8 @@
         ],
         "chaos_value": 17.0,
         "divine_value": 0.08,
-        "art_url": "https://web.poecdn.com/image/divination-card/CostlyCurio.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/CostlyCurio.png",
+        "alias": "costlycurio"
     },
     "CovetedPossession": {
         "id": "CovetedPossession",
@@ -557,7 +586,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/CovetedPossession.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/CovetedPossession.png",
+        "alias": "covetedpossession"
     },
     "CursedWords": {
         "id": "CursedWords",
@@ -575,7 +605,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/CursedWords.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/CursedWords.png",
+        "alias": "cursedwords"
     },
     "DeadlyJoy": {
         "id": "DeadlyJoy",
@@ -592,7 +623,8 @@
         ],
         "chaos_value": 30.0,
         "divine_value": 0.14,
-        "art_url": "https://web.poecdn.com/image/divination-card/DeadlyJoy.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/DeadlyJoy.png",
+        "alias": "deadlyjoy"
     },
     "Death": {
         "id": "Death",
@@ -610,7 +642,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/Death.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Death.png",
+        "alias": "death"
     },
     "DesperateCrusade": {
         "id": "DesperateCrusade",
@@ -628,7 +661,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/DesperateCrusade.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/DesperateCrusade.png",
+        "alias": "desperatecrusade"
     },
     "DestinedtoCrumble": {
         "id": "DestinedtoCrumble",
@@ -646,7 +680,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/DestinedtoCrumble.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/DestinedtoCrumble.png",
+        "alias": "destinedtocrumble"
     },
     "DiallasSubjugation": {
         "id": "DiallasSubjugation",
@@ -664,7 +699,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/DiallasSubjugation.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/DiallasSubjugation.png",
+        "alias": "diallassubjugation"
     },
     "EarthDrinker": {
         "id": "EarthDrinker",
@@ -684,7 +720,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/EarthDrinker.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/EarthDrinker.png",
+        "alias": "earthdrinker"
     },
     "EchoesOfLove": {
         "id": "EchoesOfLove",
@@ -704,7 +741,8 @@
         ],
         "chaos_value": 20.0,
         "divine_value": 0.09,
-        "art_url": "https://web.poecdn.com/image/divination-card/EchoesOfLove.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/EchoesOfLove.png",
+        "alias": "echoesoflove"
     },
     "EmperorOfPurity": {
         "id": "EmperorOfPurity",
@@ -722,7 +760,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/EmperorOfPurity.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/EmperorOfPurity.png",
+        "alias": "emperorofpurity"
     },
     "EmperorsLuck": {
         "id": "EmperorsLuck",
@@ -741,7 +780,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/EmperorsLuck.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/EmperorsLuck.png",
+        "alias": "emperorsluck"
     },
     "FireOfUnknownOrigin": {
         "id": "FireOfUnknownOrigin",
@@ -759,7 +799,8 @@
         ],
         "chaos_value": 1248.16,
         "divine_value": 5.8,
-        "art_url": "https://web.poecdn.com/image/divination-card/FireOfUnknownOrigin.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/FireOfUnknownOrigin.png",
+        "alias": "fireofunknownorigin"
     },
     "FromBonesToAshes": {
         "id": "FromBonesToAshes",
@@ -781,7 +822,8 @@
         ],
         "chaos_value": 6.0,
         "divine_value": 0.03,
-        "art_url": "https://web.poecdn.com/image/divination-card/FromBonesToAshes.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/FromBonesToAshes.png",
+        "alias": "frombonetoashes"
     },
     "FurtherInvention": {
         "id": "FurtherInvention",
@@ -799,7 +841,8 @@
         ],
         "chaos_value": 30.0,
         "divine_value": 0.14,
-        "art_url": "https://web.poecdn.com/image/divination-card/FurtherInvention.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/FurtherInvention.png",
+        "alias": "furtherinvention"
     },
     "GemcuttersPromise": {
         "id": "GemcuttersPromise",
@@ -817,7 +860,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/GemcuttersPromise.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/GemcuttersPromise.png",
+        "alias": "gemcutterspromise"
     },
     "GiftOfAsenath": {
         "id": "GiftOfAsenath",
@@ -837,7 +881,8 @@
         ],
         "chaos_value": 15.0,
         "divine_value": 0.07,
-        "art_url": "https://web.poecdn.com/image/divination-card/GiftOfAsenath.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/GiftOfAsenath.png",
+        "alias": "giftofasenath"
     },
     "GiftOfTheGemlingQueen": {
         "id": "GiftOfTheGemlingQueen",
@@ -857,7 +902,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/GiftOfTheGemlingQueen.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/GiftOfTheGemlingQueen.png",
+        "alias": "giftofthegemlingqueen"
     },
     "GlimmerOfHope": {
         "id": "GlimmerOfHope",
@@ -876,7 +922,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/GlimmerOfHope.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/GlimmerOfHope.png",
+        "alias": "glimmerofhope"
     },
     "GraveKnowledge": {
         "id": "GraveKnowledge",
@@ -896,7 +943,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/GraveKnowledge.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/GraveKnowledge.png",
+        "alias": "graveknowledge"
     },
     "HauntingShadows": {
         "id": "HauntingShadows",
@@ -913,7 +961,8 @@
         ],
         "chaos_value": 4.3,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/HauntingShadows.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/HauntingShadows.png",
+        "alias": "hauntingshadows"
     },
     "HerMask": {
         "id": "HerMask",
@@ -1033,7 +1082,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/HerMask.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/HerMask.png",
+        "alias": "hermask"
     },
     "Heterochromia": {
         "id": "Heterochromia",
@@ -1051,7 +1101,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/Heterochromia.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Heterochromia.png",
+        "alias": "heterochromia"
     },
     "Home": {
         "id": "Home",
@@ -1075,7 +1126,8 @@
         ],
         "chaos_value": 215.2,
         "divine_value": 1.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/Home.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Home.png",
+        "alias": "home"
     },
     "Hope": {
         "id": "Hope",
@@ -1191,7 +1243,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/Hope.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Hope.png",
+        "alias": "hope"
     },
     "Humility": {
         "id": "Humility",
@@ -1209,7 +1262,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/Humility.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Humility.png",
+        "alias": "humility"
     },
     "HuntersResolve": {
         "id": "HuntersResolve",
@@ -1227,7 +1281,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/HuntersResolve.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/HuntersResolve.png",
+        "alias": "huntersresolve"
     },
     "ImperialLegacy": {
         "id": "ImperialLegacy",
@@ -1247,7 +1302,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/ImperialLegacy.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ImperialLegacy.png",
+        "alias": "imperiallegacy"
     },
     "JackInTheBox": {
         "id": "JackInTheBox",
@@ -1268,7 +1324,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/JackInTheBox.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/JackInTheBox.png",
+        "alias": "jackinthebox"
     },
     "LachrymalNecrosis": {
         "id": "LachrymalNecrosis",
@@ -1285,7 +1342,8 @@
         ],
         "chaos_value": 14.0,
         "divine_value": 0.07,
-        "art_url": "https://web.poecdn.com/image/divination-card/LachrymalNecrosis.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/LachrymalNecrosis.png",
+        "alias": "lachrymalnecrosis"
     },
     "LantadorsLostLove": {
         "id": "LantadorsLostLove",
@@ -1314,7 +1372,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/LantadorsLostLove.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/LantadorsLostLove.png",
+        "alias": "lantadorslostlove"
     },
     "LastHope": {
         "id": "LastHope",
@@ -1331,7 +1390,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/LastHope.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/LastHope.png",
+        "alias": "lasthope"
     },
     "LeftToFate": {
         "id": "LeftToFate",
@@ -1349,7 +1409,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/LeftToFate.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/LeftToFate.png",
+        "alias": "lefttofate"
     },
     "LigthAndTruth": {
         "id": "LigthAndTruth",
@@ -1367,7 +1428,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/LigthAndTruth.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/LigthAndTruth.png",
+        "alias": "lightandtruth"
     },
     "LingeringRemnants": {
         "id": "LingeringRemnants",
@@ -1487,7 +1549,8 @@
         ],
         "chaos_value": 1.55,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/LingeringRemnants.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/LingeringRemnants.png",
+        "alias": "lingeringremnants"
     },
     "Loyalty": {
         "id": "Loyalty",
@@ -1505,7 +1568,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/Loyalty.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Loyalty.png",
+        "alias": "loyalty"
     },
     "LuckyConnections": {
         "id": "LuckyConnections",
@@ -1524,7 +1588,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/LuckyConnections.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/LuckyConnections.png",
+        "alias": "luckyconnections"
     },
     "LuckyDeck": {
         "id": "LuckyDeck",
@@ -1640,7 +1705,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/LuckyDeck.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/LuckyDeck.png",
+        "alias": "luckydeck"
     },
     "LysahsRespite": {
         "id": "LysahsRespite",
@@ -1659,7 +1725,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/LysahsRespite.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/LysahsRespite.png",
+        "alias": "lysahsrespite"
     },
     "ManWithBear": {
         "id": "ManWithBear",
@@ -1676,7 +1743,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/ManWithBear.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ManWithBear.png",
+        "alias": "manwithbear"
     },
     "RussiaDivinationCard": {
         "id": "RussiaDivinationCard",
@@ -1694,7 +1762,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/RussiaDivinationCard.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/RussiaDivinationCard.png",
+        "alias": "mawrblaidd"
     },
     "MercilessArmament": {
         "id": "MercilessArmament",
@@ -1712,7 +1781,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/MercilessArmament.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/MercilessArmament.png",
+        "alias": "mercilessarmament"
     },
     "MightIsRight": {
         "id": "MightIsRight",
@@ -1730,7 +1800,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/MightIsRight.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/MightIsRight.png",
+        "alias": "mightisright"
     },
     "Mitts": {
         "id": "Mitts",
@@ -1750,7 +1821,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/Mitts.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Mitts.png",
+        "alias": "mitts"
     },
     "Monochrome": {
         "id": "Monochrome",
@@ -1783,7 +1855,8 @@
         ],
         "chaos_value": 75.0,
         "divine_value": 0.35,
-        "art_url": "https://web.poecdn.com/image/divination-card/Monochrome.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Monochrome.png",
+        "alias": "monochrome"
     },
     "MoreIsNeverEnough": {
         "id": "MoreIsNeverEnough",
@@ -1800,7 +1873,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/MoreIsNeverEnough.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/MoreIsNeverEnough.png",
+        "alias": "moreisneverenough"
     },
     "NoTraces": {
         "id": "NoTraces",
@@ -1818,7 +1892,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/NoTraces.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/NoTraces.png",
+        "alias": "notraces"
     },
     "ParasiticPassengers": {
         "id": "ParasiticPassengers",
@@ -1836,7 +1911,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/ParasiticPassengers.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ParasiticPassengers.png",
+        "alias": "parasiticpassengers"
     },
     "PeacefulMoments": {
         "id": "PeacefulMoments",
@@ -1855,7 +1931,8 @@
         ],
         "chaos_value": 19.0,
         "divine_value": 0.09,
-        "art_url": "https://web.poecdn.com/image/divination-card/PeacefulMoments.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/PeacefulMoments.png",
+        "alias": "peacefulmoments"
     },
     "PoisonedFaith": {
         "id": "PoisonedFaith",
@@ -1872,7 +1949,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/PoisonedFaith.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/PoisonedFaith.png",
+        "alias": "poisonedfaith"
     },
     "PrideBeforeTheFall": {
         "id": "PrideBeforeTheFall",
@@ -1890,7 +1968,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/PrideBeforeTheFall.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/PrideBeforeTheFall.png",
+        "alias": "pridebeforethefall"
     },
     "PrideOfTheFirstOnes": {
         "id": "PrideOfTheFirstOnes",
@@ -1908,7 +1987,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/PrideOfTheFirstOnes.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/PrideOfTheFirstOnes.png",
+        "alias": "prideofthefirstones"
     },
     "Prosperity": {
         "id": "Prosperity",
@@ -1937,7 +2017,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/Prosperity.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Prosperity.png",
+        "alias": "prosperity"
     },
     "RainOfChaos": {
         "id": "RainOfChaos",
@@ -1955,7 +2036,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/RainOfChaos.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/RainOfChaos.png",
+        "alias": "rainofchaos"
     },
     "RainTempter": {
         "id": "RainTempter",
@@ -1974,7 +2056,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/RainTempter.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/RainTempter.png",
+        "alias": "raintempter"
     },
     "Rats": {
         "id": "Rats",
@@ -1991,7 +2074,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/Rats.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Rats.png",
+        "alias": "rats"
     },
     "SambodhisWisdom": {
         "id": "SambodhisWisdom",
@@ -2008,7 +2092,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/SambodhisWisdom.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/SambodhisWisdom.png",
+        "alias": "sambodhiswisdom"
     },
     "ScholarOfTheSeas": {
         "id": "ScholarOfTheSeas",
@@ -2028,7 +2113,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/ScholarOfTheSeas.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ScholarOfTheSeas.png",
+        "alias": "scholaroftheseas"
     },
     "SevenYearsBadLuck": {
         "id": "SevenYearsBadLuck",
@@ -2045,7 +2131,8 @@
         ],
         "chaos_value": 731.68,
         "divine_value": 3.4,
-        "art_url": "https://web.poecdn.com/image/divination-card/SevenYearsBadLuck.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/SevenYearsBadLuck.png",
+        "alias": "sevenyearsbadluck"
     },
     "ShardofFate": {
         "id": "ShardofFate",
@@ -2063,7 +2150,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/ShardofFate.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ShardofFate.png",
+        "alias": "shardoffate"
     },
     "SoulQuenched": {
         "id": "SoulQuenched",
@@ -2081,7 +2169,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/SoulQuenched.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/SoulQuenched.png",
+        "alias": "soulquenched"
     },
     "StruckbyLightning": {
         "id": "StruckbyLightning",
@@ -2105,7 +2194,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/StruckbyLightning.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/StruckbyLightning.png",
+        "alias": "struckbylightning"
     },
     "TheAcademic": {
         "id": "TheAcademic",
@@ -2123,7 +2213,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheAcademic.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheAcademic.png",
+        "alias": "theacademic"
     },
     "TheAdmirer": {
         "id": "TheAdmirer",
@@ -2145,7 +2236,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheAdmirer.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheAdmirer.png",
+        "alias": "theadmirer"
     },
     "TheAdventuringSpirit": {
         "id": "TheAdventuringSpirit",
@@ -2162,7 +2254,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheAdventuringSpirit.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheAdventuringSpirit.png",
+        "alias": "theadventuringspirit"
     },
     "TheApothecary": {
         "id": "TheApothecary",
@@ -2180,7 +2273,8 @@
         ],
         "chaos_value": 5164.8,
         "divine_value": 24.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheApothecary.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheApothecary.png",
+        "alias": "theapothecary"
     },
     "TheArmyOfBlood": {
         "id": "TheArmyOfBlood",
@@ -2197,7 +2291,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheArmyOfBlood.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheArmyOfBlood.png",
+        "alias": "thearmyofblood"
     },
     "TheArtist": {
         "id": "TheArtist",
@@ -2215,7 +2310,8 @@
         ],
         "chaos_value": 115.0,
         "divine_value": 0.53,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheArtist.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheArtist.png",
+        "alias": "theartist"
     },
     "TheAvenger": {
         "id": "TheAvenger",
@@ -2235,7 +2331,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheAvenger.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheAvenger.png",
+        "alias": "theavenger"
     },
     "TheAwakened": {
         "id": "TheAwakened",
@@ -2257,7 +2354,8 @@
         ],
         "chaos_value": 15.0,
         "divine_value": 0.07,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheAwakened.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheAwakened.png",
+        "alias": "theawakened"
     },
     "TheBattleBorn": {
         "id": "TheBattleBorn",
@@ -2275,7 +2373,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheBattleBorn.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheBattleBorn.png",
+        "alias": "thebattleborn"
     },
     "TheBetrayal": {
         "id": "TheBetrayal",
@@ -2296,7 +2395,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheBetrayal.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheBetrayal.png",
+        "alias": "thebetrayal"
     },
     "TheBlazingFire": {
         "id": "TheBlazingFire",
@@ -2315,7 +2415,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheBlazingFire.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheBlazingFire.png",
+        "alias": "theblazingfire"
     },
     "TheBrawnyBattleMage": {
         "id": "TheBrawnyBattleMage",
@@ -2336,7 +2437,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheBrawnyBattleMage.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheBrawnyBattleMage.png",
+        "alias": "thebrawnybattlemage"
     },
     "TheCache": {
         "id": "TheCache",
@@ -2357,7 +2459,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheCache.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheCache.png",
+        "alias": "thecache"
     },
     "TheCatalyst": {
         "id": "TheCatalyst",
@@ -2379,7 +2482,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheCatalyst.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheCatalyst.png",
+        "alias": "thecatalyst"
     },
     "TheCatch": {
         "id": "TheCatch",
@@ -2401,7 +2505,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheCatch.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheCatch.png",
+        "alias": "thecatch"
     },
     "TheCelestialJusticar": {
         "id": "TheCelestialJusticar",
@@ -2420,7 +2525,8 @@
         ],
         "chaos_value": 6.0,
         "divine_value": 0.03,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheCelestialJusticar.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheCelestialJusticar.png",
+        "alias": "thecelestialjusticar"
     },
     "TheChainsThatBind": {
         "id": "TheChainsThatBind",
@@ -2437,7 +2543,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheChainsThatBind.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheChainsThatBind.png",
+        "alias": "thechainsthatbind"
     },
     "TheComingStorm": {
         "id": "TheComingStorm",
@@ -2459,7 +2566,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheComingStorm.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheComingStorm.png",
+        "alias": "thecomingstorm"
     },
     "TheCursedKing": {
         "id": "TheCursedKing",
@@ -2476,7 +2584,8 @@
         ],
         "chaos_value": 2.7,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheCursedKing.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheCursedKing.png",
+        "alias": "thecursedking"
     },
     "TheDamned": {
         "id": "TheDamned",
@@ -2497,7 +2606,8 @@
         ],
         "chaos_value": 80.0,
         "divine_value": 0.37,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDamned.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDamned.png",
+        "alias": "thedamned"
     },
     "TheDapperProdigy": {
         "id": "TheDapperProdigy",
@@ -2515,7 +2625,8 @@
         ],
         "chaos_value": 3.11,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDapperProdigy.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDapperProdigy.png",
+        "alias": "thedapperprodigy"
     },
     "TheDarkMage": {
         "id": "TheDarkMage",
@@ -2533,7 +2644,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDarkMage.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDarkMage.png",
+        "alias": "thedarkmage"
     },
     "TheDarkestDream": {
         "id": "TheDarkestDream",
@@ -2550,7 +2662,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDarkestDream.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDarkestDream.png",
+        "alias": "thedarkestdream"
     },
     "TheDeceiver": {
         "id": "TheDeceiver",
@@ -2569,7 +2682,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDeceiver.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDeceiver.png",
+        "alias": "thedeceiver"
     },
     "TheDeepOnes": {
         "id": "TheDeepOnes",
@@ -2589,7 +2703,8 @@
         ],
         "chaos_value": 2.25,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDeepOnes.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDeepOnes.png",
+        "alias": "thedeepones"
     },
     "TheDemoness": {
         "id": "TheDemoness",
@@ -2607,7 +2722,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDemoness.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDemoness.png",
+        "alias": "thedemoness"
     },
     "TheDestination": {
         "id": "TheDestination",
@@ -2625,7 +2741,8 @@
         ],
         "chaos_value": 65.0,
         "divine_value": 0.3,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDestination.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDestination.png",
+        "alias": "thedestination"
     },
     "TheDoctor": {
         "id": "TheDoctor",
@@ -2646,7 +2763,8 @@
         ],
         "chaos_value": 1463.36,
         "divine_value": 6.8,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDoctor.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDoctor.png",
+        "alias": "thedoctor"
     },
     "TheDoppelganger": {
         "id": "TheDoppelganger",
@@ -2663,7 +2781,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDoppelganger.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDoppelganger.png",
+        "alias": "thedoppelganger"
     },
     "TheDragon": {
         "id": "TheDragon",
@@ -2681,7 +2800,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDragon.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDragon.png",
+        "alias": "thedragon"
     },
     "TheDragonsHeart": {
         "id": "TheDragonsHeart",
@@ -2801,7 +2921,8 @@
         ],
         "chaos_value": 73.0,
         "divine_value": 0.34,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDragonsHeart.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDragonsHeart.png",
+        "alias": "thedragonsheart"
     },
     "TheDrunkenAristocrat": {
         "id": "TheDrunkenAristocrat",
@@ -2823,7 +2944,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDrunkenAristocrat.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDrunkenAristocrat.png",
+        "alias": "thedrunkenaristocrat"
     },
     "TheDungeonMaster": {
         "id": "TheDungeonMaster",
@@ -2840,7 +2962,8 @@
         ],
         "chaos_value": 12.0,
         "divine_value": 0.06,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheDungeonMaster.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheDungeonMaster.png",
+        "alias": "thedungeonmaster"
     },
     "TheEasyStroll": {
         "id": "TheEasyStroll",
@@ -2859,7 +2982,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheEasyStroll.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheEasyStroll.png",
+        "alias": "theeasystroll"
     },
     "TheEncroachingDarkness": {
         "id": "TheEncroachingDarkness",
@@ -2979,7 +3103,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheEncroachingDarkness.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheEncroachingDarkness.png",
+        "alias": "theencroachingdarkness"
     },
     "TheEndurance": {
         "id": "TheEndurance",
@@ -2999,7 +3124,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheEndurance.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheEndurance.png",
+        "alias": "theendurance"
     },
     "TheEnlightened": {
         "id": "TheEnlightened",
@@ -3022,7 +3148,8 @@
         ],
         "chaos_value": 408.88,
         "divine_value": 1.9,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheEnlightened.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheEnlightened.png",
+        "alias": "theenlightened"
     },
     "TheEnthusiasts": {
         "id": "TheEnthusiasts",
@@ -3040,7 +3167,8 @@
         ],
         "chaos_value": 18.0,
         "divine_value": 0.08,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheEnthusiasts.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheEnthusiasts.png",
+        "alias": "theenthusiasts"
     },
     "TheExplorer": {
         "id": "TheExplorer",
@@ -3057,7 +3185,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheExplorer.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheExplorer.png",
+        "alias": "theexplorer"
     },
     "TheEyeOfTheDragon": {
         "id": "TheEyeOfTheDragon",
@@ -3074,7 +3203,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheEyeOfTheDragon.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheEyeOfTheDragon.png",
+        "alias": "theeyeofthedragon"
     },
     "TheFathomlessDepths": {
         "id": "TheFathomlessDepths",
@@ -3093,7 +3223,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheFathomlessDepths.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheFathomlessDepths.png",
+        "alias": "thefathomlessdepths"
     },
     "TheFeast": {
         "id": "TheFeast",
@@ -3111,7 +3242,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheFeast.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheFeast.png",
+        "alias": "thefeast"
     },
     "TheFiend": {
         "id": "TheFiend",
@@ -3130,7 +3262,8 @@
         ],
         "chaos_value": 1506.4,
         "divine_value": 7.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheFiend.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheFiend.png",
+        "alias": "thefiend"
     },
     "TheFlorasGift": {
         "id": "TheFlorasGift",
@@ -3153,7 +3286,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheFlorasGift.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheFlorasGift.png",
+        "alias": "theflorasgift"
     },
     "TheForgottenTreasure": {
         "id": "TheForgottenTreasure",
@@ -3170,7 +3304,8 @@
         ],
         "chaos_value": 18.4,
         "divine_value": 0.09,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheForgottenTreasure.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheForgottenTreasure.png",
+        "alias": "theforgottentreasure"
     },
     "TheFormlessSea": {
         "id": "TheFormlessSea",
@@ -3190,7 +3325,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheFormlessSea.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheFormlessSea.png",
+        "alias": "theformlesssea"
     },
     "TheForsaken": {
         "id": "TheForsaken",
@@ -3210,7 +3346,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheForsaken.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheForsaken.png",
+        "alias": "theforsaken"
     },
     "TheFortunate": {
         "id": "TheFortunate",
@@ -3244,7 +3381,8 @@
         ],
         "chaos_value": 30.0,
         "divine_value": 0.14,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheFortunate.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheFortunate.png",
+        "alias": "thefortunate"
     },
     "TheForwardGaze": {
         "id": "TheForwardGaze",
@@ -3261,7 +3399,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheForwardGaze.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheForwardGaze.png",
+        "alias": "theforwardgaze"
     },
     "TheFox": {
         "id": "TheFox",
@@ -3279,7 +3418,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheFox.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheFox.png",
+        "alias": "thefox"
     },
     "TheFoxInTheBrambles": {
         "id": "TheFoxInTheBrambles",
@@ -3298,7 +3438,8 @@
         ],
         "chaos_value": 9.57,
         "divine_value": 0.04,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheFoxInTheBrambles.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheFoxInTheBrambles.png",
+        "alias": "thefoxinthebrambles"
     },
     "TheGambler": {
         "id": "TheGambler",
@@ -3418,7 +3559,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheGambler.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheGambler.png",
+        "alias": "thegambler"
     },
     "GarishPower": {
         "id": "GarishPower",
@@ -3436,7 +3578,8 @@
         ],
         "chaos_value": 29.0,
         "divine_value": 0.13,
-        "art_url": "https://web.poecdn.com/image/divination-card/GarishPower.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/GarishPower.png",
+        "alias": "thegarishpower"
     },
     "TheGentleman": {
         "id": "TheGentleman",
@@ -3454,7 +3597,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheGentleman.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheGentleman.png",
+        "alias": "thegentleman"
     },
     "TheGladiator": {
         "id": "TheGladiator",
@@ -3473,7 +3617,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheGladiator.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheGladiator.png",
+        "alias": "thegladiator"
     },
     "TheGoldenEra": {
         "id": "TheGoldenEra",
@@ -3492,7 +3637,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheGoldenEra.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheGoldenEra.png",
+        "alias": "thegoldenera"
     },
     "TheHarvester": {
         "id": "TheHarvester",
@@ -3510,7 +3656,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheHarvester.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheHarvester.png",
+        "alias": "theharvester"
     },
     "TheHiveOfKnowledge": {
         "id": "TheHiveOfKnowledge",
@@ -3529,7 +3676,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheHiveOfKnowledge.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheHiveOfKnowledge.png",
+        "alias": "thehiveofknowledge"
     },
     "TheHoarder": {
         "id": "TheHoarder",
@@ -3550,7 +3698,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheHoarder.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheHoarder.png",
+        "alias": "thehoarder"
     },
     "TheHunger": {
         "id": "TheHunger",
@@ -3568,7 +3717,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheHunger.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheHunger.png",
+        "alias": "thehunger"
     },
     "TheImmortal": {
         "id": "TheImmortal",
@@ -3585,7 +3735,8 @@
         ],
         "chaos_value": 3228.0,
         "divine_value": 15.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheImmortal.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheImmortal.png",
+        "alias": "theimmortal"
     },
     "TheIncantation": {
         "id": "TheIncantation",
@@ -3606,7 +3757,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheIncantation.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheIncantation.png",
+        "alias": "theincantation"
     },
     "TheInnocent": {
         "id": "TheInnocent",
@@ -3623,7 +3775,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheInnocent.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheInnocent.png",
+        "alias": "theinnocent"
     },
     "TheInoculated": {
         "id": "TheInoculated",
@@ -3643,7 +3796,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheInoculated.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheInoculated.png",
+        "alias": "theinoculated"
     },
     "TheInsatiable": {
         "id": "TheInsatiable",
@@ -3661,7 +3815,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheInsatiable.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheInsatiable.png",
+        "alias": "theinsatiable"
     },
     "TheInventor": {
         "id": "TheInventor",
@@ -3682,7 +3837,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheInventor.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheInventor.png",
+        "alias": "theinventor"
     },
     "TheJewellersBoon": {
         "id": "TheJewellersBoon",
@@ -3701,7 +3857,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheJewellersBoon.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheJewellersBoon.png",
+        "alias": "thejewellersboon"
     },
     "TheJournalist": {
         "id": "TheJournalist",
@@ -3720,7 +3877,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheJournalist.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheJournalist.png",
+        "alias": "thejournalist"
     },
     "TheJourney": {
         "id": "TheJourney",
@@ -3749,7 +3907,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheJourney.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheJourney.png",
+        "alias": "thejourney"
     },
     "TheKingsBlade": {
         "id": "TheKingsBlade",
@@ -3768,7 +3927,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheKingsBlade.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheKingsBlade.png",
+        "alias": "thekingsblade"
     },
     "TheKingsHeart": {
         "id": "TheKingsHeart",
@@ -3786,7 +3946,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheKingsHeart.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheKingsHeart.png",
+        "alias": "thekingsheart"
     },
     "TheLanding": {
         "id": "TheLanding",
@@ -3806,7 +3967,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheLanding.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheLanding.png",
+        "alias": "thelanding"
     },
     "TheLastOneStanding": {
         "id": "TheLastOneStanding",
@@ -3825,7 +3987,8 @@
         ],
         "chaos_value": 90.0,
         "divine_value": 0.42,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheLastOneStanding.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheLastOneStanding.png",
+        "alias": "thelastonestanding"
     },
     "TheLastSupper": {
         "id": "TheLastSupper",
@@ -3842,7 +4005,8 @@
         ],
         "chaos_value": 6.0,
         "divine_value": 0.03,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheLastSupper.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheLastSupper.png",
+        "alias": "thelastsupper"
     },
     "TheLeviathan": {
         "id": "TheLeviathan",
@@ -3859,7 +4023,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheLeviathan.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheLeviathan.png",
+        "alias": "theleviathan"
     },
     "TheLifeThief": {
         "id": "TheLifeThief",
@@ -3878,7 +4043,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheLifeThief.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheLifeThief.png",
+        "alias": "thelifethief"
     },
     "TheLordofCelebration": {
         "id": "TheLordofCelebration",
@@ -3908,7 +4074,8 @@
         ],
         "chaos_value": 4.76,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheLordofCelebration.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheLordofCelebration.png",
+        "alias": "thelordofcelebration"
     },
     "TheLover": {
         "id": "TheLover",
@@ -3926,7 +4093,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheLover.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheLover.png",
+        "alias": "thelover"
     },
     "TheLunarisPriestess": {
         "id": "TheLunarisPriestess",
@@ -3944,7 +4112,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheLunarisPriestess.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheLunarisPriestess.png",
+        "alias": "thelunarispriestess"
     },
     "TheMadKing": {
         "id": "TheMadKing",
@@ -3964,7 +4133,8 @@
         ],
         "chaos_value": 20.0,
         "divine_value": 0.09,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheMadKing.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheMadKing.png",
+        "alias": "themadking"
     },
     "TheMaster": {
         "id": "TheMaster",
@@ -3981,7 +4151,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheMaster.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheMaster.png",
+        "alias": "themaster"
     },
     "TheMercenary": {
         "id": "TheMercenary",
@@ -3998,7 +4169,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheMercenary.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheMercenary.png",
+        "alias": "themercenary"
     },
     "TheMessenger": {
         "id": "TheMessenger",
@@ -4016,7 +4188,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheMessenger.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheMessenger.png",
+        "alias": "themessenger"
     },
     "TheMountain": {
         "id": "TheMountain",
@@ -4035,7 +4208,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheMountain.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheMountain.png",
+        "alias": "themountain"
     },
     "TheNurse": {
         "id": "TheNurse",
@@ -4053,7 +4227,8 @@
         ],
         "chaos_value": 150.0,
         "divine_value": 0.7,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheNurse.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheNurse.png",
+        "alias": "thenurse"
     },
     "TheOath": {
         "id": "TheOath",
@@ -4071,7 +4246,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheOath.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheOath.png",
+        "alias": "theoath"
     },
     "TheOldMan": {
         "id": "TheOldMan",
@@ -4093,7 +4269,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheOldMan.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheOldMan.png",
+        "alias": "theoldman"
     },
     "TheOneThatGotAway": {
         "id": "TheOneThatGotAway",
@@ -4110,7 +4287,8 @@
         ],
         "chaos_value": 9.4,
         "divine_value": 0.04,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheOneThatGotAway.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheOneThatGotAway.png",
+        "alias": "theonethatgotaway"
     },
     "TheOneWithAll": {
         "id": "TheOneWithAll",
@@ -4129,7 +4307,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheOneWithAll.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheOneWithAll.png",
+        "alias": "theonewithall"
     },
     "TheOpulecent": {
         "id": "TheOpulecent",
@@ -4159,7 +4338,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheOpulecent.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheOpulecent.png",
+        "alias": "theopulent"
     },
     "ThePackLeader": {
         "id": "ThePackLeader",
@@ -4184,7 +4364,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThePackLeader.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThePackLeader.png",
+        "alias": "thepackleader"
     },
     "ThePact": {
         "id": "ThePact",
@@ -4203,7 +4384,8 @@
         ],
         "chaos_value": 2.05,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThePact.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThePact.png",
+        "alias": "thepact"
     },
     "ThePatient": {
         "id": "ThePatient",
@@ -4221,7 +4403,8 @@
         ],
         "chaos_value": 19.6,
         "divine_value": 0.09,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThePatient.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThePatient.png",
+        "alias": "thepatient"
     },
     "ThePenitent": {
         "id": "ThePenitent",
@@ -4238,7 +4421,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThePenitent.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThePenitent.png",
+        "alias": "thepenitent"
     },
     "ThePoet": {
         "id": "ThePoet",
@@ -4257,7 +4441,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThePoet.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThePoet.png",
+        "alias": "thepoet"
     },
     "ThePolymath": {
         "id": "ThePolymath",
@@ -4275,7 +4460,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThePolymath.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThePolymath.png",
+        "alias": "thepolymath"
     },
     "ThePorcupine": {
         "id": "ThePorcupine",
@@ -4295,7 +4481,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThePorcupine.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThePorcupine.png",
+        "alias": "theporcupine"
     },
     "ThePrimordial": {
         "id": "ThePrimordial",
@@ -4316,7 +4503,8 @@
         ],
         "chaos_value": 20.0,
         "divine_value": 0.09,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThePrimordial.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThePrimordial.png",
+        "alias": "theprimordial"
     },
     "TheProfessor": {
         "id": "TheProfessor",
@@ -4335,7 +4523,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheProfessor.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheProfessor.png",
+        "alias": "theprofessor"
     },
     "TheQueen": {
         "id": "TheQueen",
@@ -4352,7 +4541,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheQueen.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheQueen.png",
+        "alias": "thequeen"
     },
     "TheRabbitsFoot": {
         "id": "TheRabbitsFoot",
@@ -4371,7 +4561,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheRabbitsFoot.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheRabbitsFoot.png",
+        "alias": "therabbitsfoot"
     },
     "TheReturnOfTheRat": {
         "id": "TheReturnOfTheRat",
@@ -4388,7 +4579,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheReturnOfTheRat.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheReturnOfTheRat.png",
+        "alias": "thereturnoftherat"
     },
     "TheRiteofElements": {
         "id": "TheRiteofElements",
@@ -4409,7 +4601,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheRiteofElements.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheRiteofElements.png",
+        "alias": "theriteofelements"
     },
     "TheRoadToPower": {
         "id": "TheRoadToPower",
@@ -4429,7 +4622,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheRoadToPower.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheRoadToPower.png",
+        "alias": "theroadtopower"
     },
     "TheRuthlessCeinture": {
         "id": "TheRuthlessCeinture",
@@ -4448,7 +4642,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheRuthlessCeinture.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheRuthlessCeinture.png",
+        "alias": "theruthlessceinture"
     },
     "TheSaintsTreasure": {
         "id": "TheSaintsTreasure",
@@ -4469,7 +4664,8 @@
         ],
         "chaos_value": 3.3,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSaintsTreasure.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSaintsTreasure.png",
+        "alias": "thesaintstreasure"
     },
     "TheScarredMeadow": {
         "id": "TheScarredMeadow",
@@ -4488,7 +4684,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheScarredMeadow.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheScarredMeadow.png",
+        "alias": "thescarredmeadow"
     },
     "TheScholar": {
         "id": "TheScholar",
@@ -4506,7 +4703,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheScholar.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheScholar.png",
+        "alias": "thescholar"
     },
     "TheScout": {
         "id": "TheScout",
@@ -4531,7 +4729,8 @@
         ],
         "chaos_value": 10.0,
         "divine_value": 0.05,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheScout.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheScout.png",
+        "alias": "thescout"
     },
     "TheShepherdsSandals": {
         "id": "TheShepherdsSandals",
@@ -4549,7 +4748,8 @@
         ],
         "chaos_value": 20.0,
         "divine_value": 0.09,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheShepherdsSandals.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheShepherdsSandals.png",
+        "alias": "theshepherdssandals"
     },
     "TheSideQuest": {
         "id": "TheSideQuest",
@@ -4571,7 +4771,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSideQuest.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSideQuest.png",
+        "alias": "thesidequest"
     },
     "TheSigil": {
         "id": "TheSigil",
@@ -4589,7 +4790,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSigil.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSigil.png",
+        "alias": "thesigil"
     },
     "TheSiren": {
         "id": "TheSiren",
@@ -4607,7 +4809,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSiren.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSiren.png",
+        "alias": "thesiren"
     },
     "TheSoul": {
         "id": "TheSoul",
@@ -4628,7 +4831,8 @@
         ],
         "chaos_value": 50.0,
         "divine_value": 0.23,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSoul.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSoul.png",
+        "alias": "thesoul"
     },
     "TheSparkAndTheFlame": {
         "id": "TheSparkAndTheFlame",
@@ -4646,7 +4850,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSparkAndTheFlame.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSparkAndTheFlame.png",
+        "alias": "thesparkandtheflame"
     },
     "TheSpoiledPrince": {
         "id": "TheSpoiledPrince",
@@ -4663,7 +4868,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSpoiledPrince.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSpoiledPrince.png",
+        "alias": "thespoiledprince"
     },
     "TheStandOff": {
         "id": "TheStandOff",
@@ -4683,7 +4889,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheStandOff.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheStandOff.png",
+        "alias": "thestandoff"
     },
     "TheStormcaller": {
         "id": "TheStormcaller",
@@ -4701,7 +4908,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheStormcaller.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheStormcaller.png",
+        "alias": "thestormcaller"
     },
     "TheSummoner": {
         "id": "TheSummoner",
@@ -4721,7 +4929,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSummoner.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSummoner.png",
+        "alias": "thesummoner"
     },
     "TheSun": {
         "id": "TheSun",
@@ -4739,7 +4948,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSun.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSun.png",
+        "alias": "thesun"
     },
     "TheSurgeon": {
         "id": "TheSurgeon",
@@ -4757,7 +4967,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSurgeon.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSurgeon.png",
+        "alias": "thesurgeon"
     },
     "TheSurveyor": {
         "id": "TheSurveyor",
@@ -4775,7 +4986,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSurveyor.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSurveyor.png",
+        "alias": "thesurveyor"
     },
     "TheSurvivalist": {
         "id": "TheSurvivalist",
@@ -4794,7 +5006,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSurvivalist.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSurvivalist.png",
+        "alias": "thesurvivalist"
     },
     "TheSwordKingsSalute": {
         "id": "TheSwordKingsSalute",
@@ -4813,7 +5026,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheSwordKingsSalute.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheSwordKingsSalute.png",
+        "alias": "theswordkingssalute"
     },
     "TheThaumaturgist": {
         "id": "TheThaumaturgist",
@@ -4832,7 +5046,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheThaumaturgist.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheThaumaturgist.png",
+        "alias": "thethaumaturgist"
     },
     "TheThrone": {
         "id": "TheThrone",
@@ -4850,7 +5065,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheThrone.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheThrone.png",
+        "alias": "thethrone"
     },
     "TheTinkerersTable": {
         "id": "TheTinkerersTable",
@@ -4970,7 +5186,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTinkerersTable.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTinkerersTable.png",
+        "alias": "thetinkererstable"
     },
     "TheTirelessExtractor": {
         "id": "TheTirelessExtractor",
@@ -4987,7 +5204,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTirelessExtractor.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTirelessExtractor.png",
+        "alias": "thetirelessextractor"
     },
     "TheTower": {
         "id": "TheTower",
@@ -5004,7 +5222,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTower.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTower.png",
+        "alias": "thetower"
     },
     "TheTraitor": {
         "id": "TheTraitor",
@@ -5022,7 +5241,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTraitor.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTraitor.png",
+        "alias": "thetraitor"
     },
     "TheTransformation": {
         "id": "TheTransformation",
@@ -5044,7 +5264,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTransformation.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTransformation.png",
+        "alias": "thetransformation"
     },
     "TheTrial": {
         "id": "TheTrial",
@@ -5164,7 +5385,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTrial.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTrial.png",
+        "alias": "thetrial"
     },
     "TheTumbleWeed": {
         "id": "TheTumbleWeed",
@@ -5183,7 +5405,8 @@
         ],
         "chaos_value": 7.9,
         "divine_value": 0.04,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTumbleWeed.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTumbleWeed.png",
+        "alias": "thetumbleweed"
     },
     "TheTwilightMoon": {
         "id": "TheTwilightMoon",
@@ -5201,7 +5424,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTwilightMoon.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTwilightMoon.png",
+        "alias": "thetwilightmoon"
     },
     "TheTwins": {
         "id": "TheTwins",
@@ -5220,7 +5444,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTwins.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTwins.png",
+        "alias": "thetwins"
     },
     "TheTyrant": {
         "id": "TheTyrant",
@@ -5243,7 +5468,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheTyrant.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheTyrant.png",
+        "alias": "thetyrant"
     },
     "TheUndaunted": {
         "id": "TheUndaunted",
@@ -5261,7 +5487,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheUndaunted.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheUndaunted.png",
+        "alias": "theundaunted"
     },
     "TheUnexpectedPrize": {
         "id": "TheUnexpectedPrize",
@@ -5279,7 +5506,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheUnexpectedPrize.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheUnexpectedPrize.png",
+        "alias": "theunexpectedprize"
     },
     "TheUnion": {
         "id": "TheUnion",
@@ -5297,7 +5525,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheUnion.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheUnion.png",
+        "alias": "theunion"
     },
     "TheVast": {
         "id": "TheVast",
@@ -5315,7 +5544,8 @@
         ],
         "chaos_value": 8.0,
         "divine_value": 0.04,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheVast.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheVast.png",
+        "alias": "thevast"
     },
     "TheVisionary": {
         "id": "TheVisionary",
@@ -5334,7 +5564,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheVisionary.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheVisionary.png",
+        "alias": "thevisionary"
     },
     "TheWarden": {
         "id": "TheWarden",
@@ -5351,7 +5582,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWarden.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWarden.png",
+        "alias": "thewarden"
     },
     "TheWarlord": {
         "id": "TheWarlord",
@@ -5369,7 +5601,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWarlord.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWarlord.png",
+        "alias": "thewarlord"
     },
     "TheWatcher": {
         "id": "TheWatcher",
@@ -5386,7 +5619,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWatcher.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWatcher.png",
+        "alias": "thewatcher"
     },
     "TheWeb": {
         "id": "TheWeb",
@@ -5405,7 +5639,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWeb.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWeb.png",
+        "alias": "theweb"
     },
     "TheWeddingGift": {
         "id": "TheWeddingGift",
@@ -5422,7 +5657,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWeddingGift.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWeddingGift.png",
+        "alias": "theweddinggift"
     },
     "TheWiltedRose": {
         "id": "TheWiltedRose",
@@ -5439,7 +5675,8 @@
         ],
         "chaos_value": 5.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWiltedRose.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWiltedRose.png",
+        "alias": "thewiltedrose"
     },
     "TheWind": {
         "id": "TheWind",
@@ -5459,7 +5696,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWind.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWind.png",
+        "alias": "thewind"
     },
     "TheWitch": {
         "id": "TheWitch",
@@ -5480,7 +5718,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWitch.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWitch.png",
+        "alias": "thewitch"
     },
     "TheWolf": {
         "id": "TheWolf",
@@ -5500,7 +5739,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWolf.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWolf.png",
+        "alias": "thewolf"
     },
     "TheWolfsShadow": {
         "id": "TheWolfsShadow",
@@ -5518,7 +5758,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWolfsShadow.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWolfsShadow.png",
+        "alias": "thewolfsshadow"
     },
     "TheWolvenKingsBite": {
         "id": "TheWolvenKingsBite",
@@ -5535,7 +5776,8 @@
         ],
         "chaos_value": 3.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWolvenKingsBite.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWolvenKingsBite.png",
+        "alias": "thewolvenkingsbite"
     },
     "TheWolverine": {
         "id": "TheWolverine",
@@ -5553,7 +5795,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWolverine.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWolverine.png",
+        "alias": "thewolverine"
     },
     "TheWretched": {
         "id": "TheWretched",
@@ -5574,7 +5817,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWretched.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TheWretched.png",
+        "alias": "thewretched"
     },
     "ThirstForKnowledge": {
         "id": "ThirstForKnowledge",
@@ -5592,7 +5836,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThirstForKnowledge.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThirstForKnowledge.png",
+        "alias": "thirstforknowledge"
     },
     "ThreeFacesInTheDark": {
         "id": "ThreeFacesInTheDark",
@@ -5609,7 +5854,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThreeFacesInTheDark.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThreeFacesInTheDark.png",
+        "alias": "threefacesinthedark"
     },
     "ThreeVoices": {
         "id": "ThreeVoices",
@@ -5632,7 +5878,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThreeVoices.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThreeVoices.png",
+        "alias": "threevoices"
     },
     "ThunderousSkies": {
         "id": "ThunderousSkies",
@@ -5651,7 +5898,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/ThunderousSkies.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ThunderousSkies.png",
+        "alias": "thunderousskies"
     },
     "TimeLostRelic": {
         "id": "TimeLostRelic",
@@ -5671,7 +5919,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TimeLostRelic.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TimeLostRelic.png",
+        "alias": "time-lostrelic"
     },
     "Tranquillity": {
         "id": "Tranquillity",
@@ -5690,7 +5939,8 @@
         ],
         "chaos_value": 7.0,
         "divine_value": 0.03,
-        "art_url": "https://web.poecdn.com/image/divination-card/Tranquillity.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Tranquillity.png",
+        "alias": "tranquillity"
     },
     "TreasureHunter": {
         "id": "TreasureHunter",
@@ -5713,7 +5963,8 @@
         ],
         "chaos_value": 4.0,
         "divine_value": 0.02,
-        "art_url": "https://web.poecdn.com/image/divination-card/TreasureHunter.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/TreasureHunter.png",
+        "alias": "treasurehunter"
     },
     "Unchained": {
         "id": "Unchained",
@@ -5732,7 +5983,8 @@
         ],
         "chaos_value": 17.0,
         "divine_value": 0.08,
-        "art_url": "https://web.poecdn.com/image/divination-card/Unchained.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/Unchained.png",
+        "alias": "unchained"
     },
     "UnrequitedLove": {
         "id": "UnrequitedLove",
@@ -5752,7 +6004,8 @@
         ],
         "chaos_value": 13772.8,
         "divine_value": 64.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/UnrequitedLove.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/UnrequitedLove.png",
+        "alias": "unrequitedlove"
     },
     "VilePower": {
         "id": "VilePower",
@@ -5772,7 +6025,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/VilePower.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/VilePower.png",
+        "alias": "vilepower"
     },
     "ViniasToken": {
         "id": "ViniasToken",
@@ -5789,7 +6043,8 @@
         ],
         "chaos_value": 2.0,
         "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/ViniasToken.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/ViniasToken.png",
+        "alias": "viniastoken"
     },
     "VolatilePower": {
         "id": "VolatilePower",
@@ -5809,7 +6064,8 @@
         ],
         "chaos_value": 1.0,
         "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/VolatilePower.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/VolatilePower.png",
+        "alias": "volatilepower"
     },
     "WealthAndPower": {
         "id": "WealthAndPower",
@@ -5826,7 +6082,8 @@
         ],
         "chaos_value": 1076.0,
         "divine_value": 5.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/WealthAndPower.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/WealthAndPower.png",
+        "alias": "wealthandpower"
     },
     "WhoAsked": {
         "id": "WhoAsked",
@@ -5844,6 +6101,7 @@
         ],
         "chaos_value": 43.0,
         "divine_value": 0.2,
-        "art_url": "https://web.poecdn.com/image/divination-card/WhoAsked.png"
+        "art_url": "https://web.poecdn.com/image/divination-card/WhoAsked.png",
+        "alias": "whoasked"
     }
 }
