@@ -3,8 +3,6 @@
         "id": "AChillingWind",
         "name": "A Chilling Wind",
         "drop_areas": [
-            "MapWorldsForbiddenWoods",
-            "MapWorldsColdRiver_",
             "MapWorldsFrozenCabins",
             "MapWorldsSummit",
             "MapWorldsGorge",
@@ -25,7 +23,6 @@
         "id": "ADabOfInk",
         "name": "A Dab of Ink",
         "drop_areas": [
-            "MapWorldsScriptorium",
             "MapWorldsMuseum",
             "MapWorldsAcademy"
         ],
@@ -46,7 +43,6 @@
         "drop_areas": [
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDesertSpring",
             "MapWorldsDesert"
         ],
         "stack_size": 4,
@@ -66,7 +62,6 @@
         "drop_areas": [
             "MapWorldsMineralPools",
             "MapWorldsCrystalOre",
-            "MapWorldsTortureChamber",
             "MapWorldsGrotto"
         ],
         "stack_size": 3,
@@ -87,11 +82,8 @@
             "MapWorldsGrotto",
             "MapWorldsWharf",
             "MapWorldsFloodedMine",
-            "MapWorldsWaterways",
             "MapWorldsVault",
-            "MapWorldsCoves",
-            "MapWorldsPeninsula",
-            "MapWorldsGeode"
+            "MapWorldsCoves"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -125,7 +117,6 @@
         "id": "Acclimatisation",
         "name": "Acclimatisation",
         "drop_areas": [
-            "MapWorldsDesertSpring",
             "MapWorldsDunes",
             "MapWorldsDesert",
             "MapWorldsDrySea"
@@ -147,10 +138,8 @@
         "drop_areas": [
             "MapWorldsAshenWood",
             "MapWorldsSpiderForest",
-            "MapWorldsLair",
             "MapWorldsThicket",
             "MapWorldsDarkForest",
-            "MapWorldsForbiddenWoods",
             "MapWorldsTropicalIsland",
             "MapWorldsRamparts",
             "MapWorldsStagnation",
@@ -172,7 +161,6 @@
         "id": "ArroganceoftheVaal",
         "name": "Arrogance of the Vaal",
         "drop_areas": [
-            "MapWorldsSunkenCity",
             "MapWorldsAncientCity",
             "MapWorldsVaalPyramid"
         ],
@@ -191,7 +179,6 @@
         "id": "AssassinsFavor",
         "name": "Assassin's Favour",
         "drop_areas": [
-            "MapWorldsAlleyways",
             "MapWorldsBazaar",
             "MapWorldsArcade",
             "MapWorldsPort"
@@ -245,7 +232,6 @@
         "id": "AzureRage",
         "name": "Azure Rage",
         "drop_areas": [
-            "MapWorldsFactory",
             "MapWorldsPort"
         ],
         "stack_size": 4,
@@ -283,7 +269,6 @@
         "name": "Baited Expectations",
         "drop_areas": [
             "MapWorldsDrySea",
-            "MapWorldsDesertSpring",
             "MapWorldsDunes",
             "MapWorldsDesert"
         ],
@@ -305,9 +290,7 @@
             "MapWorldsFloodedMine",
             "MapWorldsCrystalOre",
             "MapWorldsDig",
-            "MapWorldsExcavation",
-            "MapWorldsGrotto",
-            "MapWorldsGeode"
+            "MapWorldsGrotto"
         ],
         "stack_size": 3,
         "reward_text": [
@@ -380,8 +363,7 @@
         "name": "Boundless Realms",
         "drop_areas": [
             "MapWorldsTemple",
-            "MapWorldsMoonTempleUnique",
-            "MapWorldsColdRiver_"
+            "MapWorldsMoonTempleUnique"
         ],
         "stack_size": 4,
         "reward_text": [
@@ -399,8 +381,7 @@
         "name": "Brother's Gift",
         "drop_areas": [
             "MapWorldsCemetery",
-            "MapWorldsGraveTrough",
-            "MapWorldsGraveyard"
+            "MapWorldsGraveTrough"
         ],
         "stack_size": 1,
         "reward_text": [
@@ -409,7 +390,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1104.05,
+        "chaos_value": 1097.52,
         "divine_value": 5.1,
         "art_url": "https://web.poecdn.com/image/divination-card/BrotherGift.png"
     },
@@ -418,7 +399,6 @@
         "name": "Brother's Stash",
         "drop_areas": [
             "MapWorldsCemetery",
-            "MapWorldsGraveyard",
             "MapWorldsGraveTrough"
         ],
         "stack_size": 1,
@@ -456,10 +436,8 @@
         "id": "BuriedTreasure",
         "name": "Buried Treasure",
         "drop_areas": [
-            "MapWorldsExcavation",
             "MapWorldsFloodedMine",
             "MapWorldsCrystalOre",
-            "MapWorldsGeode",
             "MapWorldsDig",
             "MapWorldsGrotto"
         ],
@@ -470,7 +448,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.0,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/BuriedTreasure.png"
     },
@@ -498,8 +476,7 @@
         "drop_areas": [
             "MapWorldsDarkForest",
             "MapWorldsBrambleValley",
-            "MapWorldsThicket",
-            "MapWorldsForbiddenWoods"
+            "MapWorldsThicket"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -534,8 +511,7 @@
         "name": "Checkmate",
         "drop_areas": [
             "MapWorldsMuseum",
-            "MapWorldsAcademy",
-            "MapWorldsScriptorium"
+            "MapWorldsAcademy"
         ],
         "stack_size": 8,
         "reward_text": [
@@ -588,8 +564,7 @@
         "name": "Cursed Words",
         "drop_areas": [
             "MapWorldsCemetery",
-            "MapWorldsGraveTrough",
-            "MapWorldsGraveyard"
+            "MapWorldsGraveTrough"
         ],
         "stack_size": 13,
         "reward_text": [
@@ -624,8 +599,7 @@
         "name": "Death",
         "drop_areas": [
             "MapWorldsBog",
-            "MapWorldsMudGeyser",
-            "MapWorldsMarshes"
+            "MapWorldsMudGeyser"
         ],
         "stack_size": 4,
         "reward_text": [
@@ -661,7 +635,6 @@
         "name": "Destined to Crumble",
         "drop_areas": [
             "MapWorldsAcademy",
-            "MapWorldsScriptorium",
             "MapWorldsMuseum"
         ],
         "stack_size": 5,
@@ -680,8 +653,7 @@
         "name": "Dialla's Subjugation",
         "drop_areas": [
             "MapWorldsTemple",
-            "MapWorldsMoonTempleUnique",
-            "MapWorldsColdRiver_"
+            "MapWorldsMoonTempleUnique"
         ],
         "stack_size": 7,
         "reward_text": [
@@ -700,7 +672,6 @@
         "drop_areas": [
             "MapWorldsDunes",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDrySea",
             "MapWorldsDunesUnique"
         ],
@@ -759,7 +730,6 @@
         "drop_areas": [
             "MapWorldsCourtyard",
             "MapWorldsOrchard",
-            "MapWorldsTerrace",
             "MapWorldsGardens"
         ],
         "stack_size": 5,
@@ -787,7 +757,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1255.58,
+        "chaos_value": 1248.16,
         "divine_value": 5.8,
         "art_url": "https://web.poecdn.com/image/divination-card/FireOfUnknownOrigin.png"
     },
@@ -798,7 +768,6 @@
             "MapWorldsStrand",
             "MapWorldsCaldera",
             "MapWorldsShore",
-            "MapWorldsLavaLake",
             "MapWorldsCoves",
             "MapWorldsEstuary",
             "MapWorldsVolcano"
@@ -856,10 +825,8 @@
         "drop_areas": [
             "MapWorldsDig",
             "MapWorldsGrotto",
-            "MapWorldsGeode",
             "MapWorldsCrystalOre",
-            "MapWorldsFloodedMine",
-            "MapWorldsExcavation"
+            "MapWorldsFloodedMine"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -877,9 +844,7 @@
         "name": "Gift of the Gemling Queen",
         "drop_areas": [
             "MapWorldsCrystalOre",
-            "MapWorldsExcavation",
             "MapWorldsDig",
-            "MapWorldsGeode",
             "MapWorldsFloodedMine",
             "MapWorldsGrotto"
         ],
@@ -890,8 +855,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.0,
-        "divine_value": 0.01,
+        "chaos_value": 1.0,
+        "divine_value": 0.0,
         "art_url": "https://web.poecdn.com/image/divination-card/GiftOfTheGemlingQueen.png"
     },
     "GlimmerOfHope": {
@@ -946,7 +911,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 4.0,
+        "chaos_value": 4.3,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/HauntingShadows.png"
     },
@@ -956,22 +921,15 @@
         "drop_areas": [
             "MapWorldsAcademy",
             "MapWorldsAcidLakes",
-            "MapWorldsAlleyways",
             "MapWorldsAncientCity",
             "MapWorldsArachnidNest",
-            "MapWorldsArachnidTomb",
             "MapWorldsArcade",
             "MapWorldsArena",
             "MapWorldsAridLake",
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsAshenWood",
             "MapWorldsAtoll",
-            "MapWorldsBarrows",
             "MapWorldsBasilica",
             "MapWorldsBazaar",
-            "MapWorldsBeach",
-            "MapWorldsBelfry",
             "MapWorldsBog",
             "MapWorldsBoneCrypt",
             "MapWorldsBrambleValley",
@@ -981,18 +939,14 @@
             "MapWorldsCanyon",
             "MapWorldsCarcass",
             "MapWorldsCastleRuins",
-            "MapWorldsCells",
             "MapWorldsCemetery",
             "MapWorldsChannel",
             "MapWorldsChateau",
             "MapWorldsCitySquare",
-            "MapWorldsColdRiver_",
             "MapWorldsColonnade",
             "MapWorldsColosseum",
             "MapWorldsConservatory",
-            "MapWorldsCoralRuins",
             "MapWorldsCore",
-            "MapWorldsCourthouse",
             "MapWorldsCourtyard",
             "MapWorldsCoves",
             "MapWorldsTribunal",
@@ -1001,45 +955,28 @@
             "MapWorldsCrystalOre",
             "MapWorldsCursedCrypt",
             "MapWorldsDarkForest",
-            "MapWorldsDefiledCathedral",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDig",
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDungeon",
             "MapWorldsEstuary",
-            "MapWorldsExcavation",
-            "MapWorldsFactory",
             "MapWorldsFields",
             "MapWorldsFloodedMine",
-            "MapWorldsForbiddenWoods",
             "MapWorldsForkingRiver",
             "MapWorldsFoundry",
             "MapWorldsFrozenCabins",
-            "MapWorldsSprings",
             "MapWorldsGardens",
-            "MapWorldsGeode",
             "MapWorldsGhetto",
             "MapWorldsGorge",
             "MapWorldsGraveTrough",
-            "MapWorldsGraveyard",
             "MapWorldsGrotto",
-            "MapWorldsHauntedMansion",
             "MapWorldsIceberg",
             "MapWorldsInfestedValley",
             "MapWorldsIvoryTemple",
             "MapWorldsJungleValley",
             "MapWorldsLaboratory",
-            "MapWorldsLair",
             "MapWorldsLavaChamber",
-            "MapWorldsLavaLake",
-            "MapWorldsLeyline",
-            "MapWorldsLighthouse",
             "MapWorldsLookout",
-            "MapWorldsMalformation",
-            "MapWorldsMarshes",
-            "MapWorldsMausoleum",
             "MapWorldsMaze",
             "MapWorldsMesa",
             "MapWorldsMineralPools",
@@ -1052,53 +989,35 @@
             "MapWorldsOvergrownShrine",
             "MapWorldsPalace",
             "MapWorldsPark",
-            "MapWorldsPen",
-            "MapWorldsPeninsula",
-            "MapWorldsPhantasmagoria",
             "MapWorldsPier",
-            "MapWorldsPit",
-            "MapWorldsPlateau",
             "MapWorldsPlaza",
             "MapWorldsPort",
             "MapWorldsPrecinct",
-            "MapWorldsTortureChamber",
-            "MapWorldsPrimordialPool",
             "MapWorldsPromenade",
             "MapWorldsRacecourse_",
             "MapWorldsRamparts",
             "MapWorldsReef",
             "MapWorldsRelicChambers",
             "MapWorldsResidence",
-            "MapWorldsScriptorium",
             "MapWorldsSepulchre",
-            "MapWorldsShipyard",
             "MapWorldsShore",
-            "MapWorldsShrine",
             "MapWorldsSiege",
-            "MapWorldsSilo",
             "MapWorldsSpiderForest",
             "MapWorldsSpiderLair",
             "MapWorldsStagnation",
             "MapWorldsStrand",
-            "MapWorldsSulphurVents",
             "MapWorldsSummit",
-            "MapWorldsSunkenCity",
             "MapWorldsTemple",
-            "MapWorldsTerrace",
             "MapWorldsThicket",
-            "MapWorldsTower",
-            "MapWorldsToxicSewer",
             "MapWorldsTropicalIsland",
             "MapWorldsUndergroundRiver",
             "MapWorldsUndergroundSea",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsVolcano",
             "MapWorldsWastePool",
             "MapWorldsWasteland",
-            "MapWorldsWaterways",
             "MapWorldsWharf",
             "MapWorldsPhoenix",
             "MapWorldsMinotaur",
@@ -1138,17 +1057,13 @@
         "id": "Home",
         "name": "Home",
         "drop_areas": [
-            "MapWorldsTower",
             "MapWorldsResidence",
-            "MapWorldsAlleyways",
-            "MapWorldsSunkenCity",
             "MapWorldsArcade",
             "MapWorldsCrimsonTownship",
             "MapWorldsCitySquare",
             "MapWorldsAncientCity",
             "MapWorldsBazaar",
             "MapWorldsChateau",
-            "MapWorldsHauntedMansion",
             "MapWorldsSiege"
         ],
         "stack_size": 3,
@@ -1158,7 +1073,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 216.48,
+        "chaos_value": 215.2,
         "divine_value": 1.0,
         "art_url": "https://web.poecdn.com/image/divination-card/Home.png"
     },
@@ -1168,22 +1083,15 @@
         "drop_areas": [
             "MapWorldsAcademy",
             "MapWorldsAcidLakes",
-            "MapWorldsAlleyways",
             "MapWorldsAncientCity",
             "MapWorldsArachnidNest",
-            "MapWorldsArachnidTomb",
             "MapWorldsArcade",
             "MapWorldsArena",
             "MapWorldsAridLake",
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsAshenWood",
             "MapWorldsAtoll",
-            "MapWorldsBarrows",
             "MapWorldsBasilica",
             "MapWorldsBazaar",
-            "MapWorldsBeach",
-            "MapWorldsBelfry",
             "MapWorldsBog",
             "MapWorldsBoneCrypt",
             "MapWorldsBrambleValley",
@@ -1193,18 +1101,14 @@
             "MapWorldsCanyon",
             "MapWorldsCarcass",
             "MapWorldsCastleRuins",
-            "MapWorldsCells",
             "MapWorldsCemetery",
             "MapWorldsChannel",
             "MapWorldsChateau",
             "MapWorldsCitySquare",
-            "MapWorldsColdRiver_",
             "MapWorldsColonnade",
             "MapWorldsColosseum",
             "MapWorldsConservatory",
-            "MapWorldsCoralRuins",
             "MapWorldsCore",
-            "MapWorldsCourthouse",
             "MapWorldsCourtyard",
             "MapWorldsCoves",
             "MapWorldsTribunal",
@@ -1213,45 +1117,28 @@
             "MapWorldsCrystalOre",
             "MapWorldsCursedCrypt",
             "MapWorldsDarkForest",
-            "MapWorldsDefiledCathedral",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDig",
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDungeon",
             "MapWorldsEstuary",
-            "MapWorldsExcavation",
-            "MapWorldsFactory",
             "MapWorldsFields",
             "MapWorldsFloodedMine",
-            "MapWorldsForbiddenWoods",
             "MapWorldsForkingRiver",
             "MapWorldsFoundry",
             "MapWorldsFrozenCabins",
-            "MapWorldsSprings",
             "MapWorldsGardens",
-            "MapWorldsGeode",
             "MapWorldsGhetto",
             "MapWorldsGorge",
             "MapWorldsGraveTrough",
-            "MapWorldsGraveyard",
             "MapWorldsGrotto",
-            "MapWorldsHauntedMansion",
             "MapWorldsIceberg",
             "MapWorldsInfestedValley",
             "MapWorldsIvoryTemple",
             "MapWorldsJungleValley",
             "MapWorldsLaboratory",
-            "MapWorldsLair",
             "MapWorldsLavaChamber",
-            "MapWorldsLavaLake",
-            "MapWorldsLeyline",
-            "MapWorldsLighthouse",
             "MapWorldsLookout",
-            "MapWorldsMalformation",
-            "MapWorldsMarshes",
-            "MapWorldsMausoleum",
             "MapWorldsMaze",
             "MapWorldsMesa",
             "MapWorldsMineralPools",
@@ -1264,53 +1151,35 @@
             "MapWorldsOvergrownShrine",
             "MapWorldsPalace",
             "MapWorldsPark",
-            "MapWorldsPen",
-            "MapWorldsPeninsula",
-            "MapWorldsPhantasmagoria",
             "MapWorldsPier",
-            "MapWorldsPit",
-            "MapWorldsPlateau",
             "MapWorldsPlaza",
             "MapWorldsPort",
             "MapWorldsPrecinct",
-            "MapWorldsTortureChamber",
-            "MapWorldsPrimordialPool",
             "MapWorldsPromenade",
             "MapWorldsRacecourse_",
             "MapWorldsRamparts",
             "MapWorldsReef",
             "MapWorldsRelicChambers",
             "MapWorldsResidence",
-            "MapWorldsScriptorium",
             "MapWorldsSepulchre",
-            "MapWorldsShipyard",
             "MapWorldsShore",
-            "MapWorldsShrine",
             "MapWorldsSiege",
-            "MapWorldsSilo",
             "MapWorldsSpiderForest",
             "MapWorldsSpiderLair",
             "MapWorldsStagnation",
             "MapWorldsStrand",
-            "MapWorldsSulphurVents",
             "MapWorldsSummit",
-            "MapWorldsSunkenCity",
             "MapWorldsTemple",
-            "MapWorldsTerrace",
             "MapWorldsThicket",
-            "MapWorldsTower",
-            "MapWorldsToxicSewer",
             "MapWorldsTropicalIsland",
             "MapWorldsUndergroundRiver",
             "MapWorldsUndergroundSea",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsVolcano",
             "MapWorldsWastePool",
             "MapWorldsWasteland",
-            "MapWorldsWaterways",
             "MapWorldsWharf"
         ],
         "stack_size": 5,
@@ -1329,7 +1198,6 @@
         "name": "Humility",
         "drop_areas": [
             "MapWorldsChannel",
-            "MapWorldsWaterways",
             "MapWorldsFrozenCabins"
         ],
         "stack_size": 9,
@@ -1365,7 +1233,6 @@
         "id": "ImperialLegacy",
         "name": "Imperial Legacy",
         "drop_areas": [
-            "MapWorldsDesertSpring",
             "MapWorldsDesert",
             "MapWorldsDunes",
             "MapWorldsDunesUnique",
@@ -1388,7 +1255,6 @@
         "drop_areas": [
             "MapWorldsPromenade",
             "MapWorldsPort",
-            "MapWorldsArsenal",
             "MapWorldsGhetto",
             "MapWorldsPrecinct",
             "MapWorldsColonnade"
@@ -1408,8 +1274,7 @@
         "id": "LachrymalNecrosis",
         "name": "Lachrymal Necrosis",
         "drop_areas": [
-            "MapWorldsBasilica",
-            "MapWorldsDefiledCathedral"
+            "MapWorldsBasilica"
         ],
         "stack_size": 3,
         "reward_text": [
@@ -1419,28 +1284,23 @@
             }
         ],
         "chaos_value": 14.0,
-        "divine_value": 0.06,
+        "divine_value": 0.07,
         "art_url": "https://web.poecdn.com/image/divination-card/LachrymalNecrosis.png"
     },
     "LantadorsLostLove": {
         "id": "LantadorsLostLove",
         "name": "Lantador's Lost Love",
         "drop_areas": [
-            "MapWorldsLighthouse",
             "MapWorldsAtollUnique",
             "MapWorldsReef",
             "MapWorldsPort",
             "MapWorldsStrand",
             "MapWorldsAtoll",
-            "MapWorldsCoralRuins",
             "MapWorldsStrandUnique",
             "MapWorldsShoreUnique",
-            "MapWorldsBeach",
-            "MapWorldsPeninsula",
             "MapWorldsShore",
             "MapWorldsEstuary",
             "MapWorldsPier",
-            "MapWorldsPlateau",
             "MapWorldsTropicalIsland",
             "MapWorldsCoves",
             "MapWorldsWharf"
@@ -1496,7 +1356,6 @@
         "name": "Light and Truth",
         "drop_areas": [
             "MapWorldsResidence",
-            "MapWorldsVilla",
             "MapWorldsPalace"
         ],
         "stack_size": 2,
@@ -1516,22 +1375,15 @@
         "drop_areas": [
             "MapWorldsAcademy",
             "MapWorldsAcidLakes",
-            "MapWorldsAlleyways",
             "MapWorldsAncientCity",
             "MapWorldsArachnidNest",
-            "MapWorldsArachnidTomb",
             "MapWorldsArcade",
             "MapWorldsArena",
             "MapWorldsAridLake",
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsAshenWood",
             "MapWorldsAtoll",
-            "MapWorldsBarrows",
             "MapWorldsBasilica",
             "MapWorldsBazaar",
-            "MapWorldsBeach",
-            "MapWorldsBelfry",
             "MapWorldsBog",
             "MapWorldsBoneCrypt",
             "MapWorldsBrambleValley",
@@ -1541,18 +1393,14 @@
             "MapWorldsCanyon",
             "MapWorldsCarcass",
             "MapWorldsCastleRuins",
-            "MapWorldsCells",
             "MapWorldsCemetery",
             "MapWorldsChannel",
             "MapWorldsChateau",
             "MapWorldsCitySquare",
-            "MapWorldsColdRiver_",
             "MapWorldsColonnade",
             "MapWorldsColosseum",
             "MapWorldsConservatory",
-            "MapWorldsCoralRuins",
             "MapWorldsCore",
-            "MapWorldsCourthouse",
             "MapWorldsCourtyard",
             "MapWorldsCoves",
             "MapWorldsTribunal",
@@ -1561,45 +1409,28 @@
             "MapWorldsCrystalOre",
             "MapWorldsCursedCrypt",
             "MapWorldsDarkForest",
-            "MapWorldsDefiledCathedral",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDig",
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDungeon",
             "MapWorldsEstuary",
-            "MapWorldsExcavation",
-            "MapWorldsFactory",
             "MapWorldsFields",
             "MapWorldsFloodedMine",
-            "MapWorldsForbiddenWoods",
             "MapWorldsForkingRiver",
             "MapWorldsFoundry",
             "MapWorldsFrozenCabins",
-            "MapWorldsSprings",
             "MapWorldsGardens",
-            "MapWorldsGeode",
             "MapWorldsGhetto",
             "MapWorldsGorge",
             "MapWorldsGraveTrough",
-            "MapWorldsGraveyard",
             "MapWorldsGrotto",
-            "MapWorldsHauntedMansion",
             "MapWorldsIceberg",
             "MapWorldsInfestedValley",
             "MapWorldsIvoryTemple",
             "MapWorldsJungleValley",
             "MapWorldsLaboratory",
-            "MapWorldsLair",
             "MapWorldsLavaChamber",
-            "MapWorldsLavaLake",
-            "MapWorldsLeyline",
-            "MapWorldsLighthouse",
             "MapWorldsLookout",
-            "MapWorldsMalformation",
-            "MapWorldsMarshes",
-            "MapWorldsMausoleum",
             "MapWorldsMaze",
             "MapWorldsMesa",
             "MapWorldsMineralPools",
@@ -1612,53 +1443,35 @@
             "MapWorldsOvergrownShrine",
             "MapWorldsPalace",
             "MapWorldsPark",
-            "MapWorldsPen",
-            "MapWorldsPeninsula",
-            "MapWorldsPhantasmagoria",
             "MapWorldsPier",
-            "MapWorldsPit",
-            "MapWorldsPlateau",
             "MapWorldsPlaza",
             "MapWorldsPort",
             "MapWorldsPrecinct",
-            "MapWorldsTortureChamber",
-            "MapWorldsPrimordialPool",
             "MapWorldsPromenade",
             "MapWorldsRacecourse_",
             "MapWorldsRamparts",
             "MapWorldsReef",
             "MapWorldsRelicChambers",
             "MapWorldsResidence",
-            "MapWorldsScriptorium",
             "MapWorldsSepulchre",
-            "MapWorldsShipyard",
             "MapWorldsShore",
-            "MapWorldsShrine",
             "MapWorldsSiege",
-            "MapWorldsSilo",
             "MapWorldsSpiderForest",
             "MapWorldsSpiderLair",
             "MapWorldsStagnation",
             "MapWorldsStrand",
-            "MapWorldsSulphurVents",
             "MapWorldsSummit",
-            "MapWorldsSunkenCity",
             "MapWorldsTemple",
-            "MapWorldsTerrace",
             "MapWorldsThicket",
-            "MapWorldsTower",
-            "MapWorldsToxicSewer",
             "MapWorldsTropicalIsland",
             "MapWorldsUndergroundRiver",
             "MapWorldsUndergroundSea",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsVolcano",
             "MapWorldsWastePool",
             "MapWorldsWasteland",
-            "MapWorldsWaterways",
             "MapWorldsWharf",
             "MapWorldsPhoenix",
             "MapWorldsMinotaur",
@@ -1672,8 +1485,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1.0,
-        "divine_value": 0.0,
+        "chaos_value": 1.55,
+        "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/LingeringRemnants.png"
     },
     "Loyalty": {
@@ -1681,8 +1494,6 @@
         "name": "Loyalty",
         "drop_areas": [
             "MapWorldsGrotto",
-            "MapWorldsBarrows",
-            "MapWorldsLair",
             "MapWorldsUndergroundRiverUnique"
         ],
         "stack_size": 5,
@@ -1702,7 +1513,6 @@
         "drop_areas": [
             "MapWorldsWharf",
             "MapWorldsPort",
-            "MapWorldsShipyard",
             "MapWorldsPier"
         ],
         "stack_size": 7,
@@ -1722,22 +1532,15 @@
         "drop_areas": [
             "MapWorldsAcademy",
             "MapWorldsAcidLakes",
-            "MapWorldsAlleyways",
             "MapWorldsAncientCity",
             "MapWorldsArachnidNest",
-            "MapWorldsArachnidTomb",
             "MapWorldsArcade",
             "MapWorldsArena",
             "MapWorldsAridLake",
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsAshenWood",
             "MapWorldsAtoll",
-            "MapWorldsBarrows",
             "MapWorldsBasilica",
             "MapWorldsBazaar",
-            "MapWorldsBeach",
-            "MapWorldsBelfry",
             "MapWorldsBog",
             "MapWorldsBoneCrypt",
             "MapWorldsBrambleValley",
@@ -1747,18 +1550,14 @@
             "MapWorldsCanyon",
             "MapWorldsCarcass",
             "MapWorldsCastleRuins",
-            "MapWorldsCells",
             "MapWorldsCemetery",
             "MapWorldsChannel",
             "MapWorldsChateau",
             "MapWorldsCitySquare",
-            "MapWorldsColdRiver_",
             "MapWorldsColonnade",
             "MapWorldsColosseum",
             "MapWorldsConservatory",
-            "MapWorldsCoralRuins",
             "MapWorldsCore",
-            "MapWorldsCourthouse",
             "MapWorldsCourtyard",
             "MapWorldsCoves",
             "MapWorldsTribunal",
@@ -1767,45 +1566,28 @@
             "MapWorldsCrystalOre",
             "MapWorldsCursedCrypt",
             "MapWorldsDarkForest",
-            "MapWorldsDefiledCathedral",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDig",
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDungeon",
             "MapWorldsEstuary",
-            "MapWorldsExcavation",
-            "MapWorldsFactory",
             "MapWorldsFields",
             "MapWorldsFloodedMine",
-            "MapWorldsForbiddenWoods",
             "MapWorldsForkingRiver",
             "MapWorldsFoundry",
             "MapWorldsFrozenCabins",
-            "MapWorldsSprings",
             "MapWorldsGardens",
-            "MapWorldsGeode",
             "MapWorldsGhetto",
             "MapWorldsGorge",
             "MapWorldsGraveTrough",
-            "MapWorldsGraveyard",
             "MapWorldsGrotto",
-            "MapWorldsHauntedMansion",
             "MapWorldsIceberg",
             "MapWorldsInfestedValley",
             "MapWorldsIvoryTemple",
             "MapWorldsJungleValley",
             "MapWorldsLaboratory",
-            "MapWorldsLair",
             "MapWorldsLavaChamber",
-            "MapWorldsLavaLake",
-            "MapWorldsLeyline",
-            "MapWorldsLighthouse",
             "MapWorldsLookout",
-            "MapWorldsMalformation",
-            "MapWorldsMarshes",
-            "MapWorldsMausoleum",
             "MapWorldsMaze",
             "MapWorldsMesa",
             "MapWorldsMineralPools",
@@ -1818,53 +1600,35 @@
             "MapWorldsOvergrownShrine",
             "MapWorldsPalace",
             "MapWorldsPark",
-            "MapWorldsPen",
-            "MapWorldsPeninsula",
-            "MapWorldsPhantasmagoria",
             "MapWorldsPier",
-            "MapWorldsPit",
-            "MapWorldsPlateau",
             "MapWorldsPlaza",
             "MapWorldsPort",
             "MapWorldsPrecinct",
-            "MapWorldsTortureChamber",
-            "MapWorldsPrimordialPool",
             "MapWorldsPromenade",
             "MapWorldsRacecourse_",
             "MapWorldsRamparts",
             "MapWorldsReef",
             "MapWorldsRelicChambers",
             "MapWorldsResidence",
-            "MapWorldsScriptorium",
             "MapWorldsSepulchre",
-            "MapWorldsShipyard",
             "MapWorldsShore",
-            "MapWorldsShrine",
             "MapWorldsSiege",
-            "MapWorldsSilo",
             "MapWorldsSpiderForest",
             "MapWorldsSpiderLair",
             "MapWorldsStagnation",
             "MapWorldsStrand",
-            "MapWorldsSulphurVents",
             "MapWorldsSummit",
-            "MapWorldsSunkenCity",
             "MapWorldsTemple",
-            "MapWorldsTerrace",
             "MapWorldsThicket",
-            "MapWorldsTower",
-            "MapWorldsToxicSewer",
             "MapWorldsTropicalIsland",
             "MapWorldsUndergroundRiver",
             "MapWorldsUndergroundSea",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsVolcano",
             "MapWorldsWastePool",
             "MapWorldsWasteland",
-            "MapWorldsWaterways",
             "MapWorldsWharf"
         ],
         "stack_size": 9,
@@ -1901,8 +1665,7 @@
         "id": "ManWithBear",
         "name": "Man With Bear",
         "drop_areas": [
-            "MapWorldsCemetery",
-            "MapWorldsBarrows"
+            "MapWorldsCemetery"
         ],
         "stack_size": 3,
         "reward_text": [
@@ -1920,7 +1683,6 @@
         "name": "Mawr Blaidd",
         "drop_areas": [
             "MapWorldsDarkForest",
-            "MapWorldsForbiddenWoods",
             "MapWorldsBrambleValley"
         ],
         "stack_size": 16,
@@ -1938,9 +1700,7 @@
         "id": "MercilessArmament",
         "name": "Merciless Armament",
         "drop_areas": [
-            "MapWorldsArmoury",
             "MapWorldsColonnade",
-            "MapWorldsArsenal",
             "MapWorldsPromenade"
         ],
         "stack_size": 4,
@@ -1959,7 +1719,6 @@
         "name": "Might is Right",
         "drop_areas": [
             "MapWorldsSepulchre",
-            "MapWorldsMausoleum",
             "MapWorldsRelicChambers"
         ],
         "stack_size": 9,
@@ -1980,8 +1739,6 @@
             "MapWorldsIceberg",
             "MapWorldsSummit",
             "MapWorldsFrozenCabins",
-            "MapWorldsForbiddenWoods",
-            "MapWorldsColdRiver_",
             "MapWorldsGorge"
         ],
         "stack_size": 5,
@@ -2005,9 +1762,6 @@
             "MapWorldsCourtyardUnique",
             "MapWorldsCursedCryptUnique",
             "MapWorldsDunesUnique",
-            "MapWorldsHarbingerMid",
-            "MapWorldsHarbingerHigh",
-            "MapWorldsHarbingerUber",
             "MapWorldsMazeUnique",
             "MapWorldsMoonTempleUnique",
             "MapWorldsMuseumUnique",
@@ -2018,8 +1772,7 @@
             "MapWorldsPromenadeUnique",
             "MapWorldsTempleUnique",
             "MapWorldsVaalPyramidUnique",
-            "MapWorldsUndergroundRiverUnique",
-            "MapWorldsTortureChamberUnique"
+            "MapWorldsUndergroundRiverUnique"
         ],
         "stack_size": 3,
         "reward_text": [
@@ -2054,7 +1807,6 @@
         "name": "No Traces",
         "drop_areas": [
             "MapWorldsSepulchre",
-            "MapWorldsMausoleum",
             "MapWorldsRelicChambers"
         ],
         "stack_size": 9,
@@ -2073,7 +1825,6 @@
         "name": "Parasitic Passengers",
         "drop_areas": [
             "MapWorldsInfestedValley",
-            "MapWorldsArachnidTomb",
             "MapWorldsChannel"
         ],
         "stack_size": 8,
@@ -2093,7 +1844,6 @@
         "drop_areas": [
             "MapWorldsGardens",
             "MapWorldsCourtyard",
-            "MapWorldsTerrace",
             "MapWorldsOrchard"
         ],
         "stack_size": 5,
@@ -2111,8 +1861,7 @@
         "id": "PoisonedFaith",
         "name": "Poisoned Faith",
         "drop_areas": [
-            "MapWorldsOvergrownRuin",
-            "MapWorldsSunkenCity"
+            "MapWorldsOvergrownRuin"
         ],
         "stack_size": 8,
         "reward_text": [
@@ -2147,8 +1896,6 @@
         "id": "PrideOfTheFirstOnes",
         "name": "Pride of the First Ones",
         "drop_areas": [
-            "MapWorldsLair",
-            "MapWorldsBarrows",
             "MapWorldsGrotto",
             "MapWorldsUndergroundRiverUnique"
         ],
@@ -2168,22 +1915,16 @@
         "name": "Prosperity",
         "drop_areas": [
             "MapWorldsShore",
-            "MapWorldsPeninsula",
             "MapWorldsEstuary",
             "MapWorldsStrand",
             "MapWorldsPort",
             "MapWorldsShoreUnique",
             "MapWorldsWharf",
-            "MapWorldsBeach",
             "MapWorldsStrandUnique",
             "MapWorldsReef",
             "MapWorldsAtoll",
             "MapWorldsAtollUnique",
-            "MapWorldsCoralRuins",
             "MapWorldsTropicalIsland",
-            "MapWorldsLighthouse",
-            "MapWorldsPlateau",
-            "MapWorldsShipyard",
             "MapWorldsPier",
             "MapWorldsCoves"
         ],
@@ -2220,7 +1961,6 @@
         "id": "RainTempter",
         "name": "Rain Tempter",
         "drop_areas": [
-            "MapWorldsTerrace",
             "MapWorldsGardens",
             "MapWorldsCourtyard",
             "MapWorldsOrchard"
@@ -2240,8 +1980,6 @@
         "id": "Rats",
         "name": "Rats",
         "drop_areas": [
-            "MapWorldsFactory",
-            "MapWorldsArsenal",
             "MapWorldsPort"
         ],
         "stack_size": 8,
@@ -2296,7 +2034,6 @@
         "id": "SevenYearsBadLuck",
         "name": "Seven Years Bad Luck",
         "drop_areas": [
-            "MapWorldsDefiledCathedral",
             "MapWorldsCrimsonTemple"
         ],
         "stack_size": 13,
@@ -2306,7 +2043,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 736.03,
+        "chaos_value": 731.68,
         "divine_value": 3.4,
         "art_url": "https://web.poecdn.com/image/divination-card/SevenYearsBadLuck.png"
     },
@@ -2332,10 +2069,8 @@
         "id": "SoulQuenched",
         "name": "Soul Quenched",
         "drop_areas": [
-            "MapWorldsFactory",
             "MapWorldsFoundry",
-            "MapWorldsPhoenix",
-            "MapWorldsSilo"
+            "MapWorldsPhoenix"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -2353,16 +2088,11 @@
         "name": "Struck by Lightning",
         "drop_areas": [
             "MapWorldsInfestedValley",
-            "MapWorldsGraveyard",
             "MapWorldsCemetery",
-            "MapWorldsTower",
-            "MapWorldsLeyline",
             "MapWorldsCourtyard",
             "MapWorldsPromenade",
             "MapWorldsWharf",
-            "MapWorldsShipyard",
             "MapWorldsColonnade",
-            "MapWorldsVilla",
             "MapWorldsCourtyardUnique",
             "MapWorldsStagnation"
         ],
@@ -2382,8 +2112,7 @@
         "name": "The Academic",
         "drop_areas": [
             "MapWorldsMuseum",
-            "MapWorldsAcademy",
-            "MapWorldsScriptorium"
+            "MapWorldsAcademy"
         ],
         "stack_size": 8,
         "reward_text": [
@@ -2392,8 +2121,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 9.6,
-        "divine_value": 0.04,
+        "chaos_value": 10.0,
+        "divine_value": 0.05,
         "art_url": "https://web.poecdn.com/image/divination-card/TheAcademic.png"
     },
     "TheAdmirer": {
@@ -2440,9 +2169,7 @@
         "name": "The Apothecary",
         "drop_areas": [
             "MapWorldsCrimsonTemple",
-            "MapWorldsCrimsonTownship",
-            "MapWorldsDefiledCathedral",
-            "MapWorldsHauntedMansion"
+            "MapWorldsCrimsonTownship"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -2451,16 +2178,15 @@
                 "optional": false
             }
         ],
-        "chaos_value": 6689.23,
-        "divine_value": 30.9,
+        "chaos_value": 5164.8,
+        "divine_value": 24.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheApothecary.png"
     },
     "TheArmyOfBlood": {
         "id": "TheArmyOfBlood",
         "name": "The Army of Blood",
         "drop_areas": [
-            "MapWorldsTempleUnique",
-            "MapWorldsShrine"
+            "MapWorldsTempleUnique"
         ],
         "stack_size": 6,
         "reward_text": [
@@ -2487,15 +2213,14 @@
                 "optional": false
             }
         ],
-        "chaos_value": 120.0,
-        "divine_value": 0.55,
+        "chaos_value": 115.0,
+        "divine_value": 0.53,
         "art_url": "https://web.poecdn.com/image/divination-card/TheArtist.png"
     },
     "TheAvenger": {
         "id": "TheAvenger",
         "name": "The Avenger",
         "drop_areas": [
-            "MapWorldsTortureChamber",
             "MapWorldsMineralPools",
             "MapWorldsUndergroundSea",
             "MapWorldsLavaChamber",
@@ -2517,9 +2242,7 @@
         "name": "The Awakened",
         "drop_areas": [
             "MapWorldsGardens",
-            "MapWorldsHauntedMansion",
             "MapWorldsPalace",
-            "MapWorldsTower",
             "MapWorldsUndergroundSea",
             "MapWorldsAtollUnique",
             "MapWorldsCemeteryUnique",
@@ -2562,7 +2285,6 @@
             "MapWorldsBurialChambers",
             "MapWorldsSpiderForest",
             "MapWorldsMesa",
-            "MapWorldsSprings",
             "MapWorldsCastleRuins"
         ],
         "stack_size": 9,
@@ -2580,12 +2302,8 @@
         "id": "TheBlazingFire",
         "name": "The Blazing Fire",
         "drop_areas": [
-            "MapWorldsHauntedMansion",
-            "MapWorldsAlleyways",
             "MapWorldsCrimsonTemple",
             "MapWorldsCitySquare",
-            "MapWorldsDefiledCathedral",
-            "MapWorldsSilo",
             "MapWorldsLookout"
         ],
         "stack_size": 6,
@@ -2607,8 +2325,7 @@
             "MapWorldsSpiderForest",
             "MapWorldsMuseumUnique",
             "MapWorldsSepulchre",
-            "MapWorldsWastePool",
-            "MapWorldsPhantasmagoria"
+            "MapWorldsWastePool"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -2669,15 +2386,11 @@
         "name": "The Catch",
         "drop_areas": [
             "MapWorldsStrand",
-            "MapWorldsShipyard",
-            "MapWorldsBeach",
             "MapWorldsAtoll",
             "MapWorldsTropicalIsland",
             "MapWorldsShore",
-            "MapWorldsPeninsula",
             "MapWorldsCoves",
-            "MapWorldsAtollUnique",
-            "MapWorldsPlateau"
+            "MapWorldsAtollUnique"
         ],
         "stack_size": 18,
         "reward_text": [
@@ -2705,18 +2418,15 @@
                 "optional": false
             }
         ],
-        "chaos_value": 5.0,
-        "divine_value": 0.02,
+        "chaos_value": 6.0,
+        "divine_value": 0.03,
         "art_url": "https://web.poecdn.com/image/divination-card/TheCelestialJusticar.png"
     },
     "TheChainsThatBind": {
         "id": "TheChainsThatBind",
         "name": "The Chains that Bind",
         "drop_areas": [
-            "MapWorldsDungeon",
-            "MapWorldsCage",
-            "MapWorldsCells",
-            "MapWorldsPen"
+            "MapWorldsCage"
         ],
         "stack_size": 11,
         "reward_text": [
@@ -2725,7 +2435,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.9,
+        "chaos_value": 2.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheChainsThatBind.png"
     },
@@ -2734,12 +2444,8 @@
         "name": "The Coming Storm",
         "drop_areas": [
             "MapWorldsInfestedValley",
-            "MapWorldsGraveyard",
             "MapWorldsColonnade",
-            "MapWorldsLeyline",
             "MapWorldsWharf",
-            "MapWorldsVilla",
-            "MapWorldsShipyard",
             "MapWorldsPromenade",
             "MapWorldsCemetery",
             "MapWorldsStagnation"
@@ -2768,7 +2474,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.1,
+        "chaos_value": 2.7,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheCursedKing.png"
     },
@@ -2780,8 +2486,7 @@
             "MapWorldsVaalTemple",
             "MapWorldsVaalPyramidUnique",
             "MapWorldsVaalPyramid",
-            "MapWorldsMaze",
-            "MapWorldsSunkenCity"
+            "MapWorldsMaze"
         ],
         "stack_size": 6,
         "reward_text": [
@@ -2790,8 +2495,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 75.0,
-        "divine_value": 0.35,
+        "chaos_value": 80.0,
+        "divine_value": 0.37,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDamned.png"
     },
     "TheDapperProdigy": {
@@ -2799,7 +2504,6 @@
         "name": "The Dapper Prodigy",
         "drop_areas": [
             "MapWorldsPalace",
-            "MapWorldsVilla",
             "MapWorldsResidence"
         ],
         "stack_size": 6,
@@ -2809,7 +2513,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 3.23,
+        "chaos_value": 3.11,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDapperProdigy.png"
     },
@@ -2883,7 +2587,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.0,
+        "chaos_value": 2.25,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDeepOnes.png"
     },
@@ -2892,8 +2596,7 @@
         "name": "The Demoness",
         "drop_areas": [
             "MapWorldsDarkForest",
-            "MapWorldsBrambleValley",
-            "MapWorldsForbiddenWoods"
+            "MapWorldsBrambleValley"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -2911,9 +2614,7 @@
         "name": "The Destination",
         "drop_areas": [
             "MapWorldsTropicalIsland",
-            "MapWorldsBeach",
-            "MapWorldsShore",
-            "MapWorldsSprings"
+            "MapWorldsShore"
         ],
         "stack_size": 9,
         "reward_text": [
@@ -2922,7 +2623,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 64.5,
+        "chaos_value": 65.0,
         "divine_value": 0.3,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDestination.png"
     },
@@ -2934,8 +2635,7 @@
             "MapWorldsSpiderForest",
             "MapWorldsMuseumUnique",
             "MapWorldsSepulchre",
-            "MapWorldsWastePool",
-            "MapWorldsPhantasmagoria"
+            "MapWorldsWastePool"
         ],
         "stack_size": 8,
         "reward_text": [
@@ -2944,8 +2644,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1623.6,
-        "divine_value": 7.5,
+        "chaos_value": 1463.36,
+        "divine_value": 6.8,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDoctor.png"
     },
     "TheDoppelganger": {
@@ -2970,8 +2670,7 @@
         "name": "The Dragon",
         "drop_areas": [
             "MapWorldsDarkForest",
-            "MapWorldsBrambleValley",
-            "MapWorldsForbiddenWoods"
+            "MapWorldsBrambleValley"
         ],
         "stack_size": 4,
         "reward_text": [
@@ -2990,22 +2689,15 @@
         "drop_areas": [
             "MapWorldsAcademy",
             "MapWorldsAcidLakes",
-            "MapWorldsAlleyways",
             "MapWorldsAncientCity",
             "MapWorldsArachnidNest",
-            "MapWorldsArachnidTomb",
             "MapWorldsArcade",
             "MapWorldsArena",
             "MapWorldsAridLake",
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsAshenWood",
             "MapWorldsAtoll",
-            "MapWorldsBarrows",
             "MapWorldsBasilica",
             "MapWorldsBazaar",
-            "MapWorldsBeach",
-            "MapWorldsBelfry",
             "MapWorldsBog",
             "MapWorldsBoneCrypt",
             "MapWorldsBrambleValley",
@@ -3015,18 +2707,14 @@
             "MapWorldsCanyon",
             "MapWorldsCarcass",
             "MapWorldsCastleRuins",
-            "MapWorldsCells",
             "MapWorldsCemetery",
             "MapWorldsChannel",
             "MapWorldsChateau",
             "MapWorldsCitySquare",
-            "MapWorldsColdRiver_",
             "MapWorldsColonnade",
             "MapWorldsColosseum",
             "MapWorldsConservatory",
-            "MapWorldsCoralRuins",
             "MapWorldsCore",
-            "MapWorldsCourthouse",
             "MapWorldsCourtyard",
             "MapWorldsCoves",
             "MapWorldsTribunal",
@@ -3035,45 +2723,28 @@
             "MapWorldsCrystalOre",
             "MapWorldsCursedCrypt",
             "MapWorldsDarkForest",
-            "MapWorldsDefiledCathedral",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDig",
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDungeon",
             "MapWorldsEstuary",
-            "MapWorldsExcavation",
-            "MapWorldsFactory",
             "MapWorldsFields",
             "MapWorldsFloodedMine",
-            "MapWorldsForbiddenWoods",
             "MapWorldsForkingRiver",
             "MapWorldsFoundry",
             "MapWorldsFrozenCabins",
-            "MapWorldsSprings",
             "MapWorldsGardens",
-            "MapWorldsGeode",
             "MapWorldsGhetto",
             "MapWorldsGorge",
             "MapWorldsGraveTrough",
-            "MapWorldsGraveyard",
             "MapWorldsGrotto",
-            "MapWorldsHauntedMansion",
             "MapWorldsIceberg",
             "MapWorldsInfestedValley",
             "MapWorldsIvoryTemple",
             "MapWorldsJungleValley",
             "MapWorldsLaboratory",
-            "MapWorldsLair",
             "MapWorldsLavaChamber",
-            "MapWorldsLavaLake",
-            "MapWorldsLeyline",
-            "MapWorldsLighthouse",
             "MapWorldsLookout",
-            "MapWorldsMalformation",
-            "MapWorldsMarshes",
-            "MapWorldsMausoleum",
             "MapWorldsMaze",
             "MapWorldsMesa",
             "MapWorldsMineralPools",
@@ -3086,53 +2757,35 @@
             "MapWorldsOvergrownShrine",
             "MapWorldsPalace",
             "MapWorldsPark",
-            "MapWorldsPen",
-            "MapWorldsPeninsula",
-            "MapWorldsPhantasmagoria",
             "MapWorldsPier",
-            "MapWorldsPit",
-            "MapWorldsPlateau",
             "MapWorldsPlaza",
             "MapWorldsPort",
             "MapWorldsPrecinct",
-            "MapWorldsTortureChamber",
-            "MapWorldsPrimordialPool",
             "MapWorldsPromenade",
             "MapWorldsRacecourse_",
             "MapWorldsRamparts",
             "MapWorldsReef",
             "MapWorldsRelicChambers",
             "MapWorldsResidence",
-            "MapWorldsScriptorium",
             "MapWorldsSepulchre",
-            "MapWorldsShipyard",
             "MapWorldsShore",
-            "MapWorldsShrine",
             "MapWorldsSiege",
-            "MapWorldsSilo",
             "MapWorldsSpiderForest",
             "MapWorldsSpiderLair",
             "MapWorldsStagnation",
             "MapWorldsStrand",
-            "MapWorldsSulphurVents",
             "MapWorldsSummit",
-            "MapWorldsSunkenCity",
             "MapWorldsTemple",
-            "MapWorldsTerrace",
             "MapWorldsThicket",
-            "MapWorldsTower",
-            "MapWorldsToxicSewer",
             "MapWorldsTropicalIsland",
             "MapWorldsUndergroundRiver",
             "MapWorldsUndergroundSea",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsVolcano",
             "MapWorldsWastePool",
             "MapWorldsWasteland",
-            "MapWorldsWaterways",
             "MapWorldsWharf",
             "MapWorldsPhoenix",
             "MapWorldsMinotaur",
@@ -3146,8 +2799,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 72.16,
-        "divine_value": 0.33,
+        "chaos_value": 73.0,
+        "divine_value": 0.34,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDragonsHeart.png"
     },
     "TheDrunkenAristocrat": {
@@ -3176,10 +2829,7 @@
         "id": "TheDungeonMaster",
         "name": "The Dungeon Master",
         "drop_areas": [
-            "MapWorldsCage",
-            "MapWorldsCells",
-            "MapWorldsDungeon",
-            "MapWorldsPen"
+            "MapWorldsCage"
         ],
         "stack_size": 7,
         "reward_text": [
@@ -3198,7 +2848,6 @@
         "drop_areas": [
             "MapWorldsGardens",
             "MapWorldsCourtyard",
-            "MapWorldsTerrace",
             "MapWorldsOrchard"
         ],
         "stack_size": 2,
@@ -3218,22 +2867,15 @@
         "drop_areas": [
             "MapWorldsAcademy",
             "MapWorldsAcidLakes",
-            "MapWorldsAlleyways",
             "MapWorldsAncientCity",
             "MapWorldsArachnidNest",
-            "MapWorldsArachnidTomb",
             "MapWorldsArcade",
             "MapWorldsArena",
             "MapWorldsAridLake",
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsAshenWood",
             "MapWorldsAtoll",
-            "MapWorldsBarrows",
             "MapWorldsBasilica",
             "MapWorldsBazaar",
-            "MapWorldsBeach",
-            "MapWorldsBelfry",
             "MapWorldsBog",
             "MapWorldsBoneCrypt",
             "MapWorldsBrambleValley",
@@ -3243,18 +2885,14 @@
             "MapWorldsCanyon",
             "MapWorldsCarcass",
             "MapWorldsCastleRuins",
-            "MapWorldsCells",
             "MapWorldsCemetery",
             "MapWorldsChannel",
             "MapWorldsChateau",
             "MapWorldsCitySquare",
-            "MapWorldsColdRiver_",
             "MapWorldsColonnade",
             "MapWorldsColosseum",
             "MapWorldsConservatory",
-            "MapWorldsCoralRuins",
             "MapWorldsCore",
-            "MapWorldsCourthouse",
             "MapWorldsCourtyard",
             "MapWorldsCoves",
             "MapWorldsTribunal",
@@ -3263,45 +2901,28 @@
             "MapWorldsCrystalOre",
             "MapWorldsCursedCrypt",
             "MapWorldsDarkForest",
-            "MapWorldsDefiledCathedral",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDig",
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDungeon",
             "MapWorldsEstuary",
-            "MapWorldsExcavation",
-            "MapWorldsFactory",
             "MapWorldsFields",
             "MapWorldsFloodedMine",
-            "MapWorldsForbiddenWoods",
             "MapWorldsForkingRiver",
             "MapWorldsFoundry",
             "MapWorldsFrozenCabins",
-            "MapWorldsSprings",
             "MapWorldsGardens",
-            "MapWorldsGeode",
             "MapWorldsGhetto",
             "MapWorldsGorge",
             "MapWorldsGraveTrough",
-            "MapWorldsGraveyard",
             "MapWorldsGrotto",
-            "MapWorldsHauntedMansion",
             "MapWorldsIceberg",
             "MapWorldsInfestedValley",
             "MapWorldsIvoryTemple",
             "MapWorldsJungleValley",
             "MapWorldsLaboratory",
-            "MapWorldsLair",
             "MapWorldsLavaChamber",
-            "MapWorldsLavaLake",
-            "MapWorldsLeyline",
-            "MapWorldsLighthouse",
             "MapWorldsLookout",
-            "MapWorldsMalformation",
-            "MapWorldsMarshes",
-            "MapWorldsMausoleum",
             "MapWorldsMaze",
             "MapWorldsMesa",
             "MapWorldsMineralPools",
@@ -3314,53 +2935,35 @@
             "MapWorldsOvergrownShrine",
             "MapWorldsPalace",
             "MapWorldsPark",
-            "MapWorldsPen",
-            "MapWorldsPeninsula",
-            "MapWorldsPhantasmagoria",
             "MapWorldsPier",
-            "MapWorldsPit",
-            "MapWorldsPlateau",
             "MapWorldsPlaza",
             "MapWorldsPort",
             "MapWorldsPrecinct",
-            "MapWorldsTortureChamber",
-            "MapWorldsPrimordialPool",
             "MapWorldsPromenade",
             "MapWorldsRacecourse_",
             "MapWorldsRamparts",
             "MapWorldsReef",
             "MapWorldsRelicChambers",
             "MapWorldsResidence",
-            "MapWorldsScriptorium",
             "MapWorldsSepulchre",
-            "MapWorldsShipyard",
             "MapWorldsShore",
-            "MapWorldsShrine",
             "MapWorldsSiege",
-            "MapWorldsSilo",
             "MapWorldsSpiderForest",
             "MapWorldsSpiderLair",
             "MapWorldsStagnation",
             "MapWorldsStrand",
-            "MapWorldsSulphurVents",
             "MapWorldsSummit",
-            "MapWorldsSunkenCity",
             "MapWorldsTemple",
-            "MapWorldsTerrace",
             "MapWorldsThicket",
-            "MapWorldsTower",
-            "MapWorldsToxicSewer",
             "MapWorldsTropicalIsland",
             "MapWorldsUndergroundRiver",
             "MapWorldsUndergroundSea",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsVolcano",
             "MapWorldsWastePool",
             "MapWorldsWasteland",
-            "MapWorldsWaterways",
             "MapWorldsWharf",
             "MapWorldsPhoenix",
             "MapWorldsMinotaur",
@@ -3382,8 +2985,6 @@
         "id": "TheEndurance",
         "name": "The Endurance",
         "drop_areas": [
-            "MapWorldsExcavation",
-            "MapWorldsGeode",
             "MapWorldsCrystalOre",
             "MapWorldsDig",
             "MapWorldsFloodedMine",
@@ -3407,9 +3008,7 @@
             "MapWorldsCrimsonTemple",
             "MapWorldsIvoryTemple",
             "MapWorldsTemple",
-            "MapWorldsDefiledCathedral",
             "MapWorldsLookout",
-            "MapWorldsBelfry",
             "MapWorldsMoonTempleUnique",
             "MapWorldsMoonTemple",
             "MapWorldsBasilica"
@@ -3421,8 +3020,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 400.0,
-        "divine_value": 1.85,
+        "chaos_value": 408.88,
+        "divine_value": 1.9,
         "art_url": "https://web.poecdn.com/image/divination-card/TheEnlightened.png"
     },
     "TheEnthusiasts": {
@@ -3430,8 +3029,7 @@
         "name": "The Enthusiasts",
         "drop_areas": [
             "MapWorldsMuseum",
-            "MapWorldsAcademy",
-            "MapWorldsScriptorium"
+            "MapWorldsAcademy"
         ],
         "stack_size": 3,
         "reward_text": [
@@ -3465,7 +3063,6 @@
         "id": "TheEyeOfTheDragon",
         "name": "The Eye of the Dragon",
         "drop_areas": [
-            "MapWorldsSulphurVents",
             "MapWorldsPhoenix"
         ],
         "stack_size": 10,
@@ -3503,7 +3100,6 @@
         "name": "The Feast",
         "drop_areas": [
             "MapWorldsWastePool",
-            "MapWorldsToxicSewer",
             "MapWorldsHydra"
         ],
         "stack_size": 5,
@@ -3513,8 +3109,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 3.1,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFeast.png"
     },
     "TheFiend": {
@@ -3522,7 +3118,6 @@
         "name": "The Fiend",
         "drop_areas": [
             "MapWorldsTempleUnique",
-            "MapWorldsShrine",
             "MapWorldsFoundry",
             "MapWorldsLaboratory"
         ],
@@ -3533,7 +3128,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1515.36,
+        "chaos_value": 1506.4,
         "divine_value": 7.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFiend.png"
     },
@@ -3547,9 +3142,7 @@
             "MapWorldsSpiderForest",
             "MapWorldsBrambleValley",
             "MapWorldsDarkForest",
-            "MapWorldsLair",
-            "MapWorldsRamparts",
-            "MapWorldsForbiddenWoods"
+            "MapWorldsRamparts"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -3575,8 +3168,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 15.0,
-        "divine_value": 0.07,
+        "chaos_value": 18.4,
+        "divine_value": 0.09,
         "art_url": "https://web.poecdn.com/image/divination-card/TheForgottenTreasure.png"
     },
     "TheFormlessSea": {
@@ -3625,26 +3218,18 @@
         "drop_areas": [
             "MapWorldsTropicalIsland",
             "MapWorldsMineralPools",
-            "MapWorldsPlateau",
             "MapWorldsDunes",
             "MapWorldsMesa",
             "MapWorldsAtoll",
             "MapWorldsEstuary",
             "MapWorldsAridLake",
-            "MapWorldsLeyline",
-            "MapWorldsBeach",
-            "MapWorldsMarshes",
-            "MapWorldsPeninsula",
-            "MapWorldsSulphurVents",
             "MapWorldsShore",
-            "MapWorldsTerrace",
             "MapWorldsCaldera",
             "MapWorldsOrchard",
             "MapWorldsCanyon",
             "MapWorldsAncientCity",
             "MapWorldsFields",
             "MapWorldsJungleValley",
-            "MapWorldsDesertSpring",
             "MapWorldsDrySea",
             "MapWorldsTribunal",
             "MapWorldsDesert",
@@ -3657,7 +3242,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 31.0,
+        "chaos_value": 30.0,
         "divine_value": 0.14,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFortunate.png"
     },
@@ -3682,8 +3267,6 @@
         "id": "TheFox",
         "name": "The Fox",
         "drop_areas": [
-            "MapWorldsBarrows",
-            "MapWorldsSunkenCity",
             "MapWorldsCastleRuins",
             "MapWorldsFields"
         ],
@@ -3704,8 +3287,7 @@
         "drop_areas": [
             "MapWorldsGardens",
             "MapWorldsCourtyard",
-            "MapWorldsOrchard",
-            "MapWorldsTerrace"
+            "MapWorldsOrchard"
         ],
         "stack_size": 7,
         "reward_text": [
@@ -3714,7 +3296,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 8.1,
+        "chaos_value": 9.57,
         "divine_value": 0.04,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFoxInTheBrambles.png"
     },
@@ -3724,22 +3306,15 @@
         "drop_areas": [
             "MapWorldsAcademy",
             "MapWorldsAcidLakes",
-            "MapWorldsAlleyways",
             "MapWorldsAncientCity",
             "MapWorldsArachnidNest",
-            "MapWorldsArachnidTomb",
             "MapWorldsArcade",
             "MapWorldsArena",
             "MapWorldsAridLake",
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsAshenWood",
             "MapWorldsAtoll",
-            "MapWorldsBarrows",
             "MapWorldsBasilica",
             "MapWorldsBazaar",
-            "MapWorldsBeach",
-            "MapWorldsBelfry",
             "MapWorldsBog",
             "MapWorldsBoneCrypt",
             "MapWorldsBrambleValley",
@@ -3749,18 +3324,14 @@
             "MapWorldsCanyon",
             "MapWorldsCarcass",
             "MapWorldsCastleRuins",
-            "MapWorldsCells",
             "MapWorldsCemetery",
             "MapWorldsChannel",
             "MapWorldsChateau",
             "MapWorldsCitySquare",
-            "MapWorldsColdRiver_",
             "MapWorldsColonnade",
             "MapWorldsColosseum",
             "MapWorldsConservatory",
-            "MapWorldsCoralRuins",
             "MapWorldsCore",
-            "MapWorldsCourthouse",
             "MapWorldsCourtyard",
             "MapWorldsCoves",
             "MapWorldsTribunal",
@@ -3769,45 +3340,28 @@
             "MapWorldsCrystalOre",
             "MapWorldsCursedCrypt",
             "MapWorldsDarkForest",
-            "MapWorldsDefiledCathedral",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDig",
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDungeon",
             "MapWorldsEstuary",
-            "MapWorldsExcavation",
-            "MapWorldsFactory",
             "MapWorldsFields",
             "MapWorldsFloodedMine",
-            "MapWorldsForbiddenWoods",
             "MapWorldsForkingRiver",
             "MapWorldsFoundry",
             "MapWorldsFrozenCabins",
-            "MapWorldsSprings",
             "MapWorldsGardens",
-            "MapWorldsGeode",
             "MapWorldsGhetto",
             "MapWorldsGorge",
             "MapWorldsGraveTrough",
-            "MapWorldsGraveyard",
             "MapWorldsGrotto",
-            "MapWorldsHauntedMansion",
             "MapWorldsIceberg",
             "MapWorldsInfestedValley",
             "MapWorldsIvoryTemple",
             "MapWorldsJungleValley",
             "MapWorldsLaboratory",
-            "MapWorldsLair",
             "MapWorldsLavaChamber",
-            "MapWorldsLavaLake",
-            "MapWorldsLeyline",
-            "MapWorldsLighthouse",
             "MapWorldsLookout",
-            "MapWorldsMalformation",
-            "MapWorldsMarshes",
-            "MapWorldsMausoleum",
             "MapWorldsMaze",
             "MapWorldsMesa",
             "MapWorldsMineralPools",
@@ -3820,53 +3374,35 @@
             "MapWorldsOvergrownShrine",
             "MapWorldsPalace",
             "MapWorldsPark",
-            "MapWorldsPen",
-            "MapWorldsPeninsula",
-            "MapWorldsPhantasmagoria",
             "MapWorldsPier",
-            "MapWorldsPit",
-            "MapWorldsPlateau",
             "MapWorldsPlaza",
             "MapWorldsPort",
             "MapWorldsPrecinct",
-            "MapWorldsTortureChamber",
-            "MapWorldsPrimordialPool",
             "MapWorldsPromenade",
             "MapWorldsRacecourse_",
             "MapWorldsRamparts",
             "MapWorldsReef",
             "MapWorldsRelicChambers",
             "MapWorldsResidence",
-            "MapWorldsScriptorium",
             "MapWorldsSepulchre",
-            "MapWorldsShipyard",
             "MapWorldsShore",
-            "MapWorldsShrine",
             "MapWorldsSiege",
-            "MapWorldsSilo",
             "MapWorldsSpiderForest",
             "MapWorldsSpiderLair",
             "MapWorldsStagnation",
             "MapWorldsStrand",
-            "MapWorldsSulphurVents",
             "MapWorldsSummit",
-            "MapWorldsSunkenCity",
             "MapWorldsTemple",
-            "MapWorldsTerrace",
             "MapWorldsThicket",
-            "MapWorldsTower",
-            "MapWorldsToxicSewer",
             "MapWorldsTropicalIsland",
             "MapWorldsUndergroundRiver",
             "MapWorldsUndergroundSea",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsVolcano",
             "MapWorldsWastePool",
             "MapWorldsWasteland",
-            "MapWorldsWaterways",
             "MapWorldsWharf",
             "MapWorldsPhoenix",
             "MapWorldsMinotaur",
@@ -3898,8 +3434,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 24.0,
-        "divine_value": 0.11,
+        "chaos_value": 29.0,
+        "divine_value": 0.13,
         "art_url": "https://web.poecdn.com/image/divination-card/GarishPower.png"
     },
     "TheGentleman": {
@@ -3924,7 +3460,6 @@
         "id": "TheGladiator",
         "name": "The Gladiator",
         "drop_areas": [
-            "MapWorldsPit",
             "MapWorldsArena",
             "MapWorldsColosseum",
             "MapWorldsChimera"
@@ -4013,17 +3548,15 @@
                 "optional": false
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheHoarder.png"
     },
     "TheHunger": {
         "id": "TheHunger",
         "name": "The Hunger",
         "drop_areas": [
-            "MapWorldsPhantasmagoria",
             "MapWorldsCarcass",
-            "MapWorldsMalformation",
             "MapWorldsCore"
         ],
         "stack_size": 9,
@@ -4050,7 +3583,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 3247.2,
+        "chaos_value": 3228.0,
         "divine_value": 15.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheImmortal.png"
     },
@@ -4062,8 +3595,7 @@
             "MapWorldsBurialChambers",
             "MapWorldsMuseumUnique",
             "MapWorldsSepulchre",
-            "MapWorldsWastePool",
-            "MapWorldsPhantasmagoria"
+            "MapWorldsWastePool"
         ],
         "stack_size": 4,
         "reward_text": [
@@ -4072,7 +3604,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.2,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheIncantation.png"
     },
@@ -4080,8 +3612,7 @@
         "id": "TheInnocent",
         "name": "The Innocent",
         "drop_areas": [
-            "MapWorldsBasilica",
-            "MapWorldsDefiledCathedral"
+            "MapWorldsBasilica"
         ],
         "stack_size": 10,
         "reward_text": [
@@ -4090,8 +3621,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 3.3,
-        "divine_value": 0.02,
+        "chaos_value": 3.0,
+        "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheInnocent.png"
     },
     "TheInoculated": {
@@ -4099,11 +3630,8 @@
         "name": "The Inoculated",
         "drop_areas": [
             "MapWorldsAcidLakes",
-            "MapWorldsPrimordialPool",
             "MapWorldsMudGeyser",
             "MapWorldsStagnation",
-            "MapWorldsMarshes",
-            "MapWorldsSulphurVents",
             "MapWorldsBog"
         ],
         "stack_size": 4,
@@ -4162,7 +3690,6 @@
         "drop_areas": [
             "MapWorldsCrystalOre",
             "MapWorldsMineralPools",
-            "MapWorldsTortureChamber",
             "MapWorldsGrotto"
         ],
         "stack_size": 5,
@@ -4180,13 +3707,9 @@
         "id": "TheJournalist",
         "name": "The Journalist",
         "drop_areas": [
-            "MapWorldsHauntedMansion",
             "MapWorldsLookout",
             "MapWorldsCrimsonTemple",
-            "MapWorldsCitySquare",
-            "MapWorldsDefiledCathedral",
-            "MapWorldsSilo",
-            "MapWorldsAlleyways"
+            "MapWorldsCitySquare"
         ],
         "stack_size": 10,
         "reward_text": [
@@ -4203,10 +3726,7 @@
         "id": "TheJourney",
         "name": "The Journey",
         "drop_areas": [
-            "MapWorldsLighthouse",
-            "MapWorldsShipyard",
             "MapWorldsAtoll",
-            "MapWorldsPeninsula",
             "MapWorldsShoreUnique",
             "MapWorldsWharf",
             "MapWorldsPort",
@@ -4217,11 +3737,8 @@
             "MapWorldsStrand",
             "MapWorldsPier",
             "MapWorldsEstuary",
-            "MapWorldsPlateau",
             "MapWorldsCoves",
-            "MapWorldsAtollUnique",
-            "MapWorldsCoralRuins",
-            "MapWorldsBeach"
+            "MapWorldsAtollUnique"
         ],
         "stack_size": 3,
         "reward_text": [
@@ -4238,7 +3755,6 @@
         "id": "TheKingsBlade",
         "name": "The King's Blade",
         "drop_areas": [
-            "MapWorldsPit",
             "MapWorldsArena",
             "MapWorldsColosseum",
             "MapWorldsChimera"
@@ -4297,7 +3813,6 @@
         "name": "The Last One Standing",
         "drop_areas": [
             "MapWorldsChimera",
-            "MapWorldsPit",
             "MapWorldsColosseum",
             "MapWorldsArena"
         ],
@@ -4308,8 +3823,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 100.0,
-        "divine_value": 0.46,
+        "chaos_value": 90.0,
+        "divine_value": 0.42,
         "art_url": "https://web.poecdn.com/image/divination-card/TheLastOneStanding.png"
     },
     "TheLastSupper": {
@@ -4325,8 +3840,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 8.7,
-        "divine_value": 0.04,
+        "chaos_value": 6.0,
+        "divine_value": 0.03,
         "art_url": "https://web.poecdn.com/image/divination-card/TheLastSupper.png"
     },
     "TheLeviathan": {
@@ -4352,11 +3867,7 @@
         "drop_areas": [
             "MapWorldsCrimsonTemple",
             "MapWorldsCitySquare",
-            "MapWorldsLookout",
-            "MapWorldsAlleyways",
-            "MapWorldsSilo",
-            "MapWorldsDefiledCathedral",
-            "MapWorldsHauntedMansion"
+            "MapWorldsLookout"
         ],
         "stack_size": 6,
         "reward_text": [
@@ -4381,9 +3892,7 @@
             "MapWorldsBasilica",
             "MapWorldsPalace",
             "MapWorldsConservatory",
-            "MapWorldsHauntedMansion",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsChateau",
             "MapWorldsTemple",
             "MapWorldsRelicChambers",
@@ -4397,7 +3906,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 5.0,
+        "chaos_value": 4.76,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheLordofCelebration.png"
     },
@@ -4424,7 +3933,6 @@
         "name": "The Lunaris Priestess",
         "drop_areas": [
             "MapWorldsMoonTempleUnique",
-            "MapWorldsColdRiver_",
             "MapWorldsMoonTemple"
         ],
         "stack_size": 5,
@@ -4462,8 +3970,6 @@
         "id": "TheMaster",
         "name": "The Master",
         "drop_areas": [
-            "MapWorldsLair",
-            "MapWorldsPen",
             "MapWorldsFields"
         ],
         "stack_size": 4,
@@ -4508,7 +4014,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1.7,
+        "chaos_value": 2.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheMessenger.png"
     },
@@ -4535,11 +4041,8 @@
         "id": "TheNurse",
         "name": "The Nurse",
         "drop_areas": [
-            "MapWorldsTower",
-            "MapWorldsCells",
             "MapWorldsCore",
-            "MapWorldsCarcass",
-            "MapWorldsScriptorium"
+            "MapWorldsCarcass"
         ],
         "stack_size": 8,
         "reward_text": [
@@ -4548,8 +4051,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 194.83,
-        "divine_value": 0.9,
+        "chaos_value": 150.0,
+        "divine_value": 0.7,
         "art_url": "https://web.poecdn.com/image/divination-card/TheNurse.png"
     },
     "TheOath": {
@@ -4557,8 +4060,6 @@
         "name": "The Oath",
         "drop_areas": [
             "MapWorldsCore",
-            "MapWorldsPhantasmagoria",
-            "MapWorldsMalformation",
             "MapWorldsCarcass"
         ],
         "stack_size": 6,
@@ -4577,8 +4078,6 @@
         "name": "The Old Man",
         "drop_areas": [
             "MapWorldsStrand",
-            "MapWorldsLighthouse",
-            "MapWorldsPeninsula",
             "MapWorldsPier",
             "MapWorldsShore",
             "MapWorldsTropicalIsland",
@@ -4609,7 +4108,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 9.0,
+        "chaos_value": 9.4,
         "divine_value": 0.04,
         "art_url": "https://web.poecdn.com/image/divination-card/TheOneThatGotAway.png"
     },
@@ -4619,8 +4118,6 @@
         "drop_areas": [
             "MapWorldsBurialChambers",
             "MapWorldsCemetery",
-            "MapWorldsGraveyard",
-            "MapWorldsBarrows",
             "MapWorldsGraveTrough"
         ],
         "stack_size": 6,
@@ -4647,9 +4144,7 @@
             "MapWorldsTemple",
             "MapWorldsIvoryTemple",
             "MapWorldsCrimsonTemple",
-            "MapWorldsVilla",
             "MapWorldsVaalPyramidUnique",
-            "MapWorldsHauntedMansion",
             "MapWorldsPalace",
             "MapWorldsBasilica",
             "MapWorldsCrimsonTownship",
@@ -4675,11 +4170,9 @@
             "MapWorldsAshenWood",
             "MapWorldsSpiderForest",
             "MapWorldsStagnation",
-            "MapWorldsLair",
             "MapWorldsThicket",
             "MapWorldsDarkForest",
             "MapWorldsRamparts",
-            "MapWorldsForbiddenWoods",
             "MapWorldsBrambleValley"
         ],
         "stack_size": 6,
@@ -4699,8 +4192,7 @@
         "drop_areas": [
             "MapWorldsPier",
             "MapWorldsPort",
-            "MapWorldsWharf",
-            "MapWorldsShipyard"
+            "MapWorldsWharf"
         ],
         "stack_size": 9,
         "reward_text": [
@@ -4709,7 +4201,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 2.84,
+        "chaos_value": 2.05,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePact.png"
     },
@@ -4717,8 +4209,6 @@
         "id": "ThePatient",
         "name": "The Patient",
         "drop_areas": [
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsPromenade",
             "MapWorldsColonnade"
         ],
@@ -4729,18 +4219,15 @@
                 "optional": false
             }
         ],
-        "chaos_value": 21.0,
-        "divine_value": 0.1,
+        "chaos_value": 19.6,
+        "divine_value": 0.09,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePatient.png"
     },
     "ThePenitent": {
         "id": "ThePenitent",
         "name": "The Penitent",
         "drop_areas": [
-            "MapWorldsCells",
-            "MapWorldsCage",
-            "MapWorldsDungeon",
-            "MapWorldsPen"
+            "MapWorldsCage"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -4758,7 +4245,6 @@
         "name": "The Poet",
         "drop_areas": [
             "MapWorldsArcade",
-            "MapWorldsAlleyways",
             "MapWorldsBazaar",
             "MapWorldsPort"
         ],
@@ -4798,8 +4284,7 @@
             "MapWorldsGardens",
             "MapWorldsOrchard",
             "MapWorldsPlaza",
-            "MapWorldsCourtyard",
-            "MapWorldsTerrace"
+            "MapWorldsCourtyard"
         ],
         "stack_size": 6,
         "reward_text": [
@@ -4818,9 +4303,6 @@
         "drop_areas": [
             "MapWorldsVault",
             "MapWorldsWharf",
-            "MapWorldsGeode",
-            "MapWorldsWaterways",
-            "MapWorldsPeninsula",
             "MapWorldsGrotto",
             "MapWorldsFloodedMine",
             "MapWorldsCoves"
@@ -4841,7 +4323,6 @@
         "name": "The Professor",
         "drop_areas": [
             "MapWorldsLaboratory",
-            "MapWorldsScriptorium",
             "MapWorldsMuseum",
             "MapWorldsAcademy"
         ],
@@ -4896,8 +4377,6 @@
         "id": "TheReturnOfTheRat",
         "name": "The Return of the Rat",
         "drop_areas": [
-            "MapWorldsArsenal",
-            "MapWorldsFactory",
             "MapWorldsPort"
         ],
         "stack_size": 3,
@@ -4917,12 +4396,9 @@
         "drop_areas": [
             "MapWorldsFloodedMine",
             "MapWorldsVault",
-            "MapWorldsWaterways",
             "MapWorldsWharf",
             "MapWorldsGrotto",
-            "MapWorldsCoves",
-            "MapWorldsGeode",
-            "MapWorldsPeninsula"
+            "MapWorldsCoves"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -4982,8 +4458,7 @@
             "MapWorldsArcade",
             "MapWorldsBazaar",
             "MapWorldsGhetto",
-            "MapWorldsPort",
-            "MapWorldsAlleyways"
+            "MapWorldsPort"
         ],
         "stack_size": 10,
         "reward_text": [
@@ -4992,15 +4467,14 @@
                 "optional": false
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 3.3,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheSaintsTreasure.png"
     },
     "TheScarredMeadow": {
         "id": "TheScarredMeadow",
         "name": "The Scarred Meadow",
         "drop_areas": [
-            "MapWorldsPeninsula",
             "MapWorldsAshenWood",
             "MapWorldsFields",
             "MapWorldsOrchard"
@@ -5021,7 +4495,6 @@
         "name": "The Scholar",
         "drop_areas": [
             "MapWorldsAcademy",
-            "MapWorldsScriptorium",
             "MapWorldsMuseum"
         ],
         "stack_size": 3,
@@ -5042,11 +4515,9 @@
             "MapWorldsTropicalIsland",
             "MapWorldsSpiderForest",
             "MapWorldsAshenWood",
-            "MapWorldsForbiddenWoods",
             "MapWorldsBrambleValley",
             "MapWorldsJungleValley",
             "MapWorldsRamparts",
-            "MapWorldsLair",
             "MapWorldsDarkForest",
             "MapWorldsThicket",
             "MapWorldsStagnation"
@@ -5058,7 +4529,7 @@
                 "optional": false
             }
         ],
-        "chaos_value": 9.85,
+        "chaos_value": 10.0,
         "divine_value": 0.05,
         "art_url": "https://web.poecdn.com/image/divination-card/TheScout.png"
     },
@@ -5067,8 +4538,6 @@
         "name": "The Shepherd's Sandals",
         "drop_areas": [
             "MapWorldsGrotto",
-            "MapWorldsLair",
-            "MapWorldsBarrows",
             "MapWorldsUndergroundRiverUnique"
         ],
         "stack_size": 3,
@@ -5086,14 +4555,10 @@
         "id": "TheSideQuest",
         "name": "The Side Quest",
         "drop_areas": [
-            "MapWorldsAlleyways",
-            "MapWorldsArmoury",
             "MapWorldsMineralPools",
             "MapWorldsForkingRiver",
             "MapWorldsCastleRuins",
             "MapWorldsInfestedValley",
-            "MapWorldsArachnidTomb",
-            "MapWorldsTortureChamber",
             "MapWorldsIceberg",
             "MapWorldsSiege"
         ],
@@ -5150,11 +4615,8 @@
         "drop_areas": [
             "MapWorldsOvergrownShrine",
             "MapWorldsSepulchre",
-            "MapWorldsCells",
-            "MapWorldsTower",
             "MapWorldsWastePool",
             "MapWorldsCore",
-            "MapWorldsPhantasmagoria",
             "MapWorldsMuseum"
         ],
         "stack_size": 9,
@@ -5164,8 +4626,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 55.0,
-        "divine_value": 0.25,
+        "chaos_value": 50.0,
+        "divine_value": 0.23,
         "art_url": "https://web.poecdn.com/image/divination-card/TheSoul.png"
     },
     "TheSparkAndTheFlame": {
@@ -5173,7 +4635,6 @@
         "name": "The Spark and the Flame",
         "drop_areas": [
             "MapWorldsAtoll",
-            "MapWorldsPlateau",
             "MapWorldsSiege"
         ],
         "stack_size": 2,
@@ -5211,9 +4672,7 @@
             "MapWorldsLavaChamber",
             "MapWorldsPhoenix",
             "MapWorldsTribunal",
-            "MapWorldsLavaLake",
-            "MapWorldsEstuary",
-            "MapWorldsSilo"
+            "MapWorldsEstuary"
         ],
         "stack_size": 3,
         "reward_text": [
@@ -5231,8 +4690,7 @@
         "name": "The Stormcaller",
         "drop_areas": [
             "MapWorldsStrand",
-            "MapWorldsCourtyard",
-            "MapWorldsTower"
+            "MapWorldsCourtyard"
         ],
         "stack_size": 4,
         "reward_text": [
@@ -5270,8 +4728,7 @@
         "name": "The Sun",
         "drop_areas": [
             "MapWorldsMoonTempleUnique",
-            "MapWorldsTemple",
-            "MapWorldsColdRiver_"
+            "MapWorldsTemple"
         ],
         "stack_size": 7,
         "reward_text": [
@@ -5306,9 +4763,7 @@
         "id": "TheSurveyor",
         "name": "The Surveyor",
         "drop_areas": [
-            "MapWorldsMalformation",
             "MapWorldsCore",
-            "MapWorldsPhantasmagoria",
             "MapWorldsCarcass"
         ],
         "stack_size": 4,
@@ -5347,7 +4802,6 @@
         "drop_areas": [
             "MapWorldsColosseum",
             "MapWorldsChimera",
-            "MapWorldsPit",
             "MapWorldsArena"
         ],
         "stack_size": 7,
@@ -5366,7 +4820,6 @@
         "name": "The Thaumaturgist",
         "drop_areas": [
             "MapWorldsFoundry",
-            "MapWorldsShrine",
             "MapWorldsLaboratory",
             "MapWorldsTempleUnique"
         ],
@@ -5385,7 +4838,6 @@
         "id": "TheThrone",
         "name": "The Throne",
         "drop_areas": [
-            "MapWorldsToxicSewer",
             "MapWorldsWastePool",
             "MapWorldsHydra"
         ],
@@ -5406,22 +4858,15 @@
         "drop_areas": [
             "MapWorldsAcademy",
             "MapWorldsAcidLakes",
-            "MapWorldsAlleyways",
             "MapWorldsAncientCity",
             "MapWorldsArachnidNest",
-            "MapWorldsArachnidTomb",
             "MapWorldsArcade",
             "MapWorldsArena",
             "MapWorldsAridLake",
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsAshenWood",
             "MapWorldsAtoll",
-            "MapWorldsBarrows",
             "MapWorldsBasilica",
             "MapWorldsBazaar",
-            "MapWorldsBeach",
-            "MapWorldsBelfry",
             "MapWorldsBog",
             "MapWorldsBoneCrypt",
             "MapWorldsBrambleValley",
@@ -5431,18 +4876,14 @@
             "MapWorldsCanyon",
             "MapWorldsCarcass",
             "MapWorldsCastleRuins",
-            "MapWorldsCells",
             "MapWorldsCemetery",
             "MapWorldsChannel",
             "MapWorldsChateau",
             "MapWorldsCitySquare",
-            "MapWorldsColdRiver_",
             "MapWorldsColonnade",
             "MapWorldsColosseum",
             "MapWorldsConservatory",
-            "MapWorldsCoralRuins",
             "MapWorldsCore",
-            "MapWorldsCourthouse",
             "MapWorldsCourtyard",
             "MapWorldsCoves",
             "MapWorldsTribunal",
@@ -5451,45 +4892,28 @@
             "MapWorldsCrystalOre",
             "MapWorldsCursedCrypt",
             "MapWorldsDarkForest",
-            "MapWorldsDefiledCathedral",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDig",
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDungeon",
             "MapWorldsEstuary",
-            "MapWorldsExcavation",
-            "MapWorldsFactory",
             "MapWorldsFields",
             "MapWorldsFloodedMine",
-            "MapWorldsForbiddenWoods",
             "MapWorldsForkingRiver",
             "MapWorldsFoundry",
             "MapWorldsFrozenCabins",
-            "MapWorldsSprings",
             "MapWorldsGardens",
-            "MapWorldsGeode",
             "MapWorldsGhetto",
             "MapWorldsGorge",
             "MapWorldsGraveTrough",
-            "MapWorldsGraveyard",
             "MapWorldsGrotto",
-            "MapWorldsHauntedMansion",
             "MapWorldsIceberg",
             "MapWorldsInfestedValley",
             "MapWorldsIvoryTemple",
             "MapWorldsJungleValley",
             "MapWorldsLaboratory",
-            "MapWorldsLair",
             "MapWorldsLavaChamber",
-            "MapWorldsLavaLake",
-            "MapWorldsLeyline",
-            "MapWorldsLighthouse",
             "MapWorldsLookout",
-            "MapWorldsMalformation",
-            "MapWorldsMarshes",
-            "MapWorldsMausoleum",
             "MapWorldsMaze",
             "MapWorldsMesa",
             "MapWorldsMineralPools",
@@ -5502,53 +4926,35 @@
             "MapWorldsOvergrownShrine",
             "MapWorldsPalace",
             "MapWorldsPark",
-            "MapWorldsPen",
-            "MapWorldsPeninsula",
-            "MapWorldsPhantasmagoria",
             "MapWorldsPier",
-            "MapWorldsPit",
-            "MapWorldsPlateau",
             "MapWorldsPlaza",
             "MapWorldsPort",
             "MapWorldsPrecinct",
-            "MapWorldsTortureChamber",
-            "MapWorldsPrimordialPool",
             "MapWorldsPromenade",
             "MapWorldsRacecourse_",
             "MapWorldsRamparts",
             "MapWorldsReef",
             "MapWorldsRelicChambers",
             "MapWorldsResidence",
-            "MapWorldsScriptorium",
             "MapWorldsSepulchre",
-            "MapWorldsShipyard",
             "MapWorldsShore",
-            "MapWorldsShrine",
             "MapWorldsSiege",
-            "MapWorldsSilo",
             "MapWorldsSpiderForest",
             "MapWorldsSpiderLair",
             "MapWorldsStagnation",
             "MapWorldsStrand",
-            "MapWorldsSulphurVents",
             "MapWorldsSummit",
-            "MapWorldsSunkenCity",
             "MapWorldsTemple",
-            "MapWorldsTerrace",
             "MapWorldsThicket",
-            "MapWorldsTower",
-            "MapWorldsToxicSewer",
             "MapWorldsTropicalIsland",
             "MapWorldsUndergroundRiver",
             "MapWorldsUndergroundSea",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsVolcano",
             "MapWorldsWastePool",
             "MapWorldsWasteland",
-            "MapWorldsWaterways",
             "MapWorldsWharf",
             "MapWorldsPhoenix",
             "MapWorldsMinotaur",
@@ -5570,8 +4976,6 @@
         "id": "TheTirelessExtractor",
         "name": "The Tireless Extractor",
         "drop_areas": [
-            "MapWorldsSilo",
-            "MapWorldsFactory",
             "MapWorldsPort"
         ],
         "stack_size": 8,
@@ -5589,7 +4993,6 @@
         "id": "TheTower",
         "name": "The Tower",
         "drop_areas": [
-            "MapWorldsTower",
             "MapWorldsResidence"
         ],
         "stack_size": 6,
@@ -5626,9 +5029,7 @@
         "name": "The Transformation",
         "drop_areas": [
             "MapWorldsGardens",
-            "MapWorldsHauntedMansion",
             "MapWorldsPalace",
-            "MapWorldsTower",
             "MapWorldsUndergroundSea",
             "MapWorldsAtollUnique",
             "MapWorldsCemeteryUnique",
@@ -5651,22 +5052,15 @@
         "drop_areas": [
             "MapWorldsAcademy",
             "MapWorldsAcidLakes",
-            "MapWorldsAlleyways",
             "MapWorldsAncientCity",
             "MapWorldsArachnidNest",
-            "MapWorldsArachnidTomb",
             "MapWorldsArcade",
             "MapWorldsArena",
             "MapWorldsAridLake",
-            "MapWorldsArmoury",
-            "MapWorldsArsenal",
             "MapWorldsAshenWood",
             "MapWorldsAtoll",
-            "MapWorldsBarrows",
             "MapWorldsBasilica",
             "MapWorldsBazaar",
-            "MapWorldsBeach",
-            "MapWorldsBelfry",
             "MapWorldsBog",
             "MapWorldsBoneCrypt",
             "MapWorldsBrambleValley",
@@ -5676,18 +5070,14 @@
             "MapWorldsCanyon",
             "MapWorldsCarcass",
             "MapWorldsCastleRuins",
-            "MapWorldsCells",
             "MapWorldsCemetery",
             "MapWorldsChannel",
             "MapWorldsChateau",
             "MapWorldsCitySquare",
-            "MapWorldsColdRiver_",
             "MapWorldsColonnade",
             "MapWorldsColosseum",
             "MapWorldsConservatory",
-            "MapWorldsCoralRuins",
             "MapWorldsCore",
-            "MapWorldsCourthouse",
             "MapWorldsCourtyard",
             "MapWorldsCoves",
             "MapWorldsTribunal",
@@ -5696,45 +5086,28 @@
             "MapWorldsCrystalOre",
             "MapWorldsCursedCrypt",
             "MapWorldsDarkForest",
-            "MapWorldsDefiledCathedral",
             "MapWorldsDesert",
-            "MapWorldsDesertSpring",
             "MapWorldsDig",
             "MapWorldsDrySea",
             "MapWorldsDunes",
-            "MapWorldsDungeon",
             "MapWorldsEstuary",
-            "MapWorldsExcavation",
-            "MapWorldsFactory",
             "MapWorldsFields",
             "MapWorldsFloodedMine",
-            "MapWorldsForbiddenWoods",
             "MapWorldsForkingRiver",
             "MapWorldsFoundry",
             "MapWorldsFrozenCabins",
-            "MapWorldsSprings",
             "MapWorldsGardens",
-            "MapWorldsGeode",
             "MapWorldsGhetto",
             "MapWorldsGorge",
             "MapWorldsGraveTrough",
-            "MapWorldsGraveyard",
             "MapWorldsGrotto",
-            "MapWorldsHauntedMansion",
             "MapWorldsIceberg",
             "MapWorldsInfestedValley",
             "MapWorldsIvoryTemple",
             "MapWorldsJungleValley",
             "MapWorldsLaboratory",
-            "MapWorldsLair",
             "MapWorldsLavaChamber",
-            "MapWorldsLavaLake",
-            "MapWorldsLeyline",
-            "MapWorldsLighthouse",
             "MapWorldsLookout",
-            "MapWorldsMalformation",
-            "MapWorldsMarshes",
-            "MapWorldsMausoleum",
             "MapWorldsMaze",
             "MapWorldsMesa",
             "MapWorldsMineralPools",
@@ -5747,53 +5120,35 @@
             "MapWorldsOvergrownShrine",
             "MapWorldsPalace",
             "MapWorldsPark",
-            "MapWorldsPen",
-            "MapWorldsPeninsula",
-            "MapWorldsPhantasmagoria",
             "MapWorldsPier",
-            "MapWorldsPit",
-            "MapWorldsPlateau",
             "MapWorldsPlaza",
             "MapWorldsPort",
             "MapWorldsPrecinct",
-            "MapWorldsTortureChamber",
-            "MapWorldsPrimordialPool",
             "MapWorldsPromenade",
             "MapWorldsRacecourse_",
             "MapWorldsRamparts",
             "MapWorldsReef",
             "MapWorldsRelicChambers",
             "MapWorldsResidence",
-            "MapWorldsScriptorium",
             "MapWorldsSepulchre",
-            "MapWorldsShipyard",
             "MapWorldsShore",
-            "MapWorldsShrine",
             "MapWorldsSiege",
-            "MapWorldsSilo",
             "MapWorldsSpiderForest",
             "MapWorldsSpiderLair",
             "MapWorldsStagnation",
             "MapWorldsStrand",
-            "MapWorldsSulphurVents",
             "MapWorldsSummit",
-            "MapWorldsSunkenCity",
             "MapWorldsTemple",
-            "MapWorldsTerrace",
             "MapWorldsThicket",
-            "MapWorldsTower",
-            "MapWorldsToxicSewer",
             "MapWorldsTropicalIsland",
             "MapWorldsUndergroundRiver",
             "MapWorldsUndergroundSea",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsVault",
-            "MapWorldsVilla",
             "MapWorldsVolcano",
             "MapWorldsWastePool",
             "MapWorldsWasteland",
-            "MapWorldsWaterways",
             "MapWorldsWharf",
             "MapWorldsPhoenix",
             "MapWorldsMinotaur",
@@ -5815,7 +5170,6 @@
         "id": "TheTumbleWeed",
         "name": "The Tumbleweed",
         "drop_areas": [
-            "MapWorldsDesertSpring",
             "MapWorldsDunes",
             "MapWorldsDrySea",
             "MapWorldsDesert"
@@ -5827,8 +5181,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 7.0,
-        "divine_value": 0.03,
+        "chaos_value": 7.9,
+        "divine_value": 0.04,
         "art_url": "https://web.poecdn.com/image/divination-card/TheTumbleWeed.png"
     },
     "TheTwilightMoon": {
@@ -5836,8 +5190,7 @@
         "name": "The Twilight Moon",
         "drop_areas": [
             "MapWorldsTemple",
-            "MapWorldsMoonTemple",
-            "MapWorldsColdRiver_"
+            "MapWorldsMoonTemple"
         ],
         "stack_size": 6,
         "reward_text": [
@@ -5855,7 +5208,6 @@
         "name": "The Twins",
         "drop_areas": [
             "MapWorldsMoonTemple",
-            "MapWorldsColdRiver_",
             "MapWorldsTemple",
             "MapWorldsMoonTempleUnique"
         ],
@@ -5876,7 +5228,6 @@
         "drop_areas": [
             "MapWorldsPrecinct",
             "MapWorldsPort",
-            "MapWorldsCoralRuins",
             "MapWorldsBazaar",
             "MapWorldsCastleRuins",
             "MapWorldsAncientCity",
@@ -5898,7 +5249,6 @@
         "id": "TheUndaunted",
         "name": "The Undaunted",
         "drop_areas": [
-            "MapWorldsCourthouse",
             "MapWorldsPrecinct",
             "MapWorldsStrandUnique"
         ],
@@ -5918,8 +5268,7 @@
         "name": "The Unexpected Prize",
         "drop_areas": [
             "MapWorldsPalace",
-            "MapWorldsResidence",
-            "MapWorldsVilla"
+            "MapWorldsResidence"
         ],
         "stack_size": 2,
         "reward_text": [
@@ -5936,7 +5285,6 @@
         "id": "TheUnion",
         "name": "The Union",
         "drop_areas": [
-            "MapWorldsGraveyard",
             "MapWorldsCemetery",
             "MapWorldsGraveTrough"
         ],
@@ -5955,7 +5303,6 @@
         "id": "TheVast",
         "name": "The Vast",
         "drop_areas": [
-            "MapWorldsCoralRuins",
             "MapWorldsReef",
             "MapWorldsCoves"
         ],
@@ -5989,32 +5336,11 @@
         "divine_value": 0.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheVisionary.png"
     },
-    "TheVoid": {
-        "id": "TheVoid",
-        "name": "The Void",
-        "drop_areas": [
-            "MapWorldsShapersRealm",
-            "MapWorldsElderArenaUber"
-        ],
-        "stack_size": 1,
-        "reward_text": [
-            {
-                "text": "",
-                "optional": false
-            }
-        ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheVoid.png"
-    },
     "TheWarden": {
         "id": "TheWarden",
         "name": "The Warden",
         "drop_areas": [
-            "MapWorldsPen",
-            "MapWorldsCage",
-            "MapWorldsDungeon",
-            "MapWorldsCells"
+            "MapWorldsCage"
         ],
         "stack_size": 4,
         "reward_text": [
@@ -6031,8 +5357,6 @@
         "id": "TheWarlord",
         "name": "The Warlord",
         "drop_areas": [
-            "MapWorldsArsenal",
-            "MapWorldsArmoury",
             "MapWorldsPromenade",
             "MapWorldsColonnade"
         ],
@@ -6051,8 +5375,7 @@
         "id": "TheWatcher",
         "name": "The Watcher",
         "drop_areas": [
-            "MapWorldsGrotto",
-            "MapWorldsGeode"
+            "MapWorldsGrotto"
         ],
         "stack_size": 12,
         "reward_text": [
@@ -6070,11 +5393,8 @@
         "name": "The Web",
         "drop_areas": [
             "MapWorldsSpiderLair",
-            "MapWorldsArachnidTomb",
             "MapWorldsArachnidNest",
-            "MapWorldsJungleValley",
-            "MapWorldsSunkenCity",
-            "MapWorldsToxicSewer"
+            "MapWorldsJungleValley"
         ],
         "stack_size": 8,
         "reward_text": [
@@ -6091,7 +5411,6 @@
         "id": "TheWeddingGift",
         "name": "The Wedding Gift",
         "drop_areas": [
-            "MapWorldsSunkenCity",
             "MapWorldsOvergrownRuin"
         ],
         "stack_size": 2,
@@ -6129,8 +5448,6 @@
             "MapWorldsAtoll",
             "MapWorldsJungleValley",
             "MapWorldsMesa",
-            "MapWorldsLighthouse",
-            "MapWorldsPlateau",
             "MapWorldsSummit"
         ],
         "stack_size": 7,
@@ -6152,8 +5469,7 @@
             "MapWorldsBurialChambers",
             "MapWorldsMuseumUnique",
             "MapWorldsSepulchre",
-            "MapWorldsWastePool",
-            "MapWorldsPhantasmagoria"
+            "MapWorldsWastePool"
         ],
         "stack_size": 8,
         "reward_text": [
@@ -6172,9 +5488,7 @@
         "drop_areas": [
             "MapWorldsFloodedMine",
             "MapWorldsCrystalOre",
-            "MapWorldsGeode",
             "MapWorldsDig",
-            "MapWorldsExcavation",
             "MapWorldsGrotto"
         ],
         "stack_size": 5,
@@ -6192,7 +5506,6 @@
         "id": "TheWolfsShadow",
         "name": "The Wolf's Shadow",
         "drop_areas": [
-            "MapWorldsLair",
             "MapWorldsUndergroundRiverUnique",
             "MapWorldsDarkForest"
         ],
@@ -6211,7 +5524,6 @@
         "id": "TheWolvenKingsBite",
         "name": "The Wolven King's Bite",
         "drop_areas": [
-            "MapWorldsLair",
             "MapWorldsDarkForest"
         ],
         "stack_size": 8,
@@ -6230,8 +5542,7 @@
         "name": "The Wolverine",
         "drop_areas": [
             "MapWorldsSummit",
-            "MapWorldsGorge",
-            "MapWorldsLair"
+            "MapWorldsGorge"
         ],
         "stack_size": 4,
         "reward_text": [
@@ -6243,24 +5554,6 @@
         "chaos_value": 1.0,
         "divine_value": 0.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheWolverine.png"
-    },
-    "TheWrath": {
-        "id": "TheWrath",
-        "name": "The Wrath",
-        "drop_areas": [
-            "MapWorldsBelfry",
-            "MapWorldsLavaLake"
-        ],
-        "stack_size": 8,
-        "reward_text": [
-            {
-                "text": "<currencyitem>{10x Chaos Orb}",
-                "optional": false
-            }
-        ],
-        "chaos_value": 1.0,
-        "divine_value": 0.0,
-        "art_url": "https://web.poecdn.com/image/divination-card/TheWrath.png"
     },
     "TheWretched": {
         "id": "TheWretched",
@@ -6288,8 +5581,7 @@
         "name": "Thirst for Knowledge",
         "drop_areas": [
             "MapWorldsMuseum",
-            "MapWorldsAcademy",
-            "MapWorldsScriptorium"
+            "MapWorldsAcademy"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -6306,8 +5598,6 @@
         "id": "ThreeFacesInTheDark",
         "name": "Three Faces in the Dark",
         "drop_areas": [
-            "MapWorldsFactory",
-            "MapWorldsArsenal",
             "MapWorldsPort"
         ],
         "stack_size": 7,
@@ -6326,15 +5616,12 @@
         "name": "Three Voices",
         "drop_areas": [
             "MapWorldsRacecourse_",
-            "MapWorldsGraveyard",
-            "MapWorldsCourthouse",
             "MapWorldsCitySquare",
             "MapWorldsCourtyard",
             "MapWorldsVaalPyramid",
             "MapWorldsVaalTemple",
             "MapWorldsCrystalOre",
-            "MapWorldsArena",
-            "MapWorldsForbiddenWoods"
+            "MapWorldsArena"
         ],
         "stack_size": 3,
         "reward_text": [
@@ -6353,7 +5640,6 @@
         "drop_areas": [
             "MapWorldsStrand",
             "MapWorldsCourtyard",
-            "MapWorldsTower",
             "MapWorldsCourtyardUnique"
         ],
         "stack_size": 5,
@@ -6373,8 +5659,6 @@
         "drop_areas": [
             "MapWorldsFloodedMine",
             "MapWorldsCrystalOre",
-            "MapWorldsExcavation",
-            "MapWorldsGeode",
             "MapWorldsDig",
             "MapWorldsGrotto"
         ],
@@ -6395,7 +5679,6 @@
         "drop_areas": [
             "MapWorldsFields",
             "MapWorldsAshenWood",
-            "MapWorldsPeninsula",
             "MapWorldsOrchard"
         ],
         "stack_size": 7,
@@ -6418,10 +5701,7 @@
             "MapWorldsGrotto",
             "MapWorldsUndergroundRiver",
             "MapWorldsCrystalOre",
-            "MapWorldsLair",
-            "MapWorldsSprings",
             "MapWorldsMinotaur",
-            "MapWorldsExcavation",
             "MapWorldsUndergroundRiverUnique"
         ],
         "stack_size": 7,
@@ -6440,7 +5720,6 @@
         "name": "Unchained",
         "drop_areas": [
             "MapWorldsChimera",
-            "MapWorldsPit",
             "MapWorldsArena",
             "MapWorldsColosseum"
         ],
@@ -6471,8 +5750,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 13638.24,
-        "divine_value": 63.0,
+        "chaos_value": 13772.8,
+        "divine_value": 64.0,
         "art_url": "https://web.poecdn.com/image/divination-card/UnrequitedLove.png"
     },
     "VilePower": {
@@ -6480,12 +5759,9 @@
         "name": "Vile Power",
         "drop_areas": [
             "MapWorldsCore",
-            "MapWorldsToxicSewer",
             "MapWorldsWastePool",
             "MapWorldsCarcass",
-            "MapWorldsPhantasmagoria",
-            "MapWorldsAcidLakes",
-            "MapWorldsMalformation"
+            "MapWorldsAcidLakes"
         ],
         "stack_size": 5,
         "reward_text": [
@@ -6502,8 +5778,6 @@
         "id": "ViniasToken",
         "name": "Vinia's Token",
         "drop_areas": [
-            "MapWorldsMalformation",
-            "MapWorldsShrine",
             "MapWorldsCore"
         ],
         "stack_size": 5,
@@ -6521,9 +5795,7 @@
         "id": "VolatilePower",
         "name": "Volatile Power",
         "drop_areas": [
-            "MapWorldsGeode",
             "MapWorldsCrystalOre",
-            "MapWorldsExcavation",
             "MapWorldsDig",
             "MapWorldsFloodedMine",
             "MapWorldsGrotto"
@@ -6543,8 +5815,7 @@
         "id": "WealthAndPower",
         "name": "Wealth and Power",
         "drop_areas": [
-            "MapWorldsMoonTemple",
-            "MapWorldsColdRiver_"
+            "MapWorldsMoonTemple"
         ],
         "stack_size": 11,
         "reward_text": [
@@ -6553,8 +5824,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 1058.59,
-        "divine_value": 4.89,
+        "chaos_value": 1076.0,
+        "divine_value": 5.0,
         "art_url": "https://web.poecdn.com/image/divination-card/WealthAndPower.png"
     },
     "WhoAsked": {
@@ -6571,8 +5842,8 @@
                 "optional": false
             }
         ],
-        "chaos_value": 40.0,
-        "divine_value": 0.18,
+        "chaos_value": 43.0,
+        "divine_value": 0.2,
         "art_url": "https://web.poecdn.com/image/divination-card/WhoAsked.png"
     }
 }

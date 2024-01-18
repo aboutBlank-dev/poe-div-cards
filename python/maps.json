@@ -1,19 +1,8 @@
 {
-    "MapWorldsPrimordialBoss3": {
-        "id": "MapWorldsPrimordialBoss3",
-        "name": "Absence of Patience and Wisdom"
-    },
-    "MapWorldsPrimordialBoss4": {
-        "id": "MapWorldsPrimordialBoss4",
-        "name": "Absence of Symmetry and Harmony"
-    },
-    "MapWorldsElderArena": {
-        "id": "MapWorldsElderArena",
-        "name": "Absence of Value and Meaning"
-    },
     "MapWorldsAcademy": {
         "id": "MapWorldsAcademy",
         "name": "Academy",
+        "unique": false,
         "cards": [
             "ADabOfInk",
             "Checkmate",
@@ -39,6 +28,7 @@
     "MapWorldsAcidLakes": {
         "id": "MapWorldsAcidLakes",
         "name": "Acid Caverns",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -53,41 +43,10 @@
             "VilePower"
         ]
     },
-    "MapWorldsOvergrownShrineUnique": {
-        "id": "MapWorldsOvergrownShrineUnique",
-        "name": "Acton's Nightmare",
-        "cards": [
-            "Monochrome",
-            "TheWiltedRose",
-            "TheWretched"
-        ]
-    },
-    "MapWorldsAlleyways": {
-        "id": "MapWorldsAlleyways",
-        "name": "Alleyways",
-        "cards": [
-            "AssassinsFavor",
-            "HerMask",
-            "Home",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheBlazingFire",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheJournalist",
-            "TheLifeThief",
-            "ThePoet",
-            "TheSaintsTreasure",
-            "TheSideQuest",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
     "MapWorldsAncientCity": {
         "id": "MapWorldsAncientCity",
         "name": "Ancient City",
+        "unique": false,
         "cards": [
             "ArroganceoftheVaal",
             "HerMask",
@@ -110,6 +69,7 @@
     "MapWorldsArachnidNest": {
         "id": "MapWorldsArachnidNest",
         "name": "Arachnid Nest",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -118,24 +78,6 @@
             "TheDragonsHeart",
             "TheEncroachingDarkness",
             "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWeb"
-        ]
-    },
-    "MapWorldsArachnidTomb": {
-        "id": "MapWorldsArachnidTomb",
-        "name": "Arachnid Tomb",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "ParasiticPassengers",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheSideQuest",
             "TheTinkerersTable",
             "TheTrial",
             "TheWeb"
@@ -144,6 +86,7 @@
     "MapWorldsArcade": {
         "id": "MapWorldsArcade",
         "name": "Arcade",
+        "unique": false,
         "cards": [
             "AssassinsFavor",
             "HerMask",
@@ -164,6 +107,7 @@
     "MapWorldsArena": {
         "id": "MapWorldsArena",
         "name": "Arena",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -187,6 +131,7 @@
     "MapWorldsAridLake": {
         "id": "MapWorldsAridLake",
         "name": "Arid Lake",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -200,50 +145,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsArmoury": {
-        "id": "MapWorldsArmoury",
-        "name": "Armoury",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "MercilessArmament",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "ThePatient",
-            "TheSideQuest",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWarlord"
-        ]
-    },
-    "MapWorldsArsenal": {
-        "id": "MapWorldsArsenal",
-        "name": "Arsenal",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "JackInTheBox",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "MercilessArmament",
-            "Rats",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "ThePatient",
-            "TheReturnOfTheRat",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWarlord",
-            "ThreeFacesInTheDark"
-        ]
-    },
     "MapWorldsAshenWood": {
         "id": "MapWorldsAshenWood",
         "name": "Ashen Wood",
+        "unique": false,
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -265,6 +170,7 @@
     "MapWorldsAtoll": {
         "id": "MapWorldsAtoll",
         "name": "Atoll",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -285,30 +191,31 @@
             "TheWind"
         ]
     },
-    "MapWorldsBarrows": {
-        "id": "MapWorldsBarrows",
-        "name": "Barrows",
+    "MapWorldsAtollUnique": {
+        "id": "MapWorldsAtollUnique",
+        "name": "Maelstr\u00f6m of Chaos",
+        "unique": true,
         "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "Loyalty",
-            "LuckyDeck",
-            "ManWithBear",
-            "PrideOfTheFirstOnes",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFox",
-            "TheGambler",
-            "TheOneWithAll",
-            "TheShepherdsSandals",
-            "TheTinkerersTable",
-            "TheTrial"
+            "LantadorsLostLove",
+            "LysahsRespite",
+            "Monochrome",
+            "Prosperity",
+            "TheAvenger",
+            "TheAwakened",
+            "TheCache",
+            "TheCatch",
+            "TheHoarder",
+            "TheJourney",
+            "TheLeviathan",
+            "TheLover",
+            "TheSiren",
+            "TheTransformation"
         ]
     },
     "MapWorldsBasilica": {
         "id": "MapWorldsBasilica",
         "name": "Basilica",
+        "unique": false,
         "cards": [
             "DesperateCrusade",
             "HerMask",
@@ -331,6 +238,7 @@
     "MapWorldsBazaar": {
         "id": "MapWorldsBazaar",
         "name": "Bazaar",
+        "unique": false,
         "cards": [
             "AssassinsFavor",
             "HerMask",
@@ -349,51 +257,10 @@
             "TheTyrant"
         ]
     },
-    "MapWorldsBeach": {
-        "id": "MapWorldsBeach",
-        "name": "Beach",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LantadorsLostLove",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "Prosperity",
-            "TheCatch",
-            "TheDestination",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFortunate",
-            "TheGambler",
-            "TheJourney",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
-    "MapWorldsBeachLanding": {
-        "id": "MapWorldsBeachLanding",
-        "name": "Beach Landing"
-    },
-    "MapWorldsBelfry": {
-        "id": "MapWorldsBelfry",
-        "name": "Belfry",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheEnlightened",
-            "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWrath"
-        ]
-    },
     "MapWorldsBog": {
         "id": "MapWorldsBog",
         "name": "Bog",
+        "unique": false,
         "cards": [
             "Death",
             "HerMask",
@@ -411,6 +278,7 @@
     "MapWorldsBoneCrypt": {
         "id": "MapWorldsBoneCrypt",
         "name": "Bone Crypt",
+        "unique": false,
         "cards": [
             "CovetedPossession",
             "GraveKnowledge",
@@ -430,9 +298,18 @@
             "TheWretched"
         ]
     },
+    "MapWorldsBoneCryptUnique": {
+        "id": "MapWorldsBoneCryptUnique",
+        "name": "Olmec's Sanctum",
+        "unique": true,
+        "cards": [
+            "Monochrome"
+        ]
+    },
     "MapWorldsBrambleValley": {
         "id": "MapWorldsBrambleValley",
         "name": "Bramble Valley",
+        "unique": false,
         "cards": [
             "AliviasGrace",
             "CallToTheFirstOnes",
@@ -453,13 +330,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsBrambleFall": {
-        "id": "MapWorldsBrambleFall",
-        "name": "BrambleFall"
-    },
     "MapWorldsBurialChambers": {
         "id": "MapWorldsBurialChambers",
         "name": "Burial Chambers",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -480,22 +354,10 @@
             "TheWitch"
         ]
     },
-    "MapWorldsUndergroundRiverUnique": {
-        "id": "MapWorldsUndergroundRiverUnique",
-        "name": "Caer Blaidd, Wolfpack's Den",
-        "cards": [
-            "Loyalty",
-            "Monochrome",
-            "PrideOfTheFirstOnes",
-            "TheCursedKing",
-            "TheShepherdsSandals",
-            "TheWolfsShadow",
-            "TreasureHunter"
-        ]
-    },
     "MapWorldsCage": {
         "id": "MapWorldsCage",
         "name": "Cage",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -516,6 +378,7 @@
     "MapWorldsCaldera": {
         "id": "MapWorldsCaldera",
         "name": "Caldera",
+        "unique": false,
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -537,6 +400,7 @@
     "MapWorldsCanyon": {
         "id": "MapWorldsCanyon",
         "name": "Canyon",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -553,6 +417,7 @@
     "MapWorldsCarcass": {
         "id": "MapWorldsCarcass",
         "name": "Carcass",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -574,6 +439,7 @@
     "MapWorldsCastleRuins": {
         "id": "MapWorldsCastleRuins",
         "name": "Castle Ruins",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -594,30 +460,10 @@
             "TheTyrant"
         ]
     },
-    "MapWorldsCells": {
-        "id": "MapWorldsCells",
-        "name": "Cells",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheChainsThatBind",
-            "TheDragonsHeart",
-            "TheDungeonMaster",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheNurse",
-            "ThePenitent",
-            "TheSoul",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWarden"
-        ]
-    },
     "MapWorldsCemetery": {
         "id": "MapWorldsCemetery",
         "name": "Cemetery",
+        "unique": false,
         "cards": [
             "BrotherGift",
             "BrothersStash",
@@ -638,9 +484,20 @@
             "TheUnion"
         ]
     },
+    "MapWorldsCemeteryUnique": {
+        "id": "MapWorldsCemeteryUnique",
+        "name": "Hallowed Ground",
+        "unique": true,
+        "cards": [
+            "Monochrome",
+            "TheAwakened",
+            "TheTransformation"
+        ]
+    },
     "MapWorldsChannel": {
         "id": "MapWorldsChannel",
         "name": "Channel",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -658,6 +515,7 @@
     "MapWorldsChateau": {
         "id": "MapWorldsChateau",
         "name": "Chateau",
+        "unique": false,
         "cards": [
             "BoonofJustice",
             "BrotherhoodInExile",
@@ -675,9 +533,30 @@
             "TheTrial"
         ]
     },
+    "MapWorldsChimera": {
+        "id": "MapWorldsChimera",
+        "name": "Pit of the Chimera",
+        "unique": false,
+        "cards": [
+            "BoonoftheFirstOnes",
+            "HerMask",
+            "LingeringRemnants",
+            "TheDragonsHeart",
+            "TheEncroachingDarkness",
+            "TheGambler",
+            "TheGladiator",
+            "TheKingsBlade",
+            "TheLastOneStanding",
+            "TheSwordKingsSalute",
+            "TheTinkerersTable",
+            "TheTrial",
+            "Unchained"
+        ]
+    },
     "MapWorldsCitySquare": {
         "id": "MapWorldsCitySquare",
         "name": "City Square",
+        "unique": false,
         "cards": [
             "HerMask",
             "Home",
@@ -695,33 +574,10 @@
             "ThreeVoices"
         ]
     },
-    "MapWorldsColdRiver_": {
-        "id": "MapWorldsColdRiver_",
-        "name": "Cold River",
-        "cards": [
-            "AChillingWind",
-            "BoundlessRealms",
-            "DiallasSubjugation",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "Mitts",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheLunarisPriestess",
-            "TheSun",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheTwilightMoon",
-            "TheTwins",
-            "WealthAndPower"
-        ]
-    },
     "MapWorldsColonnade": {
         "id": "MapWorldsColonnade",
         "name": "Colonnade",
+        "unique": false,
         "cards": [
             "GemcuttersPromise",
             "HerMask",
@@ -744,6 +600,7 @@
     "MapWorldsColosseum": {
         "id": "MapWorldsColosseum",
         "name": "Colosseum",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -767,6 +624,7 @@
     "MapWorldsConservatory": {
         "id": "MapWorldsConservatory",
         "name": "Conservatory",
+        "unique": false,
         "cards": [
             "BoonofJustice",
             "BrotherhoodInExile",
@@ -783,29 +641,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsCoralRuins": {
-        "id": "MapWorldsCoralRuins",
-        "name": "Coral Ruins",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LantadorsLostLove",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "Prosperity",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheJourney",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheTyrant",
-            "TheVast"
-        ]
-    },
     "MapWorldsCore": {
         "id": "MapWorldsCore",
         "name": "Core",
+        "unique": false,
         "cards": [
             "EchoesOfLove",
             "HerMask",
@@ -827,26 +666,10 @@
             "ViniasToken"
         ]
     },
-    "MapWorldsCourthouse": {
-        "id": "MapWorldsCourthouse",
-        "name": "Courthouse",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheUndaunted",
-            "ThreeVoices"
-        ]
-    },
     "MapWorldsCourtyard": {
         "id": "MapWorldsCourtyard",
         "name": "Courtyard",
+        "unique": false,
         "cards": [
             "EmperorsLuck",
             "HerMask",
@@ -869,9 +692,20 @@
             "ThunderousSkies"
         ]
     },
+    "MapWorldsCourtyardUnique": {
+        "id": "MapWorldsCourtyardUnique",
+        "name": "The Vinktar Square",
+        "unique": true,
+        "cards": [
+            "Monochrome",
+            "StruckbyLightning",
+            "ThunderousSkies"
+        ]
+    },
     "MapWorldsCoves": {
         "id": "MapWorldsCoves",
         "name": "Coves",
+        "unique": false,
         "cards": [
             "AStonePerfected",
             "FromBonesToAshes",
@@ -896,26 +730,10 @@
             "TheVast"
         ]
     },
-    "MapWorldsTribunal": {
-        "id": "MapWorldsTribunal",
-        "name": "Crater",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFortunate",
-            "TheGambler",
-            "TheStandOff",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
     "MapWorldsCrimsonTemple": {
         "id": "MapWorldsCrimsonTemple",
         "name": "Crimson Temple",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -939,6 +757,7 @@
     "MapWorldsCrimsonTownship": {
         "id": "MapWorldsCrimsonTownship",
         "name": "Crimson Township",
+        "unique": false,
         "cards": [
             "HerMask",
             "Home",
@@ -958,6 +777,7 @@
     "MapWorldsCrystalOre": {
         "id": "MapWorldsCrystalOre",
         "name": "Crystal Ore",
+        "unique": false,
         "cards": [
             "ASeaOfBlue",
             "Bijoux",
@@ -987,6 +807,7 @@
     "MapWorldsCursedCrypt": {
         "id": "MapWorldsCursedCrypt",
         "name": "Cursed Crypt",
+        "unique": false,
         "cards": [
             "GraveKnowledge",
             "HerMask",
@@ -1004,9 +825,23 @@
             "TheWretched"
         ]
     },
+    "MapWorldsCursedCryptUnique": {
+        "id": "MapWorldsCursedCryptUnique",
+        "name": "The Coward's Trial",
+        "unique": true,
+        "cards": [
+            "GraveKnowledge",
+            "Monochrome",
+            "TheCelestialJusticar",
+            "TheForsaken",
+            "TheRabbitsFoot",
+            "TheWretched"
+        ]
+    },
     "MapWorldsDarkForest": {
         "id": "MapWorldsDarkForest",
         "name": "Dark Forest",
+        "unique": false,
         "cards": [
             "AliviasGrace",
             "CallToTheFirstOnes",
@@ -1031,67 +866,10 @@
             "TheWolvenKingsBite"
         ]
     },
-    "MapWorldsNecropolisUnique": {
-        "id": "MapWorldsNecropolisUnique",
-        "name": "Death and Taxes",
-        "cards": [
-            "Monochrome",
-            "TheAwakened",
-            "TheTransformation"
-        ]
-    },
-    "MapWorldsDefiledCathedral": {
-        "id": "MapWorldsDefiledCathedral",
-        "name": "Defiled Cathedral",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LachrymalNecrosis",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "SevenYearsBadLuck",
-            "TheApothecary",
-            "TheBlazingFire",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheEnlightened",
-            "TheGambler",
-            "TheInnocent",
-            "TheJournalist",
-            "TheLifeThief",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
     "MapWorldsDesert": {
         "id": "MapWorldsDesert",
         "name": "Desert",
-        "cards": [
-            "ANoteInTheWind",
-            "Acclimatisation",
-            "BaitedExpectations",
-            "EarthDrinker",
-            "HerMask",
-            "Hope",
-            "ImperialLegacy",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFortunate",
-            "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheTumbleWeed"
-        ]
-    },
-    "MapWorldsElder_Desert": {
-        "id": "MapWorldsElder_Desert",
-        "name": "Desert of Dementia"
-    },
-    "MapWorldsDesertSpring": {
-        "id": "MapWorldsDesertSpring",
-        "name": "Desert Spring",
+        "unique": false,
         "cards": [
             "ANoteInTheWind",
             "Acclimatisation",
@@ -1114,6 +892,7 @@
     "MapWorldsDig": {
         "id": "MapWorldsDig",
         "name": "Dig",
+        "unique": false,
         "cards": [
             "Bijoux",
             "BuriedTreasure",
@@ -1135,20 +914,10 @@
             "VolatilePower"
         ]
     },
-    "MapWorldsMazeUnique": {
-        "id": "MapWorldsMazeUnique",
-        "name": "Doryani's Machinarium",
-        "cards": [
-            "Monochrome",
-            "TheAdmirer",
-            "TheCatalyst",
-            "TheForwardGaze",
-            "TheInventor"
-        ]
-    },
     "MapWorldsDrySea": {
         "id": "MapWorldsDrySea",
         "name": "Dry Sea",
+        "unique": false,
         "cards": [
             "ANoteInTheWind",
             "Acclimatisation",
@@ -1171,6 +940,7 @@
     "MapWorldsDunes": {
         "id": "MapWorldsDunes",
         "name": "Dunes",
+        "unique": false,
         "cards": [
             "ANoteInTheWind",
             "Acclimatisation",
@@ -1191,28 +961,20 @@
             "TheTumbleWeed"
         ]
     },
-    "MapWorldsDungeon": {
-        "id": "MapWorldsDungeon",
-        "name": "Dungeon",
+    "MapWorldsDunesUnique": {
+        "id": "MapWorldsDunesUnique",
+        "name": "Pillars of Arun",
+        "unique": true,
         "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheChainsThatBind",
-            "TheDragonsHeart",
-            "TheDungeonMaster",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "ThePenitent",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWarden"
+            "EarthDrinker",
+            "ImperialLegacy",
+            "Monochrome"
         ]
     },
     "MapWorldsEstuary": {
         "id": "MapWorldsEstuary",
         "name": "Estuary",
+        "unique": false,
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -1232,54 +994,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsExcavation": {
-        "id": "MapWorldsExcavation",
-        "name": "Excavation",
-        "cards": [
-            "Bijoux",
-            "BuriedTreasure",
-            "GiftOfAsenath",
-            "GiftOfTheGemlingQueen",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheEndurance",
-            "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWolf",
-            "TimeLostRelic",
-            "TreasureHunter",
-            "VolatilePower"
-        ]
-    },
-    "MapWorldsFactory": {
-        "id": "MapWorldsFactory",
-        "name": "Factory",
-        "cards": [
-            "AzureRage",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "Rats",
-            "SoulQuenched",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheReturnOfTheRat",
-            "TheTinkerersTable",
-            "TheTirelessExtractor",
-            "TheTrial",
-            "ThreeFacesInTheDark"
-        ]
-    },
     "MapWorldsFields": {
         "id": "MapWorldsFields",
         "name": "Fields",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -1302,6 +1020,7 @@
     "MapWorldsFloodedMine": {
         "id": "MapWorldsFloodedMine",
         "name": "Flooded Mine",
+        "unique": false,
         "cards": [
             "AStonePerfected",
             "Bijoux",
@@ -1329,53 +1048,10 @@
             "VolatilePower"
         ]
     },
-    "MapWorldsForbiddenWoods": {
-        "id": "MapWorldsForbiddenWoods",
-        "name": "Forbidden Woods",
-        "cards": [
-            "AChillingWind",
-            "AliviasGrace",
-            "CallToTheFirstOnes",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "RussiaDivinationCard",
-            "Mitts",
-            "TheDemoness",
-            "TheDragon",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFlorasGift",
-            "TheGambler",
-            "ThePackLeader",
-            "TheScout",
-            "TheTinkerersTable",
-            "TheTrial",
-            "ThreeVoices"
-        ]
-    },
-    "MapWorldsPhoenix": {
-        "id": "MapWorldsPhoenix",
-        "name": "Forge of the Phoenix",
-        "cards": [
-            "BurningBlood",
-            "HerMask",
-            "LingeringRemnants",
-            "SoulQuenched",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheEyeOfTheDragon",
-            "TheGambler",
-            "TheStandOff",
-            "TheTinkerersTable",
-            "TheTrial",
-            "WhoAsked"
-        ]
-    },
     "MapWorldsForkingRiver": {
         "id": "MapWorldsForkingRiver",
         "name": "Forking River",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -1394,6 +1070,7 @@
     "MapWorldsFoundry": {
         "id": "MapWorldsFoundry",
         "name": "Foundry",
+        "unique": false,
         "cards": [
             "FurtherInvention",
             "HerMask",
@@ -1414,6 +1091,7 @@
     "MapWorldsFrozenCabins": {
         "id": "MapWorldsFrozenCabins",
         "name": "Frozen Cabins",
+        "unique": false,
         "cards": [
             "AChillingWind",
             "HerMask",
@@ -1429,27 +1107,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsSprings": {
-        "id": "MapWorldsSprings",
-        "name": "Fungal Hollow",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheBetrayal",
-            "TheDestination",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TreasureHunter"
-        ]
-    },
     "MapWorldsGardens": {
         "id": "MapWorldsGardens",
         "name": "Gardens",
+        "unique": false,
         "cards": [
             "EmperorsLuck",
             "HerMask",
@@ -1470,36 +1131,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsGeode": {
-        "id": "MapWorldsGeode",
-        "name": "Geode",
-        "cards": [
-            "AStonePerfected",
-            "Bijoux",
-            "BuriedTreasure",
-            "GiftOfAsenath",
-            "GiftOfTheGemlingQueen",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheEndurance",
-            "TheGambler",
-            "ThePrimordial",
-            "TheRiteofElements",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWatcher",
-            "TheWolf",
-            "TimeLostRelic",
-            "VolatilePower"
-        ]
-    },
     "MapWorldsGhetto": {
         "id": "MapWorldsGhetto",
         "name": "Ghetto",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -1519,6 +1154,7 @@
     "MapWorldsGorge": {
         "id": "MapWorldsGorge",
         "name": "Glacier",
+        "unique": false,
         "cards": [
             "AChillingWind",
             "HerMask",
@@ -1538,6 +1174,7 @@
     "MapWorldsGraveTrough": {
         "id": "MapWorldsGraveTrough",
         "name": "Grave Trough",
+        "unique": false,
         "cards": [
             "BrotherGift",
             "BrothersStash",
@@ -1555,32 +1192,10 @@
             "TheUnion"
         ]
     },
-    "MapWorldsGraveyard": {
-        "id": "MapWorldsGraveyard",
-        "name": "Graveyard",
-        "cards": [
-            "BrotherGift",
-            "BrothersStash",
-            "CursedWords",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "StruckbyLightning",
-            "TheComingStorm",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheOneWithAll",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheUnion",
-            "ThreeVoices"
-        ]
-    },
     "MapWorldsGrotto": {
         "id": "MapWorldsGrotto",
         "name": "Grotto",
+        "unique": false,
         "cards": [
             "ASeaOfBlue",
             "AStonePerfected",
@@ -1611,50 +1226,26 @@
             "VolatilePower"
         ]
     },
-    "MapWorldsCemeteryUnique": {
-        "id": "MapWorldsCemeteryUnique",
-        "name": "Hallowed Ground",
-        "cards": [
-            "Monochrome",
-            "TheAwakened",
-            "TheTransformation"
-        ]
-    },
-    "MapWorldsElder_Elegant": {
-        "id": "MapWorldsElder_Elegant",
-        "name": "Halls of Delirium"
-    },
-    "MapWorldsHarbinger": {
-        "id": "MapWorldsHarbinger",
-        "name": "Harbinger's Isle"
-    },
-    "MapWorldsHauntedMansion": {
-        "id": "MapWorldsHauntedMansion",
-        "name": "Haunted Mansion",
+    "MapWorldsHydra": {
+        "id": "MapWorldsHydra",
+        "name": "Lair of the Hydra",
+        "unique": false,
         "cards": [
             "HerMask",
-            "Home",
-            "Hope",
             "LingeringRemnants",
-            "LuckyDeck",
-            "TheApothecary",
-            "TheAwakened",
-            "TheBlazingFire",
             "TheDragonsHeart",
             "TheEncroachingDarkness",
+            "TheFeast",
             "TheGambler",
-            "TheJournalist",
-            "TheLifeThief",
-            "TheLordofCelebration",
-            "TheOpulecent",
+            "TheThrone",
             "TheTinkerersTable",
-            "TheTransformation",
             "TheTrial"
         ]
     },
     "MapWorldsIceberg": {
         "id": "MapWorldsIceberg",
         "name": "Iceberg",
+        "unique": false,
         "cards": [
             "AChillingWind",
             "HerMask",
@@ -1673,6 +1264,7 @@
     "MapWorldsInfestedValley": {
         "id": "MapWorldsInfestedValley",
         "name": "Infested Valley",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -1689,20 +1281,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsHarbingerUber": {
-        "id": "MapWorldsHarbingerUber",
-        "name": "Infused Beachhead",
-        "cards": [
-            "Monochrome"
-        ]
-    },
-    "MapWorldsElder_River": {
-        "id": "MapWorldsElder_River",
-        "name": "Islands of Devastation"
-    },
     "MapWorldsIvoryTemple": {
         "id": "MapWorldsIvoryTemple",
         "name": "Ivory Temple",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -1722,6 +1304,7 @@
     "MapWorldsJungleValley": {
         "id": "MapWorldsJungleValley",
         "name": "Jungle Valley",
+        "unique": false,
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -1744,6 +1327,7 @@
     "MapWorldsLaboratory": {
         "id": "MapWorldsLaboratory",
         "name": "Laboratory",
+        "unique": false,
         "cards": [
             "AzyransReward",
             "HerMask",
@@ -1762,51 +1346,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsLair": {
-        "id": "MapWorldsLair",
-        "name": "Lair",
-        "cards": [
-            "AliviasGrace",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "Loyalty",
-            "LuckyDeck",
-            "PrideOfTheFirstOnes",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFlorasGift",
-            "TheGambler",
-            "TheMaster",
-            "ThePackLeader",
-            "TheScout",
-            "TheShepherdsSandals",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWolfsShadow",
-            "TheWolvenKingsBite",
-            "TheWolverine",
-            "TreasureHunter"
-        ]
-    },
-    "MapWorldsHydra": {
-        "id": "MapWorldsHydra",
-        "name": "Lair of the Hydra",
-        "cards": [
-            "HerMask",
-            "LingeringRemnants",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFeast",
-            "TheGambler",
-            "TheThrone",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
     "MapWorldsLavaChamber": {
         "id": "MapWorldsLavaChamber",
         "name": "Lava Chamber",
+        "unique": false,
         "cards": [
             "BurningBlood",
             "HerMask",
@@ -1822,65 +1365,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsLavaLake": {
-        "id": "MapWorldsLavaLake",
-        "name": "Lava Lake",
-        "cards": [
-            "FromBonesToAshes",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheStandOff",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWrath"
-        ]
-    },
-    "MapWorldsLeyline": {
-        "id": "MapWorldsLeyline",
-        "name": "Leyline",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "StruckbyLightning",
-            "TheComingStorm",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFortunate",
-            "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
-    "MapWorldsLighthouse": {
-        "id": "MapWorldsLighthouse",
-        "name": "Lighthouse",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LantadorsLostLove",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "Prosperity",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheJourney",
-            "TheOldMan",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWind"
-        ]
-    },
     "MapWorldsLookout": {
         "id": "MapWorldsLookout",
         "name": "Lookout",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -1897,100 +1385,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsAtollUnique": {
-        "id": "MapWorldsAtollUnique",
-        "name": "Maelstr\u00f6m of Chaos",
-        "cards": [
-            "LantadorsLostLove",
-            "LysahsRespite",
-            "Monochrome",
-            "Prosperity",
-            "TheAvenger",
-            "TheAwakened",
-            "TheCache",
-            "TheCatch",
-            "TheHoarder",
-            "TheJourney",
-            "TheLeviathan",
-            "TheLover",
-            "TheSiren",
-            "TheTransformation"
-        ]
-    },
-    "MapWorldsMalformation": {
-        "id": "MapWorldsMalformation",
-        "name": "Malformation",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheHunger",
-            "TheOath",
-            "TheSurveyor",
-            "TheTinkerersTable",
-            "TheTrial",
-            "VilePower",
-            "ViniasToken"
-        ]
-    },
-    "MapWorldsElder_Sceptre": {
-        "id": "MapWorldsElder_Sceptre",
-        "name": "Manor of Madness"
-    },
-    "MapWorldsShoreUnique": {
-        "id": "MapWorldsShoreUnique",
-        "name": "Mao Kun",
-        "cards": [
-            "AbandonedWealth",
-            "LantadorsLostLove",
-            "Monochrome",
-            "Prosperity",
-            "TheJourney",
-            "TheLanding"
-        ]
-    },
-    "MapWorldsMarshes": {
-        "id": "MapWorldsMarshes",
-        "name": "Marshes",
-        "cards": [
-            "Death",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFortunate",
-            "TheGambler",
-            "TheInoculated",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
-    "MapWorldsMausoleum": {
-        "id": "MapWorldsMausoleum",
-        "name": "Mausoleum",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "MightIsRight",
-            "NoTraces",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
     "MapWorldsMaze": {
         "id": "MapWorldsMaze",
         "name": "Maze",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2009,24 +1407,22 @@
             "UnrequitedLove"
         ]
     },
-    "MapWorldsMinotaur": {
-        "id": "MapWorldsMinotaur",
-        "name": "Maze of the Minotaur",
+    "MapWorldsMazeUnique": {
+        "id": "MapWorldsMazeUnique",
+        "name": "Doryani's Machinarium",
+        "unique": true,
         "cards": [
-            "HerMask",
-            "LingeringRemnants",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheRuthlessCeinture",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TreasureHunter"
+            "Monochrome",
+            "TheAdmirer",
+            "TheCatalyst",
+            "TheForwardGaze",
+            "TheInventor"
         ]
     },
     "MapWorldsMesa": {
         "id": "MapWorldsMesa",
         "name": "Mesa",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2045,6 +1441,7 @@
     "MapWorldsMineralPools": {
         "id": "MapWorldsMineralPools",
         "name": "Mineral Pools",
+        "unique": false,
         "cards": [
             "ASeaOfBlue",
             "GlimmerOfHope",
@@ -2068,9 +1465,26 @@
             "TheTrial"
         ]
     },
+    "MapWorldsMinotaur": {
+        "id": "MapWorldsMinotaur",
+        "name": "Maze of the Minotaur",
+        "unique": false,
+        "cards": [
+            "HerMask",
+            "LingeringRemnants",
+            "TheDragonsHeart",
+            "TheEncroachingDarkness",
+            "TheGambler",
+            "TheRuthlessCeinture",
+            "TheTinkerersTable",
+            "TheTrial",
+            "TreasureHunter"
+        ]
+    },
     "MapWorldsMoonTemple": {
         "id": "MapWorldsMoonTemple",
         "name": "Moon Temple",
+        "unique": false,
         "cards": [
             "AstralProtection",
             "HerMask",
@@ -2089,9 +1503,28 @@
             "WealthAndPower"
         ]
     },
+    "MapWorldsMoonTempleUnique": {
+        "id": "MapWorldsMoonTempleUnique",
+        "name": "The Twilight Temple",
+        "unique": true,
+        "cards": [
+            "BoundlessRealms",
+            "DiallasSubjugation",
+            "HauntingShadows",
+            "Heterochromia",
+            "Monochrome",
+            "TheEnlightened",
+            "TheLordofCelebration",
+            "TheLunarisPriestess",
+            "TheOpulecent",
+            "TheSun",
+            "TheTwins"
+        ]
+    },
     "MapWorldsMudGeyser": {
         "id": "MapWorldsMudGeyser",
         "name": "Mud Geyser",
+        "unique": false,
         "cards": [
             "Death",
             "HerMask",
@@ -2109,6 +1542,7 @@
     "MapWorldsMuseum": {
         "id": "MapWorldsMuseum",
         "name": "Museum",
+        "unique": false,
         "cards": [
             "ADabOfInk",
             "BlindVenture",
@@ -2134,9 +1568,22 @@
             "ThirstForKnowledge"
         ]
     },
+    "MapWorldsMuseumUnique": {
+        "id": "MapWorldsMuseumUnique",
+        "name": "The Putrid Cloister",
+        "unique": true,
+        "cards": [
+            "Monochrome",
+            "TheBrawnyBattleMage",
+            "TheDoctor",
+            "TheIncantation",
+            "TheWitch"
+        ]
+    },
     "MapWorldsNecropolis": {
         "id": "MapWorldsNecropolis",
         "name": "Necropolis",
+        "unique": false,
         "cards": [
             "GraveKnowledge",
             "HerMask",
@@ -2152,23 +1599,20 @@
             "TheWretched"
         ]
     },
-    "MapWorldsTortureChamberUnique": {
-        "id": "MapWorldsTortureChamberUnique",
-        "name": "Oba's Cursed Trove",
+    "MapWorldsNecropolisUnique": {
+        "id": "MapWorldsNecropolisUnique",
+        "name": "Death and Taxes",
+        "unique": true,
         "cards": [
-            "Monochrome"
-        ]
-    },
-    "MapWorldsBoneCryptUnique": {
-        "id": "MapWorldsBoneCryptUnique",
-        "name": "Olmec's Sanctum",
-        "cards": [
-            "Monochrome"
+            "Monochrome",
+            "TheAwakened",
+            "TheTransformation"
         ]
     },
     "MapWorldsOrchard": {
         "id": "MapWorldsOrchard",
         "name": "Orchard",
+        "unique": false,
         "cards": [
             "BoonofJustice",
             "BrotherhoodInExile",
@@ -2196,6 +1640,7 @@
     "MapWorldsOvergrownRuin": {
         "id": "MapWorldsOvergrownRuin",
         "name": "Overgrown Ruin",
+        "unique": false,
         "cards": [
             "EchoesOfLove",
             "EmperorOfPurity",
@@ -2221,6 +1666,7 @@
     "MapWorldsOvergrownShrine": {
         "id": "MapWorldsOvergrownShrine",
         "name": "Overgrown Shrine",
+        "unique": false,
         "cards": [
             "EchoesOfLove",
             "EmperorOfPurity",
@@ -2242,9 +1688,20 @@
             "TheTrial"
         ]
     },
+    "MapWorldsOvergrownShrineUnique": {
+        "id": "MapWorldsOvergrownShrineUnique",
+        "name": "Acton's Nightmare",
+        "unique": true,
+        "cards": [
+            "Monochrome",
+            "TheWiltedRose",
+            "TheWretched"
+        ]
+    },
     "MapWorldsPalace": {
         "id": "MapWorldsPalace",
         "name": "Palace",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2267,6 +1724,7 @@
     "MapWorldsPark": {
         "id": "MapWorldsPark",
         "name": "Park",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2279,83 +1737,29 @@
             "TheTrial"
         ]
     },
-    "MapWorldsPen": {
-        "id": "MapWorldsPen",
-        "name": "Pen",
+    "MapWorldsPhoenix": {
+        "id": "MapWorldsPhoenix",
+        "name": "Forge of the Phoenix",
+        "unique": false,
         "cards": [
+            "BurningBlood",
             "HerMask",
-            "Hope",
             "LingeringRemnants",
-            "LuckyDeck",
-            "TheChainsThatBind",
-            "TheDragonsHeart",
-            "TheDungeonMaster",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheMaster",
-            "ThePenitent",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWarden"
-        ]
-    },
-    "MapWorldsPeninsula": {
-        "id": "MapWorldsPeninsula",
-        "name": "Peninsula",
-        "cards": [
-            "AStonePerfected",
-            "HerMask",
-            "Hope",
-            "LantadorsLostLove",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "Prosperity",
-            "TheCatch",
+            "SoulQuenched",
             "TheDragonsHeart",
             "TheEncroachingDarkness",
-            "TheFortunate",
+            "TheEyeOfTheDragon",
             "TheGambler",
-            "TheJourney",
-            "TheOldMan",
-            "ThePrimordial",
-            "TheRiteofElements",
-            "TheScarredMeadow",
+            "TheStandOff",
             "TheTinkerersTable",
             "TheTrial",
-            "Tranquillity"
-        ]
-    },
-    "MapWorldsChateauUnique": {
-        "id": "MapWorldsChateauUnique",
-        "name": "Perandus Manor"
-    },
-    "MapWorldsPhantasmagoria": {
-        "id": "MapWorldsPhantasmagoria",
-        "name": "Phantasmagoria",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheBrawnyBattleMage",
-            "TheDoctor",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheHunger",
-            "TheIncantation",
-            "TheOath",
-            "TheSoul",
-            "TheSurveyor",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWitch",
-            "VilePower"
+            "WhoAsked"
         ]
     },
     "MapWorldsPier": {
         "id": "MapWorldsPier",
         "name": "Pier",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2375,83 +1779,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsDunesUnique": {
-        "id": "MapWorldsDunesUnique",
-        "name": "Pillars of Arun",
-        "cards": [
-            "EarthDrinker",
-            "ImperialLegacy",
-            "Monochrome"
-        ]
-    },
-    "MapWorldsPit": {
-        "id": "MapWorldsPit",
-        "name": "Pit",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheGladiator",
-            "TheKingsBlade",
-            "TheLastOneStanding",
-            "TheSwordKingsSalute",
-            "TheTinkerersTable",
-            "TheTrial",
-            "Unchained"
-        ]
-    },
-    "MapWorldsChimera": {
-        "id": "MapWorldsChimera",
-        "name": "Pit of the Chimera",
-        "cards": [
-            "BoonoftheFirstOnes",
-            "HerMask",
-            "LingeringRemnants",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheGladiator",
-            "TheKingsBlade",
-            "TheLastOneStanding",
-            "TheSwordKingsSalute",
-            "TheTinkerersTable",
-            "TheTrial",
-            "Unchained"
-        ]
-    },
-    "MapWorldsElder_Reliquary": {
-        "id": "MapWorldsElder_Reliquary",
-        "name": "Pits of Sorrow"
-    },
-    "MapWorldsPlateau": {
-        "id": "MapWorldsPlateau",
-        "name": "Plateau",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LantadorsLostLove",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "Prosperity",
-            "TheCatch",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFortunate",
-            "TheGambler",
-            "TheJourney",
-            "TheSparkAndTheFlame",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWind"
-        ]
-    },
     "MapWorldsPlaza": {
         "id": "MapWorldsPlaza",
         "name": "Plaza",
+        "unique": false,
         "cards": [
             "BoonofJustice",
             "BrotherhoodInExile",
@@ -2467,26 +1798,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsPrimordialBoss2": {
-        "id": "MapWorldsPrimordialBoss2",
-        "name": "Polaric Void"
-    },
-    "MapWorldsTempleUnique": {
-        "id": "MapWorldsTempleUnique",
-        "name": "Poorjoy's Asylum",
-        "cards": [
-            "ChaoticDisposition",
-            "DeadlyJoy",
-            "Monochrome",
-            "TheArmyOfBlood",
-            "TheFiend",
-            "TheLastSupper",
-            "TheThaumaturgist"
-        ]
-    },
     "MapWorldsPort": {
         "id": "MapWorldsPort",
         "name": "Port",
+        "unique": false,
         "cards": [
             "AssassinsFavor",
             "AzureRage",
@@ -2518,6 +1833,7 @@
     "MapWorldsPrecinct": {
         "id": "MapWorldsPrecinct",
         "name": "Precinct",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2535,48 +1851,10 @@
             "TheUndaunted"
         ]
     },
-    "MapWorldsPrimevalCity": {
-        "id": "MapWorldsPrimevalCity",
-        "name": "Primeval City"
-    },
-    "MapWorldsTortureChamber": {
-        "id": "MapWorldsTortureChamber",
-        "name": "Primordial Blocks",
-        "cards": [
-            "ASeaOfBlue",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheAvenger",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheJewellersBoon",
-            "TheSideQuest",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
-    "MapWorldsPrimordialPool": {
-        "id": "MapWorldsPrimordialPool",
-        "name": "Primordial Pool",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheInoculated",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
     "MapWorldsPromenade": {
         "id": "MapWorldsPromenade",
         "name": "Promenade",
+        "unique": false,
         "cards": [
             "GemcuttersPromise",
             "HerMask",
@@ -2597,9 +1875,19 @@
             "TheWarlord"
         ]
     },
+    "MapWorldsPromenadeUnique": {
+        "id": "MapWorldsPromenadeUnique",
+        "name": "The Hall of Grandmasters",
+        "unique": true,
+        "cards": [
+            "Monochrome",
+            "TheImmortal"
+        ]
+    },
     "MapWorldsRacecourse_": {
         "id": "MapWorldsRacecourse_",
         "name": "Racecourse",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2618,6 +1906,7 @@
     "MapWorldsRamparts": {
         "id": "MapWorldsRamparts",
         "name": "Ramparts",
+        "unique": false,
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -2641,6 +1930,7 @@
     "MapWorldsReef": {
         "id": "MapWorldsReef",
         "name": "Reef",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2664,6 +1954,7 @@
     "MapWorldsRelicChambers": {
         "id": "MapWorldsRelicChambers",
         "name": "Relic Chambers",
+        "unique": false,
         "cards": [
             "AzyransReward",
             "BlindVenture",
@@ -2684,13 +1975,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsElder_Refinery": {
-        "id": "MapWorldsElder_Refinery",
-        "name": "Repository of Derision"
-    },
     "MapWorldsResidence": {
         "id": "MapWorldsResidence",
         "name": "Residence",
+        "unique": false,
         "cards": [
             "DesperateCrusade",
             "FireOfUnknownOrigin",
@@ -2714,49 +2002,10 @@
             "TheUnexpectedPrize"
         ]
     },
-    "MapWorldsElder_Volcano": {
-        "id": "MapWorldsElder_Volcano",
-        "name": "River of Hysteria"
-    },
-    "MapWorldsElder_Garden": {
-        "id": "MapWorldsElder_Garden",
-        "name": "Ruins of Despair"
-    },
-    "MapWorldsScriptorium": {
-        "id": "MapWorldsScriptorium",
-        "name": "Scriptorium",
-        "cards": [
-            "ADabOfInk",
-            "Checkmate",
-            "DestinedtoCrumble",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheAcademic",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheEnthusiasts",
-            "TheGambler",
-            "TheNurse",
-            "TheProfessor",
-            "TheScholar",
-            "TheTinkerersTable",
-            "TheTrial",
-            "ThirstForKnowledge"
-        ]
-    },
-    "MapWorldsElder_Reef": {
-        "id": "MapWorldsElder_Reef",
-        "name": "Sea of Isolation"
-    },
-    "MapWorldsPrimordialBoss1": {
-        "id": "MapWorldsPrimordialBoss1",
-        "name": "Seething Chyme"
-    },
     "MapWorldsSepulchre": {
         "id": "MapWorldsSepulchre",
         "name": "Sepulchre",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2776,31 +2025,10 @@
             "TheWitch"
         ]
     },
-    "MapWorldsShipyard": {
-        "id": "MapWorldsShipyard",
-        "name": "Shipyard",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyConnections",
-            "LuckyDeck",
-            "Prosperity",
-            "StruckbyLightning",
-            "TheCatch",
-            "TheComingStorm",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheJourney",
-            "ThePact",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
     "MapWorldsShore": {
         "id": "MapWorldsShore",
         "name": "Shore",
+        "unique": false,
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -2823,28 +2051,23 @@
             "TheTrial"
         ]
     },
-    "MapWorldsShrine": {
-        "id": "MapWorldsShrine",
-        "name": "Shrine",
+    "MapWorldsShoreUnique": {
+        "id": "MapWorldsShoreUnique",
+        "name": "Mao Kun",
+        "unique": true,
         "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheArmyOfBlood",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFiend",
-            "TheGambler",
-            "TheThaumaturgist",
-            "TheTinkerersTable",
-            "TheTrial",
-            "ViniasToken"
+            "AbandonedWealth",
+            "LantadorsLostLove",
+            "Monochrome",
+            "Prosperity",
+            "TheJourney",
+            "TheLanding"
         ]
     },
     "MapWorldsSiege": {
         "id": "MapWorldsSiege",
         "name": "Siege",
+        "unique": false,
         "cards": [
             "HerMask",
             "Home",
@@ -2860,30 +2083,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsSilo": {
-        "id": "MapWorldsSilo",
-        "name": "Silo",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "SoulQuenched",
-            "TheBlazingFire",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheJournalist",
-            "TheLifeThief",
-            "TheStandOff",
-            "TheTinkerersTable",
-            "TheTirelessExtractor",
-            "TheTrial"
-        ]
-    },
     "MapWorldsSpiderForest": {
         "id": "MapWorldsSpiderForest",
         "name": "Spider Forest",
+        "unique": false,
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -2909,6 +2112,7 @@
     "MapWorldsSpiderLair": {
         "id": "MapWorldsSpiderLair",
         "name": "Spider Lair",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -2922,13 +2126,10 @@
             "TheWeb"
         ]
     },
-    "MapWorldsElder_Tower": {
-        "id": "MapWorldsElder_Tower",
-        "name": "Spires of Delusion"
-    },
     "MapWorldsStagnation": {
         "id": "MapWorldsStagnation",
         "name": "Stagnation",
+        "unique": false,
         "cards": [
             "AliviasGrace",
             "AzyransReward",
@@ -2948,13 +2149,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsSteppes": {
-        "id": "MapWorldsSteppes",
-        "name": "Steppes"
-    },
     "MapWorldsStrand": {
         "id": "MapWorldsStrand",
         "name": "Strand",
+        "unique": false,
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -2981,27 +2179,28 @@
             "ThunderousSkies"
         ]
     },
-    "MapWorldsSulphurVents": {
-        "id": "MapWorldsSulphurVents",
-        "name": "Sulphur Vents",
+    "MapWorldsStrandUnique": {
+        "id": "MapWorldsStrandUnique",
+        "name": "Whakawairua Tuahu",
+        "unique": true,
         "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheEyeOfTheDragon",
-            "TheFortunate",
-            "TheGambler",
-            "TheInoculated",
-            "TheTinkerersTable",
-            "TheTrial"
+            "LantadorsLostLove",
+            "Monochrome",
+            "Prosperity",
+            "ScholarOfTheSeas",
+            "TheDarkestDream",
+            "TheDeepOnes",
+            "TheDoppelganger",
+            "TheFormlessSea",
+            "TheJourney",
+            "TheLanding",
+            "TheUndaunted"
         ]
     },
     "MapWorldsSummit": {
         "id": "MapWorldsSummit",
         "name": "Summit",
+        "unique": false,
         "cards": [
             "AChillingWind",
             "HerMask",
@@ -3020,35 +2219,10 @@
             "TheWolverine"
         ]
     },
-    "MapWorldsSunkenCity": {
-        "id": "MapWorldsSunkenCity",
-        "name": "Sunken City",
-        "cards": [
-            "ArroganceoftheVaal",
-            "HerMask",
-            "Home",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "PoisonedFaith",
-            "TheDamned",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheFox",
-            "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheWeb",
-            "TheWeddingGift"
-        ]
-    },
-    "MapWorldsSynthesisedWorld": {
-        "id": "MapWorldsSynthesisedWorld",
-        "name": "Synthesised World"
-    },
     "MapWorldsTemple": {
         "id": "MapWorldsTemple",
         "name": "Temple",
+        "unique": false,
         "cards": [
             "BoundlessRealms",
             "DiallasSubjugation",
@@ -3070,124 +2244,24 @@
             "TheTwins"
         ]
     },
-    "MapWorldsTerrace": {
-        "id": "MapWorldsTerrace",
-        "name": "Terrace",
+    "MapWorldsTempleUnique": {
+        "id": "MapWorldsTempleUnique",
+        "name": "Poorjoy's Asylum",
+        "unique": true,
         "cards": [
-            "EmperorsLuck",
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "PeacefulMoments",
-            "RainTempter",
-            "TheDragonsHeart",
-            "TheEasyStroll",
-            "TheEncroachingDarkness",
-            "TheFortunate",
-            "TheFoxInTheBrambles",
-            "TheGambler",
-            "ThePorcupine",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
-    "MapWorldsHarbingerHigh": {
-        "id": "MapWorldsHarbingerHigh",
-        "name": "The Beachhead",
-        "cards": [
-            "Monochrome"
-        ]
-    },
-    "MapWorldsHarbingerLow": {
-        "id": "MapWorldsHarbingerLow",
-        "name": "The Beachhead"
-    },
-    "MapWorldsHarbingerMid": {
-        "id": "MapWorldsHarbingerMid",
-        "name": "The Beachhead",
-        "cards": [
-            "Monochrome"
-        ]
-    },
-    "MapWorldsCursedCryptUnique": {
-        "id": "MapWorldsCursedCryptUnique",
-        "name": "The Coward's Trial",
-        "cards": [
-            "GraveKnowledge",
+            "ChaoticDisposition",
+            "DeadlyJoy",
             "Monochrome",
-            "TheCelestialJusticar",
-            "TheForsaken",
-            "TheRabbitsFoot",
-            "TheWretched"
-        ]
-    },
-    "MapWorldsPromenadeUnique": {
-        "id": "MapWorldsPromenadeUnique",
-        "name": "The Hall of Grandmasters",
-        "cards": [
-            "Monochrome",
-            "TheImmortal"
-        ]
-    },
-    "MapWorldsMuseumUnique": {
-        "id": "MapWorldsMuseumUnique",
-        "name": "The Putrid Cloister",
-        "cards": [
-            "Monochrome",
-            "TheBrawnyBattleMage",
-            "TheDoctor",
-            "TheIncantation",
-            "TheWitch"
-        ]
-    },
-    "MapWorldsElderArenaUber": {
-        "id": "MapWorldsElderArenaUber",
-        "name": "The Shaper's Realm",
-        "cards": [
-            "TheVoid"
-        ]
-    },
-    "MapWorldsShapersRealm": {
-        "id": "MapWorldsShapersRealm",
-        "name": "The Shaper's Realm",
-        "cards": [
-            "TheVoid"
-        ]
-    },
-    "MapWorldsUltimatumBossArena": {
-        "id": "MapWorldsUltimatumBossArena",
-        "name": "The Tower of Ordeals"
-    },
-    "MapWorldsMoonTempleUnique": {
-        "id": "MapWorldsMoonTempleUnique",
-        "name": "The Twilight Temple",
-        "cards": [
-            "BoundlessRealms",
-            "DiallasSubjugation",
-            "HauntingShadows",
-            "Heterochromia",
-            "Monochrome",
-            "TheEnlightened",
-            "TheLordofCelebration",
-            "TheLunarisPriestess",
-            "TheOpulecent",
-            "TheSun",
-            "TheTwins"
-        ]
-    },
-    "MapWorldsCourtyardUnique": {
-        "id": "MapWorldsCourtyardUnique",
-        "name": "The Vinktar Square",
-        "cards": [
-            "Monochrome",
-            "StruckbyLightning",
-            "ThunderousSkies"
+            "TheArmyOfBlood",
+            "TheFiend",
+            "TheLastSupper",
+            "TheThaumaturgist"
         ]
     },
     "MapWorldsThicket": {
         "id": "MapWorldsThicket",
         "name": "Thicket",
+        "unique": false,
         "cards": [
             "AliviasGrace",
             "CallToTheFirstOnes",
@@ -3205,33 +2279,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsTower": {
-        "id": "MapWorldsTower",
-        "name": "Tower",
-        "cards": [
-            "HerMask",
-            "Home",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "StruckbyLightning",
-            "TheAwakened",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheNurse",
-            "TheSoul",
-            "TheStormcaller",
-            "TheTinkerersTable",
-            "TheTower",
-            "TheTransformation",
-            "TheTrial",
-            "ThunderousSkies"
-        ]
-    },
-    "MapWorldsToxicSewer": {
-        "id": "MapWorldsToxicSewer",
-        "name": "Toxic Sewer",
+    "MapWorldsTribunal": {
+        "id": "MapWorldsTribunal",
+        "name": "Crater",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -3239,18 +2290,17 @@
             "LuckyDeck",
             "TheDragonsHeart",
             "TheEncroachingDarkness",
-            "TheFeast",
+            "TheFortunate",
             "TheGambler",
-            "TheThrone",
+            "TheStandOff",
             "TheTinkerersTable",
-            "TheTrial",
-            "TheWeb",
-            "VilePower"
+            "TheTrial"
         ]
     },
     "MapWorldsTropicalIsland": {
         "id": "MapWorldsTropicalIsland",
         "name": "Tropical Island",
+        "unique": false,
         "cards": [
             "AliviasGrace",
             "HerMask",
@@ -3277,6 +2327,7 @@
     "MapWorldsUndergroundRiver": {
         "id": "MapWorldsUndergroundRiver",
         "name": "Underground River",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -3290,9 +2341,24 @@
             "TreasureHunter"
         ]
     },
+    "MapWorldsUndergroundRiverUnique": {
+        "id": "MapWorldsUndergroundRiverUnique",
+        "name": "Caer Blaidd, Wolfpack's Den",
+        "unique": true,
+        "cards": [
+            "Loyalty",
+            "Monochrome",
+            "PrideOfTheFirstOnes",
+            "TheCursedKing",
+            "TheShepherdsSandals",
+            "TheWolfsShadow",
+            "TreasureHunter"
+        ]
+    },
     "MapWorldsUndergroundSea": {
         "id": "MapWorldsUndergroundSea",
         "name": "Underground Sea",
+        "unique": false,
         "cards": [
             "GlimmerOfHope",
             "HerMask",
@@ -3317,13 +2383,10 @@
             "TreasureHunter"
         ]
     },
-    "MapWorldsTropicalIslandUnique": {
-        "id": "MapWorldsTropicalIslandUnique",
-        "name": "Untainted Paradise"
-    },
     "MapWorldsVaalPyramid": {
         "id": "MapWorldsVaalPyramid",
         "name": "Vaal Pyramid",
+        "unique": false,
         "cards": [
             "ArroganceoftheVaal",
             "HerMask",
@@ -3345,9 +2408,30 @@
             "UnrequitedLove"
         ]
     },
+    "MapWorldsVaalPyramidUnique": {
+        "id": "MapWorldsVaalPyramidUnique",
+        "name": "Vaults of Atziri",
+        "unique": true,
+        "cards": [
+            "AtzirisArmory",
+            "Monochrome",
+            "TheAdmirer",
+            "TheAdventuringSpirit",
+            "TheCache",
+            "TheCatalyst",
+            "TheDamned",
+            "TheHoarder",
+            "TheInventor",
+            "TheLordofCelebration",
+            "TheOpulecent",
+            "TheQueen",
+            "UnrequitedLove"
+        ]
+    },
     "MapWorldsVaalTemple": {
         "id": "MapWorldsVaalTemple",
         "name": "Vaal Temple",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -3371,6 +2455,7 @@
     "MapWorldsVault": {
         "id": "MapWorldsVault",
         "name": "Vault",
+        "unique": false,
         "cards": [
             "AStonePerfected",
             "FurtherInvention",
@@ -3392,54 +2477,10 @@
             "TheTrial"
         ]
     },
-    "MapWorldsVaalPyramidUnique": {
-        "id": "MapWorldsVaalPyramidUnique",
-        "name": "Vaults of Atziri",
-        "cards": [
-            "AtzirisArmory",
-            "Monochrome",
-            "TheAdmirer",
-            "TheAdventuringSpirit",
-            "TheCache",
-            "TheCatalyst",
-            "TheDamned",
-            "TheHoarder",
-            "TheInventor",
-            "TheLordofCelebration",
-            "TheOpulecent",
-            "TheQueen",
-            "UnrequitedLove"
-        ]
-    },
-    "MapWorldsElder_Temple": {
-        "id": "MapWorldsElder_Temple",
-        "name": "Vaults of Insanity"
-    },
-    "MapWorldsVilla": {
-        "id": "MapWorldsVilla",
-        "name": "Villa",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LigthAndTruth",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "StruckbyLightning",
-            "TheComingStorm",
-            "TheDapperProdigy",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheLordofCelebration",
-            "TheOpulecent",
-            "TheTinkerersTable",
-            "TheTrial",
-            "TheUnexpectedPrize"
-        ]
-    },
     "MapWorldsVolcano": {
         "id": "MapWorldsVolcano",
         "name": "Volcano",
+        "unique": false,
         "cards": [
             "FromBonesToAshes",
             "HerMask",
@@ -3457,9 +2498,26 @@
             "TheTrial"
         ]
     },
+    "MapWorldsWasteland": {
+        "id": "MapWorldsWasteland",
+        "name": "Wasteland",
+        "unique": false,
+        "cards": [
+            "HerMask",
+            "Hope",
+            "LingeringRemnants",
+            "LuckyDeck",
+            "TheDragonsHeart",
+            "TheEncroachingDarkness",
+            "TheGambler",
+            "TheTinkerersTable",
+            "TheTrial"
+        ]
+    },
     "MapWorldsWastePool": {
         "id": "MapWorldsWastePool",
         "name": "Waste Pool",
+        "unique": false,
         "cards": [
             "HerMask",
             "Hope",
@@ -3480,64 +2538,10 @@
             "VilePower"
         ]
     },
-    "MapWorldsWasteland": {
-        "id": "MapWorldsWasteland",
-        "name": "Wasteland",
-        "cards": [
-            "HerMask",
-            "Hope",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
-    "MapWorldsElder_Sulphur": {
-        "id": "MapWorldsElder_Sulphur",
-        "name": "Wastes of Lunacy"
-    },
-    "MapWorldsWaterways": {
-        "id": "MapWorldsWaterways",
-        "name": "Waterways",
-        "cards": [
-            "AStonePerfected",
-            "HerMask",
-            "Hope",
-            "Humility",
-            "LingeringRemnants",
-            "LuckyDeck",
-            "TheDragonsHeart",
-            "TheEncroachingDarkness",
-            "TheGambler",
-            "ThePrimordial",
-            "TheRiteofElements",
-            "TheTinkerersTable",
-            "TheTrial"
-        ]
-    },
-    "MapWorldsStrandUnique": {
-        "id": "MapWorldsStrandUnique",
-        "name": "Whakawairua Tuahu",
-        "cards": [
-            "LantadorsLostLove",
-            "Monochrome",
-            "Prosperity",
-            "ScholarOfTheSeas",
-            "TheDarkestDream",
-            "TheDeepOnes",
-            "TheDoppelganger",
-            "TheFormlessSea",
-            "TheJourney",
-            "TheLanding",
-            "TheUndaunted"
-        ]
-    },
     "MapWorldsWharf": {
         "id": "MapWorldsWharf",
         "name": "Wharf",
+        "unique": false,
         "cards": [
             "AStonePerfected",
             "HerMask",

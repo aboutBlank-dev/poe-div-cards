@@ -21,6 +21,18 @@ def get_card_data():
             current_league = league["category"]["id"]
             break
 
+    wiki_maps = requests.get(
+        URL,
+        params={
+            "action": "cargoquery",
+            "format": "json",
+            "limit": "500",
+            "tables": "maps",
+            "fields": "maps.area_id",
+            "where": f"maps.series='{current_league}' AND maps.guild_character NOT LIKE '' AND maps.area_id NOT LIKE '%Synthesised%' AND maps.tier<=16",
+        },
+    ).json()["cargoquery"]
+
     wiki_areas = requests.get(
         URL,
         params={
@@ -29,17 +41,19 @@ def get_card_data():
             "limit": "500",
             "tables": "areas",
             "fields": "areas.name, areas.id",
-            "where": "areas.id LIKE 'MapWorlds%'",
+            "where": "areas.id LIKE 'MapWorlds%' AND areas.is_legacy_map_area=false AND (areas.is_unique_map_area=true OR areas.is_map_area=true)",
         },
     ).json()["cargoquery"]
 
-    areas = {}
-    for area in wiki_areas:
-        area = area["title"]
-        area_id = area["id"]
-        areas[area_id] = {
-            "id": area_id,
-            "name": area["name"],
+    maps = {}
+    for map in wiki_maps:
+        id = map["title"]["area id"]
+        name = next(filter(lambda x: x["title"]["id"] == id, wiki_areas))["title"]["name"]
+
+        maps[id] = {
+            "id": id,
+            "name": name,
+            "unique": "unique" in id.lower(), 
         }
 
     wiki_cards = requests.get(
@@ -73,11 +87,11 @@ def get_card_data():
                 drop_area_ids = drop_area_ids.split(",")
                 for drop_area in drop_area_ids:
                     drop_area_id = drop_area.strip()
-                    if drop_area_id in areas:
+                    if drop_area_id in maps:
                         drop_areas.append(drop_area_id)
-                        if "cards" not in areas[drop_area_id]:
-                            areas[drop_area_id]["cards"] = []
-                        areas[drop_area_id]["cards"].append(card_art)
+                        if "cards" not in maps[drop_area_id]:
+                            maps[drop_area_id]["cards"] = []
+                        maps[drop_area_id]["cards"].append(card_art)
 
             if len(drop_areas) < 1:
                 continue
@@ -94,13 +108,16 @@ def get_card_data():
             } 
 
 
+    #Remove any area that has no cards
+    maps = {k: v for k, v in maps.items() if "cards" in v}
+
     #Write it into a json file 
     json_object = json.dumps(cards, indent=4)
     with open("cards.json", "w") as outfile:
         outfile.write(json_object)
 
-    json_object = json.dumps(areas, indent=4)
-    with open("areas.json", "w") as outfile:
+    json_object = json.dumps(maps, indent=4)
+    with open("maps.json", "w") as outfile:
         outfile.write(json_object)
     
 get_card_data()

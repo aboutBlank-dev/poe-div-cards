@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import cardsData from "./../../python/cards.json";
-import areasData from "./../../python/areas.json";
+import mapsData from "./../../python/maps.json";
 import Image from "next/image";
 import DivCardIcon from "./../../public/DivCard.png";
 import MapIcon from "./../../public/Map.png";
+import UniqueMapIcon from "./../../public/UniqueMap.png";
 
 type Props = {
   placeholder: string;
@@ -16,7 +17,7 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
   const [isFocused, setIsFocused] = useState<boolean>(false);
 
   const cards = Object.values(cardsData);
-  const areas = Object.values(areasData);
+  const maps = Object.values(mapsData);
 
   let cleanSearch = search
     .toLowerCase()
@@ -35,13 +36,13 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
     return cleanCardName.includes(cleanSearch);
   });
 
-  let filteredAreas = areas.filter((area) => {
-    let cleanAreaName = area.name
+  let filteredMaps = maps.filter((map) => {
+    let cleanMapName = map.name
       .toLowerCase()
       .trim()
       .replace("'", "")
       .replace(" ", ""); // Add this as some sort of Alias in the cards.json
-    return cleanAreaName.includes(cleanSearch);
+    return cleanMapName.includes(cleanSearch);
   });
 
   filteredCards.forEach((card) => {
@@ -52,11 +53,11 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
     });
   });
 
-  filteredAreas.forEach((area) => {
+  filteredMaps.forEach((map) => {
     searchResults.push({
-      id: area.id,
-      name: area.name,
-      type: SearchResultType.Area,
+      id: map.id,
+      name: map.name,
+      type: map.unique ? SearchResultType.UniqueMap : SearchResultType.Map,
     });
   });
 
@@ -114,9 +115,7 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
               onClick={() => console.log("Clicked " + result.name)}
             >
               <Image
-                src={
-                  result.type == SearchResultType.Card ? DivCardIcon : MapIcon
-                }
+                src={getIconForType(result.type)}
                 alt={result.type}
                 className="w-auto"
               />
@@ -133,6 +132,16 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
 
 export default MapCardSearchBar;
 
+function getIconForType(type: SearchResultType) {
+  switch (type) {
+    case SearchResultType.Card:
+      return DivCardIcon;
+    case SearchResultType.Map:
+      return MapIcon;
+    case SearchResultType.UniqueMap:
+      return UniqueMapIcon;
+  }
+}
 type SearchResult = {
   id: string;
   name: string;
@@ -141,5 +150,6 @@ type SearchResult = {
 
 enum SearchResultType {
   Card = "Card",
-  Area = "Map",
+  Map = "Map",
+  UniqueMap = "Unique Map",
 }
