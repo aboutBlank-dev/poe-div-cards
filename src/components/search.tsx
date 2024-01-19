@@ -1,18 +1,30 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import cardsData from "./../../python/cards.json";
-import mapsData from "./../../python/maps.json";
 import Image from "next/image";
 import DivCardIcon from "./../../public/DivCard.png";
 import MapIcon from "./../../public/Map.png";
 import UniqueMapIcon from "./../../public/UniqueMap.png";
 
+type SearchResult = {
+  id: string;
+  name: string;
+  type: SearchResultType;
+};
+
+enum SearchResultType {
+  Card = "Card",
+  Map = "Map",
+  UniqueMap = "Unique Map",
+}
+
 type Props = {
+  cardsData: Object;
+  mapsData: Object;
   placeholder: string;
 };
 
-const MapCardSearchBar = ({ placeholder }: Props) => {
+const MapCardSearchBar = ({ placeholder, cardsData, mapsData }: Props) => {
   const [search, setSearch] = useState("");
   const [isFocused, setIsFocused] = useState<boolean>(false);
   const thisRef = useRef<HTMLDivElement>(null);
@@ -66,7 +78,7 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
     <div
       ref={thisRef}
       className={
-        "transition-all duration-200 ease-in-out " +
+        "relative transition-all duration-200 ease-in-out " +
         (isFocused ? "w-72" : "w-60")
       }
     >
@@ -102,7 +114,7 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
       {searchResults.length > 0 && searchResults.length < 50 && isFocused ? (
         <div
           id="dropdown-menu"
-          className="relative right-0 max-h-44 overflow-auto rounded-md bg-white p-1 shadow-lg ring-1 ring-black ring-opacity-5"
+          className="absolute z-10 max-h-44 w-full overflow-auto rounded-md bg-white p-1 shadow-lg ring-1 ring-black ring-opacity-5"
         >
           {searchResults.map((result) => (
             <div
@@ -111,6 +123,7 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
               onClick={() => {
                 if (inputRef.current != null) {
                   inputRef.current.value = result.name;
+                  setSearch(result.name);
                   setIsFocused(false);
                 }
               }}
@@ -142,16 +155,4 @@ function getIconForType(type: SearchResultType) {
     case SearchResultType.UniqueMap:
       return UniqueMapIcon;
   }
-}
-
-type SearchResult = {
-  id: string;
-  name: string;
-  type: SearchResultType;
-};
-
-enum SearchResultType {
-  Card = "Card",
-  Map = "Map",
-  UniqueMap = "Unique Map",
 }
