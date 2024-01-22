@@ -5,6 +5,9 @@ import Image from "next/image";
 import DivCardIcon from "./../../public/DivCard.png";
 import MapIcon from "./../../public/Map.png";
 import UniqueMapIcon from "./../../public/UniqueMap.png";
+import Link from "next/link";
+import { CardsData } from "~/consts/CardsData";
+import { MapsData } from "~/consts/MapsData";
 
 type SearchResult = {
   id: string;
@@ -19,12 +22,10 @@ enum SearchResultType {
 }
 
 type Props = {
-  cardsData: Object;
-  mapsData: Object;
   placeholder: string;
 };
 
-const MapCardSearchBar = ({ placeholder, cardsData, mapsData }: Props) => {
+const MapCardSearchBar = ({ placeholder }: Props) => {
   const [search, setSearch] = useState("");
   const [isFocused, setIsFocused] = useState<boolean>(false);
   const thisRef = useRef<HTMLDivElement>(null);
@@ -43,8 +44,8 @@ const MapCardSearchBar = ({ placeholder, cardsData, mapsData }: Props) => {
     };
   }, [thisRef]);
 
-  const cards = Object.values(cardsData);
-  const maps = Object.values(mapsData);
+  const cards = Object.values(CardsData);
+  const maps = Object.values(MapsData);
 
   let cleanSearch = search
     .toLowerCase()
@@ -117,26 +118,18 @@ const MapCardSearchBar = ({ placeholder, cardsData, mapsData }: Props) => {
           className="absolute z-10 max-h-44 w-full overflow-auto rounded-md bg-white p-1 shadow-lg ring-1 ring-black ring-opacity-5"
         >
           {searchResults.map((result) => (
-            <div
-              key={result.id}
-              className="flex h-8 cursor-pointer rounded-md hover:bg-gray-300"
-              onClick={() => {
-                if (inputRef.current != null) {
-                  inputRef.current.value = result.name;
-                  setSearch(result.name);
-                  setIsFocused(false);
-                }
-              }}
-            >
-              <Image
-                src={getIconForType(result.type)}
-                alt={result.type}
-                className="w-auto p-1"
-              />
-              <a className="inline w-full select-none px-4 py-1 align-middle text-gray-700">
-                {result.name}
-              </a>
-            </div>
+            <Link key={result.id} href={getPathForType(result)}>
+              <div className="flex h-8 cursor-pointer rounded-md hover:bg-gray-300">
+                <Image
+                  src={getIconForType(result.type)}
+                  alt={result.type}
+                  className="w-auto p-1"
+                />
+                <p className="inline w-full select-none px-4 py-1 align-middle text-gray-700">
+                  {result.name}
+                </p>
+              </div>
+            </Link>
           ))}
         </div>
       ) : null}
@@ -154,5 +147,14 @@ function getIconForType(type: SearchResultType) {
       return MapIcon;
     case SearchResultType.UniqueMap:
       return UniqueMapIcon;
+  }
+}
+
+function getPathForType(searchResult: SearchResult) {
+  switch (searchResult.type) {
+    case SearchResultType.Card:
+      return "/cards/" + searchResult.id;
+    default:
+      return "/maps/" + searchResult.id;
   }
 }
