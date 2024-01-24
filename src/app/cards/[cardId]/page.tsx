@@ -14,15 +14,16 @@ const CardPage = ({ params }: Props) => {
   if (!card) {
     return <div>Card not found</div>;
   }
-  const rewardText = card.reward_text[0]?.text;
 
   return (
-    <DivCard
-      cardName={card.name}
-      stackSize={card.stack_size}
-      rewardText={rewardText ?? ""}
-      image={card.art_url}
-    ></DivCard>
+    <div className="flex h-screen w-full items-center justify-center">
+      <DivCard
+        cardName={card.name}
+        stackSize={card.stack_size}
+        rewardText={card.reward_text}
+        image={card.art_url}
+      />
+    </div>
   );
 };
 

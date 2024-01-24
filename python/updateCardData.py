@@ -122,7 +122,7 @@ def get_card_data():
         #find all <tag>{content} and turn it into a list of tuples with tag and content
         matches = re.findall(r'<(\w+)>([^<]+)', reward_text["text"])
         for match in matches:
-            new_reward_text.append({"tag": match[0], "text": match[1]})
+            new_reward_text.append({"tag": match[0], "text": match[1].replace("{", "").replace("}", "")})
         
         card["reward_text"] = new_reward_text
 

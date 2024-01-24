@@ -6,7 +6,7 @@ type CardsDataType = {
     name: string;
     drop_areas: string[];
     stack_size: number;
-    reward_text: { text: string; optional: boolean }[];
+    reward_text: { tag: string; text: string }[];
     chaos_value: number;
     divine_value: number;
     art_url: string;
