@@ -11,8 +11,20 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<gemitem>{Level 21 Vaal Cold Snap}\n<default>{Quality:} <augmented>{+20%}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Level 21 Vaal Cold Snap}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+20%}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 10.0,
@@ -30,8 +42,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{The Poet's Pen}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{The Poet's Pen}"
             }
         ],
         "chaos_value": 2.0,
@@ -50,11 +62,11 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Asenath's Mark}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Asenath's Mark}"
             }
         ],
-        "chaos_value": 3.0,
+        "chaos_value": 2.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/ANoteInTheWind.png",
         "alias": "anoteinthewind"
@@ -70,8 +82,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<currencyitem>{13x Orb of Alteration}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{13x Orb of Alteration}"
             }
         ],
         "chaos_value": 1.0,
@@ -92,8 +104,20 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Jewel}\n<magicitem>{Primordial}\n<corrupted>{1-2 Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Jewel}\n"
+            },
+            {
+                "tag": "magicitem",
+                "text": "{Primordial}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{1-2 Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 10.0,
@@ -110,8 +134,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<currencyitem>{3x Exalted Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{3x Exalted Orb}"
             }
         ],
         "chaos_value": 6.0,
@@ -130,8 +154,8 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<currencyitem>{20x Orb of Alteration}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{20x Orb of Alteration}"
             }
         ],
         "chaos_value": 1.0,
@@ -156,8 +180,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Queen of the Forest}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Queen of the Forest}"
             }
         ],
         "chaos_value": 3.0,
@@ -175,8 +199,16 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Item}\n <corrupted>{Two-Implicit}\n <corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Item}\n "
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n "
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 15.0,
@@ -195,8 +227,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Dagger}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Dagger}"
             }
         ],
         "chaos_value": 1.0,
@@ -213,12 +245,16 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<whiteitem>{Shield}\n<default>{Shaper Item}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Shield}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Shaper Item}"
             }
         ],
-        "chaos_value": 4.0,
-        "divine_value": 0.02,
+        "chaos_value": 3.0,
+        "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/AstralProtection.png",
         "alias": "astralprotection"
     },
@@ -231,12 +267,16 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Weapon}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Weapon}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 1.0,
-        "divine_value": 0.0,
+        "chaos_value": 2.0,
+        "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/AtzirisArmory.png",
         "alias": "atzirisarsenal"
     },
@@ -249,8 +289,16 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<magicitem>{Punishing Map}\n<default>{Map Tier:} <normal>{16}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Punishing Map}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Map Tier:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{16}"
             }
         ],
         "chaos_value": 1.0,
@@ -269,12 +317,16 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Prismatic Jewel}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Prismatic Jewel}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 6.0,
-        "divine_value": 0.03,
+        "chaos_value": 9.0,
+        "divine_value": 0.04,
         "art_url": "https://web.poecdn.com/image/divination-card/AzyransReward.png",
         "alias": "azyransreward"
     },
@@ -289,8 +341,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Fishing Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Fishing Item}"
             }
         ],
         "chaos_value": 3.0,
@@ -310,12 +362,20 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<rareitem>{Cluster Jewel}\n<default>{Item Level:} <normal>{84}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Cluster Jewel}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{84}"
             }
         ],
-        "chaos_value": 30.0,
-        "divine_value": 0.14,
+        "chaos_value": 35.0,
+        "divine_value": 0.17,
         "art_url": "https://web.poecdn.com/image/divination-card/Bijoux.png",
         "alias": "bijoux"
     },
@@ -329,8 +389,12 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Ring}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Ring}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -350,8 +414,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<whiteitem>{Offering to the Goddess}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Offering to the Goddess}"
             }
         ],
         "chaos_value": 1.0,
@@ -368,8 +432,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Bestiary Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Bestiary Item}"
             }
         ],
         "chaos_value": 3.0,
@@ -387,8 +451,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<whiteitem>{Map}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Map}"
             }
         ],
         "chaos_value": 1.0,
@@ -406,11 +470,11 @@
         "stack_size": 1,
         "reward_text": [
             {
-                "text": "<currencyitem>{5x Divine Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{5x Divine Orb}"
             }
         ],
-        "chaos_value": 1097.52,
+        "chaos_value": 1033.21,
         "divine_value": 5.1,
         "art_url": "https://web.poecdn.com/image/divination-card/BrotherGift.png",
         "alias": "brothersgift"
@@ -425,12 +489,12 @@
         "stack_size": 1,
         "reward_text": [
             {
-                "text": "<currencyitem>{5x Exalted Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{5x Exalted Orb}"
             }
         ],
         "chaos_value": 90.0,
-        "divine_value": 0.42,
+        "divine_value": 0.44,
         "art_url": "https://web.poecdn.com/image/divination-card/BrothersStash.png",
         "alias": "brothersstash"
     },
@@ -446,8 +510,12 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{One With Nothing}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{One With Nothing}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 13.0,
@@ -467,8 +535,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<whiteitem>{Sulphite Scarab}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Sulphite Scarab}"
             }
         ],
         "chaos_value": 3.0,
@@ -486,8 +554,12 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Xoph's Blood}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Xoph's Blood}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 10.0,
@@ -506,12 +578,16 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<rareitem>{Tier 1 Talisman}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Tier 1 Talisman}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 2.0,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/CallToTheFirstOnes.png",
         "alias": "calltothefirstones"
     },
@@ -524,8 +600,8 @@
         "stack_size": 1,
         "reward_text": [
             {
-                "text": "<currencyitem>{5x Chaos Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{5x Chaos Orb}"
             }
         ],
         "chaos_value": 5.0,
@@ -543,12 +619,12 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<currencyitem>{76x Simulacrum Splinter}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{76x Simulacrum Splinter}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/Checkmate.png",
         "alias": "checkmate"
     },
@@ -562,12 +638,16 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Item}\n<default>{Double-Influenced Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Item}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Double-Influenced Item}"
             }
         ],
-        "chaos_value": 17.0,
-        "divine_value": 0.08,
+        "chaos_value": 18.0,
+        "divine_value": 0.09,
         "art_url": "https://web.poecdn.com/image/divination-card/CostlyCurio.png",
         "alias": "costlycurio"
     },
@@ -580,8 +660,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<currencyitem>{5x Regal Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{5x Regal Orb}"
             }
         ],
         "chaos_value": 1.0,
@@ -599,8 +679,8 @@
         "stack_size": 13,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Maw of Mischief}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Maw of Mischief}"
             }
         ],
         "chaos_value": 1.0,
@@ -617,12 +697,20 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Torrent's Reclamation}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Torrent's Reclamation}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 30.0,
-        "divine_value": 0.14,
+        "divine_value": 0.15,
         "art_url": "https://web.poecdn.com/image/divination-card/DeadlyJoy.png",
         "alias": "deadlyjoy"
     },
@@ -636,8 +724,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Mon'tregul's Grasp}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Mon'tregul's Grasp}"
             }
         ],
         "chaos_value": 2.0,
@@ -655,8 +743,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Prism Guardian}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Prism Guardian}"
             }
         ],
         "chaos_value": 3.0,
@@ -674,8 +762,16 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<rareitem>{Body Armour}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Body Armour}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
         "chaos_value": 1.0,
@@ -693,8 +789,20 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<size:31>{<gemitem>{Support Gem}\n<default>{Quality:} <augmented>{+23%}\n<corrupted>{Corrupted}}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Support Gem}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+23%}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}}"
             }
         ],
         "chaos_value": 5.0,
@@ -714,8 +822,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Granite Flask}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Granite Flask}"
             }
         ],
         "chaos_value": 1.0,
@@ -735,12 +843,20 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Fidelitas' Spike}\n <corrupted>{Two-Implicit}\n <corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Fidelitas' Spike}\n "
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n "
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 20.0,
-        "divine_value": 0.09,
+        "divine_value": 0.1,
         "art_url": "https://web.poecdn.com/image/divination-card/EchoesOfLove.png",
         "alias": "echoesoflove"
     },
@@ -754,11 +870,19 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<whiteitem>{Six-Link Holy Chainmail}\n<default>{Item Level:} <normal>{60}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Six-Link Holy Chainmail}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{60}"
             }
         ],
-        "chaos_value": 4.0,
+        "chaos_value": 4.57,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/EmperorOfPurity.png",
         "alias": "emperorofpurity"
@@ -774,8 +898,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<currencyitem>{5x Currency}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{5x Currency}"
             }
         ],
         "chaos_value": 1.0,
@@ -793,12 +917,12 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Nimis}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Nimis}"
             }
         ],
-        "chaos_value": 1248.16,
-        "divine_value": 5.8,
+        "chaos_value": 1134.5,
+        "divine_value": 5.6,
         "art_url": "https://web.poecdn.com/image/divination-card/FireOfUnknownOrigin.png",
         "alias": "fireofunknownorigin"
     },
@@ -816,11 +940,19 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Ngamahu's Flame}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Ngamahu's Flame}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 6.0,
+        "chaos_value": 7.0,
         "divine_value": 0.03,
         "art_url": "https://web.poecdn.com/image/divination-card/FromBonesToAshes.png",
         "alias": "frombonetoashes"
@@ -835,12 +967,24 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<magicitem>{Helmet}\n<default>{Double-Influenced Item}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Helmet}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Double-Influenced Item}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
-        "chaos_value": 30.0,
-        "divine_value": 0.14,
+        "chaos_value": 40.0,
+        "divine_value": 0.2,
         "art_url": "https://web.poecdn.com/image/divination-card/FurtherInvention.png",
         "alias": "furtherinvention"
     },
@@ -854,8 +998,16 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<gemitem>{Gem}\n<default>{Quality:} <augmented>{+20%}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Gem}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+20%}"
             }
         ],
         "chaos_value": 1.0,
@@ -875,12 +1027,20 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Asenath's Gentle Touch}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Asenath's Gentle Touch}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 15.0,
-        "divine_value": 0.07,
+        "chaos_value": 17.0,
+        "divine_value": 0.08,
         "art_url": "https://web.poecdn.com/image/divination-card/GiftOfAsenath.png",
         "alias": "giftofasenath"
     },
@@ -896,12 +1056,12 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<gemitem>{Level 20 Support Gem}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Level 20 Support Gem}"
             }
         ],
-        "chaos_value": 1.0,
-        "divine_value": 0.0,
+        "chaos_value": 2.0,
+        "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/GiftOfTheGemlingQueen.png",
         "alias": "giftofthegemlingqueen"
     },
@@ -916,8 +1076,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Gold Ring}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Gold Ring}"
             }
         ],
         "chaos_value": 1.0,
@@ -937,8 +1097,16 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<gemitem>{Summon Raging Spirit}\n<default>{Quality:} <augmented>{+20%}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Summon Raging Spirit}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+20%}"
             }
         ],
         "chaos_value": 1.0,
@@ -955,11 +1123,11 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Metamorph Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Metamorph Item}"
             }
         ],
-        "chaos_value": 4.3,
+        "chaos_value": 4.0,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/HauntingShadows.png",
         "alias": "hauntingshadows"
@@ -1076,8 +1244,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<whiteitem>{Sacrifice Fragment}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Sacrifice Fragment}"
             }
         ],
         "chaos_value": 1.0,
@@ -1095,8 +1263,8 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Two-Stone Ring}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Two-Stone Ring}"
             }
         ],
         "chaos_value": 2.0,
@@ -1120,12 +1288,20 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<gemitem>{Exceptional Gem}\n<default>{Quality:} <augmented>{+1-20%}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Exceptional Gem}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+1-20%}"
             }
         ],
-        "chaos_value": 215.2,
-        "divine_value": 1.0,
+        "chaos_value": 222.85,
+        "divine_value": 1.1,
         "art_url": "https://web.poecdn.com/image/divination-card/Home.png",
         "alias": "home"
     },
@@ -1237,8 +1413,12 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Prismatic Ring}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Prismatic Ring}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -1256,8 +1436,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Tabula Rasa}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Tabula Rasa}"
             }
         ],
         "chaos_value": 2.0,
@@ -1275,8 +1455,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Bow}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Bow}"
             }
         ],
         "chaos_value": 1.0,
@@ -1296,8 +1476,16 @@
         "stack_size": 22,
         "reward_text": [
             {
-                "text": "<whiteitem>{Six-Link Imperial Bow}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Six-Link Imperial Bow}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
         "chaos_value": 1.0,
@@ -1318,8 +1506,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Item}"
             }
         ],
         "chaos_value": 1.0,
@@ -1336,8 +1524,20 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<rareitem>{Jewel}\n<enchanted>{Implicit Modifier:} \n<magicitem>{Corrupted Blood cannot be inflicted on you}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Jewel}\n"
+            },
+            {
+                "tag": "enchanted",
+                "text": "{Implicit Modifier:} \n"
+            },
+            {
+                "tag": "magicitem",
+                "text": "{Corrupted Blood cannot be inflicted on you}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 14.0,
@@ -1366,8 +1566,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<rareitem>{Two-Stone Ring}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Two-Stone Ring}"
             }
         ],
         "chaos_value": 1.0,
@@ -1384,8 +1584,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<whiteitem>{Mortal Hope}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Mortal Hope}"
             }
         ],
         "chaos_value": 2.0,
@@ -1403,8 +1603,20 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<rareitem>{Map}\n<default>{Map Tier:} <normal>{16}\n<corrupted>{Unidentified Corrupted}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Map}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Map Tier:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{16}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Unidentified Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -1422,12 +1634,12 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Crystal Sceptre}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Crystal Sceptre}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 5.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/LigthAndTruth.png",
         "alias": "lightandtruth"
     },
@@ -1543,11 +1755,23 @@
         "stack_size": 16,
         "reward_text": [
             {
-                "text": "<rareitem>{Vaal Temple Map}\n<default>{Item Level:} <normal>{83}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Vaal Temple Map}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{83}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 1.55,
+        "chaos_value": 2.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/LingeringRemnants.png",
         "alias": "lingeringremnants"
@@ -1562,8 +1786,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<currencyitem>{3x Orb of Fusing}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{3x Orb of Fusing}"
             }
         ],
         "chaos_value": 1.0,
@@ -1582,8 +1806,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<currencyitem>{20x Orb of Fusing}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{20x Orb of Fusing}"
             }
         ],
         "chaos_value": 1.0,
@@ -1699,8 +1923,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<currencyitem>{10x Stacked Deck}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{10x Stacked Deck}"
             }
         ],
         "chaos_value": 3.0,
@@ -1719,8 +1943,12 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Agate Amulet}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Agate Amulet}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -1737,8 +1965,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<whiteitem>{Bestiary Scarab}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Bestiary Scarab}"
             }
         ],
         "chaos_value": 3.0,
@@ -1756,8 +1984,8 @@
         "stack_size": 16,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Eyes of the Greatwolf}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Eyes of the Greatwolf}"
             }
         ],
         "chaos_value": 10.0,
@@ -1775,8 +2003,16 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<size:31>{<magicitem>{Merciless Two-Hand Weapon}\n<default>{Item Level:} <normal>{100}}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Merciless Two-Hand Weapon}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}}"
             }
         ],
         "chaos_value": 4.0,
@@ -1794,8 +2030,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Trypanon}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Trypanon}"
             }
         ],
         "chaos_value": 1.0,
@@ -1815,8 +2051,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Gloves}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Gloves}"
             }
         ],
         "chaos_value": 1.0,
@@ -1849,12 +2085,12 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<currencyitem>{2x Elevated Sextant}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{2x Elevated Sextant}"
             }
         ],
         "chaos_value": 75.0,
-        "divine_value": 0.35,
+        "divine_value": 0.37,
         "art_url": "https://web.poecdn.com/image/divination-card/Monochrome.png",
         "alias": "monochrome"
     },
@@ -1867,8 +2103,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<whiteitem>{Gilded Scarab}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Gilded Scarab}"
             }
         ],
         "chaos_value": 3.0,
@@ -1886,8 +2122,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<currencyitem>{30x Orb of Scouring}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{30x Orb of Scouring}"
             }
         ],
         "chaos_value": 1.0,
@@ -1905,8 +2141,16 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<currencyitem>{10x Incubator}\n<default>{Item Level:} <normal>{84}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{10x Incubator}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{84}"
             }
         ],
         "chaos_value": 3.0,
@@ -1925,12 +2169,12 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Timeless Jewel}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Timeless Jewel}"
             }
         ],
-        "chaos_value": 19.0,
-        "divine_value": 0.09,
+        "chaos_value": 20.0,
+        "divine_value": 0.1,
         "art_url": "https://web.poecdn.com/image/divination-card/PeacefulMoments.png",
         "alias": "peacefulmoments"
     },
@@ -1943,12 +2187,16 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Arakaali's Fang}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Arakaali's Fang}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 5.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/PoisonedFaith.png",
         "alias": "poisonedfaith"
     },
@@ -1962,12 +2210,16 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Kaom's Heart}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Kaom's Heart}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 5.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/PrideBeforeTheFall.png",
         "alias": "pridebeforethefall"
     },
@@ -1981,8 +2233,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Farrul's Fur}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Farrul's Fur}"
             }
         ],
         "chaos_value": 5.0,
@@ -2011,8 +2263,8 @@
         "stack_size": 10,
         "reward_text": [
             {
-                "text": "<magicitem>{Perandus' Gold Ring}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Perandus' Gold Ring}"
             }
         ],
         "chaos_value": 1.0,
@@ -2030,8 +2282,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<currencyitem>{Chaos Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{Chaos Orb}"
             }
         ],
         "chaos_value": 1.0,
@@ -2050,8 +2302,16 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<whiteitem>{Map}\n<default>{Map Tier:} <normal>{6}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Map}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Map Tier:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{6}"
             }
         ],
         "chaos_value": 1.0,
@@ -2068,8 +2328,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Rat's Nest}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Rat's Nest}"
             }
         ],
         "chaos_value": 1.0,
@@ -2086,8 +2346,16 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Armour}\n<default>{Quality:} <augmented>{+30%}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Armour}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+30%}"
             }
         ],
         "chaos_value": 4.0,
@@ -2107,8 +2375,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Mao Kun}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Mao Kun}"
             }
         ],
         "chaos_value": 1.0,
@@ -2125,12 +2393,12 @@
         "stack_size": 13,
         "reward_text": [
             {
-                "text": "<currencyitem>{Mirror Shard}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{Mirror Shard}"
             }
         ],
-        "chaos_value": 731.68,
-        "divine_value": 3.4,
+        "chaos_value": 749.58,
+        "divine_value": 3.7,
         "art_url": "https://web.poecdn.com/image/divination-card/SevenYearsBadLuck.png",
         "alias": "sevenyearsbadluck"
     },
@@ -2144,8 +2412,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<magicitem>{Vivid Jewel}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Vivid Jewel}"
             }
         ],
         "chaos_value": 2.0,
@@ -2163,8 +2431,24 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<rareitem> {Experimented Two-Handed Weapon}\n<default>{Item Level:} <normal>{86}\n<default>{Quality:} <augmented>{+30%}",
-                "optional": false
+                "tag": "rareitem",
+                "text": " {Experimented Two-Handed Weapon}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{86}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+30%}"
             }
         ],
         "chaos_value": 4.0,
@@ -2188,8 +2472,16 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<magicitem>{Electrocuting Jewellery}\n<default>{Item Level:} <normal>{76}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Electrocuting Jewellery}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{76}"
             }
         ],
         "chaos_value": 1.0,
@@ -2207,8 +2499,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Inspired Learning}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Inspired Learning}"
             }
         ],
         "chaos_value": 10.0,
@@ -2230,11 +2522,11 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Atziri Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Atziri Item}"
             }
         ],
-        "chaos_value": 2.0,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheAdmirer.png",
         "alias": "theadmirer"
@@ -2248,8 +2540,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Victario's Influence}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Victario's Influence}"
             }
         ],
         "chaos_value": 1.0,
@@ -2267,12 +2559,12 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Mageblood}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Mageblood}"
             }
         ],
-        "chaos_value": 5164.8,
-        "divine_value": 24.0,
+        "chaos_value": 4456.98,
+        "divine_value": 22.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheApothecary.png",
         "alias": "theapothecary"
     },
@@ -2285,8 +2577,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Bloodbond}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Bloodbond}"
             }
         ],
         "chaos_value": 1.0,
@@ -2304,12 +2596,16 @@
         "stack_size": 11,
         "reward_text": [
             {
-                "text": "<gemitem>{Level 4 Enhance}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Level 4 Enhance}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 115.0,
-        "divine_value": 0.53,
+        "chaos_value": 117.6,
+        "divine_value": 0.58,
         "art_url": "https://web.poecdn.com/image/divination-card/TheArtist.png",
         "alias": "theartist"
     },
@@ -2325,8 +2621,12 @@
         "stack_size": 12,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Mj\u00f6lner}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Mj\u00f6lner}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 4.0,
@@ -2348,12 +2648,24 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<rareitem>{Jewellery}\n<default>{Item Level:} <normal>{86}\n<default>{Double-Influenced Item}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Jewellery}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{86}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Double-Influenced Item}"
             }
         ],
-        "chaos_value": 15.0,
-        "divine_value": 0.07,
+        "chaos_value": 20.0,
+        "divine_value": 0.1,
         "art_url": "https://web.poecdn.com/image/divination-card/TheAwakened.png",
         "alias": "theawakened"
     },
@@ -2367,8 +2679,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Axe}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Axe}"
             }
         ],
         "chaos_value": 1.0,
@@ -2389,8 +2701,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Maligaro's Virtuosity}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Maligaro's Virtuosity}"
             }
         ],
         "chaos_value": 1.0,
@@ -2409,8 +2721,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Chin Sol}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Chin Sol}"
             }
         ],
         "chaos_value": 1.0,
@@ -2431,8 +2743,16 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<magicitem>{Merciless Tornado Wand}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Merciless Tornado Wand}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
         "chaos_value": 5.0,
@@ -2453,8 +2773,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Jewellery}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Jewellery}"
             }
         ],
         "chaos_value": 1.0,
@@ -2476,8 +2796,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<currencyitem>{Vaal Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{Vaal Orb}"
             }
         ],
         "chaos_value": 1.0,
@@ -2494,16 +2814,29 @@
             "MapWorldsTropicalIsland",
             "MapWorldsShore",
             "MapWorldsCoves",
-            "MapWorldsAtollUnique"
+            "MapWorldsAtollUnique",
+            "MapWorldsReef"
         ],
         "stack_size": 18,
         "reward_text": [
             {
-                "text": "<whiteitem>{Fishing Rod}\n<enchanted>{Incubated}\n<default>{Item Level:} <normal>{99}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Fishing Rod}\n"
+            },
+            {
+                "tag": "enchanted",
+                "text": "{Incubated}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{99}"
             }
         ],
-        "chaos_value": 5.0,
+        "chaos_value": 3.9,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheCatch.png",
         "alias": "thecatch"
@@ -2519,11 +2852,11 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<whiteitem>{Six-Link Astral Plate}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Six-Link Astral Plate}"
             }
         ],
-        "chaos_value": 6.0,
+        "chaos_value": 7.0,
         "divine_value": 0.03,
         "art_url": "https://web.poecdn.com/image/divination-card/TheCelestialJusticar.png",
         "alias": "thecelestialjusticar"
@@ -2537,11 +2870,11 @@
         "stack_size": 11,
         "reward_text": [
             {
-                "text": "<whiteitem>{Six-Link Body Armour}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Six-Link Body Armour}"
             }
         ],
-        "chaos_value": 2.0,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheChainsThatBind.png",
         "alias": "thechainsthatbind"
@@ -2560,11 +2893,11 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Lightning Coil}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Lightning Coil}"
             }
         ],
-        "chaos_value": 2.0,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheComingStorm.png",
         "alias": "thecomingstorm"
@@ -2578,12 +2911,12 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Rigwald's Curse}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Rigwald's Curse}"
             }
         ],
-        "chaos_value": 2.7,
-        "divine_value": 0.01,
+        "chaos_value": 9.0,
+        "divine_value": 0.04,
         "art_url": "https://web.poecdn.com/image/divination-card/TheCursedKing.png",
         "alias": "thecursedking"
     },
@@ -2600,11 +2933,11 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Soul Ripper}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Soul Ripper}"
             }
         ],
-        "chaos_value": 80.0,
+        "chaos_value": 74.0,
         "divine_value": 0.37,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDamned.png",
         "alias": "thedamned"
@@ -2619,12 +2952,20 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<whiteitem>{Six-Link Body Armour}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Six-Link Body Armour}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
-        "chaos_value": 3.11,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDapperProdigy.png",
         "alias": "thedapperprodigy"
     },
@@ -2638,8 +2979,16 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<whiteitem>{Six-Link Staff}\n<default>{Item Level:} <normal>{55}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Six-Link Staff}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{55}"
             }
         ],
         "chaos_value": 5.0,
@@ -2656,8 +3005,12 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Severed in Sleep}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Severed in Sleep}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 3.0,
@@ -2676,12 +3029,16 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Belt of the Deceiver}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Belt of the Deceiver}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDeceiver.png",
         "alias": "thedeceiver"
     },
@@ -2697,12 +3054,12 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Tidebreaker}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Tidebreaker}"
             }
         ],
-        "chaos_value": 2.25,
-        "divine_value": 0.01,
+        "chaos_value": 5.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDeepOnes.png",
         "alias": "thedeepones"
     },
@@ -2716,8 +3073,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Death's Hand}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Death's Hand}"
             }
         ],
         "chaos_value": 1.0,
@@ -2735,12 +3092,20 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Watcher's Eye}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Watcher's Eye}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 65.0,
-        "divine_value": 0.3,
+        "chaos_value": 80.0,
+        "divine_value": 0.39,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDestination.png",
         "alias": "thedestination"
     },
@@ -2757,12 +3122,12 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Headhunter}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Headhunter}"
             }
         ],
-        "chaos_value": 1463.36,
-        "divine_value": 6.8,
+        "chaos_value": 1235.8,
+        "divine_value": 6.1,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDoctor.png",
         "alias": "thedoctor"
     },
@@ -2775,8 +3140,16 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<gemitem>{Mirror Arrow}\n<default>{Quality:} <augmented>{+20%}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Mirror Arrow}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+20%}"
             }
         ],
         "chaos_value": 1.0,
@@ -2794,8 +3167,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Coruscating Elixir}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Coruscating Elixir}"
             }
         ],
         "chaos_value": 1.0,
@@ -2915,12 +3288,16 @@
         "stack_size": 11,
         "reward_text": [
             {
-                "text": "<gemitem>{Level 4 Empower}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Level 4 Empower}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 73.0,
-        "divine_value": 0.34,
+        "chaos_value": 75.0,
+        "divine_value": 0.37,
         "art_url": "https://web.poecdn.com/image/divination-card/TheDragonsHeart.png",
         "alias": "thedragonsheart"
     },
@@ -2938,8 +3315,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Divination Distillate}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Divination Distillate}"
             }
         ],
         "chaos_value": 1.0,
@@ -2956,8 +3333,12 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Belt}\n<default>{Double-Influenced Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Belt}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Double-Influenced Item}"
             }
         ],
         "chaos_value": 12.0,
@@ -2976,11 +3357,31 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<rareitem>{Map}\n<default>{Map Tier:} <normal>{15}\n<default>{Modifiers:} <normal>{8}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Map}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Map Tier:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{15}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Modifiers:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{8}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 2.0,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheEasyStroll.png",
         "alias": "theeasystroll"
@@ -3097,8 +3498,12 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Map}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Map}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -3118,8 +3523,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<magicitem>{Vivid Crimson Jewel}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Vivid Crimson Jewel}"
             }
         ],
         "chaos_value": 1.0,
@@ -3142,12 +3547,12 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<gemitem>{Level 3 Enlighten}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Level 3 Enlighten}"
             }
         ],
-        "chaos_value": 408.88,
-        "divine_value": 1.9,
+        "chaos_value": 405.18,
+        "divine_value": 2.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheEnlightened.png",
         "alias": "theenlightened"
     },
@@ -3161,12 +3566,20 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Victario's Influence}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Victario's Influence}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 18.0,
-        "divine_value": 0.08,
+        "chaos_value": 20.0,
+        "divine_value": 0.1,
         "art_url": "https://web.poecdn.com/image/divination-card/TheEnthusiasts.png",
         "alias": "theenthusiasts"
     },
@@ -3179,8 +3592,12 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<rareitem>{Map}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Map}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -3197,12 +3614,16 @@
         "stack_size": 10,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Jewel}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Jewel}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 5.0,
-        "divine_value": 0.02,
+        "chaos_value": 5.2,
+        "divine_value": 0.03,
         "art_url": "https://web.poecdn.com/image/divination-card/TheEyeOfTheDragon.png",
         "alias": "theeyeofthedragon"
     },
@@ -3217,12 +3638,12 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Lightpoacher}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Lightpoacher}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFathomlessDepths.png",
         "alias": "thefathomlessdepths"
     },
@@ -3236,11 +3657,15 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Romira's Banquet}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Romira's Banquet}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 4.0,
+        "chaos_value": 5.0,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFeast.png",
         "alias": "thefeast"
@@ -3256,12 +3681,16 @@
         "stack_size": 11,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Headhunter}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Headhunter}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 1506.4,
-        "divine_value": 7.0,
+        "chaos_value": 1053.47,
+        "divine_value": 5.2,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFiend.png",
         "alias": "thefiend"
     },
@@ -3280,8 +3709,16 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<whiteitem>{Five-Link Staff}\n<default>{Item Level:} <normal>{66}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Five-Link Staff}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{66}"
             }
         ],
         "chaos_value": 1.0,
@@ -3298,12 +3735,16 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Leather Belt}\n<default>{Double-Influenced Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Leather Belt}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Double-Influenced Item}"
             }
         ],
-        "chaos_value": 18.4,
-        "divine_value": 0.09,
+        "chaos_value": 20.0,
+        "divine_value": 0.1,
         "art_url": "https://web.poecdn.com/image/divination-card/TheForgottenTreasure.png",
         "alias": "theforgottentreasure"
     },
@@ -3319,11 +3760,11 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Varunastra}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Varunastra}"
             }
         ],
-        "chaos_value": 2.0,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFormlessSea.png",
         "alias": "theformlesssea"
@@ -3340,8 +3781,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Umbilicus Immortalis}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Umbilicus Immortalis}"
             }
         ],
         "chaos_value": 3.0,
@@ -3375,12 +3816,12 @@
         "stack_size": 12,
         "reward_text": [
             {
-                "text": "<currencyitem>{2x Divine Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{2x Divine Orb}"
             }
         ],
         "chaos_value": 30.0,
-        "divine_value": 0.14,
+        "divine_value": 0.15,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFortunate.png",
         "alias": "thefortunate"
     },
@@ -3393,12 +3834,12 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Replica Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Replica Item}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheForwardGaze.png",
         "alias": "theforwardgaze"
     },
@@ -3412,8 +3853,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<gemitem>{Level 20 Gem}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Level 20 Gem}"
             }
         ],
         "chaos_value": 1.0,
@@ -3432,12 +3873,20 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Bramblejack}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Bramblejack}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 9.57,
-        "divine_value": 0.04,
+        "chaos_value": 10.0,
+        "divine_value": 0.05,
         "art_url": "https://web.poecdn.com/image/divination-card/TheFoxInTheBrambles.png",
         "alias": "thefoxinthebrambles"
     },
@@ -3553,8 +4002,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<divination>{Divination Card}",
-                "optional": false
+                "tag": "divination",
+                "text": "{Divination Card}"
             }
         ],
         "chaos_value": 1.0,
@@ -3572,12 +4021,12 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Jewel}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Jewel}"
             }
         ],
-        "chaos_value": 29.0,
-        "divine_value": 0.13,
+        "chaos_value": 30.0,
+        "divine_value": 0.15,
         "art_url": "https://web.poecdn.com/image/divination-card/GarishPower.png",
         "alias": "thegarishpower"
     },
@@ -3591,8 +4040,12 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Sword}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Sword}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -3611,8 +4064,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Nightmare Bascinet}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Nightmare Bascinet}"
             }
         ],
         "chaos_value": 1.0,
@@ -3631,12 +4084,20 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<magicitem>{Flaring Eclipse Staff}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Flaring Eclipse Staff}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheGoldenEra.png",
         "alias": "thegoldenera"
     },
@@ -3650,8 +4111,8 @@
         "stack_size": 11,
         "reward_text": [
             {
-                "text": "<uniqueitem>{The Harvest}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{The Harvest}"
             }
         ],
         "chaos_value": 1.0,
@@ -3670,8 +4131,16 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Machina Mitts}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Machina Mitts}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 10.0,
@@ -3692,11 +4161,11 @@
         "stack_size": 12,
         "reward_text": [
             {
-                "text": "<currencyitem>{Exalted Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{Exalted Orb}"
             }
         ],
-        "chaos_value": 4.0,
+        "chaos_value": 5.0,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheHoarder.png",
         "alias": "thehoarder"
@@ -3711,8 +4180,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Taste of Hate}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Taste of Hate}"
             }
         ],
         "chaos_value": 4.0,
@@ -3729,12 +4198,12 @@
         "stack_size": 10,
         "reward_text": [
             {
-                "text": "<divination>{House of Mirrors}",
-                "optional": false
+                "tag": "divination",
+                "text": "{House of Mirrors}"
             }
         ],
-        "chaos_value": 3228.0,
-        "divine_value": 15.0,
+        "chaos_value": 3646.62,
+        "divine_value": 18.0,
         "art_url": "https://web.poecdn.com/image/divination-card/TheImmortal.png",
         "alias": "theimmortal"
     },
@@ -3751,8 +4220,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{The Whispering Ice}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{The Whispering Ice}"
             }
         ],
         "chaos_value": 3.0,
@@ -3769,12 +4238,12 @@
         "stack_size": 10,
         "reward_text": [
             {
-                "text": "<currencyitem>{40x Orb of Regret}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{40x Orb of Regret}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheInnocent.png",
         "alias": "theinnocent"
     },
@@ -3790,8 +4259,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<magicitem>{Seraphim's Armour}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Seraphim's Armour}"
             }
         ],
         "chaos_value": 1.0,
@@ -3809,11 +4278,15 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{The Harvest}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{The Harvest}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 3.0,
+        "chaos_value": 2.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheInsatiable.png",
         "alias": "theinsatiable"
@@ -3831,12 +4304,12 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<currencyitem>{10x Vaal Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{10x Vaal Orb}"
             }
         ],
-        "chaos_value": 1.0,
-        "divine_value": 0.0,
+        "chaos_value": 2.0,
+        "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheInventor.png",
         "alias": "theinventor"
     },
@@ -3851,8 +4324,12 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<whiteitem>{Five-Linked Body Armour}\n<default>{Influenced Item}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Five-Linked Body Armour}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Influenced Item}"
             }
         ],
         "chaos_value": 2.0,
@@ -3871,12 +4348,16 @@
         "stack_size": 10,
         "reward_text": [
             {
-                "text": "<rareitem>{Helmet}\n<default>{Double-Veiled Item}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Helmet}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Double-Veiled Item}"
             }
         ],
-        "chaos_value": 1.0,
-        "divine_value": 0.0,
+        "chaos_value": 2.0,
+        "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheJournalist.png",
         "alias": "thejournalist"
     },
@@ -3901,8 +4382,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<currencyitem>{Harbinger's Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{Harbinger's Orb}"
             }
         ],
         "chaos_value": 2.0,
@@ -3921,8 +4402,16 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<size:31>{<magicitem>{Bloodthirsty Eternal Sword}\n<default>{Item Level:} <normal>{66}}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Bloodthirsty Eternal Sword}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{66}}"
             }
         ],
         "chaos_value": 1.0,
@@ -3940,8 +4429,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Kaom's Heart}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Kaom's Heart}"
             }
         ],
         "chaos_value": 3.0,
@@ -3961,11 +4450,23 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{The Beachhead}\n<default>{Map Tier:} <normal>{15}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{The Beachhead}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Map Tier:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{15}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 4.0,
+        "chaos_value": 5.0,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheLanding.png",
         "alias": "thelanding"
@@ -3981,12 +4482,12 @@
         "stack_size": 10,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Atziri's Disfavour}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Atziri's Disfavour}"
             }
         ],
-        "chaos_value": 90.0,
-        "divine_value": 0.42,
+        "chaos_value": 75.0,
+        "divine_value": 0.37,
         "art_url": "https://web.poecdn.com/image/divination-card/TheLastOneStanding.png",
         "alias": "thelastonestanding"
     },
@@ -3999,8 +4500,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Bino's Kitchen Knife}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Bino's Kitchen Knife}"
             }
         ],
         "chaos_value": 6.0,
@@ -4017,12 +4518,20 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Maven Item}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Maven Item}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 10.0,
-        "divine_value": 0.05,
+        "chaos_value": 15.0,
+        "divine_value": 0.07,
         "art_url": "https://web.poecdn.com/image/divination-card/TheLeviathan.png",
         "alias": "theleviathan"
     },
@@ -4037,8 +4546,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Zerphi's Heart}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Zerphi's Heart}"
             }
         ],
         "chaos_value": 3.0,
@@ -4068,11 +4577,15 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<magicitem>{Sceptre of Celebration}\n<default>{Shaper Item}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Sceptre of Celebration}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Shaper Item}"
             }
         ],
-        "chaos_value": 4.76,
+        "chaos_value": 4.0,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheLordofCelebration.png",
         "alias": "thelordofcelebration"
@@ -4087,8 +4600,16 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<rareitem>{Jewellery}\n<default>{Item Level:} <normal>{79}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Jewellery}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{79}"
             }
         ],
         "chaos_value": 1.0,
@@ -4106,8 +4627,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Sire of Shards}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Sire of Shards}"
             }
         ],
         "chaos_value": 1.0,
@@ -4127,11 +4648,11 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Ultimatum Aspect}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Ultimatum Aspect}"
             }
         ],
-        "chaos_value": 20.0,
+        "chaos_value": 18.0,
         "divine_value": 0.09,
         "art_url": "https://web.poecdn.com/image/divination-card/TheMadKing.png",
         "alias": "themadking"
@@ -4145,8 +4666,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Bisco's Collar}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Bisco's Collar}"
             }
         ],
         "chaos_value": 3.0,
@@ -4163,8 +4684,12 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Shield}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Shield}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 2.0,
@@ -4182,11 +4707,11 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Harbinger Piece}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Harbinger Piece}"
             }
         ],
-        "chaos_value": 2.0,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheMessenger.png",
         "alias": "themessenger"
@@ -4202,8 +4727,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<magicitem>{Jewel of Potency}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Jewel of Potency}"
             }
         ],
         "chaos_value": 1.0,
@@ -4221,12 +4746,12 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<divination>{The Doctor}",
-                "optional": false
+                "tag": "divination",
+                "text": "{The Doctor}"
             }
         ],
-        "chaos_value": 150.0,
-        "divine_value": 0.7,
+        "chaos_value": 125.0,
+        "divine_value": 0.62,
         "art_url": "https://web.poecdn.com/image/divination-card/TheNurse.png",
         "alias": "thenurse"
     },
@@ -4240,8 +4765,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Death's Oath}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Death's Oath}"
             }
         ],
         "chaos_value": 3.0,
@@ -4263,12 +4788,20 @@
         "stack_size": 12,
         "reward_text": [
             {
-                "text": "<rareitem>{Fishing Rod}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Fishing Rod}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 10.0,
-        "divine_value": 0.05,
+        "chaos_value": 12.0,
+        "divine_value": 0.06,
         "art_url": "https://web.poecdn.com/image/divination-card/TheOldMan.png",
         "alias": "theoldman"
     },
@@ -4281,12 +4814,12 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Replica Bated Breath}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Replica Bated Breath}"
             }
         ],
-        "chaos_value": 9.4,
-        "divine_value": 0.04,
+        "chaos_value": 19.0,
+        "divine_value": 0.09,
         "art_url": "https://web.poecdn.com/image/divination-card/TheOneThatGotAway.png",
         "alias": "theonethatgotaway"
     },
@@ -4301,8 +4834,12 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Le Heup of All}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Le Heup of All}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -4332,8 +4869,16 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<rareitem>{Ring}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Ring}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
         "chaos_value": 1.0,
@@ -4358,8 +4903,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Alpha's Howl}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Alpha's Howl}"
             }
         ],
         "chaos_value": 2.0,
@@ -4378,11 +4923,11 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Pledge of Hands}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Pledge of Hands}"
             }
         ],
-        "chaos_value": 2.05,
+        "chaos_value": 3.0,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePact.png",
         "alias": "thepact"
@@ -4397,12 +4942,12 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<divination>{The Nurse}",
-                "optional": false
+                "tag": "divination",
+                "text": "{The Nurse}"
             }
         ],
-        "chaos_value": 19.6,
-        "divine_value": 0.09,
+        "chaos_value": 14.0,
+        "divine_value": 0.07,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePatient.png",
         "alias": "thepatient"
     },
@@ -4415,8 +4960,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Unset Ring}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Unset Ring}"
             }
         ],
         "chaos_value": 1.0,
@@ -4435,12 +4980,16 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Blood of Corruption}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Blood of Corruption}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 4.0,
-        "divine_value": 0.02,
+        "chaos_value": 3.0,
+        "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePoet.png",
         "alias": "thepoet"
     },
@@ -4454,11 +5003,11 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Astramentis}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Astramentis}"
             }
         ],
-        "chaos_value": 5.0,
+        "chaos_value": 4.0,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePolymath.png",
         "alias": "thepolymath"
@@ -4475,8 +5024,16 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<whiteitem>{Six-Link Short Bow}\n<default>{Item Level:} <normal>{50}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Six-Link Short Bow}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{50}"
             }
         ],
         "chaos_value": 5.0,
@@ -4497,12 +5054,16 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Jewel}\n<magicitem>{Primordial}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Jewel}\n"
+            },
+            {
+                "tag": "magicitem",
+                "text": "{Primordial}"
             }
         ],
         "chaos_value": 20.0,
-        "divine_value": 0.09,
+        "divine_value": 0.1,
         "art_url": "https://web.poecdn.com/image/divination-card/ThePrimordial.png",
         "alias": "theprimordial"
     },
@@ -4517,8 +5078,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{The Putrid Cloister}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{The Putrid Cloister}"
             }
         ],
         "chaos_value": 4.0,
@@ -4535,12 +5096,12 @@
         "stack_size": 16,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Atziri's Acuity}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Atziri's Acuity}"
             }
         ],
-        "chaos_value": 3.0,
-        "divine_value": 0.01,
+        "chaos_value": 4.0,
+        "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheQueen.png",
         "alias": "thequeen"
     },
@@ -4555,8 +5116,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<currencyitem>{10x Incursion Vial}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{10x Incursion Vial}"
             }
         ],
         "chaos_value": 10.0,
@@ -4573,8 +5134,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Tavukai}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Tavukai}"
             }
         ],
         "chaos_value": 5.0,
@@ -4595,12 +5156,16 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<gemitem>{Level 21 Golem Gem}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Level 21 Golem Gem}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 5.0,
-        "divine_value": 0.02,
+        "chaos_value": 7.0,
+        "divine_value": 0.03,
         "art_url": "https://web.poecdn.com/image/divination-card/TheRiteofElements.png",
         "alias": "theriteofelements"
     },
@@ -4616,8 +5181,16 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<magicitem>{Runic One-Hand Weapon}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Runic One-Hand Weapon}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
         "chaos_value": 5.0,
@@ -4636,8 +5209,12 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Meginord's Girdle}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Meginord's Girdle}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -4658,11 +5235,11 @@
         "stack_size": 10,
         "reward_text": [
             {
-                "text": "<currencyitem>{2x Exalted Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{2x Exalted Orb}"
             }
         ],
-        "chaos_value": 3.3,
+        "chaos_value": 5.0,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheSaintsTreasure.png",
         "alias": "thesaintstreasure"
@@ -4678,8 +5255,8 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Wake of Destruction}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Wake of Destruction}"
             }
         ],
         "chaos_value": 1.0,
@@ -4697,8 +5274,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<currencyitem>{40x Scroll of Wisdom}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{40x Scroll of Wisdom}"
             }
         ],
         "chaos_value": 1.0,
@@ -4723,8 +5300,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<currencyitem>{7x Exalted Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{7x Exalted Orb}"
             }
         ],
         "chaos_value": 10.0,
@@ -4742,12 +5319,28 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Boots}\n<default>{Item Level:} <normal>{100}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Boots}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 20.0,
-        "divine_value": 0.09,
+        "divine_value": 0.1,
         "art_url": "https://web.poecdn.com/image/divination-card/TheShepherdsSandals.png",
         "alias": "theshepherdssandals"
     },
@@ -4765,8 +5358,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<currencyitem>{20x Scouting Report}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{20x Scouting Report}"
             }
         ],
         "chaos_value": 4.0,
@@ -4784,8 +5377,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<magicitem>{Unassailable Amulet}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Unassailable Amulet}"
             }
         ],
         "chaos_value": 1.0,
@@ -4803,12 +5396,16 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{The Whispering Ice}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{The Whispering Ice}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 4.0,
-        "divine_value": 0.02,
+        "chaos_value": 6.0,
+        "divine_value": 0.03,
         "art_url": "https://web.poecdn.com/image/divination-card/TheSiren.png",
         "alias": "thesiren"
     },
@@ -4825,12 +5422,12 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Soul Taker}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Soul Taker}"
             }
         ],
-        "chaos_value": 50.0,
-        "divine_value": 0.23,
+        "chaos_value": 38.7,
+        "divine_value": 0.19,
         "art_url": "https://web.poecdn.com/image/divination-card/TheSoul.png",
         "alias": "thesoul"
     },
@@ -4844,8 +5441,8 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Berek's Respite}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Berek's Respite}"
             }
         ],
         "chaos_value": 3.0,
@@ -4862,11 +5459,19 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<magicitem>{Dictator's Prophecy Wand}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Dictator's Prophecy Wand}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
-        "chaos_value": 4.0,
+        "chaos_value": 5.0,
         "divine_value": 0.02,
         "art_url": "https://web.poecdn.com/image/divination-card/TheSpoiledPrince.png",
         "alias": "thespoiledprince"
@@ -4883,8 +5488,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Rustic Sash}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Rustic Sash}"
             }
         ],
         "chaos_value": 1.0,
@@ -4902,8 +5507,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Agnerod Staff}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Agnerod Staff}"
             }
         ],
         "chaos_value": 1.0,
@@ -4923,8 +5528,16 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<gemitem>{Minion Gem}\n<default>{Quality:} <augmented>{+20%}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Minion Gem}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+20%}"
             }
         ],
         "chaos_value": 1.0,
@@ -4942,8 +5555,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Rise of the Phoenix}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Rise of the Phoenix}"
             }
         ],
         "chaos_value": 1.0,
@@ -4961,8 +5574,8 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<magicitem>{Surgeon's Flask}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Surgeon's Flask}"
             }
         ],
         "chaos_value": 1.0,
@@ -4980,8 +5593,16 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<whiteitem>{Map}\n<default>{Map Tier:} <normal>{14}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Map}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Map Tier:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{14}"
             }
         ],
         "chaos_value": 1.0,
@@ -5000,8 +5621,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<currencyitem>{7x Orb of Alchemy}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{7x Orb of Alchemy}"
             }
         ],
         "chaos_value": 1.0,
@@ -5020,8 +5641,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Daresso's Salute}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Daresso's Salute}"
             }
         ],
         "chaos_value": 1.0,
@@ -5040,8 +5661,12 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Shavronne's Revelation}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Shavronne's Revelation}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 3.0,
@@ -5059,12 +5684,16 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Kaom's Roots}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Kaom's Roots}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 4.0,
-        "divine_value": 0.02,
+        "chaos_value": 5.5,
+        "divine_value": 0.03,
         "art_url": "https://web.poecdn.com/image/divination-card/TheThrone.png",
         "alias": "thethrone"
     },
@@ -5180,8 +5809,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<currencyitem>{5x Fossil}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{5x Fossil}"
             }
         ],
         "chaos_value": 1.0,
@@ -5198,8 +5827,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<currencyitem>{10x Oil}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{10x Oil}"
             }
         ],
         "chaos_value": 1.0,
@@ -5216,8 +5845,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Staff}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Staff}"
             }
         ],
         "chaos_value": 1.0,
@@ -5235,8 +5864,12 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Wand}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Wand}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -5258,8 +5891,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<currencyitem>{Tainted Mythic Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{Tainted Mythic Orb}"
             }
         ],
         "chaos_value": 2.0,
@@ -5379,8 +6012,20 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<rareitem>{Map}\n<default>{Map Tier:} <normal>{15}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Map}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Map Tier:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{15}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -5399,11 +6044,23 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<size:30>{<magicitem>{Diamond Ring of Redemption}\n<default>{Item Level:} <normal>{100}\n<default>{Redeemer Item}}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Diamond Ring of Redemption}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Redeemer Item}}"
             }
         ],
-        "chaos_value": 7.9,
+        "chaos_value": 8.0,
         "divine_value": 0.04,
         "art_url": "https://web.poecdn.com/image/divination-card/TheTumbleWeed.png",
         "alias": "thetumbleweed"
@@ -5418,8 +6075,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{The Twilight Temple}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{The Twilight Temple}"
             }
         ],
         "chaos_value": 3.0,
@@ -5438,8 +6095,16 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<magicitem>{Gemini Claw of Celebration}\n<default>{Item Level:} <normal>{83}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Gemini Claw of Celebration}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{83}"
             }
         ],
         "chaos_value": 1.0,
@@ -5462,8 +6127,16 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<magicitem>{Merciless Weapon}\n<default>{Item Level:} <normal>{100}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Merciless Weapon}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{100}"
             }
         ],
         "chaos_value": 2.0,
@@ -5481,8 +6154,12 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Nemesis Item}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Nemesis Item}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 4.0,
@@ -5500,8 +6177,12 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<size:29>{<uniqueitem>{Attribute Transforming Jewel}}\n<size:29>{<corrupted>{Corrupted}}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Attribute Transforming Jewel}}\n{"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}}"
             }
         ],
         "chaos_value": 5.0,
@@ -5519,11 +6200,11 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<currencyitem>{10x Gemcutter's Prism}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{10x Gemcutter's Prism}"
             }
         ],
-        "chaos_value": 3.0,
+        "chaos_value": 3.01,
         "divine_value": 0.01,
         "art_url": "https://web.poecdn.com/image/divination-card/TheUnion.png",
         "alias": "theunion"
@@ -5538,12 +6219,12 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Song of the Sirens}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Song of the Sirens}"
             }
         ],
-        "chaos_value": 8.0,
-        "divine_value": 0.04,
+        "chaos_value": 9.6,
+        "divine_value": 0.05,
         "art_url": "https://web.poecdn.com/image/divination-card/TheVast.png",
         "alias": "thevast"
     },
@@ -5558,8 +6239,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Lioneye's Vision}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Lioneye's Vision}"
             }
         ],
         "chaos_value": 1.0,
@@ -5576,8 +6257,12 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<rareitem>{Amulet}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "rareitem",
+                "text": "{Amulet}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -5595,8 +6280,16 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<whiteitem>{Six-Link Coronal Maul}\n<default>{Item Level:} <normal>{83}",
-                "optional": false
+                "tag": "whiteitem",
+                "text": "{Six-Link Coronal Maul}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{83}"
             }
         ],
         "chaos_value": 5.0,
@@ -5613,8 +6306,8 @@
         "stack_size": 12,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Crown of Eyes}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Crown of Eyes}"
             }
         ],
         "chaos_value": 1.0,
@@ -5633,8 +6326,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<magicitem>{Weapon of Crafting}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Weapon of Crafting}"
             }
         ],
         "chaos_value": 1.0,
@@ -5651,8 +6344,8 @@
         "stack_size": 2,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Arakaali's Fang}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Arakaali's Fang}"
             }
         ],
         "chaos_value": 5.0,
@@ -5669,12 +6362,16 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<gemitem>{Level 21 Aura Gem}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Level 21 Aura Gem}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 5.0,
-        "divine_value": 0.02,
+        "chaos_value": 8.0,
+        "divine_value": 0.04,
         "art_url": "https://web.poecdn.com/image/divination-card/TheWiltedRose.png",
         "alias": "thewiltedrose"
     },
@@ -5690,8 +6387,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Windripper}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Windripper}"
             }
         ],
         "chaos_value": 3.0,
@@ -5712,8 +6409,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Kiara's Determination}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Kiara's Determination}"
             }
         ],
         "chaos_value": 1.0,
@@ -5733,8 +6430,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Rigwald Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Rigwald Item}"
             }
         ],
         "chaos_value": 1.0,
@@ -5752,8 +6449,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Hyaon's Fury}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Hyaon's Fury}"
             }
         ],
         "chaos_value": 1.0,
@@ -5770,8 +6467,8 @@
         "stack_size": 8,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Rigwald's Quills}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Rigwald's Quills}"
             }
         ],
         "chaos_value": 3.0,
@@ -5789,8 +6486,12 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Claw}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Claw}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -5811,8 +6512,8 @@
         "stack_size": 6,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Belt}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Belt}"
             }
         ],
         "chaos_value": 2.0,
@@ -5830,8 +6531,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Gluttony}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Gluttony}"
             }
         ],
         "chaos_value": 1.0,
@@ -5848,8 +6549,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<currencyitem>{3x Chaos Orb}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{3x Chaos Orb}"
             }
         ],
         "chaos_value": 1.0,
@@ -5872,8 +6573,8 @@
         "stack_size": 3,
         "reward_text": [
             {
-                "text": "<currencyitem>{3x Essence}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{3x Essence}"
             }
         ],
         "chaos_value": 1.0,
@@ -5892,8 +6593,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Storm Cloud}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Storm Cloud}"
             }
         ],
         "chaos_value": 1.0,
@@ -5913,8 +6614,8 @@
         "stack_size": 10,
         "reward_text": [
             {
-                "text": "<uniqueitem>{League-Specific Item}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{League-Specific Item}"
             }
         ],
         "chaos_value": 1.0,
@@ -5933,8 +6634,8 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Voltaxic Rift}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Voltaxic Rift}"
             }
         ],
         "chaos_value": 7.0,
@@ -5957,8 +6658,12 @@
         "stack_size": 7,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Vaults of Atziri}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Vaults of Atziri}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 4.0,
@@ -5977,8 +6682,16 @@
         "stack_size": 4,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Facebreaker}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Facebreaker}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Two-Implicit}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 17.0,
@@ -5998,12 +6711,12 @@
         "stack_size": 16,
         "reward_text": [
             {
-                "text": "<currencyitem>{19x Mirror Shard}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{19x Mirror Shard}"
             }
         ],
-        "chaos_value": 13772.8,
-        "divine_value": 64.0,
+        "chaos_value": 13229.13,
+        "divine_value": 65.3,
         "art_url": "https://web.poecdn.com/image/divination-card/UnrequitedLove.png",
         "alias": "unrequitedlove"
     },
@@ -6019,8 +6732,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<uniqueitem>{Doomfletch}",
-                "optional": false
+                "tag": "uniqueitem",
+                "text": "{Doomfletch}"
             }
         ],
         "chaos_value": 2.0,
@@ -6037,8 +6750,8 @@
         "stack_size": 5,
         "reward_text": [
             {
-                "text": "<currencyitem>{10x Orb of Regret}",
-                "optional": false
+                "tag": "currencyitem",
+                "text": "{10x Orb of Regret}"
             }
         ],
         "chaos_value": 2.0,
@@ -6058,8 +6771,20 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<gemitem>{Vaal Gem}\n<default>{Quality:} <augmented>{+20%}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Vaal Gem}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Quality:} "
+            },
+            {
+                "tag": "augmented",
+                "text": "{+20%}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
         "chaos_value": 1.0,
@@ -6076,12 +6801,16 @@
         "stack_size": 11,
         "reward_text": [
             {
-                "text": "<gemitem>{Level 4 Enlighten}\n<corrupted>{Corrupted}",
-                "optional": false
+                "tag": "gemitem",
+                "text": "{Level 4 Enlighten}\n"
+            },
+            {
+                "tag": "corrupted",
+                "text": "{Corrupted}"
             }
         ],
-        "chaos_value": 1076.0,
-        "divine_value": 5.0,
+        "chaos_value": 1045.36,
+        "divine_value": 5.16,
         "art_url": "https://web.poecdn.com/image/divination-card/WealthAndPower.png",
         "alias": "wealthandpower"
     },
@@ -6095,12 +6824,24 @@
         "stack_size": 9,
         "reward_text": [
             {
-                "text": "<magicitem>{Dictator's Weapon}\n<default>{Item Level:} <normal>{83}\n<fractured>{Fractured}",
-                "optional": false
+                "tag": "magicitem",
+                "text": "{Dictator's Weapon}\n"
+            },
+            {
+                "tag": "default",
+                "text": "{Item Level:} "
+            },
+            {
+                "tag": "normal",
+                "text": "{83}\n"
+            },
+            {
+                "tag": "fractured",
+                "text": "{Fractured}"
             }
         ],
-        "chaos_value": 43.0,
-        "divine_value": 0.2,
+        "chaos_value": 45.0,
+        "divine_value": 0.22,
         "art_url": "https://web.poecdn.com/image/divination-card/WhoAsked.png",
         "alias": "whoasked"
     }

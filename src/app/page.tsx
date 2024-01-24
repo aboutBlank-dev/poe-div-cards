@@ -25,11 +25,7 @@ export default function HomePage() {
   return (
     <div className="flex w-full justify-center">
       <div className="mt-8 flex max-w-5xl flex-col items-center">
-        <MapCardSearchBar
-          cardsData={cardsData}
-          mapsData={mapsData}
-          placeholder="Search for Map or Card"
-        />
+        <MapCardSearchBar placeholder="Search for Map or Card" />
         <div className="relative mt-4 overflow-x-auto rounded-lg border-2 border-gray-600 bg-gray-800 shadow-md">
           <table className="table w-full text-left text-sm text-gray-500 rtl:text-right">
             <thead className="border-b bg-gray-900 text-xs uppercase text-white">

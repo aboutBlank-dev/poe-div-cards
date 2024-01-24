@@ -1,4 +1,5 @@
 import json
+import re
 import requests
 
 URL = "https://www.poewiki.net/w/api.php"
@@ -109,6 +110,21 @@ def get_card_data():
                "alias": name.lower().replace(" ", "").replace("'", "")
             } 
 
+
+    #Remove unwanted <size> tags (they come from poe.ninja)
+    for card in cards.values():
+        reward_text = card["reward_text"][0]
+        new_reward_text = []
+
+        #remove all <size:xx> tags
+        reward_text["text"] = re.sub(r'<size:\d+>', '', reward_text["text"])
+
+        #find all <tag>{content} and turn it into a list of tuples with tag and content
+        matches = re.findall(r'<(\w+)>([^<]+)', reward_text["text"])
+        for match in matches:
+            new_reward_text.append({"tag": match[0], "text": match[1]})
+        
+        card["reward_text"] = new_reward_text
 
     #Remove any area that has no cards
     maps = {k: v for k, v in maps.items() if "cards" in v}

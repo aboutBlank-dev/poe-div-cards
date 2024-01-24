@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Fontin-SmallCaps";
+  src: url("/Fontin-Regular.ttf");
+}
+
+.poe-font {
+  font-family: "Fontin-SmallCaps", Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.default {
+  color: rgb(127, 127, 127);
+}
+
+.gemitem {
+  color: rgb(27, 162, 155);
+}
+
+.augmented {
+  color: rgb(136, 136, 255);
+}
+
+.corrupted {
+  color: rgb(210, 0, 0);
+}
+
+.uniqueitem {
+  color: rgb(175, 96, 37);
+}
+
+.currencyitem {
+  color: rgb(170, 158, 130);
+}
+
+.magicitem {
+  color: rgb(136, 136, 255);
+}
+
+.whiteitem {
+  color: rgb(200, 200, 200);
+}
+
+.normal {
+  color: rgb(200, 200, 200);
+}
+
+.rareitem {
+  color: rgb(255, 255, 119);
+}
+
+.enchanted {
+  color: rgb(184, 218, 242);
+}
+
+.divination {
+  color: rgb(14, 186, 255);
+}
+
+.fractured {
+  color: rgb(162, 145, 98);
+}
