@@ -1,9 +1,12 @@
+"use client";
+
 import React, { useMemo } from "react";
-import { DivCard } from "~/consts/CardsData";
 import Image from "next/image";
+import { DivCard } from "~/consts/CardsData";
 import cardsData from "./../../python/cards.json";
 import chaosIcon from "public/chaos.png";
 import divineIcon from "public/divine.png";
+import DivCardDisplay from "./divCardDisplay";
 
 type Props = {};
 
@@ -24,7 +27,7 @@ const DivCardTable = (props: Props) => {
   }, [cardsData]);
 
   return (
-    <div className="relative mt-4 overflow-x-auto rounded-lg border-2 border-gray-600 bg-gray-800 shadow-md">
+    <div className="relative mt-4 rounded-lg border-2 border-gray-600 bg-gray-800 shadow-md">
       <table className="table w-full text-left text-sm text-gray-500 rtl:text-right">
         <thead className="border-b bg-gray-900 text-xs uppercase text-white">
           <tr>
@@ -39,7 +42,7 @@ const DivCardTable = (props: Props) => {
         <tbody>
           {tableEntries.map((entry) => {
             return (
-              <tr key={entry.card.name} className="border-b">
+              <tr key={entry.card.name} className="group border-b">
                 <td className="px-6 py-4 font-bold text-white">
                   {entry.card.name}
                 </td>
@@ -50,6 +53,12 @@ const DivCardTable = (props: Props) => {
                     className="h-8 w-auto"
                   />
                   <p>{entry.priceValue}</p>
+                </td>
+                <td>
+                  <DivCardDisplay
+                    card={entry.card}
+                    className="hidden -translate-y-32 translate-x-4 group-hover:absolute group-hover:block"
+                  />
                 </td>
               </tr>
             );
