@@ -7,8 +7,15 @@ type Props = {
 };
 
 const DivCardDisplay = ({ card, className }: Props) => {
+  const onCardClicked = () => {
+    window.open("https://www.poewiki.net/wiki/" + card.name.replace(" ", "_"));
+  };
+
   return (
-    <div className={`poe-font relative block h-[668px] w-[440px] ${className}`}>
+    <div
+      className={`poe-font relative block h-[668px] w-[440px] select-none hover:cursor-pointer ${className}`}
+      onClick={onCardClicked}
+    >
       <div className="absolute left-[26px] top-[56px] block h-[280px] w-[390px] overflow-hidden bg-black">
         <img
           className="select-none"

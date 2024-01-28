@@ -65,7 +65,7 @@ def get_card_data():
             "format": "json",
             "limit": "500",
             "tables": "items",
-            "fields": "items.name,items.drop_areas,items.drop_monsters,items.drop_text",
+            "fields": "items.name, items.drop_areas, items.drop_text",
             "where": f'items.class_id="DivinationCard" AND items.drop_enabled="1"',
         },
     ).json()["cargoquery"]

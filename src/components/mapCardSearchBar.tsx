@@ -2,9 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import DivCardIcon from "./../../public/DivCard.png";
-import MapIcon from "./../../public/Map.png";
-import UniqueMapIcon from "./../../public/UniqueMap.png";
+import DivCardIcon from "public/DivCard.png";
+import MapIcon from "public/Map.png";
+import UniqueMapIcon from "public/UniqueMap.png";
 import Link from "next/link";
 import { CardsData } from "~/consts/CardsData";
 import { MapsData } from "~/consts/MapsData";
