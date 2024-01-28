@@ -7,6 +7,8 @@ import cardsData from "./../../python/cards.json";
 import chaosIcon from "public/chaos.png";
 import divineIcon from "public/divine.png";
 import DivCardDisplay from "./divCardDisplay";
+import Link from "next/link";
+import PathHelper from "~/app/helpers/pathHelper";
 
 type Props = {};
 
@@ -32,7 +34,7 @@ const DivCardTable = (props: Props) => {
         <thead className="border-b bg-gray-900 text-xs uppercase text-white">
           <tr>
             <th scope="col" className="px-6 py-3">
-              Name
+              Divination Card
             </th>
             <th scope="col" className="px-6 py-3">
               Price
@@ -44,7 +46,12 @@ const DivCardTable = (props: Props) => {
             return (
               <tr key={entry.card.name} className="group border-b">
                 <td className="px-6 py-4 font-bold text-white">
-                  {entry.card.name}
+                  <Link
+                    href={PathHelper.getCardPath(entry.card.id)}
+                    className="hover:underline"
+                  >
+                    {entry.card.name}
+                  </Link>
                 </td>
                 <td className="flex items-center space-x-2 px-6 py-4 font-bold text-white">
                   <Image

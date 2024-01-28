@@ -8,6 +8,7 @@ import UniqueMapIcon from "./../../public/UniqueMap.png";
 import Link from "next/link";
 import { CardsData } from "~/consts/CardsData";
 import { MapsData } from "~/consts/MapsData";
+import PathHelper from "~/app/helpers/pathHelper";
 
 type SearchResult = {
   id: string;
@@ -153,8 +154,8 @@ function getIconForType(type: SearchResultType) {
 function getPathForType(searchResult: SearchResult) {
   switch (searchResult.type) {
     case SearchResultType.Card:
-      return "/cards/" + searchResult.id;
+      return PathHelper.getCardPath(searchResult.id);
     default:
-      return "/maps/" + searchResult.id;
+      return PathHelper.getMapPath(searchResult.id);
   }
 }

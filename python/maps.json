@@ -218,8 +218,7 @@
             "TheJourney",
             "TheLeviathan",
             "TheLover",
-            "TheSiren",
-            "TheTransformation"
+            "TheSiren"
         ]
     },
     "MapWorldsBasilica": {
@@ -514,8 +513,7 @@
         "alias": "hallowedground",
         "cards": [
             "Monochrome",
-            "TheAwakened",
-            "TheTransformation"
+            "TheAwakened"
         ]
     },
     "MapWorldsChannel": {
@@ -1180,7 +1178,6 @@
             "TheGambler",
             "ThePorcupine",
             "TheTinkerersTable",
-            "TheTransformation",
             "TheTrial"
         ]
     },
@@ -1393,6 +1390,7 @@
         "alias": "laboratory",
         "cards": [
             "AzyransReward",
+            "FurtherInvention",
             "HerMask",
             "Hope",
             "LingeringRemnants",
@@ -1682,8 +1680,7 @@
         "alias": "deathandtaxes",
         "cards": [
             "Monochrome",
-            "TheAwakened",
-            "TheTransformation"
+            "TheAwakened"
         ]
     },
     "MapWorldsOrchard": {
@@ -1798,7 +1795,6 @@
             "TheLordofCelebration",
             "TheOpulecent",
             "TheTinkerersTable",
-            "TheTransformation",
             "TheTrial",
             "TheUnexpectedPrize"
         ]
@@ -2492,7 +2488,6 @@
             "TheSiren",
             "TheSurvivalist",
             "TheTinkerersTable",
-            "TheTransformation",
             "TheTrial",
             "TreasureHunter"
         ]
