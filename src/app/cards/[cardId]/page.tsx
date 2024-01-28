@@ -1,15 +1,15 @@
 "use client";
 
 import React from "react";
-import DivCard from "~/components/divCard";
-import { CardsData } from "~/consts/CardsData";
+import DivCardDisplay from "~/components/divCardDisplay";
+import { CardsData, DivCard } from "~/consts/CardsData";
 
 type Props = {
   params: { cardId: string };
 };
 
 const CardPage = ({ params }: Props) => {
-  const card = CardsData[params.cardId];
+  const card: DivCard | undefined = CardsData[params.cardId];
 
   if (!card) {
     return <div>Card not found</div>;
@@ -17,12 +17,7 @@ const CardPage = ({ params }: Props) => {
 
   return (
     <div className="flex h-screen w-full items-center justify-center">
-      <DivCard
-        cardName={card.name}
-        stackSize={card.stack_size}
-        rewardText={card.reward_text}
-        image={card.art_url}
-      />
+      <DivCardDisplay card={card} />
     </div>
   );
 };
