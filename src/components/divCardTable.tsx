@@ -40,7 +40,7 @@ const DivCardTable = ({ cardsList, className }: Props) => {
 
   return (
     <div
-      className={`relative overflow-x-hidden overflow-y-scroll rounded-lg border-2 border-gray-600 shadow-md ${className}`}
+      className={`relative overflow-auto rounded-lg border-2 border-gray-600 shadow-md ${className}`}
     >
       <table className="table w-full select-none rounded-lg text-left text-sm text-gray-500">
         <thead className="sticky top-0 border-b-2 bg-gray-900 text-center text-xs uppercase text-white">
