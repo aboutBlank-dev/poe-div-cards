@@ -8,8 +8,8 @@ import DivCardDisplay from "~/components/divCardDisplay";
 import MapIcon from "public/Map.png";
 import UniqueMapIcon from "public/UniqueMap.png";
 import { useCardMapData } from "~/hooks/useCardMapData";
-import { DivCard } from "~/types/CardsData";
-import { AtlasMap } from "~/types/MapsData";
+import type { DivCard } from "~/types/CardsData";
+import type { AtlasMap } from "~/types/MapsData";
 
 type Props = {
   params: { cardId: string };

@@ -1,5 +1,5 @@
-import { CardsData } from "~/types/CardsData";
-import { MapsData } from "~/types/MapsData";
+import type { CardsData } from "~/types/CardsData";
+import type { MapsData } from "~/types/MapsData";
 
 const DAY_IN_MILLISECONDS = 1000 * 60 * 60 * 24;
 const POE_LEAGUE_API_URL = "https://api.pathofexile.com/leagues?";
@@ -22,11 +22,11 @@ export default async function fetchCardMapData(): Promise<CardMapData> {
   //Build Map Data
   const mapsData: MapsData = {};
   for (const wikiMap of Object.values(wikiMapData)) {
-    const mapId = wikiMap["title"]["area id"];
+    const mapId = wikiMap.title["area id"];
     let mapName = "";
     for (const wikiArea of Object.values(wikiAreaData)) {
-      if (wikiArea["title"]["id"] === mapId) {
-        mapName = wikiArea["title"]["name"];
+      if (wikiArea.title.id === mapId) {
+        mapName = wikiArea.title.name;
         break;
       }
     }
@@ -43,8 +43,8 @@ export default async function fetchCardMapData(): Promise<CardMapData> {
   //Build Card Data
   const cardsData: CardsData = {};
   for (const wikiCard of Object.values(wikiCardData)) {
-    const card = wikiCard["title"];
-    const cardName = card["name"];
+    const card = wikiCard.title;
+    const cardName = card.name;
 
     //Unfortunately, the poe wiki doesn't have an id for div cards OR an image url, so we have to get it from somewhere else.
     const ninjaCard = itemPriceData.find(
@@ -71,7 +71,7 @@ export default async function fetchCardMapData(): Promise<CardMapData> {
 
     const CARD_ART_URL_BASE = "https://web.poecdn.com/image/divination-card/";
     const rewardText = [];
-    let explicitModifier = ninjaCard.explicitModifiers[0];
+    const explicitModifier = ninjaCard.explicitModifiers[0];
     if (explicitModifier && "text" in explicitModifier) {
       //remove all <size:xx> tags from explicit modifier
       const text = explicitModifier.text.replace(/<size:\d+>/g, "");
@@ -115,7 +115,8 @@ type LeagueData = {
 
 async function fetchCurrentLeague(): Promise<string> {
   const response = await fetch(
-    POE_LEAGUE_API_URL + new URLSearchParams({ realm: "pc", type: "main" }),
+    POE_LEAGUE_API_URL +
+      new URLSearchParams({ realm: "pc", type: "main" }).toString(),
     {
       headers: {
         "User-Agent":
@@ -127,12 +128,11 @@ async function fetchCurrentLeague(): Promise<string> {
     },
   );
 
-  const leagues = await response.json();
+  const leagues = (await response.json()) as LeagueData[];
   let currentLeague = "";
   for (const league of Object.values(leagues)) {
-    const leagueData = league as LeagueData;
-    if (leagueData["category"] && leagueData["category"]["current"] === true) {
-      currentLeague = leagueData["category"]["id"];
+    if (league.category && league.category.current === true) {
+      currentLeague = league.category.id;
     }
   }
 
@@ -157,14 +157,16 @@ async function fetchWikiMapData(currentLeague: string): Promise<WikiMapData> {
     where: `maps.series='${currentLeague}' AND maps.guild_character NOT LIKE '' AND maps.area_id NOT LIKE '%Synthesised%' AND maps.tier<=16`,
   });
 
-  const response = await fetch(POE_WIKI_API_URL + params, {
+  const response = await fetch(POE_WIKI_API_URL + params.toString(), {
     next: {
       revalidate: DAY_IN_MILLISECONDS,
     },
   });
 
-  const wikiMapData = await response.json();
-  return wikiMapData["cargoquery"] as WikiMapData;
+  const wikiMapData = (await response.json()) as {
+    cargoquery: WikiMapData;
+  };
+  return wikiMapData.cargoquery;
 }
 
 type WikiAreaData = {
@@ -187,14 +189,14 @@ async function fetchWikiAreaData(): Promise<WikiAreaData> {
       "areas.id LIKE 'MapWorlds%' AND areas.is_legacy_map_area=false AND (areas.is_unique_map_area=true OR areas.is_map_area=true)",
   });
 
-  const response = await fetch(POE_WIKI_API_URL + params, {
+  const response = await fetch(POE_WIKI_API_URL + params.toString(), {
     next: {
       revalidate: DAY_IN_MILLISECONDS,
     },
   });
 
-  const wikiAreaData = await response.json();
-  return wikiAreaData["cargoquery"] as WikiAreaData;
+  const wikiAreaData = (await response.json()) as { cargoquery: WikiAreaData };
+  return wikiAreaData.cargoquery;
 }
 
 type WikiCardData = {
@@ -216,14 +218,14 @@ async function fetchWikiCardData(): Promise<WikiCardData> {
     where: `items.class_id="DivinationCard" AND items.drop_enabled="1"`,
   });
 
-  const response = await fetch(POE_WIKI_API_URL + params, {
+  const response = await fetch(POE_WIKI_API_URL + params.toString(), {
     next: {
       revalidate: DAY_IN_MILLISECONDS,
     },
   });
 
-  const wikiCardData = await response.json();
-  return wikiCardData["cargoquery"] as WikiCardData;
+  const wikiCardData = (await response.json()) as { cargoquery: WikiCardData };
+  return wikiCardData.cargoquery;
 }
 
 type NinjaCardData = {
@@ -243,6 +245,6 @@ async function fetchNinjaCardData(
     next: { revalidate: DAY_IN_MILLISECONDS },
   });
 
-  const itemPriceData = await response.json();
-  return itemPriceData["lines"] as NinjaCardData[];
+  const itemPriceData = (await response.json()) as { lines: NinjaCardData[] };
+  return itemPriceData.lines;
 }

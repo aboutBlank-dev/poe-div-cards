@@ -7,9 +7,6 @@ import MapIcon from "public/Map.png";
 import UniqueMapIcon from "public/UniqueMap.png";
 import Link from "next/link";
 import PathHelper from "~/app/helpers/pathHelper";
-import { CardsData } from "~/types/CardsData";
-import { CardMapData } from "~/server/fetchCardMapData";
-import { MapsData } from "~/types/MapsData";
 import { useCardMapData } from "~/hooks/useCardMapData";
 
 type SearchResult = {
@@ -49,26 +46,23 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
     };
   }, [thisRef]);
 
-  let cardsData: CardsData = {};
-  let mapsData: MapsData = {};
-
-  let cleanSearch = search
+  const cleanSearch = search
     .toLowerCase()
     .trim()
     .replace("'", "")
     .replace(" ", "");
 
   const searchResults: SearchResult[] = [];
-  if (cardMapData && cardMapData.cardsData && cardMapData.mapsData) {
+  if (cardMapData?.cardsData && cardMapData.mapsData) {
     const cardsData = Object.values(cardMapData.cardsData);
     cardsData.forEach((card) => {
-      if (!card.alias.includes(cleanSearch)) return;
-
-      searchResults.push({
-        id: card.id,
-        name: card.name,
-        type: SearchResultType.Card,
-      });
+      if (card.alias.includes(cleanSearch)) {
+        searchResults.push({
+          id: card.id,
+          name: card.name,
+          type: SearchResultType.Card,
+        });
+      }
     });
 
     const mapsData = Object.values(cardMapData.mapsData);

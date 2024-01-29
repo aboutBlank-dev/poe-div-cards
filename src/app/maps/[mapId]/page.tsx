@@ -6,7 +6,7 @@ import Image from "next/image";
 import MapIcon from "public/Map.png";
 import UniqueMapIcon from "public/UniqueMap.png";
 import { useCardMapData } from "~/hooks/useCardMapData";
-import { DivCard } from "~/types/CardsData";
+import type { DivCard } from "~/types/CardsData";
 
 type Props = {
   params: { mapId: string };

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CardMapData } from "~/server/fetchCardMapData";
+import type { CardMapData } from "~/server/fetchCardMapData";
 
 export const useCardMapData = () => {
   const [cardMapData, setCardMapData] = useState<CardMapData | null>(null);
@@ -9,6 +9,9 @@ export const useCardMapData = () => {
       .then((response) => response.json())
       .then((data) => {
         setCardMapData(data as CardMapData);
+      })
+      .catch((error) => {
+        console.error(error);
       });
   }, []);
 

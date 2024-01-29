@@ -7,8 +7,7 @@ import divineIcon from "public/divine.png";
 import DivCardDisplay from "./divCardDisplay";
 import Link from "next/link";
 import PathHelper from "~/app/helpers/pathHelper";
-import fetchCardMapData from "~/server/fetchCardMapData";
-import { DivCard } from "~/types/CardsData";
+import type { DivCard } from "~/types/CardsData";
 import { useCardMapData } from "~/hooks/useCardMapData";
 
 type Props = {

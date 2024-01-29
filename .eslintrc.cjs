@@ -31,6 +31,7 @@ const config = {
         checksVoidReturn: { attributes: false },
       },
     ],
+    "@typescript-eslint/consistent-indexed-object-style": ["warn", "record"],
   },
 };
 
