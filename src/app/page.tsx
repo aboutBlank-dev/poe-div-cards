@@ -3,11 +3,9 @@ import MapCardSearchBar from "~/components/mapCardSearchBar";
 
 export default function HomePage() {
   return (
-    <div className="flex w-full justify-center">
-      <div className="mt-8 flex max-w-5xl flex-col items-center">
-        <MapCardSearchBar placeholder="Search for Map or Card" />
-        <DivCardTable />
-      </div>
+    <div className="flex h-screen w-full flex-col items-center justify-center space-y-12 p-12">
+      <MapCardSearchBar placeholder="Search for Map or Card" />
+      <DivCardTable />
     </div>
   );
 }

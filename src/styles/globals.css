@@ -6,6 +6,10 @@
   font-family: "Fontin-SmallCaps";
   src: url("/Fontin-Regular.ttf");
 }
+/* width */
+::-webkit-scrollbar {
+  width: 0;
+}
 
 .poe-font {
   font-family: "Fontin-SmallCaps", Verdana, Arial, Helvetica, sans-serif;

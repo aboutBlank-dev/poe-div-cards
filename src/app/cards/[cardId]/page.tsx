@@ -29,9 +29,9 @@ const CardPage = ({ params }: Props) => {
 
   return (
     <div className="flex h-screen items-center justify-center space-x-32 px-12 py-12">
-      <div className="relative overflow-x-auto rounded-lg border-2 border-gray-600 bg-gray-800 shadow-md">
-        <table className="table text-gray-500 rtl:text-right">
-          <thead className="rounded-lg border-b-2 bg-gray-900 text-xs uppercase text-white ">
+      <div className="relative max-h-[650px] overflow-y-auto rounded-lg border-2 border-gray-600 bg-gray-800 shadow-md">
+        <table className="table select-none text-gray-500 ">
+          <thead className="sticky top-0 rounded-lg border-b-2 bg-gray-900 text-xs uppercase text-white">
             <tr>
               <th scope="col" className="px-6 py-3">
                 Drops From Maps
@@ -41,10 +41,7 @@ const CardPage = ({ params }: Props) => {
           <tbody className="">
             {dropAreas.map((entry) => {
               return (
-                <tr
-                  key={entry.id}
-                  className="group border-b-2 last:border-none"
-                >
+                <tr key={entry.id} className="border-b-2 last:border-none">
                   <td className="flex items-center justify-between space-x-8 px-6 py-2 text-white">
                     <Link
                       href={PathHelper.getMapPath(entry.id)}

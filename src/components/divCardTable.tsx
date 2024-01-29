@@ -2,19 +2,29 @@
 
 import React, { useMemo } from "react";
 import Image from "next/image";
-import { DivCard } from "~/consts/CardsData";
-import cardsData from "./../../python/cards.json";
+import { CardsData, DivCard } from "~/consts/CardsData";
 import chaosIcon from "public/chaos.png";
 import divineIcon from "public/divine.png";
 import DivCardDisplay from "./divCardDisplay";
 import Link from "next/link";
 import PathHelper from "~/app/helpers/pathHelper";
 
-type Props = {};
+type Props = {
+  cardsList?: DivCard[];
+  className?: string;
+};
 
-const DivCardTable = (props: Props) => {
+const DivCardTable = ({ cardsList, className }: Props) => {
+  if (!cardsList) {
+    cardsList = Object.values(CardsData);
+  }
+
   const tableEntries: TableEntry[] = useMemo(() => {
-    const sortedCards = Object.values(cardsData).sort((a, b) => {
+    if (!cardsList) {
+      return [];
+    }
+
+    const sortedCards = cardsList.sort((a, b) => {
       return b.chaos_value - a.chaos_value;
     });
 
@@ -26,12 +36,14 @@ const DivCardTable = (props: Props) => {
         priceType: useDivine ? "divine" : "chaos",
       };
     });
-  }, [cardsData]);
+  }, [cardsList]);
 
   return (
-    <div className="relative mt-4 overflow-x-auto rounded-lg border-2 border-gray-600 bg-gray-800 shadow-md">
-      <table className="table w-full text-left text-sm text-gray-500 rtl:text-right">
-        <thead className="border-b bg-gray-900 text-xs uppercase text-white">
+    <div
+      className={`relative overflow-x-hidden overflow-y-scroll rounded-lg border-2 border-gray-600 shadow-md ${className}`}
+    >
+      <table className="table w-full select-none rounded-lg text-left text-sm text-gray-500">
+        <thead className="sticky top-0 border-b-2 bg-gray-900 text-center text-xs uppercase text-white">
           <tr>
             <th scope="col" className="px-6 py-3">
               Divination Card
@@ -46,9 +58,9 @@ const DivCardTable = (props: Props) => {
             return (
               <tr
                 key={entry.card.name}
-                className="group border-b last:border-none"
+                className="group border-b-2 last:border-none"
               >
-                <td className="px-6 py-4 font-bold text-white">
+                <td className="px-6 py-2 font-bold text-white">
                   <Link
                     href={PathHelper.getCardPath(entry.card.id)}
                     className="hover:underline"
@@ -56,7 +68,7 @@ const DivCardTable = (props: Props) => {
                     {entry.card.name}
                   </Link>
                 </td>
-                <td className="flex items-center space-x-2 px-6 py-4 font-bold text-white">
+                <td className="flex items-center space-x-2 px-6 py-2 text-center font-bold text-white">
                   <Image
                     src={entry.priceType == "chaos" ? chaosIcon : divineIcon}
                     alt={entry.priceType}
@@ -64,10 +76,10 @@ const DivCardTable = (props: Props) => {
                   />
                   <p>{entry.priceValue}</p>
                 </td>
-                <td className="p-0">
+                <td className="relative p-0">
                   <DivCardDisplay
                     card={entry.card}
-                    className="hidden -translate-y-32 translate-x-4 group-hover:absolute group-hover:block"
+                    className="left-[50%] top-[50%] hidden -translate-y-1/2 translate-x-1/2 group-hover:fixed group-hover:block"
                   />
                 </td>
               </tr>
