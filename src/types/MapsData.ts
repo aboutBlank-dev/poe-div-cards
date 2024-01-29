@@ -1,6 +1,4 @@
-import mapsData from "../../python/maps.json";
-
-type MapsDataType = {
+export type MapsData = {
   [key: string]: AtlasMap;
 };
 
@@ -11,5 +9,3 @@ export type AtlasMap = {
   alias: string;
   cards: string[];
 };
-
-export const MapsData: MapsDataType = mapsData;

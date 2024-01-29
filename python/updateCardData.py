@@ -2,6 +2,8 @@ import json
 import re
 import requests
 
+#NO LONGER USED (DO IT IN NEXTJS INSTEAD)
+
 URL = "https://www.poewiki.net/w/api.php"
 POE_LEAGUE_URL = "https://api.pathofexile.com/leagues"
 POE_NINJA_DIV_URL = "https://poe.ninja/api/data/itemoverview?type=DivinationCard&league="

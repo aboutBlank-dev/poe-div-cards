@@ -6,9 +6,11 @@ import DivCardIcon from "public/DivCard.png";
 import MapIcon from "public/Map.png";
 import UniqueMapIcon from "public/UniqueMap.png";
 import Link from "next/link";
-import { CardsData } from "~/consts/CardsData";
-import { MapsData } from "~/consts/MapsData";
 import PathHelper from "~/app/helpers/pathHelper";
+import { CardsData } from "~/types/CardsData";
+import { CardMapData } from "~/server/fetchCardMapData";
+import { MapsData } from "~/types/MapsData";
+import { useCardMapData } from "~/hooks/useCardMapData";
 
 type SearchResult = {
   id: string;
@@ -29,6 +31,8 @@ type Props = {
 const MapCardSearchBar = ({ placeholder }: Props) => {
   const [search, setSearch] = useState("");
   const [isFocused, setIsFocused] = useState<boolean>(false);
+  const cardMapData = useCardMapData();
+
   const thisRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -45,8 +49,8 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
     };
   }, [thisRef]);
 
-  const cards = Object.values(CardsData);
-  const maps = Object.values(MapsData);
+  let cardsData: CardsData = {};
+  let mapsData: MapsData = {};
 
   let cleanSearch = search
     .toLowerCase()
@@ -55,26 +59,29 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
     .replace(" ", "");
 
   const searchResults: SearchResult[] = [];
+  if (cardMapData && cardMapData.cardsData && cardMapData.mapsData) {
+    const cardsData = Object.values(cardMapData.cardsData);
+    cardsData.forEach((card) => {
+      if (!card.alias.includes(cleanSearch)) return;
 
-  cards.forEach((card) => {
-    if (!card.alias.includes(cleanSearch)) return;
-
-    searchResults.push({
-      id: card.id,
-      name: card.name,
-      type: SearchResultType.Card,
+      searchResults.push({
+        id: card.id,
+        name: card.name,
+        type: SearchResultType.Card,
+      });
     });
-  });
 
-  maps.forEach((map) => {
-    if (!map.alias.includes(cleanSearch)) return;
+    const mapsData = Object.values(cardMapData.mapsData);
+    mapsData.forEach((map) => {
+      if (!map.alias.includes(cleanSearch)) return;
 
-    searchResults.push({
-      id: map.id,
-      name: map.name,
-      type: map.unique ? SearchResultType.UniqueMap : SearchResultType.Map,
+      searchResults.push({
+        id: map.id,
+        name: map.name,
+        type: map.unique ? SearchResultType.UniqueMap : SearchResultType.Map,
+      });
     });
-  });
+  }
 
   return (
     <div

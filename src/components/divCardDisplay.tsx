@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCard } from "~/consts/CardsData";
+import { DivCard } from "~/types/CardsData";
 
 type Props = {
   card: DivCard;
@@ -19,7 +19,7 @@ const DivCardDisplay = ({ card, className }: Props) => {
       <div className="absolute left-[26px] top-[56px] block h-[280px] w-[390px] overflow-hidden bg-black">
         <img
           className="select-none"
-          src={card.art_url}
+          src={card.artUrl}
           alt="card"
           width={396}
           height={284}
@@ -30,11 +30,11 @@ const DivCardDisplay = ({ card, className }: Props) => {
         {card.name}
       </div>
       <div className="absolute left-[42px] top-[316px] block w-[70px] text-center text-base text-white">
-        {card.stack_size}
+        {card.stackSize}
       </div>
       <div className="text-l absolute left-[35px] top-[334px] flex h-[302px] w-[374px] flex-col justify-evenly text-center text-xl text-white">
         <div className="order-1 whitespace-pre-wrap">
-          {card.reward_text.map((rewardText) => (
+          {card.rewardText.map((rewardText) => (
             <div key={rewardText.text} className={rewardText.tag}>
               {rewardText.text}
             </div>

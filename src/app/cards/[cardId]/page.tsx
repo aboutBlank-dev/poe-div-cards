@@ -5,25 +5,27 @@ import React from "react";
 import Image from "next/image";
 import PathHelper from "~/app/helpers/pathHelper";
 import DivCardDisplay from "~/components/divCardDisplay";
-import { CardsData, DivCard } from "~/consts/CardsData";
-import { AtlasMap, MapsData } from "~/consts/MapsData";
 import MapIcon from "public/Map.png";
 import UniqueMapIcon from "public/UniqueMap.png";
+import { useCardMapData } from "~/hooks/useCardMapData";
+import { DivCard } from "~/types/CardsData";
+import { AtlasMap } from "~/types/MapsData";
 
 type Props = {
   params: { cardId: string };
 };
 
 const CardPage = ({ params }: Props) => {
-  const card: DivCard | undefined = CardsData[params.cardId];
+  const cardMapData = useCardMapData();
+  const card: DivCard | undefined = cardMapData?.cardsData[params.cardId];
 
   if (!card) {
     return <div>Card not found</div>;
   }
 
   const dropAreas: AtlasMap[] = [];
-  for (const map of card.drop_areas) {
-    const mapData = MapsData[map];
+  for (const map of card.dropAreas) {
+    const mapData = cardMapData?.mapsData[map];
     if (mapData) dropAreas.push(mapData);
   }
 

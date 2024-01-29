@@ -1,42 +1,44 @@
 "use client";
 
-import React, { useMemo } from "react";
+import React from "react";
 import Image from "next/image";
-import { CardsData, DivCard } from "~/consts/CardsData";
 import chaosIcon from "public/chaos.png";
 import divineIcon from "public/divine.png";
 import DivCardDisplay from "./divCardDisplay";
 import Link from "next/link";
 import PathHelper from "~/app/helpers/pathHelper";
+import fetchCardMapData from "~/server/fetchCardMapData";
+import { DivCard } from "~/types/CardsData";
+import { useCardMapData } from "~/hooks/useCardMapData";
 
 type Props = {
   cardsList?: DivCard[];
   className?: string;
 };
 
-const DivCardTable = ({ cardsList, className }: Props) => {
-  if (!cardsList) {
-    cardsList = Object.values(CardsData);
+export default function DivCardTable({ cardsList, className }: Props) {
+  const cardMapData = useCardMapData();
+  if (!cardsList && cardMapData) {
+    cardsList = Object.values(cardMapData.cardsData);
   }
 
-  const tableEntries: TableEntry[] = useMemo(() => {
-    if (!cardsList) {
-      return [];
-    }
+  const tableEntries: TableEntry[] = [];
+  if (!cardsList) {
+    return [];
+  }
 
-    const sortedCards = cardsList.sort((a, b) => {
-      return b.chaos_value - a.chaos_value;
-    });
+  const sortedCards = cardsList.sort((a, b) => {
+    return b.chaosValue - a.chaosValue;
+  });
 
-    return sortedCards.map((card) => {
-      const useDivine = card.chaos_value > 215;
-      return {
-        card: card,
-        priceValue: useDivine ? card.divine_value : card.chaos_value,
-        priceType: useDivine ? "divine" : "chaos",
-      };
+  sortedCards.map((card) => {
+    const useDivine = card.chaosValue > 215;
+    tableEntries.push({
+      card: card,
+      priceValue: useDivine ? card.divineValue : card.chaosValue,
+      priceType: useDivine ? "divine" : "chaos",
     });
-  }, [cardsList]);
+  });
 
   return (
     <div
@@ -89,9 +91,7 @@ const DivCardTable = ({ cardsList, className }: Props) => {
       </table>
     </div>
   );
-};
-
-export default DivCardTable;
+}
 
 type TableEntry = {
   card: DivCard;
