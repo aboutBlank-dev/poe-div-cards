@@ -28,7 +28,7 @@ type Props = {
 const MapCardSearchBar = ({ placeholder }: Props) => {
   const [search, setSearch] = useState("");
   const [isFocused, setIsFocused] = useState<boolean>(false);
-  const cardMapData = useCardMapData();
+  const { cardMapData } = useCardMapData();
 
   const thisRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);

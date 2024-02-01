@@ -10,18 +10,24 @@ import UniqueMapIcon from "public/UniqueMap.png";
 import { useCardMapData } from "~/hooks/useCardMapData";
 import type { DivCard } from "~/types/CardsData";
 import type { AtlasMap } from "~/types/MapsData";
+import LoadingSpinner from "~/components/loadingSpinner";
 
 type Props = {
   params: { cardId: string };
 };
 
 const CardPage = ({ params }: Props) => {
-  const cardMapData = useCardMapData();
+  const { cardMapData, error } = useCardMapData();
   const card: DivCard | undefined = cardMapData?.cardsData[params.cardId];
 
-  if (!card) {
-    return <div>Card not found</div>;
-  }
+  if (error) return <div>Card not found</div>;
+  console.log(card);
+  if (!card)
+    return (
+      <div className="flex h-screen w-screen items-center justify-center">
+        <LoadingSpinner size={100} />
+      </div>
+    );
 
   const dropAreas: AtlasMap[] = [];
   for (const map of card.dropAreas) {

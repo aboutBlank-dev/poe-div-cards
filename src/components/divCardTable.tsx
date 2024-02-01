@@ -16,7 +16,7 @@ type Props = {
 };
 
 export default function DivCardTable({ cardsList, className }: Props) {
-  const cardMapData = useCardMapData();
+  const { cardMapData } = useCardMapData();
   if (!cardsList && cardMapData) {
     cardsList = Object.values(cardMapData.cardsData);
   }
