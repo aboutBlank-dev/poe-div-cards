@@ -7,6 +7,7 @@ Find which divination cards are dropped in which **ATLAS** map and vice versa.
 * [POE Official API](https://www.pathofexile.com/developer/docs) to get current league information.
 
 Pricing data is refreshed every 24 Hours.
+**TODO:** Improve performance by not having to rebuild data on client every time a new component needs it. (Eventhough nextJs caches the fetch results, the client still "rebuilds" the card/map metadata every time a new component needs it.)
 
 ### Screenshot
 ![image](https://github.com/aboutBlank-dev/poe-div-cards/assets/48128161/745373c7-8410-44d5-aa06-8acc2e7a5ab9)
