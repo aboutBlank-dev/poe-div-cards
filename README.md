@@ -1,6 +1,8 @@
 # Path of Exile Divination Card Helper
 Find which divination cards are dropped in which **ATLAS** map and vice versa.
 
+Made for Fun/Learning for personal use.
+
 ## Data is obtained from the following sources:
 * [POE Wiki](https://www.poewiki.net/wiki/Path_of_Exile_Wiki:Data_query_API) via Cargo Query. (Item, Map, Zone)
 * [POE Ninja](https://poe.ninja/) Item price information and Divination Card Art URL.
