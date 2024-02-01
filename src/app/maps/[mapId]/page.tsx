@@ -29,7 +29,7 @@ const MapsPage = ({ params }: Props) => {
   }
 
   return (
-    <div className="flex h-screen w-full flex-col items-center justify-center space-y-12 p-12">
+    <div className="flex min-h-0 w-full flex-col items-center justify-center space-y-12 py-12">
       <div className="flex items-center space-x-4">
         <h1 className="text-center text-2xl text-white">{map.name}</h1>
         <Image
@@ -37,7 +37,7 @@ const MapsPage = ({ params }: Props) => {
           alt={map.unique ? "Unique Map" : "Map"}
         />
       </div>
-      <DivCardTable cardsList={cards} />;
+      <DivCardTable cardsList={cards} />
     </div>
   );
 };
