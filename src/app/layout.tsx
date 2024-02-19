@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 import Link from "next/link";
 import { CardMapContextProvider } from "~/contexts/cardMapContext";
+import MapCardSearchBar from "~/components/mapCardSearchBar";
 
 export const metadata = {
   title: "Poe Div Cards",
@@ -16,15 +17,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex h-screen w-full flex-col bg-slate-800">
-        <header>
-          <Link
-            href="/"
-            className="inline-block px-4 py-2 text-white underline"
-          >
-            Home
-          </Link>
-        </header>
-        <CardMapContextProvider>{children}</CardMapContextProvider>
+        <CardMapContextProvider>
+          <header className="mt-8 flex items-center justify-center">
+            <MapCardSearchBar placeholder="Search for Map or Card" />
+          </header>
+          {children}
+        </CardMapContextProvider>
       </body>
     </html>
   );

@@ -21,15 +21,15 @@ export default function DivCardTable({ cardsList, className }: Props) {
     cardsList = Object.values(cardMapData.cardsData);
   }
 
-  const tableEntries: TableEntry[] = [];
   if (!cardsList) {
-    return [];
+    return null;
   }
 
   const sortedCards = cardsList.sort((a, b) => {
     return b.chaosValue - a.chaosValue;
   });
 
+  const tableEntries: TableEntry[] = [];
   sortedCards.map((card) => {
     const useDivine = card.chaosValue > 215;
     tableEntries.push({

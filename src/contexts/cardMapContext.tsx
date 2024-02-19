@@ -37,6 +37,7 @@ export function CardMapContextProvider({
   }, []);
 
   if (error) {
+    //Since the application is basically broken/useless without the card map data, we throw an error here
     throw error;
   }
 

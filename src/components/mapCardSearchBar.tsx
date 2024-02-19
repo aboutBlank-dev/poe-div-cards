@@ -120,7 +120,15 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
           className="absolute z-10 max-h-44 w-full overflow-auto rounded-md bg-white p-1 shadow-lg ring-1 ring-black ring-opacity-5"
         >
           {searchResults.map((result) => (
-            <Link key={result.id} href={getPathForType(result)}>
+            <Link
+              key={result.id}
+              href={getPathForType(result)}
+              onClick={() => {
+                setIsFocused(false);
+                setSearch("");
+                inputRef.current!.value = "";
+              }}
+            >
               <div className="flex h-8 cursor-pointer rounded-md hover:bg-gray-300">
                 <Image
                   src={getIconForType(result.type)}
