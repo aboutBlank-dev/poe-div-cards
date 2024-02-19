@@ -1,5 +1,4 @@
 import "~/styles/globals.css";
-import Link from "next/link";
 import { CardMapContextProvider } from "~/contexts/cardMapContext";
 import MapCardSearchBar from "~/components/mapCardSearchBar";
 
@@ -16,6 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/icon.png" sizes="any" />
       <body className="fixed flex h-screen w-full flex-col">
         <CardMapContextProvider>
           <header className="mt-8 flex items-center justify-center">
