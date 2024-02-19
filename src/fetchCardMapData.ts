@@ -83,7 +83,7 @@ export default async function fetchCardMapData(): Promise<CardMapData> {
         if (!match[1] || !match[2]) continue;
         rewardText.push({
           tag: match[1],
-          text: match[2].replace("{", "").replace("}", ""),
+          text: match[2].replaceAll("{", "").replaceAll("}", ""),
         });
       }
     }

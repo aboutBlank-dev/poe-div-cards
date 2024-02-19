@@ -6,6 +6,11 @@
   font-family: "Fontin-SmallCaps";
   src: url("/Fontin-Regular.ttf");
 }
+
+body {
+  background-color: #e5e5cb;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 10px;

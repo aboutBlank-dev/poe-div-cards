@@ -14,10 +14,10 @@ const DivCardDisplay = ({ card, className }: Props) => {
 
   return (
     <div
-      className={`poe-font relative block aspect-[440/668] max-h-[668px] max-w-[440px] select-none hover:cursor-pointer ${className}`}
+      className={`poe-font relative aspect-[440/668] max-h-[668px] max-w-[440px] select-none hover:cursor-pointer ${className}`}
       onClick={onCardClicked}
     >
-      <div className="absolute left-[5.9%] top-[8.3%] block h-[40%] w-[90%] overflow-hidden bg-black">
+      <div className="absolute left-[5.9%] top-[8%] block h-[41%] w-[90%] overflow-hidden bg-black">
         <Image
           className="select-none object-cover"
           src={card.artUrl}

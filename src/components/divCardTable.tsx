@@ -41,10 +41,10 @@ export default function DivCardTable({ cardsList, className }: Props) {
 
   return (
     <div
-      className={`relative overflow-auto rounded-lg border-2 border-gray-600 shadow-md ${className}`}
+      className={`border-darkBrown bg-beige relative overflow-auto rounded-lg border-2 shadow-2xl ${className}`}
     >
-      <table className="table w-full select-none rounded-lg text-left text-sm text-gray-500">
-        <thead className="sticky top-0 border-b-2 bg-gray-900 text-center text-xs uppercase text-white">
+      <table className="table w-full select-none rounded-lg text-left text-sm text-white">
+        <thead className="bg-lightBrown border-darkBrown sticky top-0 border-b-2 text-left text-xs uppercase text-white">
           <tr>
             <th scope="col" className="px-6 py-3">
               Divination Card
@@ -59,9 +59,9 @@ export default function DivCardTable({ cardsList, className }: Props) {
             return (
               <tr
                 key={entry.card.name}
-                className="group border-b-2 last:border-none"
+                className="border-darkBrown group border-b-2 text-black last:border-none"
               >
-                <td className="px-6 py-2 font-bold text-white">
+                <td className="px-6 py-2 font-bold">
                   <Link
                     href={PathHelper.getCardPath(entry.card.id)}
                     className="hover:underline"
@@ -69,7 +69,7 @@ export default function DivCardTable({ cardsList, className }: Props) {
                     {entry.card.name}
                   </Link>
                 </td>
-                <td className="flex items-center space-x-2 px-6 py-2 text-center font-bold text-white">
+                <td className="flex items-center space-x-2 px-6 py-2 text-center font-bold">
                   <Image
                     src={entry.priceType == "chaos" ? chaosIcon : divineIcon}
                     alt={entry.priceType}
@@ -80,7 +80,7 @@ export default function DivCardTable({ cardsList, className }: Props) {
                 <td className="relative hidden p-0 md:block">
                   <DivCardDisplay
                     card={entry.card}
-                    className="left-[50%] top-[50%] hidden w-[400px] -translate-y-1/2 translate-x-1/2 group-hover:fixed group-hover:block"
+                    className="left-[50%] top-[50%] hidden w-[400px] -translate-y-1/2 translate-x-1/2 text-xs group-hover:fixed group-hover:block md:text-xl"
                   />
                 </td>
               </tr>

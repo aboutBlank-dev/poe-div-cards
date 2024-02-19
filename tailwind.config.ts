@@ -7,6 +7,12 @@ export default {
       backgroundImage: {
         "div-card-bg": "url('/Divination_card_frame.png')",
       },
+      colors: {
+        darkBrown: "#2b1d10",
+        lightBrown: "#3C2A21",
+        beige: "#D5CEA3",
+        vanilla: "#E5E5CB",
+      },
     },
   },
   plugins: [],

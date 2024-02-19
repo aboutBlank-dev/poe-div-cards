@@ -38,9 +38,9 @@ const CardPage = ({ params }: Props) => {
       <div className="inline-block w-[200px] md:w-[400px]">
         <DivCardDisplay card={card} className="text-xs md:text-xl" />
       </div>
-      <div className="relative max-h-[650px] overflow-y-auto rounded-lg border-2 border-gray-600 bg-gray-800 shadow-md">
-        <table className="table select-none text-gray-500">
-          <thead className="sticky top-0 rounded-lg border-b-2 bg-gray-900 text-xs uppercase text-white">
+      <div className="border-darkBrown bg-beige relative max-h-[650px] overflow-y-auto rounded-lg border-2 shadow-md">
+        <table className="table select-none text-white">
+          <thead className="bg-lightBrown border-darkBrown sticky top-0 rounded-lg border-b-2 text-xs uppercase text-white">
             <tr>
               <th scope="col" className="px-6 py-3">
                 Drops From Maps
@@ -50,8 +50,11 @@ const CardPage = ({ params }: Props) => {
           <tbody className="">
             {dropAreas.map((entry) => {
               return (
-                <tr key={entry.id} className="border-b-2 last:border-none">
-                  <td className="flex items-center justify-between space-x-8 px-6 py-2 text-white">
+                <tr
+                  key={entry.id}
+                  className="border-darkBrown border-b-2 text-black last:border-none"
+                >
+                  <td className="flex items-center justify-between space-x-8 px-6 py-2 font-bold">
                     <Link
                       href={PathHelper.getMapPath(entry.id)}
                       className="hover:underline"

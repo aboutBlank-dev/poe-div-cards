@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="fixed flex h-screen w-full flex-col bg-slate-800">
+      <body className="fixed flex h-screen w-full flex-col">
         <CardMapContextProvider>
           <header className="mt-8 flex items-center justify-center">
             <MapCardSearchBar placeholder="Search for Map or Card" />

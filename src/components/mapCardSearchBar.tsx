@@ -88,7 +88,7 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
       <div className="relative">
         <div className="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3">
           <svg
-            className="h-4 w-4 text-gray-500 "
+            className="h-4 w-4 text-black "
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -107,7 +107,7 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
           type="search"
           id="div-map-search"
           ref={inputRef}
-          className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-4 ps-10 text-sm text-gray-900 placeholder:text-center  focus:border-blue-500 focus:ring-blue-500"
+          className="border-darkBrown bg-beige block w-full rounded-lg border-2 p-2 ps-10 text-sm text-gray-900 placeholder:text-center placeholder:text-zinc-500  focus:border-blue-500 focus:ring-blue-500"
           placeholder={placeholder}
           autoComplete="off"
           onChange={(e) => setSearch(e.target.value)}
