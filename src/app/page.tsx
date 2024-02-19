@@ -1,6 +1,5 @@
 import React from "react";
 import DivCardTable from "~/components/divCardTable";
-import MapCardSearchBar from "~/components/mapCardSearchBar";
 
 export default async function HomePage() {
   return (

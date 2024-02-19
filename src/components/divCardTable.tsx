@@ -77,10 +77,10 @@ export default function DivCardTable({ cardsList, className }: Props) {
                   />
                   <p>{entry.priceValue}</p>
                 </td>
-                <td className="relative p-0">
+                <td className="relative hidden p-0 md:block">
                   <DivCardDisplay
                     card={entry.card}
-                    className="left-[50%] top-[50%] hidden -translate-y-1/2 translate-x-1/2 group-hover:fixed group-hover:block"
+                    className="left-[50%] top-[50%] hidden w-[400px] -translate-y-1/2 translate-x-1/2 group-hover:fixed group-hover:block"
                   />
                 </td>
               </tr>

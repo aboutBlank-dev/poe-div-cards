@@ -14,26 +14,26 @@ const DivCardDisplay = ({ card, className }: Props) => {
 
   return (
     <div
-      className={`poe-font relative block h-[668px] w-[440px] select-none hover:cursor-pointer ${className}`}
+      className={`poe-font relative block aspect-[440/668] max-h-[668px] max-w-[440px] select-none hover:cursor-pointer ${className}`}
       onClick={onCardClicked}
     >
-      <div className="absolute left-[26px] top-[56px] block h-[280px] w-[390px] overflow-hidden bg-black">
+      <div className="absolute left-[5.9%] top-[8.3%] block h-[40%] w-[90%] overflow-hidden bg-black">
         <Image
-          className="select-none"
+          className="select-none object-cover"
           src={card.artUrl}
           alt="card"
           width={396}
           height={284}
         />
       </div>
-      <div className="absolute left-0 top-0 block h-full w-full bg-div-card-bg" />
-      <div className="color-[#030301] absolute top-[22px] block w-full text-center text-xl">
+      <div className="absolute block h-full w-full bg-div-card-bg bg-contain bg-no-repeat" />
+      <div className="color-[#030301] absolute left-[12%] top-[2%] flex h-[6.4%] w-[75%] items-center justify-center">
         {card.name}
       </div>
-      <div className="absolute left-[42px] top-[316px] block w-[70px] text-center text-base text-white">
+      <div className="absolute left-[9.5%] top-[46.6%] flex h-[5.3%] w-[16%] items-center justify-center text-center text-white">
         {card.stackSize}
       </div>
-      <div className="text-l absolute left-[35px] top-[334px] flex h-[302px] w-[374px] flex-col justify-evenly text-center text-xl text-white">
+      <div className="absolute left-[8%] top-[51%] flex h-[45%] w-[85%] flex-col justify-evenly text-center text-white">
         <div className="order-1 whitespace-pre-wrap">
           {card.rewardText?.map((rewardText) => (
             <div key={rewardText.text} className={rewardText.tag}>

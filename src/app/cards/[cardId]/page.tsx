@@ -34,9 +34,12 @@ const CardPage = ({ params }: Props) => {
   }
 
   return (
-    <div className="flex h-screen items-center justify-center space-x-32 px-12 py-12">
+    <div className="flex h-screen flex-col items-center space-y-4 overflow-hidden p-6 md:flex-row md:justify-center md:space-x-32  ">
+      <div className="inline-block w-[200px] md:w-[400px]">
+        <DivCardDisplay card={card} className="text-xs md:text-xl" />
+      </div>
       <div className="relative max-h-[650px] overflow-y-auto rounded-lg border-2 border-gray-600 bg-gray-800 shadow-md">
-        <table className="table select-none text-gray-500 ">
+        <table className="table select-none text-gray-500">
           <thead className="sticky top-0 rounded-lg border-b-2 bg-gray-900 text-xs uppercase text-white">
             <tr>
               <th scope="col" className="px-6 py-3">
@@ -67,7 +70,6 @@ const CardPage = ({ params }: Props) => {
           </tbody>
         </table>
       </div>
-      <DivCardDisplay card={card} />
     </div>
   );
 };
