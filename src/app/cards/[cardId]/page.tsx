@@ -27,10 +27,34 @@ const CardPage = ({ params }: Props) => {
       </div>
     );
 
+  // Get map data for each map id in each card 
   const dropAreas: AtlasMap[] = [];
   for (const map of card.dropAreas) {
     const mapData = cardMapData?.mapsData[map];
     if (mapData) dropAreas.push(mapData);
+  }
+
+  function CardPageTableRow(atlasMap: AtlasMap) {
+    return (
+      <tr
+        key={atlasMap.id}
+        className="border-darkBrown border-b-2 text-black last:border-none"
+      >
+        <td className="flex items-center justify-between space-x-8 px-6 py-2 font-bold">
+          <Link
+            href={PathHelper.getMapPath(atlasMap.id)}
+            className="hover:underline"
+          >
+            {atlasMap.name}
+          </Link>
+          <Image
+            src={atlasMap.unique ? UniqueMapIcon : MapIcon}
+            alt={atlasMap.unique ? "Unique Map" : "Map"}
+            className="h-8 w-auto"
+          />
+        </td>
+      </tr>
+    );
   }
 
   return (
@@ -47,29 +71,8 @@ const CardPage = ({ params }: Props) => {
               </th>
             </tr>
           </thead>
-          <tbody className="">
-            {dropAreas.map((entry) => {
-              return (
-                <tr
-                  key={entry.id}
-                  className="border-darkBrown border-b-2 text-black last:border-none"
-                >
-                  <td className="flex items-center justify-between space-x-8 px-6 py-2 font-bold">
-                    <Link
-                      href={PathHelper.getMapPath(entry.id)}
-                      className="hover:underline"
-                    >
-                      {entry.name}
-                    </Link>
-                    <Image
-                      src={entry.unique ? UniqueMapIcon : MapIcon}
-                      alt={entry.unique ? "Unique Map" : "Map"}
-                      className="h-8 w-auto"
-                    />
-                  </td>
-                </tr>
-              );
-            })}
+          <tbody>
+            {dropAreas.map((atlasMap) => CardPageTableRow(atlasMap))}
           </tbody>
         </table>
       </div>

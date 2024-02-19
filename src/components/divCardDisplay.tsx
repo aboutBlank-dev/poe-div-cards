@@ -12,6 +12,7 @@ const DivCardDisplay = ({ card, className }: Props) => {
     window.open("https://www.poewiki.net/wiki/" + card.name.replace(" ", "_"));
   };
 
+  //Since I only have the background image for each card, need to painstakingly position each element
   return (
     <div
       className={`poe-font relative aspect-[440/668] max-h-[668px] max-w-[440px] select-none hover:cursor-pointer ${className}`}

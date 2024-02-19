@@ -9,12 +9,16 @@ import Link from "next/link";
 import PathHelper from "~/helpers/pathHelper";
 import type { DivCard } from "~/types/CardsData";
 import { useCardMapData } from "~/contexts/cardMapContext";
+import test from "node:test";
 
 type Props = {
   cardsList?: DivCard[];
   className?: string;
 };
 
+/*
+ * @param cardsList - If provided, will use this list of cards to display. If not provided, will use the cardMapData context to display ALL cards.
+ */
 export default function DivCardTable({ cardsList, className }: Props) {
   const { cardMapData } = useCardMapData();
   if (!cardsList && cardMapData) {
@@ -31,7 +35,8 @@ export default function DivCardTable({ cardsList, className }: Props) {
 
   const tableEntries: TableEntry[] = [];
   sortedCards.map((card) => {
-    const useDivine = card.chaosValue > 215;
+    //Show price as divine if it's at least 1 divine
+    const useDivine = card.chaosValue > 215; //TODO: since this value can fluctuate, can attempt to also get the current market rate from POE Ninja and use it here.
     tableEntries.push({
       card: card,
       priceValue: useDivine ? card.divineValue : card.chaosValue,

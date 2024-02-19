@@ -25,6 +25,7 @@ const MapsPage = ({ params }: Props) => {
     );
   }
 
+  // Get card data for each card id in each map
   const cards: DivCard[] = [];
   for (const cardId of map.cards) {
     const card = cardMapData.cardsData[cardId];

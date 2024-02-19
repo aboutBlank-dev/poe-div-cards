@@ -34,15 +34,16 @@ const MapCardSearchBar = ({ placeholder }: Props) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
+    const handleOutsideClick = (event: MouseEvent) => {
       if (thisRef.current && !thisRef.current.contains(event.target as Node)) {
+        //Called if the user clicks outside of `thisRef` (not on the search bar or children(dropdown menu))
         setIsFocused(false);
       }
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("mousedown", handleOutsideClick);
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("mousedown", handleOutsideClick);
     };
   }, [thisRef]);
 
