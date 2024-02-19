@@ -31,7 +31,7 @@ const DivCardDisplay = ({ card, className }: Props) => {
         {card.name}
       </div>
       <div className="absolute left-[9.5%] top-[46.6%] flex h-[5.3%] w-[16%] items-center justify-center text-center text-white">
-        {card.stackSize}
+        {card.stackSize ?? 1}
       </div>
       <div className="absolute left-[8%] top-[51%] flex h-[45%] w-[85%] flex-col justify-evenly text-center text-white">
         <div className="order-1 whitespace-pre-wrap">
