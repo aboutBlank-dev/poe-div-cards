@@ -6,9 +6,9 @@ import chaosIcon from "public/chaos.png";
 import divineIcon from "public/divine.png";
 import DivCardDisplay from "./divCardDisplay";
 import Link from "next/link";
-import PathHelper from "~/app/helpers/pathHelper";
+import PathHelper from "~/helpers/pathHelper";
 import type { DivCard } from "~/types/CardsData";
-import { useCardMapData } from "~/hooks/useCardMapData";
+import { useCardMapData } from "~/contexts/cardMapContext";
 
 type Props = {
   cardsList?: DivCard[];

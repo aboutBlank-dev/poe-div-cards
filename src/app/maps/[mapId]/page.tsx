@@ -5,19 +5,18 @@ import DivCardTable from "~/components/divCardTable";
 import Image from "next/image";
 import MapIcon from "public/Map.png";
 import UniqueMapIcon from "public/UniqueMap.png";
-import { useCardMapData } from "~/hooks/useCardMapData";
 import type { DivCard } from "~/types/CardsData";
 import LoadingSpinner from "~/components/loadingSpinner";
+import { useCardMapData } from "~/contexts/cardMapContext";
 
 type Props = {
   params: { mapId: string };
 };
 
 const MapsPage = ({ params }: Props) => {
-  const { cardMapData, error } = useCardMapData();
+  const { cardMapData } = useCardMapData();
   const map = cardMapData?.mapsData[params.mapId];
 
-  if (error) return <div>Map not found</div>;
   if (!map) {
     return (
       <div className="flex h-screen w-screen items-center justify-center">

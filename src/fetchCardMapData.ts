@@ -100,7 +100,6 @@ export default async function fetchCardMapData(): Promise<CardMapData> {
       rewardText: rewardText,
     };
   }
-
   return { cardsData, mapsData };
 }
 

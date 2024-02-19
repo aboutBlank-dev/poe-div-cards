@@ -3,25 +3,23 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import PathHelper from "~/app/helpers/pathHelper";
+import PathHelper from "~/helpers/pathHelper";
 import DivCardDisplay from "~/components/divCardDisplay";
 import MapIcon from "public/Map.png";
 import UniqueMapIcon from "public/UniqueMap.png";
-import { useCardMapData } from "~/hooks/useCardMapData";
 import type { DivCard } from "~/types/CardsData";
 import type { AtlasMap } from "~/types/MapsData";
 import LoadingSpinner from "~/components/loadingSpinner";
+import { useCardMapData } from "~/contexts/cardMapContext";
 
 type Props = {
   params: { cardId: string };
 };
 
 const CardPage = ({ params }: Props) => {
-  const { cardMapData, error } = useCardMapData();
+  const { cardMapData } = useCardMapData();
   const card: DivCard | undefined = cardMapData?.cardsData[params.cardId];
 
-  if (error) return <div>Card not found</div>;
-  console.log(card);
   if (!card)
     return (
       <div className="flex h-screen w-screen items-center justify-center">

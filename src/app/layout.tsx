@@ -1,5 +1,6 @@
 import "~/styles/globals.css";
 import Link from "next/link";
+import { CardMapContextProvider } from "~/contexts/cardMapContext";
 
 export const metadata = {
   title: "Poe Div Cards",
@@ -23,7 +24,7 @@ export default function RootLayout({
             Home
           </Link>
         </header>
-        {children}
+        <CardMapContextProvider>{children}</CardMapContextProvider>
       </body>
     </html>
   );

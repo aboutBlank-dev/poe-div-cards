@@ -6,8 +6,8 @@ import DivCardIcon from "public/DivCard.png";
 import MapIcon from "public/Map.png";
 import UniqueMapIcon from "public/UniqueMap.png";
 import Link from "next/link";
-import PathHelper from "~/app/helpers/pathHelper";
-import { useCardMapData } from "~/hooks/useCardMapData";
+import PathHelper from "~/helpers/pathHelper";
+import { useCardMapData } from "~/contexts/cardMapContext";
 
 type SearchResult = {
   id: string;
