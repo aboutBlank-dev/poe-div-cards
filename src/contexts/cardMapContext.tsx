@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { CardMapData } from "~/fetchCardMapData";
+import type { CardMapData } from "~/fetchCardMapData";
 
 type CardMapContext = {
   cardMapData: CardMapData | null;
@@ -31,7 +31,7 @@ export function CardMapContextProvider({
       .then((cardMapData) => {
         setCardMapData(cardMapData as CardMapData);
       })
-      .catch((error) => {
+      .catch((error: Error) => {
         setError(error);
       });
   }, []);
