@@ -135,6 +135,7 @@ async function fetchCurrentLeague(): Promise<string> {
     }
   }
 
+  console.log("Current League: ", currentLeague);
   return currentLeague;
 }
 
@@ -165,6 +166,8 @@ async function fetchWikiMapData(currentLeague: string): Promise<WikiMapData> {
   const wikiMapData = (await response.json()) as {
     cargoquery: WikiMapData;
   };
+
+  console.log("Wiki Map Data: ", wikiMapData.cargoquery);
   return wikiMapData.cargoquery;
 }
 
@@ -195,6 +198,8 @@ async function fetchWikiAreaData(): Promise<WikiAreaData> {
   });
 
   const wikiAreaData = (await response.json()) as { cargoquery: WikiAreaData };
+
+  console.log("Wiki Area Data: ", wikiAreaData.cargoquery);
   return wikiAreaData.cargoquery;
 }
 
@@ -224,6 +229,7 @@ async function fetchWikiCardData(): Promise<WikiCardData> {
   });
 
   const wikiCardData = (await response.json()) as { cargoquery: WikiCardData };
+  console.log("Wiki Card Data: ", wikiCardData.cargoquery);
   return wikiCardData.cargoquery;
 }
 
@@ -245,5 +251,6 @@ async function fetchNinjaCardData(
   });
 
   const itemPriceData = (await response.json()) as { lines: NinjaCardData[] };
+  console.log("Ninja Card Data: ", itemPriceData.lines);
   return itemPriceData.lines;
 }

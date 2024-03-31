@@ -46,10 +46,10 @@ export default function DivCardTable({ cardsList, className }: Props) {
 
   return (
     <div
-      className={`border-darkBrown bg-beige relative overflow-auto rounded-lg border-2 shadow-2xl ${className}`}
+      className={`relative overflow-auto rounded-lg border-2 border-darkBrown bg-beige shadow-2xl ${className}`}
     >
       <table className="table w-full select-none rounded-lg text-left text-sm text-white">
-        <thead className="bg-lightBrown border-darkBrown sticky top-0 border-b-2 text-left text-xs uppercase text-white">
+        <thead className="sticky top-0 border-b-2 border-darkBrown bg-lightBrown text-left text-xs uppercase text-white">
           <tr>
             <th scope="col" className="px-6 py-3">
               Divination Card
@@ -64,7 +64,7 @@ export default function DivCardTable({ cardsList, className }: Props) {
             return (
               <tr
                 key={entry.card.name}
-                className="border-darkBrown group border-b-2 text-black last:border-none"
+                className="group border-b-2 border-darkBrown text-black last:border-none"
               >
                 <td className="px-6 py-2 font-bold">
                   <Link
