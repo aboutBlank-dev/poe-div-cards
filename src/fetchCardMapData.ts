@@ -121,9 +121,6 @@ async function fetchCurrentLeague(): Promise<string> {
         "User-Agent":
           "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36",
       },
-      next: {
-        revalidate: DAY_IN_MILLISECONDS,
-      },
     },
   );
 
@@ -135,7 +132,6 @@ async function fetchCurrentLeague(): Promise<string> {
     }
   }
 
-  console.log("Current League: ", currentLeague);
   return currentLeague;
 }
 
@@ -157,17 +153,12 @@ async function fetchWikiMapData(currentLeague: string): Promise<WikiMapData> {
     where: `maps.series='${currentLeague}' AND maps.guild_character NOT LIKE '' AND maps.area_id NOT LIKE '%Synthesised%' AND maps.tier<=16`,
   });
 
-  const response = await fetch(POE_WIKI_API_URL + params.toString(), {
-    next: {
-      revalidate: DAY_IN_MILLISECONDS,
-    },
-  });
+  const response = await fetch(POE_WIKI_API_URL + params.toString());
 
   const wikiMapData = (await response.json()) as {
     cargoquery: WikiMapData;
   };
 
-  console.log("Wiki Map Data: ", wikiMapData.cargoquery);
   return wikiMapData.cargoquery;
 }
 
@@ -191,15 +182,10 @@ async function fetchWikiAreaData(): Promise<WikiAreaData> {
       "areas.id LIKE 'MapWorlds%' AND areas.is_legacy_map_area=false AND (areas.is_unique_map_area=true OR areas.is_map_area=true)",
   });
 
-  const response = await fetch(POE_WIKI_API_URL + params.toString(), {
-    next: {
-      revalidate: DAY_IN_MILLISECONDS,
-    },
-  });
+  const response = await fetch(POE_WIKI_API_URL + params.toString());
 
   const wikiAreaData = (await response.json()) as { cargoquery: WikiAreaData };
 
-  console.log("Wiki Area Data: ", wikiAreaData.cargoquery);
   return wikiAreaData.cargoquery;
 }
 
@@ -222,14 +208,9 @@ async function fetchWikiCardData(): Promise<WikiCardData> {
     where: `items.class_id="DivinationCard" AND items.drop_enabled="1"`,
   });
 
-  const response = await fetch(POE_WIKI_API_URL + params.toString(), {
-    next: {
-      revalidate: DAY_IN_MILLISECONDS,
-    },
-  });
+  const response = await fetch(POE_WIKI_API_URL + params.toString());
 
   const wikiCardData = (await response.json()) as { cargoquery: WikiCardData };
-  console.log("Wiki Card Data: ", wikiCardData.cargoquery);
   return wikiCardData.cargoquery;
 }
 
@@ -246,11 +227,8 @@ type NinjaCardData = {
 async function fetchNinjaCardData(
   currentLeague: string,
 ): Promise<NinjaCardData[]> {
-  const response = await fetch(POE_NINJA_CARD_API_URL + currentLeague, {
-    next: { revalidate: DAY_IN_MILLISECONDS },
-  });
+  const response = await fetch(POE_NINJA_CARD_API_URL + currentLeague);
 
   const itemPriceData = (await response.json()) as { lines: NinjaCardData[] };
-  console.log("Ninja Card Data: ", itemPriceData.lines);
   return itemPriceData.lines;
 }
