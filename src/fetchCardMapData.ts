@@ -1,7 +1,6 @@
 import type { CardsData } from "~/types/CardsData";
 import type { MapsData } from "~/types/MapsData";
 
-const DAY_IN_MILLISECONDS = 1000 * 60 * 60 * 24;
 const POE_LEAGUE_API_URL = "https://api.pathofexile.com/leagues?";
 const POE_WIKI_API_URL = "https://poewiki.net/w/api.php?";
 const POE_NINJA_CARD_API_URL =
