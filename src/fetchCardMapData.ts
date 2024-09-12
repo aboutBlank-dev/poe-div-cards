@@ -12,7 +12,6 @@ export type CardMapData = {
 };
 
 export default async function fetchCardMapData(): Promise<CardMapData> {
-  console.log("Fetching Card and Map Data");
   const currentLeague = await fetchCurrentLeague();
   const wikiMapData = await fetchWikiMapData(currentLeague);
   const wikiAreaData = await fetchWikiAreaData();

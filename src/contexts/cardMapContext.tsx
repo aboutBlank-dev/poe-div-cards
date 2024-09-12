@@ -3,8 +3,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import type { CardMapData } from "~/fetchCardMapData";
 
-const DAY_IN_MILLISECONDS = 1000 * 60 * 60 * 24;
-
 type CardMapContext = {
   cardMapData: CardMapData | null;
   error: Error | null;
@@ -28,7 +26,7 @@ export function CardMapContextProvider({
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
-    fetch("/api/mapCardData", { next: { revalidate: DAY_IN_MILLISECONDS } })
+    fetch("/api/mapCardData")
       .then((res) => res.json())
       .then((cardMapData) => {
         setCardMapData(cardMapData as CardMapData);
