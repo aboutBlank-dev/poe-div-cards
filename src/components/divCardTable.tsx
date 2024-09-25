@@ -9,7 +9,6 @@ import Link from "next/link";
 import PathHelper from "~/helpers/pathHelper";
 import type { DivCard } from "~/types/CardsData";
 import { useCardMapData } from "~/contexts/cardMapContext";
-import test from "node:test";
 
 type Props = {
   cardsList?: DivCard[];

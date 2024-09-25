@@ -226,7 +226,12 @@ type NinjaCardData = {
 async function fetchNinjaCardData(
   currentLeague: string,
 ): Promise<NinjaCardData[]> {
-  const response = await fetch(POE_NINJA_CARD_API_URL + currentLeague);
+  const response = await fetch(POE_NINJA_CARD_API_URL + currentLeague, {
+    cache: "force-cache",
+    next: {
+      revalidate: 60 * 60 * 12,
+    },
+  });
 
   const itemPriceData = (await response.json()) as { lines: NinjaCardData[] };
   return itemPriceData.lines;
