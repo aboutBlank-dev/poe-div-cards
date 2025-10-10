@@ -103,10 +103,10 @@ export default async function fetchCardMapData(): Promise<CardMapData> {
 }
 
 type LeagueData = {
+  id: string;
+  name: string;
   category: {
     id: string;
-    name?: string;
-    description?: string;
     current?: boolean;
   };
 };
@@ -127,7 +127,13 @@ async function fetchCurrentLeague(): Promise<string> {
   let currentLeague = "";
   for (const league of Object.values(leagues)) {
     if (league.category && league.category.current === true) {
-      currentLeague = league.category.id;
+      if (
+        !league.name.includes("Hardcore") &&
+        !league.name.includes("SSF") &&
+        !league.name.includes("Ruthless")
+      ) {
+        currentLeague = league.name;
+      }
     }
   }
 
@@ -153,11 +159,9 @@ async function fetchWikiMapData(currentLeague: string): Promise<WikiMapData> {
   });
 
   const response = await fetch(POE_WIKI_API_URL + params.toString());
-
   const wikiMapData = (await response.json()) as {
     cargoquery: WikiMapData;
   };
-
   return wikiMapData.cargoquery;
 }
 
@@ -227,7 +231,6 @@ async function fetchNinjaCardData(
   currentLeague: string,
 ): Promise<NinjaCardData[]> {
   const response = await fetch(POE_NINJA_CARD_API_URL + currentLeague, {
-    cache: "force-cache",
     next: {
       revalidate: 60 * 60 * 12,
     },
